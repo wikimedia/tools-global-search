@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <form action="{{ path('QueryAction') }}">
+        <div class="form-group">
+            <label for="searchQuery">Query</label>
+            <input type="text" class="form-control" name="query" id="searchQuery" />
+        </div>
+    </form>
+{% endblock %}

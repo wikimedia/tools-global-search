@@ -2,11 +2,23 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
+        <title>{% block title %}{% endblock %}Global Search</title>
+        {% block javascripts %}{% endblock %}
+        {% block stylesheets %}
+            <link rel="stylesheet" type="text/css" media="screen" href="https://tools-static.wmflabs.org/cdnjs/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+        {% endblock %}
     </head>
     <body>
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
+        <header class="navbar navbar-default text-center">
+            <h4>Global Search</h4>
+        </header>
+        <main class="container-fluid">
+            {% block body %}{% endblock %}
+        </main>
+        <footer class="text-center">
+            &copy; <a href="https://en.wikipedia.org/wiki/User:MusikAnimal">MusikAnimal</a>
+            &middot;
+            <a href="https://github.com/MusikAnimal/global-search">View source</a>
+        </footer>
     </body>
 </html>

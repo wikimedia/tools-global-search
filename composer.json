@@ -2,15 +2,18 @@
     "type": "project",
     "license": "proprietary",
     "require": {
-        "php": "^7.1.3",
+        "php": "^7.2",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "ext-json": "*",
+        "eightpoints/guzzle-bundle": "^7.5",
         "sensio/framework-extra-bundle": "^5.3",
         "symfony/console": "4.2.*",
         "symfony/dotenv": "4.2.*",
         "symfony/flex": "^1.1",
         "symfony/framework-bundle": "4.2.*",
         "symfony/twig-bundle": "4.2.*",
+        "symfony/var-dumper": "4.2.*",
         "symfony/webpack-encore-bundle": "^1.5",
         "symfony/yaml": "4.2.*",
         "wikimedia/toolforge-bundle": "^0.14.2"
@@ -62,6 +65,7 @@
     },
     "require-dev": {
         "slevomat/coding-standard": "^5.0",
+        "symfony/profiler-pack": "^1.0",
         "symfony/web-server-bundle": "4.2.*"
     }
 }
