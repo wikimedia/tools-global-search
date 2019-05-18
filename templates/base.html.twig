@@ -3,14 +3,14 @@
     <head>
         <meta charset="UTF-8">
         <title>{% block title %}{% endblock %}Global Search</title>
-        {% block javascripts %}{% endblock %}
         {% block stylesheets %}
             <link rel="stylesheet" type="text/css" media="screen" href="https://tools-static.wmflabs.org/cdnjs/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+            <link rel="stylesheet" type="text/css" href="{{ asset('build/app.css') }}" />
         {% endblock %}
     </head>
     <body>
         <header class="navbar navbar-default text-center">
-            <h4>Global Search</h4>
+            Global Search
         </header>
         <main class="container-fluid">
             {% block body %}{% endblock %}
@@ -20,5 +20,8 @@
             &middot;
             <a href="https://github.com/MusikAnimal/global-search">View source</a>
         </footer>
+        {% block javascripts %}
+            <script type="text/javascript" src="{{ asset('build/app.js') }}"></script>
+        {% endblock %}
     </body>
 </html>

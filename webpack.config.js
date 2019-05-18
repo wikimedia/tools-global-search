@@ -26,6 +26,7 @@ Encore
     .addEntry('app', [
         './node_modules/jquery/dist/jquery.js',
         './assets/js/app.js',
+        './assets/css/app.css',
     ])
 
     // When enabled, Webpack "splits" your files into smaller pieces for greater optimization.

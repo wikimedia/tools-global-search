@@ -15,7 +15,9 @@
         {% for hit in hits %}
             <tr>
                 <td>{{ hit.wiki }}</td>
-                <td>{{ hit.title }}</td>
+                <td>
+                    <a target="_blank" href="{{ hit.url }}">{{ hit.title }}</a>
+                </td>
                 <td>{{ hit.text|raw }}</td>
                 <td>{{ hit.source_text|raw }}</td>
             </tr>
