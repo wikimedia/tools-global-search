@@ -8,7 +8,7 @@
             <tr>
                 <th>Wiki</th>
                 <th>Title</th>
-                <th>Text</th>
+{#                <th>Text</th>#}
                 <th>Source text</th>
             </tr>
         </thead>
@@ -18,7 +18,7 @@
                 <td>
                     <a target="_blank" href="{{ hit.url }}">{{ hit.title }}</a>
                 </td>
-                <td>{{ hit.text|raw }}</td>
+{#                <td>{{ hit.text|raw }}</td>#}
                 <td>{{ hit.source_text|raw }}</td>
             </tr>
         {% endfor %}

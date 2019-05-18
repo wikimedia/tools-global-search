@@ -28,3 +28,7 @@ footer {
     margin-top: -50px;
     width: 100%;
 }
+
+.highlight {
+    font-weight: bold;
+}
