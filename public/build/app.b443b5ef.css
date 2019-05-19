@@ -1,0 +1,1 @@
+body,html{height:100%;margin:0;padding:0}header{font-size:22px;font-weight:700;height:50px;line-height:50px}.subheading{margin-bottom:30px}main{min-height:calc(100% - 75px)}main:after{content:"";display:block;height:50px}footer{border-top:1px solid #ccc;height:50px;line-height:50px;margin-top:-50px;width:100%}.highlight{font-weight:700}.no-bold{font-weight:400}
