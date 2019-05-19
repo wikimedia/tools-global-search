@@ -19,8 +19,7 @@ header {
 }
 
 .lang-group {
-    float: right;
-    position: relative;
+    position: absolute;
     right: 7px;
     top: 7px;
 }
