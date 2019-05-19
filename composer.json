@@ -1,11 +1,10 @@
 {
     "name": "MusikAnimal/global-search",
-    "description": "A tool to search within wikitext across all Wikimedia Foundation wikis.",
+    "description": "A tool to do keyword and source regex searches across all Wikimedia Foundation wikis.",
     "type": "project",
     "license": "MIT",
     "require": {
         "php": "^7.2",
-        "ext-apcu": "*",
         "ext-ctype": "*",
         "ext-iconv": "*",
         "ext-json": "*",
