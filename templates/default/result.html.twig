@@ -1,14 +1,19 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <p>Total results: {{ total|num_format }}</p>
+    <hr/>
+    <p>
+        <strong>Total results</strong>: {{ total|num_format }}
+        {% if total > max_results %}
+            <em>(showing {{ max_results|num_format }})</em>
+        {% endif %}
+    </p>
 
     <table class="table table-striped">
         <thead>
             <tr>
                 <th>Wiki</th>
                 <th>Title</th>
-{#                <th>Text</th>#}
                 <th>Source text</th>
             </tr>
         </thead>
@@ -18,7 +23,6 @@
                 <td>
                     <a target="_blank" href="{{ hit.url }}">{{ hit.title }}</a>
                 </td>
-{#                <td>{{ hit.text|raw }}</td>#}
                 <td>{{ hit.source_text|raw }}</td>
             </tr>
         {% endfor %}

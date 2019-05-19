@@ -11,6 +11,10 @@ header {
     line-height: 50px;
 }
 
+.subheading {
+    margin-bottom: 30px;
+}
+
 main {
     min-height: calc(100% - 75px);
 }
@@ -31,4 +35,8 @@ footer {
 
 .highlight {
     font-weight: bold;
+}
+
+.no-bold {
+    font-weight: normal;
 }

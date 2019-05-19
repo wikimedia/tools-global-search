@@ -13,12 +13,40 @@
             Global Search
         </header>
         <main class="container-fluid">
+            <p class="subheading text-center">
+                Search within wikitext across all Wikimedia Foundation wikis.
+            </p>
+            <form>
+                <div class="form-group">
+                    <label for="searchQuery">Query:</label>
+                    <input type="text" class="form-control" name="q" id="searchQuery"{% if q is defined %} value="{{ q }}"{% endif %} required="required" />
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" name="regex" value="1"{% if regex is defined and regex is not empty %} checked="checked"{% endif %}>
+                        Regular expression
+                    </label>
+                    (slow)
+                </div>
+{#                <div class="form-group">#}
+{#                    <label for="namespaceSelect">Namespace ID:</label>#}
+{#                    <input type="checkbox" name="useNamespace" value="1" />#}
+{#                    <label for="namespaceId">Namespace ID:</label>#}
+{#                    <input type="number" class="form-control" name="namespace">#}
+{#                </div>#}
+                    {# title, source, or both #}
+                    {# include redirects #}
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
             {% block body %}{% endblock %}
         </main>
         <footer class="text-center">
-            &copy; <a href="https://en.wikipedia.org/wiki/User:MusikAnimal">MusikAnimal</a>
+            Brought to you by
+            <a target="_blank" href="https://en.wikipedia.org/wiki/User:MusikAnimal">MusikAnimal</a>
+            and
+            <a target="_blank" href="https://www.mediawiki.org/wiki/User:EBernhardson_(WMF)">EBernhardson</a>
             &middot;
-            <a href="https://github.com/MusikAnimal/global-search">View source</a>
+            <a target="_blank" href="https://github.com/MusikAnimal/global-search">View source</a>
         </footer>
         {% block javascripts %}
             <script type="text/javascript" src="{{ asset('build/app.js') }}"></script>

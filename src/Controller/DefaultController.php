@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Controller;
 
 use GuzzleHttp\Client;
+use GuzzleHttp\Exception\ClientException;
 use Psr\Cache\CacheItemPoolInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
@@ -21,118 +22,99 @@ class DefaultController extends AbstractController
 
     private const PRE_TAG = '%**%';
     private const POST_TAG = '*%%*';
+    private const MAX_RESULTS = 5000;
 
     /**
-     * Index page with the form to enter a search query.
+     * The only route.
      * @Route("/")
-     * @return Response
-     */
-    public function indexAction(): Response
-    {
-        return $this->render('default/index.html.twig');
-    }
-
-    /**
-     * @Route("/query", methods={"GET"}, name="QueryAction")
      * @param Request $request
      * @param CacheItemPoolInterface $cache
      * @return Response
      */
-    public function queryAction(Request $request, CacheItemPoolInterface $cache)
+    public function indexAction(Request $request, CacheItemPoolInterface $cache): Response
     {
-        $query = $request->query->get('query');
-        $this->cache = $cache;
+        $query = $request->query->get('q');
+        $regex = (bool)$request->query->get('regex');
+        $ret = [
+            'q' => $query,
+            'regex' => $regex,
+            'max_results' => self::MAX_RESULTS,
+        ];
 
-        if ($this->cache->hasItem($query)) {
-            return $this->render('default/result.html.twig', $this->cache->getItem($query)->get());
+        if ($query) {
+            $ret = array_merge($ret, $this->getResults($query, $regex, $cache));
+            return $this->render('default/result.html.twig', $ret);
         }
 
-        $this->client = new Client([
-            'verify' => $_ENV['ELASTIC_INSECURE'] ? false : true
-        ]);
-        $uri = $_ENV['ELASTIC_HOST'].'/*,*:*/_search?preference=_prefer_nodes:cloudelastic1001-cloudelastic-chi-eqiad,cloudelastic1002-cloudelastic-chi-eqiad,cloudelastic1003-cloudelastic-chi-eqiad';
-//        $uri = $_ENV['ELASTIC_HOST'].'/psi:testwiki/_search?preference=_prefer_nodes:cloudelastic1001-cloudelastic-chi-eqiad,cloudelastic1002-cloudelastic-chi-eqiad,cloudelastic1003-cloudelastic-chi-eqiad';
+        return $this->render('default/index.html.twig', $ret);
+    }
 
-        $filters = [
-//            {'term': {'namespace': str(args.ns)}},
-            'source_regex' => [
-                'regex' => $query,
-                'field' => 'source_text',
-                'ngram_field' => 'source_text.trigram',
-                'max_determinized_states' => 20000,
-                'max_expand' => 10,
-                'case_sensitive' => true,
-                'locale' => 'en',
-            ],
-        ];
+    /**
+     * Get results based on given Request.
+     * @param string $query
+     * @param bool $regex
+     * @param CacheItemPoolInterface $cache
+     * @return array
+     */
+    public function getResults(string $query, bool $regex, CacheItemPoolInterface $cache): array
+    {
+        $this->cache = $cache;
+        $cacheItem = $query.'.'.$regex;
 
-        $request = new \GuzzleHttp\Psr7\Request('GET', $uri, [
-            'Content-Type' => 'application/json',
-        ], \GuzzleHttp\json_encode([
-            'timeout' => '150s',
-            'size' => 100,
-            '_source' => ['wiki', 'namespace_text', 'title'],
-            'query' => [
-                'bool' => [
-                    'filter' => $filters,
-                ]
-            ],
-            'highlight' => [
-                'pre_tags' => [self::PRE_TAG],
-                'post_tags' => [self::POST_TAG],
-                'fields' => [
-                    'source_text.plain' => [
-                        'type' => 'experimental',
-                        'number_of_fragments' => 1,
-                        'fragmenter' => 'scan',
-                        'fragment_size' => 150,
-                        'options' => [
-                            'regex' => [$query],
-                            'locale' => 'en',
-                            'regex_flavor' => 'lucene',
-                            'skip_query' => true,
-                            'max_determinized_states' => 20000,
-                        ]
-//                        'highlight_query' => [
-//                            'bool' =>
-//                        ],
-                    ],
-                ],
-            ],
-            'stats' => ['global-search'],
-        ]));
-        $res = $this->client->send($request);
-//        $res = $this->client->request('GET', $uri, [
-//            'form_params' => [
-//                'size' => 10,
-//                '_source' => ['wiki', 'namespace_text', 'title'],
-//                'query' => [
-//                    'bool' => [
-//                        'filters' => $filters,
-//                    ]
-//                ],
-//                'stats' => ['global-search'],
-//            ],
-//            'headers' => [
-//                'Content-Type' => 'application/json',
-//            ],
-////            'http_errors' => false,
-//        ]);
-        $data = json_decode($res->getBody()->getContents(), true);
+        if ($this->cache->hasItem($cacheItem)) {
+            return $this->cache->getItem($cacheItem)->get();
+        }
+
+        $params = $regex
+            ? $this->getParamsForRegexQuery($query)
+            : $this->getParamsForPlainQuery($query);
+
+        $res = $this->makeRequest($params);
         $data = [
-            'total' => $data['hits']['total'],
-            'hits' => $this->formatHits($data, $query),
+            'query' => $query,
+            'regex' => $regex,
+            'total' => $res['hits']['total'],
+            'hits' => $this->formatHits($res, $query),
         ];
 
-        $cacheItem = $this->cache->getItem($query)
+        $cacheItem = $this->cache->getItem($cacheItem)
             ->set($data)
             ->expiresAfter(new \DateInterval('P10M'));
         $this->cache->save($cacheItem);
-
-        return $this->render('default/result.html.twig', $data);
+        return $data;
     }
 
-    private function formatHits(array $data, string $query)
+    private function makeRequest($params)
+    {
+        $this->client = new Client([
+            'verify' => $_ENV['ELASTIC_INSECURE'] ? false : true
+        ]);
+
+        // FIXME: Eventually will be able to remove _prefer_nodes
+        $uri = $_ENV['ELASTIC_HOST'].'/*,*:*/_search?preference=_prefer_nodes:cloudelastic1001-cloudelastic-chi-eqiad,'.
+            'cloudelastic1002-cloudelastic-chi-eqiad,cloudelastic1003-cloudelastic-chi-eqiad';
+
+        $request = new \GuzzleHttp\Psr7\Request('GET', $uri, [
+            'Content-Type' => 'application/json',
+        ], \GuzzleHttp\json_encode($params));
+
+        // FIXME: increase cURL timeout
+        try {
+            $res = $this->client->send($request);
+        } catch (ClientException $e) {
+            dump($e->getResponse()->getBody()->getContents());
+            throw $e;
+        }
+
+        return json_decode($res->getBody()->getContents(), true);
+    }
+
+    /**
+     * Build the data structure for each hit, giving the view what it needs.
+     * @param array $data
+     * @return array
+     */
+    private function formatHits(array $data): array
     {
         $hits = $data['hits']['hits'];
         $newData = [];
@@ -152,11 +134,22 @@ class DefaultController extends AbstractController
         return $newData;
     }
 
+    /**
+     * Get the URL to the page with the given title on the given wiki.
+     * @param string $wiki
+     * @param string $title
+     * @return string
+     */
     private function getUrlForTitle(string $wiki, string $title): string
     {
         return 'https://'.$this->getWikiDomainFromDbName($wiki).'/wiki/'.$title;
     }
 
+    /**
+     * Query XTools API to get the domain of the wiki with the given database name. Results are cached for a week.
+     * @param string $wiki
+     * @return string
+     */
     private function getWikiDomainFromDbName(string $wiki): string
     {
         $cacheKey = 'wiki.'.$wiki;
@@ -164,6 +157,7 @@ class DefaultController extends AbstractController
             return $this->cache->getItem($cacheKey)->get();
         }
 
+        // $this->client should be set at this point.
         $res = $this->client->request('GET', "https://xtools.wmflabs.org/api/project/normalize/$wiki");
         $domain = json_decode($res->getBody()->getContents(), true)['domain'];
 
@@ -175,20 +169,104 @@ class DefaultController extends AbstractController
         return $domain;
     }
 
+    /**
+     * Make the highlight text safe and wrap the search term in a span so that we can style it.
+     * @param string $text
+     * @return string
+     */
     private function highlightQuery(string $text): string
     {
-        // First make the original text HTML safe.
         $text = htmlspecialchars($text);
-
         return strtr($text, [
             self::PRE_TAG => "<span class='highlight'>",
             self::POST_TAG => "</span>",
         ]);
-//        return preg_replace('/'.$query.'/i', "<span class='text-danger'>$query</span>", $text);
     }
 
-//    private function truncateText(string $text, string $query): string
-//    {
-//
-//    }
+    /**
+     * Params to be passed to Cloud Elastic for a plain (normal) query.
+     * @param string $query
+     * @return array
+     */
+    private function getParamsForPlainQuery(string $query): array
+    {
+        return [
+            'timeout' => '150s',
+            'size' => self::MAX_RESULTS,
+            '_source' => ['wiki', 'namespace_text', 'title'],
+            'query' => [
+                'bool' => [
+                    'filter' => [
+                        'match' => [
+                            'source_text.plain' => $query,
+                        ],
+                    ],
+                ]
+            ],
+            'stats' => ['global-search'],
+            'highlight' => [
+                'pre_tags' => [self::PRE_TAG],
+                'post_tags' => [self::POST_TAG],
+                'fields' => [
+                    'source_text.plain' => [
+                        'type' => 'experimental',
+                    ]
+                ],
+                'highlight_query' => [
+                    'match' => [
+                        'source_text.plain' => $query,
+                    ]
+                ],
+            ],
+        ];
+    }
+
+    /**
+     * Params to be passed to Cloud Elastic for a regular expression query.
+     * @param string $query
+     * @return array
+     */
+    private function getParamsForRegexQuery(string $query): array
+    {
+        return [
+            'timeout' => '150s',
+            'size' => 100,
+            '_source' => ['wiki', 'namespace_text', 'title'],
+            'query' => [
+                'bool' => [
+                    'filter' => [
+                        'source_regex' => [
+                            'regex' => $query,
+                            'field' => 'source_text',
+                            'ngram_field' => 'source_text.trigram',
+                            'max_determinized_states' => 20000,
+                            'max_expand' => 10,
+                            'case_sensitive' => true,
+                            'locale' => 'en',
+                        ],
+                    ],
+                ]
+            ],
+            'stats' => ['global-search'],
+            'highlight' => [
+                'pre_tags' => [self::PRE_TAG],
+                'post_tags' => [self::POST_TAG],
+                'fields' => [
+                    'source_text.plain' => [
+                        'type' => 'experimental',
+                        'number_of_fragments' => 1,
+                        'fragmenter' => 'scan',
+                        'fragment_size' => 150,
+                        'options' => [
+                            'regex' => [$query],
+                            'locale' => 'en',
+                            'regex_flavor' => 'lucene',
+                            'skip_query' => true,
+                            'max_determinized_states' => 20000,
+                        ],
+                    ],
+                ],
+            ],
+        ];
+    }
 }
