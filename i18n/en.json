@@ -11,6 +11,7 @@
 	"query": "Query",
 	"regular-expression": "Regular expression",
 	"report-issue": "Report an issue",
+	"showing-n": "{{PLURAL:$2|Showing|Showing}} $1",
 	"slow": "Slow",
 	"submit": "Submit",
 	"total-results": "Total {{PLURAL:$1|result|results}}",

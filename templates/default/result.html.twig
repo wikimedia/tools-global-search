@@ -5,7 +5,7 @@
     <p>
         <strong>{{ msg('total-results', [total]) }}</strong>: {{ total|num_format }}
         {% if total > max_results %}
-            <em>(showing {{ max_results|num_format }})</em>
+            <em>({{ msg('showing', [max_results|num_format, max_results]) }})</em>
         {% endif %}
     </p>
 

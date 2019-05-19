@@ -11,6 +11,7 @@
 	"query": "Label for input to enter the search query.\n{{Identical|Query}}",
 	"regular-expression": "Label for the regular expression checkbox. See https://www.wikidata.org/wiki/Q185612 for possible translations.",
 	"report-issue": "Link to report an issue or bug.",
+	"showing-n": "Message that appears next to the {{msg-mw|total-results}} indicating the how many results are shown, which may be less than the total results. $1 is the formatted number of results. $2 is the number of results for use with PLURAL, if needed.",
 	"slow": "Shown next to the label for the 'regular expression' option, to indicate that this makes the query slow.\n{{Identical|Slow}}",
 	"submit": "Submit button text\n{{Identical|Submit}}",
 	"total-results": "Label for value indicating the total number of results. $1 is the number of results.",

@@ -39,6 +39,9 @@ Install code and dependencies:
     [APCu](https://www.php.net/manual/en/book.apcu.php) in your environment, you may simply use the `filesystem`.
 * `./bin/console server:run` to run the development server.
 
+While developing, you may need to clear the cache to get the latest results from your query.
+To do this, use `./bin/console cache:clear` (or `./bin/console c:c` for short).
+
 ## Generating assets
 
 Use `yarn encore dev --watch` to compile assets for the development environment and watch for changes.
