@@ -86,7 +86,7 @@ class DefaultController extends AbstractController
     public function getResults(string $query, bool $regex, array $namespaceIds, CacheItemPoolInterface $cache): array
     {
         $this->cache = $cache;
-        $cacheItem = $query.'.'.$regex;
+        $cacheItem = md5($query.'.'.$regex);
 
         if ($this->cache->hasItem($cacheItem)) {
             return $this->cache->getItem($cacheItem)->get();
@@ -112,7 +112,7 @@ class DefaultController extends AbstractController
 
         $cacheItem = $this->cache->getItem($cacheItem)
             ->set($data)
-            ->expiresAfter(new \DateInterval('P10M'));
+            ->expiresAfter(\DateInterval::createFromDateString('10 minutes'));
         $this->cache->save($cacheItem);
         return $data;
     }
