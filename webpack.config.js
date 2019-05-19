@@ -25,7 +25,9 @@ Encore
      */
     .addEntry('app', [
         './node_modules/jquery/dist/jquery.js',
+        './node_modules/bootstrap/dist/js/bootstrap.js',
         './assets/js/app.js',
+        './node_modules/bootstrap/dist/css/bootstrap.css',
         './assets/css/app.css',
     ])
 

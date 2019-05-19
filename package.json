@@ -4,7 +4,7 @@
         "core-js": "^3.0.0",
         "webpack-notifier": "^1.6.0"
     },
-    "license": "UNLICENSED",
+    "license": "MIT",
     "private": true,
     "scripts": {
         "dev-server": "encore dev-server",
@@ -13,6 +13,7 @@
         "build": "encore production --progress"
     },
     "dependencies": {
+        "bootstrap": "3.3.7",
         "jquery": "^3.4.1"
     }
 }

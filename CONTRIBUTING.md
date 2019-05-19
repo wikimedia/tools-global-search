@@ -13,7 +13,7 @@ Prerequisites:
 * [PHP](https://www.php.net/)
 * [Composer](https://getcomposer.org/)
 * [Node.js](https://nodejs.org/en/) with the version specified by [.nvmrc](.nvmrc).
-* [npm](https://www.npmjs.com/)
+* [Yarn](https://yarnpkg.com/en/)
 * A [Wikimedia developer account](https://wikitech.wikimedia.org/wiki/Help:Create_a_Wikimedia_developer_account)
   and access to the [Toolforge environment](https://wikitech.wikimedia.org/wiki/Portal:Toolforge).
 
@@ -22,7 +22,7 @@ Install code and dependencies:
 * `git clone https://github.com/MusikAnimal/global-search`
 * `cd global-search`
 * `composer install`
-* `npm install`
+* `yarn install`
 * Establish an SSH tunnel to Toolforge so you can connect to the CloudElastic service.
   The command will be something similar to:
 
@@ -41,9 +41,9 @@ Install code and dependencies:
 
 ## Generating assets
 
-Use `./node_modules/.bin/encore dev --watch` to compile assets for the development environment and watch for changes.
+Use `yarn encore dev --watch` to compile assets for the development environment and watch for changes.
 
-Before making a pull request, run `./node_modules/.bin/encore production` to compile assets for production.
+Before making a pull request, run `yarn encore production` to compile assets for production.
 Note the generated assets in `public/build/` must be committed. 
 
 ## Tests

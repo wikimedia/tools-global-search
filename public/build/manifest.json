@@ -1,8 +1,14 @@
 {
-  "build/0.00da5ad6.js": "build/0.00da5ad6.js",
-  "build/app.css": "build/app.ad8038e9.css",
-  "build/app.js": "build/app.1a4560da.js",
+  "build/0.822418a8.css": "build/0.822418a8.css",
+  "build/0.d90970e3.js": "build/0.d90970e3.js",
+  "build/app.css": "build/app.e2bea6a3.css",
+  "build/app.js": "build/app.8f5e7d90.js",
   "build/runtime.js": "build/runtime.cf14c0d8.js",
   "build/favicon.ico": "build/favicon.bdef6758.ico",
+  "build/fonts/glyphicons-halflings-regular.woff2": "build/fonts/glyphicons-halflings-regular.448c34a5.woff2",
+  "build/fonts/glyphicons-halflings-regular.ttf": "build/fonts/glyphicons-halflings-regular.e18bbf61.ttf",
+  "build/fonts/glyphicons-halflings-regular.eot": "build/fonts/glyphicons-halflings-regular.f4769f9b.eot",
+  "build/fonts/glyphicons-halflings-regular.woff": "build/fonts/glyphicons-halflings-regular.fa277232.woff",
+  "build/images/glyphicons-halflings-regular.svg": "build/images/glyphicons-halflings-regular.89889688.svg",
   "build/logo.svg": "build/logo.5e7432cc.svg"
 }
