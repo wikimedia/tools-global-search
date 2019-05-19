@@ -11,6 +11,13 @@ header {
     line-height: 50px;
 }
 
+.logo {
+    height: 38px;
+    left: 4px;
+    position: absolute;
+    top: 4px;
+}
+
 .subheading {
     margin-bottom: 30px;
 }

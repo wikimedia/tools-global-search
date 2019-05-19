@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>{% block title %}{% endblock %}Global Search</title>
+        <link rel="icon" type="image/x-icon" sizes="16x16 32x32 48x48" href="{{ asset('build/favicon.ico') }}" />
         {% block stylesheets %}
             <link rel="stylesheet" type="text/css" media="screen" href="https://tools-static.wmflabs.org/cdnjs/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
             {{ encore_entry_link_tags('app') }}
@@ -10,6 +11,9 @@
     </head>
     <body>
         <header class="navbar navbar-default text-center">
+            <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Meta_Checkuser.svg">
+                <img class="logo" src="{{ asset('build/logo.svg') }}" />
+            </a>
             Global Search
         </header>
         <main class="container-fluid">
