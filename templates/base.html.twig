@@ -5,7 +5,7 @@
         <title>{% block title %}{% endblock %}Global Search</title>
         {% block stylesheets %}
             <link rel="stylesheet" type="text/css" media="screen" href="https://tools-static.wmflabs.org/cdnjs/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-            <link rel="stylesheet" type="text/css" href="{{ asset('build/app.css') }}" />
+            {{ encore_entry_link_tags('app') }}
         {% endblock %}
     </head>
     <body>
@@ -23,19 +23,21 @@
                 </div>
                 <div class="form-group">
                     <label>
-                        <input type="checkbox" name="regex" value="1"{% if regex is defined and regex is not empty %} checked="checked"{% endif %}>
+                        <input type="checkbox" name="regex" value="1"{% if regex is not empty %} checked="checked"{% endif %}>
                         Regular expression
                     </label>
                     (slow)
                 </div>
-{#                <div class="form-group">#}
-{#                    <label for="namespaceSelect">Namespace ID:</label>#}
-{#                    <input type="checkbox" name="useNamespace" value="1" />#}
-{#                    <label for="namespaceId">Namespace ID:</label>#}
-{#                    <input type="number" class="form-control" name="namespace">#}
-{#                </div>#}
-                    {# title, source, or both #}
-                    {# include redirects #}
+                <div class="form-group form-inline">
+                    <label for="namespaceIds">Namespaces:</label>
+                    <input type="text" class="form-control" name="namespaces" id="namespaceIds" value="{{ namespaces }}" />
+                    &nbsp;
+                    <small class="text-muted">Comma-separated list of namespace IDs. Leave blank for all namespaces.</small>
+                </div>
+                {## IDEAS FOR MORE FILTERS: ##}
+                {# title, source, or both #}
+                {# include redirects (only if filtering by title) #}
+                {# restrict to wikipedias, wiktionarys, etc. #}
                 <button type="submit" class="btn btn-default">Submit</button>
             </form>
             {% block body %}{% endblock %}
@@ -49,7 +51,7 @@
             <a target="_blank" href="https://github.com/MusikAnimal/global-search">View source</a>
         </footer>
         {% block javascripts %}
-            <script type="text/javascript" src="{{ asset('build/app.js') }}"></script>
+            {{ encore_entry_script_tags('app') }}
         {% endblock %}
     </body>
 </html>

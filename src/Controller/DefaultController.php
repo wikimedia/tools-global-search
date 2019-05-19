@@ -35,14 +35,16 @@ class DefaultController extends AbstractController
     {
         $query = $request->query->get('q');
         $regex = (bool)$request->query->get('regex');
+        [$namespaces, $namespaceIds] = $this->parseNamespaces($request);
         $ret = [
             'q' => $query,
             'regex' => $regex,
             'max_results' => self::MAX_RESULTS,
+            'namespaces' => $namespaces,
         ];
 
         if ($query) {
-            $ret = array_merge($ret, $this->getResults($query, $regex, $cache));
+            $ret = array_merge($ret, $this->getResults($query, $regex, $namespaceIds, $cache));
             return $this->render('default/result.html.twig', $ret);
         }
 
@@ -50,13 +52,38 @@ class DefaultController extends AbstractController
     }
 
     /**
+     * Parse the namespaces parameter of the query string.
+     * @param Request $request
+     * @return array [normalized comma-separated list as a string, array of ids as ints]
+     */
+    private function parseNamespaces(Request $request): array
+    {
+        $param = $request->query->get('namespaces', '');
+
+        if ('' === $param) {
+            $ids = [];
+        } else {
+            $ids = array_map(
+                'intval',
+                explode(',', $param)
+            );
+        }
+
+        return [
+            implode(',', $ids),
+            $ids,
+        ];
+    }
+
+    /**
      * Get results based on given Request.
      * @param string $query
      * @param bool $regex
+     * @param int[] $namespaceIds
      * @param CacheItemPoolInterface $cache
      * @return array
      */
-    public function getResults(string $query, bool $regex, CacheItemPoolInterface $cache): array
+    public function getResults(string $query, bool $regex, array $namespaceIds, CacheItemPoolInterface $cache): array
     {
         $this->cache = $cache;
         $cacheItem = $query.'.'.$regex;
@@ -68,6 +95,12 @@ class DefaultController extends AbstractController
         $params = $regex
             ? $this->getParamsForRegexQuery($query)
             : $this->getParamsForPlainQuery($query);
+
+        if ($namespaceIds) {
+            $params['query']['bool']['filter'][] = [ 'terms' => [
+                'namespace' => $namespaceIds,
+            ] ];
+        }
 
         $res = $this->makeRequest($params);
         $data = [
@@ -197,9 +230,9 @@ class DefaultController extends AbstractController
             'query' => [
                 'bool' => [
                     'filter' => [
-                        'match' => [
+                        [ 'match' => [
                             'source_text.plain' => $query,
-                        ],
+                        ] ],
                     ],
                 ]
             ],
@@ -235,7 +268,7 @@ class DefaultController extends AbstractController
             'query' => [
                 'bool' => [
                     'filter' => [
-                        'source_regex' => [
+                        [ 'source_regex' => [
                             'regex' => $query,
                             'field' => 'source_text',
                             'ngram_field' => 'source_text.trigram',
@@ -243,7 +276,7 @@ class DefaultController extends AbstractController
                             'max_expand' => 10,
                             'case_sensitive' => true,
                             'locale' => 'en',
-                        ],
+                        ] ],
                     ],
                 ]
             ],
