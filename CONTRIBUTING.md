@@ -37,10 +37,7 @@ Install code and dependencies:
   * `ELASTIC_INSECURE` - Set to `true` on your local, since HTTPS otherwise won't work.
   * `CACHE_ADAPTER` - Use `apcu` for the best performance. If you don't have or are unable to install
     [APCu](https://www.php.net/manual/en/book.apcu.php) in your environment, you may simply use the `filesystem`.
-
-Run development web server:
-
-    ./bin/console server:run
+* `./bin/console server:run` to run the development server.
 
 ## Generating assets
 
