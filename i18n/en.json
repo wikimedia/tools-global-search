@@ -1,0 +1,18 @@
+{
+	"brought-to-you-by": "Brought to you by $1 and $2",
+	"excerpt": "Excerpt",
+	"global-search": "Global Search",
+	"global-search-desc": "Search within wikitext across all Wikimedia Foundation wikis.",
+	"namespaces": "Namespaces",
+	"namespaces-desc": "Comma-separated list of namespace IDs. Leave blank for all namespaces.",
+	"page-title": "Page title",
+	"powered-by": "Powered by $1",
+	"query": "Query",
+	"regular-expression": "Regular expression",
+	"report-issue": "Report an issue",
+	"slow": "Slow",
+	"submit": "Submit",
+	"total-results": "Total {{PLURAL:$1|result|results}}",
+	"view-source": "View source",
+	"wiki": "Wiki"
+}

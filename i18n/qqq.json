@@ -1,0 +1,18 @@
+{
+	"brought-to-you-by": "Message listing the authors of the tool. $1 and $2 are links to the author's userpages.",
+	"excerpt": "Heading for column showing an excerpt of the wikiext of the page that includes the search term.",
+	"global-search": "Title of the application.",
+	"global-search-desc": "Description of the application.",
+	"namespaces": "Label to for the namespaces input, where they can enter in one or more namespaces.\n{{Identical|Namespaces}}",
+	"namespaces-desc": "Description for the namespaces input field.",
+	"page-title": "Label for the title of a page.\n{{Identical|Page title}}",
+	"powered-by": "Message saying that the tool is powered by CloudElastic. $1 is a link to the CloudElastic homepage.",
+	"query": "Label for input to enter the search query.\n{{Identical|Query}}",
+	"regular-expression": "Label for the regular expression checkbox. See https://www.wikidata.org/wiki/Q185612 for possible translations.",
+	"report-issue": "Link to report an issue or bug.",
+	"slow": "Shown next to the label for the 'regular expression' option, to indicate that this makes the query slow.\n{{Identical|Slow}}",
+	"submit": "Submit button text\n{{Identical|Submit}}",
+	"total-results": "Label for value indicating the total number of results. $1 is the number of results.",
+	"view-source": "Link to the source code for the tool\n{{Identical|View source}}",
+	"wiki": "Short label for Wiki\n{{Identical|Wiki}}"
+}

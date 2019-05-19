@@ -1,61 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ lang() }}"{% if is_rtl() %} dir="rtl"{% endif %}>
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{% block title %}{% endblock %}Global Search</title>
+        <title>{{ msg('global-search') }}</title>
         <link rel="icon" type="image/x-icon" sizes="16x16 32x32 48x48" href="{{ asset('build/favicon.ico') }}" />
         {% block stylesheets %}
-            <link rel="stylesheet" type="text/css" media="screen" href="https://tools-static.wmflabs.org/cdnjs/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
             {{ encore_entry_link_tags('app') }}
+            {% if is_rtl() %}
+                <link rel="stylesheet" type="text/css" href="https://tools-static.wmflabs.org/cdnjs/ajax/libs/bootstrap-rtl/3.4.0/css/bootstrap-flipped.min.css">
+            {% endif %}
         {% endblock %}
     </head>
     <body>
         <header class="navbar navbar-default text-center">
             <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Meta_Checkuser.svg">
-                <img class="logo" src="{{ asset('build/logo.svg') }}" />
+                <img class="logo" src="{{ asset('build/logo.svg') }}" alt="Logo" />
             </a>
-            Global Search
+            {{ msg('global-search') }}
+            {% if exception is not defined %}
+                <div class="lang-group btn-group dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path>
+                        </svg>
+                        {{ lang_name() }}
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li>
+                            <a target="_blank" href="https://translatewiki.net/w/i.php?title=Special:Translate&group=grant-metrics&language={{ lang() }}&action=translate">{{ msg('help-translate') }}</a>
+                        </li>
+                        <li class="divider" role="separator"></li>
+                        {% for key, value in all_langs() if key != 'qqq' %}
+                            <li>
+                                <a class="lang-link" href="{{ path(app.request.attributes.get('_route'), app.request.get('_route_params')|merge({'uselang': key})) }}" data-lang="{{ key }}">{{ value|e }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endif %}
         </header>
         <main class="container-fluid">
-            <p class="subheading text-center">
-                Search within wikitext across all Wikimedia Foundation wikis.
-            </p>
+            <p class="subheading text-center">{{ msg('global-search-desc') }}</p>
             <form>
                 <div class="form-group">
-                    <label for="searchQuery">Query:</label>
+                    <label for="searchQuery">{{ msg('query') }}:</label>
                     <input type="text" class="form-control" name="q" id="searchQuery"{% if q is defined %} value="{{ q }}"{% endif %} required="required" />
                 </div>
                 <div class="form-group">
                     <label>
                         <input type="checkbox" name="regex" value="1"{% if regex is not empty %} checked="checked"{% endif %}>
-                        Regular expression
+                        {{ msg('regular-expression') }}
                     </label>
-                    (slow)
+                    ({{ msg('slow')|lower }})
                 </div>
                 <div class="form-group form-inline">
-                    <label for="namespaceIds">Namespaces:</label>
+                    <label for="namespaceIds">{{ msg('namespaces') }}:</label>
                     <input type="text" class="form-control" name="namespaces" id="namespaceIds" value="{{ namespaces }}" />
                     &nbsp;
-                    <small class="text-muted">Comma-separated list of namespace IDs. Leave blank for all namespaces.</small>
+                    <small class="text-muted">{{ msg('namespaces-desc') }}</small>
                 </div>
                 {## IDEAS FOR MORE FILTERS: ##}
                 {# title, source, or both #}
                 {# include redirects (only if filtering by title) #}
                 {# restrict to wikipedias, wiktionarys, etc. #}
-                <button type="submit" class="btn btn-default">Submit</button>
+                <button type="submit" class="btn btn-default">{{ msg('submit') }}</button>
             </form>
             {% block body %}{% endblock %}
         </main>
         <footer class="text-center">
-            Brought to you by
-            <a target="_blank" href="https://en.wikipedia.org/wiki/User:MusikAnimal">MusikAnimal</a>
-            and
-            <a target="_blank" href="https://www.mediawiki.org/wiki/User:EBernhardson_(WMF)">EBernhardson</a>
+            {% set musikanimalLink %}
+                <a target="_blank" href="https://en.wikipedia.org/wiki/User:MusikAnimal">MusikAnimal</a>
+            {% endset %}
+            {% set ebernhardsonLink %}
+                <a target="_blank" href="https://www.mediawiki.org/wiki/User:EBernhardson_(WMF)">EBernhardson</a>
+            {% endset %}
+            {{ msg('brought-to-you-by', [musikanimalLink, ebernhardsonLink]) }}
             &middot;
-            Powered by <a target="_blank" href="https://wikitech.wikimedia.org/wiki/CloudElastic">CloudElastic</a>
+            {% set cloudElasticLink %}
+                <a target="_blank" href="https://wikitech.wikimedia.org/wiki/CloudElastic">CloudElastic</a>
+            {% endset %}
+            {{ msg('powered-by', [cloudElasticLink]) }}
             &middot;
-            <a target="_blank" href="https://github.com/MusikAnimal/global-search">View source</a>
+            <a target="_blank" href="https://github.com/MusikAnimal/global-search">{{ msg('view-source') }}</a>
+            &middot;
+            <a target="_blank" href="https://phabricator.wikimedia.org/maniphest/task/edit/form/1/?projects=tool-global-search">{{ msg('report-issue') }}</a>
         </footer>
         {% block javascripts %}
             {{ encore_entry_script_tags('app') }}
