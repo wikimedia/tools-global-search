@@ -135,7 +135,10 @@ class DefaultController extends AbstractController
         try {
             $res = $this->client->send($request);
         } catch (ClientException $e) {
-            dump($e->getResponse()->getBody()->getContents());
+            // Dump the full response in development environments since Guzzle truncates the error messages.
+            if ('dev' === $_ENV['APP_ENV']) {
+                dump($e->getResponse()->getBody()->getContents());
+            }
             throw $e;
         }
 
