@@ -3,6 +3,7 @@
 	"excerpt": "Heading for column showing an excerpt of the wikiext of the page that includes the search term.",
 	"global-search": "Title of the application.",
 	"global-search-desc": "Description of the application.",
+	"help-translate": "Link to translation page on translatewiki, to encourage the user to help translate",
 	"namespaces": "Label to for the namespaces input, where they can enter in one or more namespaces.\n{{Identical|Namespaces}}",
 	"namespaces-desc": "Description for the namespaces input field.",
 	"page-title": "Label for the title of a page.\n{{Identical|Page title}}",

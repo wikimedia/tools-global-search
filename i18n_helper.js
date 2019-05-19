@@ -16,7 +16,7 @@ const fs = require('fs');
 // relative path to XTool's i18n directory
 const appPath = './i18n/';
 
-importMessages('../pageviews/messages/', ['view-source']);
+importMessages('../xtools/i18n/', ['help-translate']);
 
 /**
  * Import messages from another project to XTools

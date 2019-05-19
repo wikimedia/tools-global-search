@@ -18,6 +18,30 @@ header {
     top: 4px;
 }
 
+.lang-group {
+    float: right;
+    position: relative;
+    right: 7px;
+    top: 7px;
+}
+
+.lang-group .dropdown-menu {
+    max-height: 194px;
+    overflow-y: scroll;
+}
+
+.lang-group .btn {
+    padding-left: 30px;
+}
+
+.lang-group svg {
+    height: 17px;
+    left: 8px;
+    position: absolute;
+    top: 8px;
+    width: 17px;
+}
+
 .subheading {
     margin-bottom: 30px;
 }
