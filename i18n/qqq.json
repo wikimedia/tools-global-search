@@ -1,6 +1,7 @@
 {
 	"brought-to-you-by": "Message listing the authors of the tool. $1 and $2 are links to the author's userpages.",
 	"excerpt": "Heading for column showing an excerpt of the wikiext of the page that includes the search term.",
+	"executed": "Execution time. $1 is the formatted number of seconds, and $2 is the unformatted number for use with PLURAL.",
 	"global-search": "Title of the application.",
 	"global-search-desc": "Description of the application.",
 	"help-translate": "Link to translation page on translatewiki, to encourage the user to help translate",

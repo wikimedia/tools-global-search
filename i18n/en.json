@@ -1,6 +1,7 @@
 {
 	"brought-to-you-by": "Brought to you by $1 and $2",
 	"excerpt": "Excerpt",
+	"executed": "Executed in $1 {{PLURAL:$2|second|seconds}}.",
 	"global-search": "Global Search",
 	"global-search-desc": "Search within wikitext across all Wikimedia Foundation wikis.",
 	"help-translate": "Help translate",

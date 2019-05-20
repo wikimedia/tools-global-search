@@ -1,4 +1,5 @@
 {
+	"executed": "$1{{PLURAL:$2|초}} 전에 실행됨.",
 	"help-translate": "변역 돕기",
 	"namespaces": "이름공간",
 	"page-title": "문서 제목",

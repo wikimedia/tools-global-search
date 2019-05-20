@@ -1,4 +1,5 @@
 {
+	"executed": "Ejecutado en $1 {{PLURAL:$2|segundo|segundos}}.",
 	"help-translate": "Ayúdanos a traducir",
 	"namespaces": "Espacios de nombres",
 	"page-title": "Título de la página",

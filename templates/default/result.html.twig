@@ -8,6 +8,9 @@
             <em>({{ msg('showing', [max_results|num_format, max_results]) }})</em>
         {% endif %}
     </p>
+    <p>
+        {{ msg('executed', [request_time()|num_format(3), request_time()]) }}
+    </p>
 
     <table class="table table-striped">
         <thead>

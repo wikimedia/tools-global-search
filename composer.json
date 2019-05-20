@@ -18,6 +18,7 @@
         "symfony/twig-bundle": "4.2.*",
         "symfony/webpack-encore-bundle": "^1.5",
         "symfony/yaml": "4.2.*",
+        "twig/extensions": "^1.5",
         "wikimedia/toolforge-bundle": "^0.14.2"
     },
     "require-dev": {
