@@ -1,1 +1,13 @@
 {% extends 'base.html.twig' %}
+
+{% block body %}
+    <hr/>
+    <h3>
+        {{ msg('important-notes') }}
+    </h3>
+    <ul>
+        <li>{{ msg('important-notes-lag', [15]) }}</li>
+        <li>{{ msg('important-notes-specific') }}</li>
+        <li>{{ msg('important-notes-cached', [10]) }}</li>
+    </ul>
+{% endblock %}

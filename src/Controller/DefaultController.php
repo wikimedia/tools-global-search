@@ -24,6 +24,9 @@ class DefaultController extends AbstractController
     private const POST_TAG = '*%%*';
     private const MAX_RESULTS = 5000;
 
+    /** @var string Duration of cache for main results set, as accepted by DateInterval::createFromDateString() */
+    private const CACHE_TIME = '10 minutes';
+
     /**
      * The only route.
      * @Route("/")
@@ -112,7 +115,7 @@ class DefaultController extends AbstractController
 
         $cacheItem = $this->cache->getItem($cacheItem)
             ->set($data)
-            ->expiresAfter(\DateInterval::createFromDateString('10 minutes'));
+            ->expiresAfter(\DateInterval::createFromDateString(self::CACHE_TIME));
         $this->cache->save($cacheItem);
         return $data;
     }
