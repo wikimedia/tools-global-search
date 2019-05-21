@@ -1,6 +1,9 @@
 {
 	"executed": "执行耗时$1{{PLURAL:$2|秒}}。",
 	"help-translate": "帮助翻译",
+	"login": "登录",
+	"logout": "退出",
+	"logout-msg": "当前登录为$1",
 	"namespaces": "名字空间",
 	"page-title": "页面标题",
 	"report-issue": "报告问题",

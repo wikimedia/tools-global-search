@@ -1,6 +1,9 @@
 {
 	"executed": "$1 {{PLURAL:$2|saniyə|saniyələr}} ilə icra edilib.",
 	"help-translate": "Tərcüməyə kömək edin",
+	"login": "Daxil ol",
+	"logout": "Çıxış",
+	"logout-msg": "Hal-hazırda $1 olaraq daxil",
 	"namespaces": "Adlar fəzaları",
 	"page-title": "Səhifənin adı",
 	"report-issue": "Bir problemi bildirin"

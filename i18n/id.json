@@ -1,6 +1,9 @@
 {
 	"executed": "Dieksekusi dalam $1 {{PLURAL:$2|detik|detik}}.",
 	"help-translate": "Bantu terjemahkan",
+	"login": "Masuk log",
+	"logout": "Keluar log",
+	"logout-msg": "Saat ini masuk log sebagai $1",
 	"namespaces": "Ruang Nama",
 	"page-title": "Judul halaman",
 	"report-issue": "Laporkan masalah",

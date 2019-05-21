@@ -28,14 +28,26 @@ class DefaultController extends AbstractController
     private const CACHE_TIME = '10 minutes';
 
     /**
-     * The only route.
-     * @Route("/")
+     * Splash page, shown when user is logged out.
+     * @Route("/splash")
+     */
+    public function splashAction()
+    {
+        return $this->render('default/splash.html.twig');
+    }
+
+    /**
+     * The main route.
+     * @Route("/", name="home")
      * @param Request $request
      * @param CacheItemPoolInterface $cache
      * @return Response
      */
     public function indexAction(Request $request, CacheItemPoolInterface $cache): Response
     {
+        if (!$this->get('session')->get('logged_in_user')) {
+            return $this->render('default/splash.html.twig');
+        }
         $query = $request->query->get('q');
         $regex = (bool)$request->query->get('regex');
         [$namespaces, $namespaceIds] = $this->parseNamespaces($request);

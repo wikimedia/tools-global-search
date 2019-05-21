@@ -1,6 +1,9 @@
 {
 	"executed": "Suoritettu $1 {{PLURAL:$2|sekunnissa}}.",
 	"help-translate": "Auta kääntämisessä",
+	"login": "Kirjaudu sisään",
+	"logout": "Kirjaudu ulos",
+	"logout-msg": "Kirjautunut sisään käyttäjänä $1",
 	"namespaces": "Nimiavaruudet",
 	"page-title": "Sivun otsikko",
 	"report-issue": "Ilmoita ongelmasta",

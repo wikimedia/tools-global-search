@@ -1,6 +1,8 @@
 {
 	"executed": "Wykonano w $1 {{PLURAL:$2|sekundę|sekundy|sekund}}.",
 	"help-translate": "Pomóż w tłumaczeniu",
+	"login": "Logowanie",
+	"logout": "Zakończenie sesji",
 	"namespaces": "Przestrzenie nazw",
 	"page-title": "Tytuł strony",
 	"report-issue": "Zgłoś problem",

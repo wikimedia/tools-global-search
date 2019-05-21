@@ -1,6 +1,9 @@
 {
 	"executed": "Provedeno za $1 {{PLURAL:$2|sekundu|sekundy|sekund}}.",
 	"help-translate": "Pomozte s překladem",
+	"login": "Přihlásit se",
+	"logout": "Odhlásit se",
+	"logout-msg": "Jste přihlášeni jako $1",
 	"namespaces": "Jmenné prostory",
 	"page-title": "Název stránky",
 	"report-issue": "Nahlásit problém",

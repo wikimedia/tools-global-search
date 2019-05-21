@@ -1,6 +1,9 @@
 {
 	"executed": "Įkelta per $1 {{PLURAL:$2|sekundę|sekundes|sekundžių}}.",
 	"help-translate": "Padėti išversti",
+	"login": "Prisijungti",
+	"logout": "Atsijungti",
+	"logout-msg": "Šiuo metu prisijungęs kaip $1",
 	"namespaces": "Vardų sritys",
 	"page-title": "Puslapio pavadinimas",
 	"report-issue": "Pranešti apie problemą",

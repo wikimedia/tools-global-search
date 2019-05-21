@@ -1,6 +1,9 @@
 {
 	"executed": "In {{PLURAL:$2|einer Sekunde|$1 Sekunden}} ausgeführt.",
 	"help-translate": "Hilf beim Übersetzen",
+	"login": "Anmelden",
+	"logout": "Abmelden",
+	"logout-msg": "Derzeit angemeldet als $1",
 	"namespaces": "Namensräume",
 	"page-title": "Seitenname",
 	"report-issue": "Ein Problem melden",

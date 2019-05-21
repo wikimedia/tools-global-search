@@ -1,6 +1,9 @@
 {
 	"executed": "Exécuté en $1 {{PLURAL:$2|seconde|secondes}}.",
 	"help-translate": "Aider à traduire",
+	"login": "Se connecter",
+	"logout": "Déconnexion",
+	"logout-msg": "Actuellement tracé comme $1",
 	"namespaces": "Espaces de noms",
 	"page-title": "Titre de la page",
 	"report-issue": "Signaler un problème",

@@ -1,6 +1,9 @@
 {
 	"executed": "A(n) $1 {{PLURAL:$2|Sekonn|Sekonnen}} ausgeféiert.",
 	"help-translate": "Hëlleft iwwersetzen",
+	"login": "Aloggen",
+	"logout": "Ausloggen",
+	"logout-msg": "Aktuell als $1 ageloggt",
 	"namespaces": "Nummraim",
 	"page-title": "Titel vun der Säit",
 	"report-issue": "E Problem mellen",

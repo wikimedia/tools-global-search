@@ -1,6 +1,8 @@
 {
 	"executed": "Đã thực hiện trong $1 {{PLURAL:$2|giây|giây}}.",
 	"help-translate": "Giúp biên dịch",
+	"login": "Đăng nhập",
+	"logout": "Đăng xuất",
 	"namespaces": "Không gian tên",
 	"page-title": "Tên trang",
 	"report-issue": "Báo cáo lỗi",

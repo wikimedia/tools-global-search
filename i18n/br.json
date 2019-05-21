@@ -1,6 +1,8 @@
 {
 	"executed": "Sevenet e $1\n{{PLURAL:$2|eilenn|eilenn}}.",
 	"help-translate": "Sikour da dreiñ",
+	"login": "Kevreañ",
+	"logout": "Digevreañ",
 	"namespaces": "Esaouennoù anv",
 	"page-title": "Titl ar bajenn",
 	"report-issue": "Titourañ un draen",

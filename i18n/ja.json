@@ -1,6 +1,8 @@
 {
 	"executed": "実行時間 $1 {{PLURAL:$2|秒}}。",
 	"help-translate": "翻訳を手伝ってください",
+	"login": "ログイン",
+	"logout": "ログアウト",
 	"namespaces": "名前空間",
 	"page-title": "ページ名",
 	"report-issue": "問題の報告",

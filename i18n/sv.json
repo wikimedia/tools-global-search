@@ -1,6 +1,9 @@
 {
 	"executed": "Utfört på $1 {{PLURAL:$2|sekund|sekunder}}.",
 	"help-translate": "Hjälp till att översätta",
+	"login": "Logga in",
+	"logout": "Logga ut",
+	"logout-msg": "För närvarande inloggad som $1",
 	"namespaces": "Namnrymder",
 	"page-title": "Sidnamn",
 	"report-issue": "Rapportera ett problem",

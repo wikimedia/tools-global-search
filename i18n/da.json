@@ -1,6 +1,9 @@
 {
 	"executed": "Udført på $1 {{PLURAL:$2|sekund|sekunder}}.",
 	"help-translate": "Hjælp til med at oversætte",
+	"login": "Log ind",
+	"logout": "Log ud",
+	"logout-msg": "Logget ind som $1",
 	"namespaces": "Navnerum",
 	"page-title": "Sidetitel",
 	"report-issue": "Rapporter et problem",

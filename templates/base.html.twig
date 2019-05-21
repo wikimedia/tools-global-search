@@ -17,55 +17,65 @@
             <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Meta_Checkuser.svg">
                 <img class="logo" src="{{ asset('build/logo.svg') }}" alt="Logo" />
             </a>
-            {{ msg('global-search') }}
-            {% if exception is not defined %}
-                <div class="lang-group btn-group dropdown">
-                    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                            <path d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path>
-                        </svg>
-                        {{ lang_name() }}
-                        <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-right">
-{#                        <li>#}
-{#                            <a target="_blank" href="https://translatewiki.net/w/i.php?title=Special:Translate&group=global-search&language={{ lang() }}&action=translate">{{ msg('help-translate') }}</a>#}
-{#                        </li>#}
-{#                        <li class="divider" role="separator"></li>#}
-                        {% for key, value in all_langs() if key != 'qqq' %}
+            <span class="header-title">{{ msg('global-search') }}</span>
+            <span class="header-buttons">
+                {% if exception is not defined %}
+                    <div class="lang-group btn-group dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path>
+                            </svg>
+                            {{ lang_name() }}
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-right">
                             <li>
-                                <a class="lang-link" href="{{ path(app.request.attributes.get('_route'), app.request.get('_route_params')|merge({'uselang': key})) }}" data-lang="{{ key }}">{{ value|e }}</a>
+                                <a target="_blank" href="https://translatewiki.net/w/i.php?title=Special:Translate&group=global-search&language={{ lang() }}&action=translate">{{ msg('help-translate') }}</a>
                             </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            {% endif %}
+                            <li class="divider" role="separator"></li>
+                            {% for key, value in all_langs() if key != 'qqq' %}
+                                <li>
+                                    <a class="lang-link" href="{{ path(app.request.attributes.get('_route'), app.request.get('_route_params')|merge({'uselang': key})) }}" data-lang="{{ key }}">{{ value|e }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                {% endif %}
+
+                {% set loginText = logged_in_user() ? 'logout' : 'login' %}
+                <a class="btn btn-default login-btn" href="{{ path('toolforge_' ~ loginText) }}">
+                    <span class="glyphicon glyphicon-user"></span>
+                    {{ msg(loginText) }}
+                </a>
+            </span>
         </header>
         <main class="container-fluid">
-            <p class="subheading text-center text-muted">{{ msg('global-search-desc') }}</p>
-            <form>
-                <div class="form-group">
-                    <label for="searchQuery">{{ msg('query') }}:</label>
-                    <input type="text" class="form-control" name="q" id="searchQuery"{% if q is defined %} value="{{ q }}"{% endif %} required="required" />
-                </div>
-                <div class="form-group">
-                    <label>
-                        <input type="checkbox" name="regex" value="1"{% if regex is not empty %} checked="checked"{% endif %}>
-                        {{ msg('regular-expression') }}
-                    </label>
-                    ({{ msg('slow')|lower }})
-                </div>
-                <div class="form-group form-inline">
-                    <label for="namespaceIds">{{ msg('namespaces') }}:</label>
-                    <input type="text" class="form-control" name="namespaces" id="namespaceIds" value="{{ namespaces }}" />
-                    &nbsp;
-                    <small class="text-muted">{{ msg('namespaces-desc') }}</small>
-                </div>
-                {## IDEAS FOR MORE FILTERS: ##}
-                {# title, source, or both #}
-                {# include redirects (only if filtering by title) #}
-                {# restrict to wikipedias, wiktionarys, etc. #}
-                <button type="submit" class="btn btn-default">{{ msg('submit') }}</button>
+            {% block form %}
+                <p class="subheading text-center text-muted">{{ msg('global-search-desc') }}</p>
+                <form>
+                    <div class="form-group">
+                        <label for="searchQuery">{{ msg('query') }}:</label>
+                        <input type="text" class="form-control" name="q" id="searchQuery"{% if q is defined %} value="{{ q }}"{% endif %} required="required" />
+                    </div>
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" name="regex" value="1"{% if regex is not empty %} checked="checked"{% endif %}>
+                            {{ msg('regular-expression') }}
+                        </label>
+                        ({{ msg('slow')|lower }})
+                    </div>
+                    <div class="form-group form-inline">
+                        <label for="namespaceIds">{{ msg('namespaces') }}:</label>
+                        <input type="text" class="form-control" name="namespaces" id="namespaceIds" value="{{ namespaces }}" />
+                        &nbsp;
+                        <small class="text-muted">{{ msg('namespaces-desc') }}</small>
+                    </div>
+                    {## IDEAS FOR MORE FILTERS: ##}
+                    {# title, source, or both #}
+                    {# include redirects (only if filtering by title) #}
+                    {# restrict to wikipedias, wiktionarys, etc. #}
+                    <button type="submit" class="btn btn-default">{{ msg('submit') }}</button>
+                {% endblock %}
             </form>
             {% block body %}{% endblock %}
         </main>

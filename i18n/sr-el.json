@@ -1,6 +1,9 @@
 {
 	"executed": "Izvršeno za $1 {{PLURAL:$2|sekund|sekunda|sekundi}}.",
 	"help-translate": "Pomozite sa prevodima",
+	"login": "Prijavi me",
+	"logout": "Odjavi me",
+	"logout-msg": "Trenutno ste prijavljeni kao $1",
 	"namespaces": "Imenski prostori",
 	"page-title": "Naslov stranice",
 	"report-issue": "Prijavi problem",

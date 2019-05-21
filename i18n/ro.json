@@ -1,6 +1,9 @@
 {
 	"executed": "Executat în $1 {{PLURAL:$2|secundă|secunde|de secunde}}",
 	"help-translate": "Ajutați cu traducerea",
+	"login": "Autentificare",
+	"logout": "Închide sesiunea",
+	"logout-msg": "Autentificat{{GENDER:$1||ă}} ca $1",
 	"namespaces": "Spații de nume",
 	"page-title": "Titlul paginii",
 	"report-issue": "Raportează o problemă",

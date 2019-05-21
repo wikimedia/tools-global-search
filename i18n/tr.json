@@ -1,6 +1,9 @@
 {
 	"executed": "$1 {{PLURAL:$2|saniye|saniye}} içinde yürütüldü.",
 	"help-translate": "Çeviriye yardım edin",
+	"login": "Oturum aç",
+	"logout": "Oturumu kapat",
+	"logout-msg": "Şu anda $1 olarak giriş yaptınız",
 	"namespaces": "Ad alanları",
 	"page-title": "Sayfa başlığı",
 	"report-issue": "Sorun bildirin",

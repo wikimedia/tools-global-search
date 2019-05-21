@@ -1,6 +1,9 @@
 {
 	"executed": "Igarotako denbora: {{PLURAL:$2|segundo $1|$2 segundo}}",
 	"help-translate": "Lagundu euskaratzen",
+	"login": "Saioa hasi",
+	"logout": "Saioa itxi",
+	"logout-msg": "Une honetan $1 gisa erregistratuta dago",
 	"namespaces": "Izen-tarteak",
 	"page-title": "Orriaren izenburua",
 	"report-issue": "Arazoren baten berri eman",

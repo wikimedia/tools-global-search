@@ -1,6 +1,9 @@
 {
 	"executed": "Végrehajtva $1 {{PLURAL:$2|másodperc}} alatt.",
 	"help-translate": "Segíts fordítani",
+	"login": "Bejelentkezés",
+	"logout": "Kijelentkezés",
+	"logout-msg": "Aktuálisan bejelentkezve mint $1",
 	"namespaces": "Névterek",
 	"page-title": "Lapcím",
 	"report-issue": "Hibabejelentés",

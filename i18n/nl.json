@@ -1,6 +1,9 @@
 {
 	"executed": "Uitgevoerd in $1 {{PLURAL:$2|seconde|seconden}}.",
 	"help-translate": "Helpen met vertalen",
+	"login": "Aanmelden",
+	"logout": "Afmelden",
+	"logout-msg": "Momenteel aangemeld als $1",
 	"namespaces": "Naamruimten",
 	"page-title": "Paginatitel",
 	"report-issue": "Probleem melden",

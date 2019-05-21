@@ -1,6 +1,8 @@
 {
 	"executed": "ดำเนินการใน $1 วินาที",
 	"help-translate": "ช่วยแปลภาษา",
+	"login": "ลงชื่อเข้า",
+	"logout": "ออกจากระบบ",
 	"page-title": "ชื่อหน้า",
 	"report-issue": "รายงานผล",
 	"submit": "บันทึก",

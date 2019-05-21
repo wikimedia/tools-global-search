@@ -1,6 +1,8 @@
 {
 	"executed": "Täidetud $1 {{PLURAL:$2|sekundiga}}.",
 	"help-translate": "Aita tõlkida",
+	"login": "Logi sisse",
+	"logout": "Logi välja",
 	"namespaces": "Nimeruumid",
 	"page-title": "Lehekülje pealkiri",
 	"report-issue": "Teata probleemist",

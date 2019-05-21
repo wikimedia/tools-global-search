@@ -1,6 +1,8 @@
 {
 	"executed": "זמן ביצוע ב$1: {{PLURAL:$2|שניה|שניות}}.",
 	"help-translate": "עזור לתרגם",
+	"login": "כניסה לחשבון",
+	"logout": "יציאה מהחשבון",
 	"namespaces": "מרחבי שם",
 	"page-title": "כותרת דף",
 	"report-issue": "דיווח בעיה",

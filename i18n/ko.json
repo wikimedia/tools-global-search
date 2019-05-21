@@ -1,6 +1,9 @@
 {
 	"executed": "$1{{PLURAL:$2|초}} 전에 실행됨.",
 	"help-translate": "변역 돕기",
+	"login": "로그인",
+	"logout": "로그아웃",
+	"logout-msg": "현재 $1님으로 로그인됨",
 	"namespaces": "이름공간",
 	"page-title": "문서 제목",
 	"report-issue": "이슈 보고",
