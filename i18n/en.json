@@ -19,6 +19,7 @@
 	"query": "Query",
 	"regular-expression": "Regular expression",
 	"report-issue": "Report an issue",
+	"reset": "Reset",
 	"showing-n": "{{PLURAL:$2|Showing|Showing}} $1",
 	"slow": "Slow",
 	"splash-hackathon-title": "Wikimedia Hackathon 2019",

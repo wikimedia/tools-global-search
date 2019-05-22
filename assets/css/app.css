@@ -86,6 +86,10 @@ header {
     margin-bottom: 30px;
 }
 
+.btn-reset-form {
+    margin: 0 5px;
+}
+
 main {
     min-height: calc(100% - 75px);
 }

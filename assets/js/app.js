@@ -5,4 +5,11 @@ $(() => {
         $(e.target).find('input').prop('readonly', true);
         $(e.target).find('button').prop('disabled', true);
     });
+
+    $('.btn-reset-form').on('click', e => {
+        $('.results').hide();
+        $('input').val('').prop('checked', false);
+        $('#searchQuery').focus();
+        $(e.target).remove();
+    });
 });
