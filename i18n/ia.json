@@ -1,6 +1,40 @@
 {
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"brought-to-you-by": "Disveloppate per $1 e $2",
+	"excerpt": "Excerpto",
+	"executed": "Executate in $1 {{PLURAL:$2|secunda|secundas}}.",
+	"global-search": "Recerca Global",
+	"global-search-desc": "Cerca in le wikitexto de tote le wikis del Fundation Wikimedia.",
 	"help-translate": "Adjutar a traducer",
+	"important-notes": "Notas importante:",
+	"important-notes-cached": "Le resultatos essera immagazinate in cache durante $1 {{PLURAL:$1|minuta|minutas}}.",
+	"important-notes-lag": "Le resultatos pote esser in retardo con respecto al production, generalmente per circa $1 {{PLURAL:$1|minuta|minutas}}.",
+	"important-notes-specific": "Scribe parolas a cercar le plus specific possibile. Quanto plus resultatos illos produce, tanto plus tempore tu debe attender.",
+	"login": "Aperir session",
+	"logout": "Clauder session",
+	"logout-msg": "Ora in session como $1",
+	"namespaces": "Spatios de nomines",
+	"namespaces-desc": "Lista, separate per commas, de IDs de spatios de nomines. Lassa vacue pro tote le spatios de nomines.",
 	"page-title": "Titulo del pagina",
+	"powered-by": "Actionate per $1",
+	"query": "Consulta",
+	"regular-expression": "Expression regular",
 	"report-issue": "Reportar un problema",
-	"view-source": "Vider codice fonte"
+	"reset": "Reinitialisar",
+	"showing-n": "{{PLURAL:$2|Se monstra}} $1",
+	"slow": "Lente",
+	"splash-hackathon-title": "Wikimedia Hackathon 2019",
+	"splash-login-btn": "Aperir session pro usar le Recerca Global",
+	"splash-login-desc": "Iste instrumento permitte exequer recercas a expression regular de parolas clave e codice fonte in tote le wikis del Fundation Wikimedia, usante le servicio $1.",
+	"splash-login-required": "Pois que iste instrumento pote exequer consultas longe e costose, es necessari aperir session.",
+	"splash-product-of-hackathon": "Un producto del $1",
+	"splash-title": "Recerca Global de Wikimedia",
+	"submit": "Submitter",
+	"total-results": "Total de {{PLURAL:$1|resultatos}}",
+	"view-source": "Vider codice fonte",
+	"wiki": "Wiki"
 }

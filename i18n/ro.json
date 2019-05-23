@@ -1,12 +1,30 @@
 {
+	"@metadata": {
+		"authors": [
+			"Strainu"
+		]
+	},
+	"brought-to-you-by": "Creat de către $1 și $2.",
+	"excerpt": "Extras",
 	"executed": "Executat în $1 {{PLURAL:$2|secundă|secunde|de secunde}}",
+	"global-search": "Căutare globală",
 	"help-translate": "Ajutați cu traducerea",
+	"important-notes": "Note importante:",
 	"login": "Autentificare",
 	"logout": "Închide sesiunea",
 	"logout-msg": "Autentificat{{GENDER:$1||ă}} ca $1",
 	"namespaces": "Spații de nume",
 	"page-title": "Titlul paginii",
+	"powered-by": "Realizat de $1",
+	"query": "Interogare",
+	"regular-expression": "Expresie regulată",
 	"report-issue": "Raportează o problemă",
+	"reset": "Resetează",
+	"slow": "Lent",
+	"splash-hackathon-title": "Wikimedia Hackathon 2019",
+	"splash-login-btn": "Autentificați-vă pentru a folosi Căutarea Globală",
+	"splash-product-of-hackathon": "Un produs al $1",
+	"splash-title": "Căutare Globală Wikimedia",
 	"submit": "Trimite",
 	"view-source": "Vizualizare sursă",
 	"wiki": "Wiki"

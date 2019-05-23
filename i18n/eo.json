@@ -1,3 +1,40 @@
 {
-	"view-source": "Vidi fonton"
+	"@metadata": {
+		"authors": [
+			"Mirin"
+		]
+	},
+	"brought-to-you-by": "Verkita por vi de $1 kaj $2",
+	"excerpt": "Eltiraĵo",
+	"executed": "Farita en $1 {{PLURAL:$2|sekundo|sekundoj}}.",
+	"global-search": "Malloka Serĉado",
+	"global-search-desc": "Serĉi en vikiteksto tra ĉiuj vikioj de Vikimedia Fondaĵo.",
+	"help-translate": "Helpi tradukadon",
+	"important-notes": "Gravaj notoj:",
+	"important-notes-cached": "Rezultoj estas kaŝmemorigitaj dum $1 {{PLURAL:$1|minuto|minutoj}}.",
+	"important-notes-lag": "Rezultoj estas eble malaktualaj, ordinare $1 {{PLURAL:$1|minuton|minutojn}}.",
+	"important-notes-specific": "Laŭeble specifigu vian serĉoton. Ju pli da rezultoj liverotaj, des pli vi atendos.",
+	"login": "Ensaluti",
+	"logout": "Elsaluti",
+	"logout-msg": "Ensalutinta kiel $1",
+	"namespaces": "Nomspacoj",
+	"namespaces-desc": "Kome apartigita listo de identigiloj de nomspacoj. Lasu vaka por ĉiuj nomspacoj.",
+	"page-title": "Titolo de paĝo",
+	"powered-by": "Funkcianta per $1",
+	"query": "Informpeto",
+	"regular-expression": "Regula esprimo",
+	"report-issue": "Raporti problemon",
+	"reset": "Restarigi",
+	"showing-n": "{{PLURAL:$2|Montrante}} $1",
+	"slow": "Malrapide",
+	"splash-hackathon-title": "Vikimedia Kodummaratono 2019",
+	"splash-login-btn": "Ensaluti por uzi Mallokan Serĉadon",
+	"splash-login-desc": "Ĉi tiu ilo povas serĉi, laŭ ŝlosilvorto aŭ fonta regula esperimo, tra ĉiuj vikioj de Vikimedia Fodaĵo, per la servo $1.",
+	"splash-login-required": "Ĉar ĉi tiu ilo povas fari multekostan longan informpeton, vi devas ensaluti.",
+	"splash-product-of-hackathon": "Produkto far $1",
+	"splash-title": "Vikimedia Malloka Serĉado",
+	"submit": "Sendi",
+	"total-results": "Tuta nombro de {{PLURAL:$1|rezulto|rezultoj}}",
+	"view-source": "Vidi fonton",
+	"wiki": "Vikio"
 }

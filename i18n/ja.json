@@ -1,11 +1,32 @@
 {
+	"@metadata": {
+		"authors": [
+			"Aefgh39622",
+			"Omotecho"
+		]
+	},
+	"excerpt": "抜粋",
 	"executed": "実行時間 $1 {{PLURAL:$2|秒}}。",
+	"global-search": "グローバル検索",
 	"help-translate": "翻訳を手伝ってください",
+	"important-notes": "ご注意:",
 	"login": "ログイン",
 	"logout": "ログアウト",
+	"logout-msg": "現在、$1としてログイン中です",
 	"namespaces": "名前空間",
+	"namespaces-desc": "名前空間IDのカンマ区切りの一覧。名前空間欄はすべて空欄にします。",
 	"page-title": "ページ名",
+	"powered-by": "$1提供",
+	"query": "クエリ",
+	"regular-expression": "正規表現",
 	"report-issue": "問題の報告",
+	"reset": "リセット",
+	"slow": "遅い",
+	"splash-hackathon-title": "2019年ウィキメディア・ハッカソン",
+	"splash-login-btn": "Global Search利用にはログインが必要です",
+	"splash-login-desc": "このツールは$1サービスを利用し、キーワードならびにソースの標準表現を用いてウィキメディア財団ウィキすべてを検索できます。",
+	"splash-login-required": "リソースを大量に必要とする長時間のクエリを実行する場合があるため、必ずログインが求められます。",
+	"splash-product-of-hackathon": "$1の成果",
 	"submit": "送信",
 	"view-source": "ソースを閲覧",
 	"wiki": "ウィキ"

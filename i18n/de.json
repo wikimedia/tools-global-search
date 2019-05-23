@@ -1,4 +1,9 @@
 {
+	"@metadata": {
+		"authors": [
+			"Mirzali"
+		]
+	},
 	"executed": "In {{PLURAL:$2|einer Sekunde|$1 Sekunden}} ausgeführt.",
 	"help-translate": "Hilf beim Übersetzen",
 	"login": "Anmelden",
@@ -6,8 +11,15 @@
 	"logout-msg": "Derzeit angemeldet als $1",
 	"namespaces": "Namensräume",
 	"page-title": "Seitenname",
+	"powered-by": "Betrieben von $1",
 	"report-issue": "Ein Problem melden",
+	"reset": "Zurücksetzen",
+	"splash-login-btn": "Melden Sie sich an, um die globale Suche zu verwenden",
+	"splash-login-desc": "Mit diesem Werkzeug können Sie mithilfe des Dienstes \"$1\" in allen Wikimedia Foundation-Wikis nach Stichwörtern und Quellen für reguläre Ausdrücke suchen.",
+	"splash-login-required": "Da dieses Werkzeug teure Abfragen mit langer Laufzeit ausführen kann, ist eine Anmeldung erforderlich.",
+	"splash-product-of-hackathon": "Ein Produkt der $1",
 	"submit": "Absenden",
+	"total-results": "{{PLURAL:$1|Gesamtergebnis|Gesamtergebnisse}}",
 	"view-source": "Quellcode ansehen",
 	"wiki": "Wiki"
 }

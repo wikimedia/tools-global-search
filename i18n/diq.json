@@ -1,10 +1,22 @@
 {
+	"@metadata": {
+		"authors": [
+			"Mirzali"
+		]
+	},
 	"help-translate": "Destegê tadayışi",
 	"login": "Cı kewe",
 	"logout": "Bıveciye",
+	"logout-msg": "Nıka zey $1 tede cıkewteyê",
 	"namespaces": "Heruna nameyan",
 	"page-title": "Sernamey perre",
+	"powered-by": "$1 vıraşto",
+	"query": "Persaye",
 	"report-issue": "Problemi rapor ke",
+	"reset": "Raçarne",
+	"splash-product-of-hackathon": "Yew berê $1",
+	"submit": "Bırışe",
+	"total-results": "{{PLURAL:$1|netice|neticeyi}} pêro",
 	"view-source": "Çımey bıvêne",
 	"wiki": "Wiki"
 }

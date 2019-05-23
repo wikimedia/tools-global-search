@@ -1,13 +1,41 @@
 {
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira",
+			"McDutchie"
+		]
+	},
+	"brought-to-you-by": "Trazido a você por $1 e $2",
+	"excerpt": "Excerto",
 	"executed": "Executado em $1 {{PLURAL:$2|segundo|segundos}}.",
+	"global-search": "Pesquisa global",
+	"global-search-desc": "Pesquise no wikitexto em todos as wikis da Fundação Wikimedia",
 	"help-translate": "Ajude a traduzir",
+	"important-notes": "Notas importantes:",
+	"important-notes-cached": "Os resultados são armazenados em cache por $1 {{PLURAL:$1|minuto|minutos}}.",
+	"important-notes-lag": "Resultados podem atrasar a produção, geralmente por volta $1 {{PLURAL:$1|minuto|minutos}}.",
+	"important-notes-specific": "Torne seus termos de pesquisa o mais específico possível. Quanto mais resultados eles retornarem, mais tempo você terá que esperar.",
 	"login": "Entrar",
 	"logout": "Sair",
 	"logout-msg": "Autenticado atualmente como $1",
 	"namespaces": "Espaços nominais",
+	"namespaces-desc": "Lista separada por vírgula de IDs de espaço nominal. Deixe em branco para todos os espaços nominais.",
 	"page-title": "Título da página",
+	"powered-by": "Alimentado por $1",
+	"query": "Consulta",
+	"regular-expression": "Expressão regular",
 	"report-issue": "Comunicar um problema",
+	"reset": "Redefinir",
+	"showing-n": "{{PLURAL:$2|Mostrando|Mostrando}} $1",
+	"slow": "Lenta",
+	"splash-hackathon-title": "Wikimedia Hackathon 2019",
+	"splash-login-btn": "Entrar para usar a Pesquisa Global",
+	"splash-login-desc": "Essa ferramenta permite que você faça pesquisas de expressões regulares de palavras-chave e fontes em todos as wikis da Fundação Wikimedia, usando o serviço de $1.",
+	"splash-login-required": "Como essa ferramenta pode realizar consultas caras de execução demorada, o login é necessário.",
+	"splash-product-of-hackathon": "Um produto do $1",
+	"splash-title": "Pesquisa Global da Wikimedia",
 	"submit": "Enviar",
+	"total-results": "Total de {{PLURAL:$1|resultado|resultados}}",
 	"view-source": "Ver código-fonte",
 	"wiki": "Wiki"
 }

@@ -1,11 +1,20 @@
 {
+	"@metadata": {
+		"authors": [
+			"Saederup92"
+		]
+	},
+	"brought-to-you-by": "Bragt til dig af $1 og $2",
 	"executed": "Udført på $1 {{PLURAL:$2|sekund|sekunder}}.",
+	"global-search": "Global søgning",
 	"help-translate": "Hjælp til med at oversætte",
 	"login": "Log ind",
 	"logout": "Log ud",
 	"logout-msg": "Logget ind som $1",
 	"namespaces": "Navnerum",
 	"page-title": "Sidetitel",
+	"powered-by": "Drevet af $1",
+	"regular-expression": "Regulært udtryk",
 	"report-issue": "Rapporter et problem",
 	"submit": "Udfør",
 	"view-source": "Vis kildekode",

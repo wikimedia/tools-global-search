@@ -1,10 +1,19 @@
 {
+	"@metadata": {
+		"authors": [
+			"Aefgh39622"
+		]
+	},
 	"executed": "ดำเนินการใน $1 วินาที",
 	"help-translate": "ช่วยแปลภาษา",
-	"login": "ลงชื่อเข้า",
+	"login": "เข้าสู่ระบบ",
 	"logout": "ออกจากระบบ",
+	"namespaces": "เนมสเปซ",
 	"page-title": "ชื่อหน้า",
+	"regular-expression": "นิพจน์ปกติ",
 	"report-issue": "รายงานผล",
+	"reset": "ตั้งค่าใหม่",
+	"slow": "ช้า",
 	"submit": "บันทึก",
 	"view-source": "ดูต้นฉบับ",
 	"wiki": "วิกิ"

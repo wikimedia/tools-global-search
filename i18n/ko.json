@@ -1,12 +1,33 @@
 {
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"brought-to-you-by": "$1 및 $2에 의해 가져옴",
 	"executed": "$1{{PLURAL:$2|초}} 전에 실행됨.",
+	"global-search": "전역 검색",
+	"global-search-desc": "모든 위키미디어 재단 위키의 위키텍스트를 검색합니다.",
 	"help-translate": "변역 돕기",
+	"important-notes": "중요 참고사항:",
+	"important-notes-lag": "운영 중에 결과가 지연될 수 있으며, 보통은 $1 {{PLURAL:$1|분}} 정도입니다.",
 	"login": "로그인",
 	"logout": "로그아웃",
 	"logout-msg": "현재 $1님으로 로그인됨",
 	"namespaces": "이름공간",
 	"page-title": "문서 제목",
+	"powered-by": "$1에 의해 제공",
+	"query": "쿼리",
+	"regular-expression": "정규 표현식",
 	"report-issue": "이슈 보고",
+	"reset": "초기화",
+	"showing-n": "$1개 {{PLURAL:$2|표시 중}}",
+	"slow": "천천히",
+	"splash-hackathon-title": "위키미디어 해커톤 2019",
+	"splash-login-btn": "전역 검색 사용을 위해 로그인",
+	"splash-login-required": "이 도구는 장시간 실행되는 쿼리를 수행할 수 있으므로 로그인은 필수입니다.",
+	"splash-product-of-hackathon": "$1의 제품",
+	"splash-title": "위키미디어 전역 검색",
 	"submit": "확인",
 	"view-source": "원본 보기",
 	"wiki": "위키"

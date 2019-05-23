@@ -1,4 +1,9 @@
 {
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
 	"executed": "執行時間 $1 {{PLURAL:$2|秒}}。",
 	"help-translate": "協助翻譯",
 	"login": "登入",
@@ -6,8 +11,13 @@
 	"logout-msg": "目前登入為 $1",
 	"namespaces": "命名空間",
 	"page-title": "頁面標題",
+	"query": "查詢",
+	"regular-expression": "正規表示法",
 	"report-issue": "問題回報",
+	"reset": "重設",
+	"splash-hackathon-title": "維基媒體基金會駭客馬拉松 2019",
 	"submit": "提交",
+	"total-results": "總{{PLURAL:$1|結果}}",
 	"view-source": "查看原始碼",
 	"wiki": "Wiki"
 }
