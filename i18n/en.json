@@ -30,7 +30,7 @@
 	"splash-product-of-hackathon": "A product of the $1",
 	"splash-title": "Wikimedia Global Search",
 	"submit": "Submit",
-	"total-results": "Total {{PLURAL:$1|result|results}}",
+	"total-results": "Total {{PLURAL:$1|results}}",
 	"view-source": "View source",
 	"wiki": "Wiki"
 }
