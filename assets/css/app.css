@@ -97,7 +97,7 @@ main::after {
 }
 
 .results {
-    overflow-x: scroll;
+    overflow-x: auto;
 }
 
 footer {
