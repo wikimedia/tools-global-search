@@ -101,7 +101,7 @@ class DefaultController extends AbstractController
     public function getResults(string $query, bool $regex, array $namespaceIds, CacheItemPoolInterface $cache): array
     {
         $this->cache = $cache;
-        $cacheItem = md5($query.'.'.$regex);
+        $cacheItem = md5($query.$regex.implode($namespaceIds));
 
         if ($this->cache->hasItem($cacheItem)) {
             return $this->cache->getItem($cacheItem)->get();
