@@ -1,0 +1,19 @@
+.rtl .logo {
+    height: 38px;
+    left: inherit;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+}
+
+.rtl .header-buttons {
+    position: absolute;
+    left: 7px;
+    right: inherit;
+    top: -2px;
+}
+
+.rtl .dropdown-menu-right {
+    left: 0;
+    right: auto;
+}

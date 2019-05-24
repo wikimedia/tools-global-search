@@ -29,6 +29,7 @@ Encore
         './assets/js/app.js',
         './node_modules/bootstrap/dist/css/bootstrap.css',
         './assets/css/app.css',
+        './assets/css/rtl.css',
     ])
 
     .copyFiles({

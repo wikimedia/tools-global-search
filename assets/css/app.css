@@ -39,10 +39,6 @@ header {
     width: 35vw;
 }
 
-.elastic-search-logo {
-
-}
-
 .tm {
     margin-top: 20px;
 }
@@ -98,6 +94,10 @@ main::after {
     content: '';
     display: block;
     height: 50px;
+}
+
+.results {
+    overflow-x: scroll;
 }
 
 footer {
