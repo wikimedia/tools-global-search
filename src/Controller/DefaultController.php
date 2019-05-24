@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Controller;
 
+use App\WikiDomainLookup;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Psr\Cache\CacheItemPoolInterface;
@@ -29,6 +30,9 @@ class DefaultController extends AbstractController
 
     /** @var string Duration of cache for main results set, as accepted by DateInterval::createFromDateString() */
     private const CACHE_TIME = '10 minutes';
+
+    /** @var string[]|null Map from wiki dbname to domain name */
+    private $domainLookup;
 
     /**
      * Splash page, shown when user is logged out.
@@ -190,10 +194,11 @@ class DefaultController extends AbstractController
         foreach ($hits as $hit) {
             $result = $hit['_source'];
             $title = ($result['namespace_text'] ? $result['namespace_text'].':' : '').$result['title'];
+            $domain = $this->getWikiDomainFromDbName($result['wiki']);
             $newData[] = [
-                'wiki' => rtrim($this->getWikiDomainFromDbName($result['wiki']), '.org'),
+                'wiki' => rtrim($domain, '.org'),
                 'title' => $title,
-                'url' => $this->getUrlForTitle($result['wiki'], $title),
+                'url' => $this->getUrlForTitle($domain, $title),
                 'source_text' => $this->highlightQuery($hit['highlight']['source_text.plain'][0]),
 //                'source_text' => $this->highlightQuery($result['source_text'], $query),
             ];
@@ -204,13 +209,13 @@ class DefaultController extends AbstractController
 
     /**
      * Get the URL to the page with the given title on the given wiki.
-     * @param string $wiki
+     * @param string $domain
      * @param string $title
      * @return string
      */
-    private function getUrlForTitle(string $wiki, string $title): string
+    private function getUrlForTitle(string $domain, string $title): string
     {
-        return 'https://'.$this->getWikiDomainFromDbName($wiki).'/wiki/'.$title;
+        return 'https://'.$domain.'/wiki/'.$title;
     }
 
     /**
@@ -220,21 +225,10 @@ class DefaultController extends AbstractController
      */
     private function getWikiDomainFromDbName(string $wiki): string
     {
-        $cacheKey = 'wiki.'.$wiki;
-        if ($this->cache->hasItem($cacheKey)) {
-            return $this->cache->getItem($cacheKey)->get();
+        if ($this->domainLookup === null) {
+            $this->domainLookup = (new WikiDomainLookup($this->client, $this->cache))->load();
         }
-
-        // $this->client should be set at this point.
-        $res = $this->client->request('GET', "https://xtools.wmflabs.org/api/project/normalize/$wiki");
-        $domain = json_decode($res->getBody()->getContents(), true)['domain'];
-
-        $cacheItem = $this->cache->getItem($cacheKey)
-            ->set($domain)
-            ->expiresAfter(new \DateInterval('P7D'));
-        $this->cache->save($cacheItem);
-
-        return $domain;
+        return $this->domainLookup[$wiki] ?? 'WIKINOTFOUND';
     }
 
     /**
