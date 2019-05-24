@@ -4,3 +4,4 @@ toolforge:
     oauth:
         consumer_key: '%env(OAUTH_KEY)%'
         consumer_secret: '%env(OAUTH_SECRET)%'
+        logged_in_user: '%env(LOGGED_IN_USER)%'

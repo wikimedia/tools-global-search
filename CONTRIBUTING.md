@@ -37,10 +37,23 @@ Install code and dependencies:
   * `ELASTIC_INSECURE` - Set to `true` on your local, since HTTPS otherwise won't work.
   * `CACHE_ADAPTER` - Use `apcu` for the best performance. If you don't have or are unable to install
     [APCu](https://www.php.net/manual/en/book.apcu.php) in your environment, you may simply use the `filesystem`.
+  * `OAUTH_KEY` / `OAUTH_SECRET` - See below for OAuth instructions.
+  * `LOGGED_IN_USER` - For development purposes; Set this to any value to simulate login and bypass OAuth.
 * `./bin/console server:run` to run the development server.
 
 While developing, you may need to clear the cache to get the latest results from your query.
 To do this, use `./bin/console cache:clear` (or `./bin/console c:c` for short).
+
+## OAuth
+
+The OAuth consumer can be created at https://meta.wikimedia.org/wiki/Special:OAuthConsumerRegistration/propose.
+Set the OAuth "callback" URL to `https://tools.wmflabs.org/global-search/oauth_callback`, and check the
+"Allow consumer to specify a callback" option.
+
+Similarly for a local environment you'd set the callback URL to `http://localhost:8000/oauth_callback`
+(or whatever port the app is running on). However unless you're testing the OAuth functionality itself,
+it is easier to set the `LOGGED_IN_USER` option in .env to any value. This will simulate login and you
+won't need to bother with creating an OAuth consumer. Note you still will need to click the 'Login' button.
 
 ## Generating assets
 
