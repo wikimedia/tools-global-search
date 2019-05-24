@@ -24,6 +24,9 @@ filter:
         - 'tests/*'
         - 'bin/*'
         - 'vendor/*'
+        - 'config/*'
+        - 'public/build/*'
+        - 'src/Kernel.php'
         - '*.min.js'
     dependency_paths:
         - 'vendor/*'
