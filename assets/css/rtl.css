@@ -17,3 +17,8 @@
     left: 0;
     right: auto;
 }
+
+.rtl .cloud-services-logo {
+    left: -45px;
+    right: inherit;
+}
