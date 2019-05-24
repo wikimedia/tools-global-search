@@ -1,0 +1,30 @@
+build:
+    environment:
+        php:
+            version: 7.2
+    project_setup:
+        before:
+            - composer self-update
+            - yarn encore production
+    dependencies:
+        before:
+            # Install the minimum in order to have dependency classes loaded for inspection.
+            - composer install --no-scripts
+    tests:
+        override:
+            -
+                # Make sure nothing's changed in Git, which would indicate asset changes were not committed.
+                command: git status | grep 'nothing to commit, working tree clean'
+            -
+                command: composer test
+
+filter:
+    excluded_paths:
+        - 'var/*'
+        - 'tests/*'
+        - 'bin/*'
+        - 'vendor/*'
+        - '*.min.js'
+    dependency_paths:
+        - 'vendor/*'
+
