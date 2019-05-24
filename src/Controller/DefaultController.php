@@ -111,7 +111,7 @@ class DefaultController extends AbstractController
             ? $this->getParamsForRegexQuery($query)
             : $this->getParamsForPlainQuery($query);
 
-        if ($namespaceIds) {
+        if (!empty($namespaceIds)) {
             $params['query']['bool']['filter'][] = [ 'terms' => [
                 'namespace' => $namespaceIds,
             ] ];
@@ -122,7 +122,7 @@ class DefaultController extends AbstractController
             'query' => $query,
             'regex' => $regex,
             'total' => $res['hits']['total'],
-            'hits' => $this->formatHits($res, $query),
+            'hits' => $this->formatHits($res),
         ];
 
         $cacheItem = $this->cache->getItem($cacheItem)
