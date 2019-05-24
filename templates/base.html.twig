@@ -40,11 +40,17 @@
                     </div>
                 {% endif %}
 
-                {% set login_text = logged_in_user() ? 'logout' : 'login' %}
-                <a class="btn btn-default login-btn" href="{{ path('toolforge_' ~ login_text) }}">
-                    <span class="glyphicon glyphicon-user"></span>
-                    {{ msg(login_text) }}
-                </a>
+                {% if logged_in_user() %}
+                    <a class="btn btn-default login-btn" href="{{ path('toolforge_logout') }}">
+                        <span class="glyphicon glyphicon-user"></span>
+                        {{ msg('logout') }}
+                    </a>
+                {% else %}
+                    <a class="btn btn-default login-btn" href="{{ path('toolforge_login', {'callback': url('toolforge_oauth_callback', {'redirect': app.request.uri})}) }}">
+                        <span class="glyphicon glyphicon-user"></span>
+                        {{ msg('login') }}
+                    </a>
+                {% endif %}
             </span>
         </header>
         <main class="container-fluid">
