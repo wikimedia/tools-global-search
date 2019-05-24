@@ -40,10 +40,10 @@
                     </div>
                 {% endif %}
 
-                {% set loginText = logged_in_user() ? 'logout' : 'login' %}
-                <a class="btn btn-default login-btn" href="{{ path('toolforge_' ~ loginText) }}">
+                {% set login_text = logged_in_user() ? 'logout' : 'login' %}
+                <a class="btn btn-default login-btn" href="{{ path('toolforge_' ~ login_text) }}">
                     <span class="glyphicon glyphicon-user"></span>
-                    {{ msg(loginText) }}
+                    {{ msg(login_text) }}
                 </a>
             </span>
         </header>
@@ -79,18 +79,18 @@
             <div class="results">{% block body %}{% endblock %}</div>
         </main>
         <footer class="text-center">
-            {% set musikanimalLink %}
+            {% set musikanimal_link %}
                 <a target="_blank" href="https://en.wikipedia.org/wiki/User:MusikAnimal">MusikAnimal</a>
             {% endset %}
-            {% set ebernhardsonLink %}
+            {% set ebernhardson_link %}
                 <a target="_blank" href="https://www.mediawiki.org/wiki/User:EBernhardson_(WMF)">EBernhardson</a>
             {% endset %}
-            {{ msg('brought-to-you-by', [musikanimalLink, ebernhardsonLink]) }}
+            {{ msg('brought-to-you-by', [musikanimal_link, ebernhardson_link]) }}
             &middot;
-            {% set cloudElasticLink %}
+            {% set cloud_elastic_link %}
                 <a target="_blank" href="https://wikitech.wikimedia.org/wiki/CloudElastic">CloudElastic</a>
             {% endset %}
-            {{ msg('powered-by', [cloudElasticLink]) }}
+            {{ msg('powered-by', [cloud_elastic_link]) }}
             &middot;
             <a target="_blank" href="https://github.com/MusikAnimal/global-search">{{ msg('view-source') }}</a>
             &middot;

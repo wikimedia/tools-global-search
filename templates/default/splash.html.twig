@@ -4,15 +4,15 @@
 {% block body %}
     <div class="jumbotron">
         <h1>Wikimedia Global Search</h1>
-        {% set hackathonLink %}
+        {% set hackathon_link %}
             <a target="_blank" href="https://www.mediawiki.org/wiki/Wikimedia_Hackathon_2019">{{ msg('splash-hackathon-title') }}</a>
         {% endset %}
-        <em>{{ msg('splash-product-of-hackathon', [hackathonLink]) }}</em>
+        <em>{{ msg('splash-product-of-hackathon', [hackathon_link]) }}</em>
         <p class="tm">
-            {% set cloudElasticLink %}
+            {% set cloud_elastic_link %}
                 <a target="_blank" href="https://wikitech.wikimedia.org/wiki/CloudElastic">CloudElastic</a>
             {% endset %}
-            {{ msg('splash-login-desc', [cloudElasticLink]) }}
+            {{ msg('splash-login-desc', [cloud_elastic_link]) }}
         </p>
         <p>{{ msg('splash-login-required') }}</p>
         <p>

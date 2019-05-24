@@ -8,6 +8,7 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "ext-json": "*",
+        "allocine/twigcs": "^3.1",
         "eightpoints/guzzle-bundle": "^7.5",
         "sensio/framework-extra-bundle": "^5.3",
         "symfony/cache": "4.2.*",
@@ -22,6 +23,7 @@
         "wikimedia/toolforge-bundle": "^0.14.2"
     },
     "require-dev": {
+        "mediawiki/minus-x": "^0.3.2",
         "slevomat/coding-standard": "^5.0",
         "symfony/profiler-pack": "^1.0",
         "symfony/var-dumper": "4.2.*",
@@ -64,7 +66,11 @@
         ],
         "test": [
             "composer validate",
-            "./vendor/bin/phpcs -s ."
+            "./bin/console lint:twig ./templates",
+            "./bin/console lint:yaml config",
+            "./vendor/bin/phpcs -s .",
+            "./vendor/bin/twigcs templates/",
+            "./vendor/bin/minus-x check ."
         ]
     },
     "conflict": {

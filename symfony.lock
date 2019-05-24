@@ -1,4 +1,7 @@
 {
+    "allocine/twigcs": {
+        "version": "v3.1.3"
+    },
     "doctrine/annotations": {
         "version": "1.0",
         "recipe": {
@@ -53,11 +56,17 @@
     "krinkle/intuition": {
         "version": "v1.2.0"
     },
+    "mediawiki/minus-x": {
+        "version": "0.3.2"
+    },
     "mediawiki/oauthclient": {
         "version": "1.0.2"
     },
     "phpstan/phpdoc-parser": {
         "version": "0.3.3"
+    },
+    "pimple/pimple": {
+        "version": "v3.2.3"
     },
     "psr/cache": {
         "version": "1.0.1"
