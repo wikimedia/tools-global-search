@@ -112,7 +112,7 @@ class DefaultController extends AbstractController
         bool $purgeCache = false
     ): array {
         $this->cache = $cache;
-        $cacheItem = md5($query.$regex.implode($namespaceIds));
+        $cacheItem = md5($query.$regex.implode('|', $namespaceIds));
 
         if (!$purgeCache && $this->cache->hasItem($cacheItem)) {
             $this->fromCache = true;
