@@ -17,6 +17,7 @@
 	"namespaces-desc": "Description for the namespaces input field.",
 	"page-title": "Label for the title of a page.\n{{Identical|Page title}}",
 	"powered-by": "Message saying that the tool is powered by CloudElastic. $1 is a link to the CloudElastic homepage.",
+	"purge-cache": "Text for link to purge the cache.",
 	"query": "Label for input to enter the search query.\n{{Identical|Query}}",
 	"regular-expression": "Label for the regular expression checkbox. See https://www.wikidata.org/wiki/Q185612 for possible translations.",
 	"report-issue": "Link to report an issue or bug.",

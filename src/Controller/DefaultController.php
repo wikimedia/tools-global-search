@@ -20,6 +20,9 @@ class DefaultController extends AbstractController
     /** @var CacheItemPoolInterface */
     private $cache;
 
+    /** @var bool Whether the results were pulled from cache. */
+    private $fromCache = false;
+
     private const PRE_TAG = '%**%';
     private const POST_TAG = '*%%*';
     private const MAX_RESULTS = 5000;
@@ -51,6 +54,7 @@ class DefaultController extends AbstractController
         $query = $request->query->get('q');
         $regex = (bool)$request->query->get('regex');
         [$namespaces, $namespaceIds] = $this->parseNamespaces($request);
+        $purgeCache = (bool)$request->query->get('purge');
         $ret = [
             'q' => $query,
             'regex' => $regex,
@@ -59,7 +63,8 @@ class DefaultController extends AbstractController
         ];
 
         if ($query) {
-            $ret = array_merge($ret, $this->getResults($query, $regex, $namespaceIds, $cache));
+            $ret = array_merge($ret, $this->getResults($query, $regex, $namespaceIds, $cache, $purgeCache));
+            $ret['from_cache'] = $this->fromCache;
             return $this->render('default/result.html.twig', $ret);
         }
 
@@ -96,14 +101,21 @@ class DefaultController extends AbstractController
      * @param bool $regex
      * @param int[] $namespaceIds
      * @param CacheItemPoolInterface $cache
+     * @param bool $purgeCache
      * @return mixed[]
      */
-    public function getResults(string $query, bool $regex, array $namespaceIds, CacheItemPoolInterface $cache): array
-    {
+    public function getResults(
+        string $query,
+        bool $regex,
+        array $namespaceIds,
+        CacheItemPoolInterface $cache,
+        bool $purgeCache = false
+    ): array {
         $this->cache = $cache;
         $cacheItem = md5($query.$regex.implode($namespaceIds));
 
-        if ($this->cache->hasItem($cacheItem)) {
+        if (!$purgeCache && $this->cache->hasItem($cacheItem)) {
+            $this->fromCache = true;
             return $this->cache->getItem($cacheItem)->get();
         }
 

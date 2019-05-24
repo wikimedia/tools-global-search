@@ -16,6 +16,7 @@
 	"namespaces-desc": "Comma-separated list of namespace IDs. Leave blank for all namespaces.",
 	"page-title": "Page title",
 	"powered-by": "Powered by $1",
+	"purge-cache": "Purge cache",
 	"query": "Query",
 	"regular-expression": "Regular expression",
 	"report-issue": "Report an issue",

@@ -10,6 +10,9 @@
     </p>
     <p>
         {{ msg('executed', [request_time()|num_format(3), request_time()]) }}
+        {% if from_cache %}
+            <em>(<a href="{{ app.request.uri }}&purge=1">{{ msg('purge-cache')|lower }}</a>)</em>
+        {% endif %}
     </p>
 
     <table class="table table-striped">
