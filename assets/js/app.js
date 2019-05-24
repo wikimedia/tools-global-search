@@ -11,5 +11,10 @@ $(() => {
         $('input').val('').prop('checked', false);
         $('#searchQuery').focus();
         $(e.target).remove();
+        history.pushState({}, document.title, window.location.pathname);
     });
+
+    if (!$('#searchQuery').val()) {
+        $('#searchQuery').focus();
+    }
 });
