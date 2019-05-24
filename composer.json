@@ -1,5 +1,5 @@
 {
-    "name": "MusikAnimal/global-search",
+    "name": "musikanimal/global-search",
     "description": "A tool to do keyword and source regex searches across all Wikimedia Foundation wikis.",
     "type": "project",
     "license": "MIT",
@@ -61,6 +61,10 @@
         ],
         "post-update-cmd": [
             "@auto-scripts"
+        ],
+        "test": [
+            "composer validate",
+            "./vendor/bin/phpcs -s ."
         ]
     },
     "conflict": {

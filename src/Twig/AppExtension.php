@@ -27,7 +27,7 @@ class AppExtension extends AbstractExtension
 
     /**
      * Custom functions made available to Twig.
-     * @return array
+     * @return TwigFunction[]
      */
     public function getFunctions(): array
     {

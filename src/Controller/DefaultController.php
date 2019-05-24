@@ -31,7 +31,7 @@ class DefaultController extends AbstractController
      * Splash page, shown when user is logged out.
      * @Route("/splash")
      */
-    public function splashAction()
+    public function splashAction(): Response
     {
         return $this->render('default/splash.html.twig');
     }
@@ -69,7 +69,7 @@ class DefaultController extends AbstractController
     /**
      * Parse the namespaces parameter of the query string.
      * @param Request $request
-     * @return array [normalized comma-separated list as a string, array of ids as ints]
+     * @return mixed[] [normalized comma-separated list as a string, array of ids as ints]
      */
     private function parseNamespaces(Request $request): array
     {
@@ -96,7 +96,7 @@ class DefaultController extends AbstractController
      * @param bool $regex
      * @param int[] $namespaceIds
      * @param CacheItemPoolInterface $cache
-     * @return array
+     * @return mixed[]
      */
     public function getResults(string $query, bool $regex, array $namespaceIds, CacheItemPoolInterface $cache): array
     {
@@ -132,10 +132,15 @@ class DefaultController extends AbstractController
         return $data;
     }
 
-    private function makeRequest($params)
+    /**
+     * Query the CloudElastic service with the given params.
+     * @param mixed[] $params
+     * @return mixed[]
+     */
+    private function makeRequest(array $params): array
     {
         $this->client = new Client([
-            'verify' => $_ENV['ELASTIC_INSECURE'] ? false : true
+            'verify' => $_ENV['ELASTIC_INSECURE'] ? false : true,
         ]);
 
         // FIXME: Eventually will be able to remove _prefer_nodes
@@ -162,8 +167,8 @@ class DefaultController extends AbstractController
 
     /**
      * Build the data structure for each hit, giving the view what it needs.
-     * @param array $data
-     * @return array
+     * @param mixed[] $data
+     * @return mixed[]
      */
     private function formatHits(array $data): array
     {
@@ -237,7 +242,7 @@ class DefaultController extends AbstractController
     /**
      * Params to be passed to Cloud Elastic for a plain (normal) query.
      * @param string $query
-     * @return array
+     * @return mixed[]
      */
     private function getParamsForPlainQuery(string $query): array
     {
@@ -252,7 +257,7 @@ class DefaultController extends AbstractController
                             'source_text.plain' => $query,
                         ] ],
                     ],
-                ]
+                ],
             ],
             'stats' => ['global-search'],
             'highlight' => [
@@ -261,12 +266,12 @@ class DefaultController extends AbstractController
                 'fields' => [
                     'source_text.plain' => [
                         'type' => 'experimental',
-                    ]
+                    ],
                 ],
                 'highlight_query' => [
                     'match' => [
                         'source_text.plain' => $query,
-                    ]
+                    ],
                 ],
             ],
         ];
@@ -275,7 +280,7 @@ class DefaultController extends AbstractController
     /**
      * Params to be passed to Cloud Elastic for a regular expression query.
      * @param string $query
-     * @return array
+     * @return mixed[]
      */
     private function getParamsForRegexQuery(string $query): array
     {
@@ -296,7 +301,7 @@ class DefaultController extends AbstractController
                             'locale' => 'en',
                         ] ],
                     ],
-                ]
+                ],
             ],
             'stats' => ['global-search'],
             'highlight' => [
