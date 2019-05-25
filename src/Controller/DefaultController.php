@@ -199,8 +199,9 @@ class DefaultController extends AbstractController
                 'wiki' => rtrim($domain, '.org'),
                 'title' => $title,
                 'url' => $this->getUrlForTitle($domain, $title),
-                'source_text' => $this->highlightQuery($hit['highlight']['source_text.plain'][0]),
-//                'source_text' => $this->highlightQuery($result['source_text'], $query),
+                'source_text' => $this->highlightQuery(
+                    $hit['highlight']['source_text.plain'][0] ?? ''
+                ),
             ];
         }
 
