@@ -1,4 +1,6 @@
 {
+	"back": "返回",
+	"error-server-message": "服务器报告：$1",
 	"executed": "执行耗时$1{{PLURAL:$2|秒}}。",
 	"help-translate": "帮助翻译",
 	"login": "登录",

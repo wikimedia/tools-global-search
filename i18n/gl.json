@@ -1,4 +1,6 @@
 {
+	"back": "Volver",
+	"error-server-message": "O servidor respondeu: $1",
 	"executed": "Executado en $1 {{PLURAL:$2|segundo|segundos}}.",
 	"help-translate": "Axudar coas traducións",
 	"login": "Acceder ao sistema",

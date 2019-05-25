@@ -4,7 +4,9 @@
 			"Ykhwong"
 		]
 	},
+	"back": "뒤로",
 	"brought-to-you-by": "$1 및 $2에 의해 가져옴",
+	"error-server-message": "서버 응답: $1",
 	"executed": "$1{{PLURAL:$2|초}} 전에 실행됨.",
 	"global-search": "전역 검색",
 	"global-search-desc": "모든 위키미디어 재단 위키의 위키텍스트를 검색합니다.",

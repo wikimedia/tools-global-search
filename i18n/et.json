@@ -1,4 +1,5 @@
 {
+	"back": "Tagasi",
 	"executed": "Täidetud $1 {{PLURAL:$2|sekundiga}}.",
 	"help-translate": "Aita tõlkida",
 	"login": "Logi sisse",

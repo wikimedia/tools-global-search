@@ -1,4 +1,6 @@
 {
+	"back": "Zréck",
+	"error-server-message": "Äntwert vum Server: $1",
 	"executed": "A(n) $1 {{PLURAL:$2|Sekonn|Sekonnen}} ausgeféiert.",
 	"help-translate": "Hëlleft iwwersetzen",
 	"login": "Aloggen",

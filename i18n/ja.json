@@ -5,6 +5,7 @@
 			"Omotecho"
 		]
 	},
+	"back": "戻る",
 	"excerpt": "抜粋",
 	"executed": "実行時間 $1 {{PLURAL:$2|秒}}。",
 	"global-search": "グローバル検索",

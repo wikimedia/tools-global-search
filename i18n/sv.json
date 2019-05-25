@@ -1,4 +1,6 @@
 {
+	"back": "Tillbaka",
+	"error-server-message": "Server sade: $1",
 	"executed": "Utfört på $1 {{PLURAL:$2|sekund|sekunder}}.",
 	"help-translate": "Hjälp till att översätta",
 	"login": "Logga in",

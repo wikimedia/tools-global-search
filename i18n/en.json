@@ -1,5 +1,8 @@
 {
+	"back": "Back",
 	"brought-to-you-by": "Brought to you by $1 and $2",
+	"error-report": "You can report this bug on $1.",
+	"error-server-message": "The server said: $1",
 	"excerpt": "Excerpt",
 	"executed": "Executed in $1 {{PLURAL:$2|second|seconds}}.",
 	"global-search": "Global Search",

@@ -1,4 +1,6 @@
 {
+	"back": "Grįžti",
+	"error-server-message": "Serveris sako: $1",
 	"executed": "Įkelta per $1 {{PLURAL:$2|sekundę|sekundes|sekundžių}}.",
 	"help-translate": "Padėti išversti",
 	"login": "Prisijungti",

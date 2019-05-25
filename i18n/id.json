@@ -1,4 +1,6 @@
 {
+	"back": "Kembali",
+	"error-server-message": "Peladen mengatakan: $1",
 	"executed": "Dieksekusi dalam $1 {{PLURAL:$2|detik|detik}}.",
 	"help-translate": "Bantu terjemahkan",
 	"login": "Masuk log",

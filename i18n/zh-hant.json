@@ -4,6 +4,8 @@
 			"Kly"
 		]
 	},
+	"back": "返回",
+	"error-server-message": "伺服器報告：$1",
 	"executed": "執行時間 $1 {{PLURAL:$2|秒}}。",
 	"help-translate": "協助翻譯",
 	"login": "登入",

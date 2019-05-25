@@ -4,6 +4,8 @@
 			"Mirzali"
 		]
 	},
+	"back": "Geri",
+	"error-server-message": "Sunucu dedi ki: $1",
 	"executed": "$1 {{PLURAL:$2|saniye|saniye}} içinde yürütüldü.",
 	"help-translate": "Çeviriye yardım edin",
 	"login": "Oturum aç",

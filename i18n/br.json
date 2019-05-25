@@ -1,4 +1,6 @@
 {
+	"back": "Distreiñ",
+	"error-server-message": "Ar servijer en deus respontet : $1",
 	"executed": "Sevenet e $1\n{{PLURAL:$2|eilenn|eilenn}}.",
 	"help-translate": "Sikour da dreiñ",
 	"login": "Kevreañ",

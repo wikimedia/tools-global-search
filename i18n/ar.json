@@ -4,7 +4,9 @@
 			"ديفيد"
 		]
 	},
+	"back": "ارجع",
 	"brought-to-you-by": "موجهة إليكم من $1 من $2",
+	"error-server-message": "قال الخادم: $1",
 	"excerpt": "اقتباس",
 	"executed": "استغرق التنفيذ $1 {{PLURAL:$2|ثانية|ثوانٍ}}.",
 	"global-search": "البحث العالمي",

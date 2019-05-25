@@ -1,4 +1,6 @@
 {
+	"back": "vissza",
+	"error-server-message": "A szerver mondja: $1",
 	"executed": "Végrehajtva $1 {{PLURAL:$2|másodperc}} alatt.",
 	"help-translate": "Segíts fordítani",
 	"login": "Bejelentkezés",

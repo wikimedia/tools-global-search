@@ -1,4 +1,6 @@
 {
+	"back": "بازگشت",
+	"error-server-message": "پاسخ سرور: $1",
 	"executed": "استخراج در $1 {{PLURAL:$2|ثانیه|ثانیه}}.",
 	"help-translate": "برای ترجمه کمک کنید",
 	"login": "ورود به سامانه",

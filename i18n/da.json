@@ -4,7 +4,9 @@
 			"Saederup92"
 		]
 	},
+	"back": "Tilbage",
 	"brought-to-you-by": "Bragt til dig af $1 og $2",
+	"error-server-message": "Serveren sagde: $1",
 	"executed": "Udført på $1 {{PLURAL:$2|sekund|sekunder}}.",
 	"global-search": "Global søgning",
 	"help-translate": "Hjælp til med at oversætte",

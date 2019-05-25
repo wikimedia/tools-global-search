@@ -1,4 +1,6 @@
 {
+	"back": "Anterior",
+	"error-server-message": "El sirvidor dixo: $1",
 	"executed": "Executao en $1 {{PLURAL:$2|segundu|segundos}}.",
 	"help-translate": "Ayudar a traducir",
 	"login": "Identificase",

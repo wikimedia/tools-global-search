@@ -1,4 +1,6 @@
 {
+	"back": "Nazaj",
+	"error-server-message": "Strežnik je sporočil: $1",
 	"executed": "Izvedeno v $1 {{PLURAL:$2|sekundi|sekundah}}.",
 	"help-translate": "Pomoč pri prevajanju",
 	"login": "Prijava",

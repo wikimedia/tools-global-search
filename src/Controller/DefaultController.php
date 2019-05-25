@@ -40,7 +40,7 @@ class DefaultController extends AbstractController
      */
     public function splashAction(): Response
     {
-        return $this->render('default/splash.html.twig');
+        return $this->render('jumbotron.html.twig');
     }
 
     /**
@@ -53,7 +53,7 @@ class DefaultController extends AbstractController
     public function indexAction(Request $request, CacheItemPoolInterface $cache): Response
     {
         if (!$this->get('session')->get('logged_in_user')) {
-            return $this->render('default/splash.html.twig');
+            return $this->render('jumbotron.html.twig');
         }
         $query = $request->query->get('q');
         $regex = (bool)$request->query->get('regex');

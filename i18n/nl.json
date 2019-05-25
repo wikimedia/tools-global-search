@@ -1,4 +1,6 @@
 {
+	"back": "Terug",
+	"error-server-message": "De server zei: $1",
 	"executed": "Uitgevoerd in $1 {{PLURAL:$2|seconde|seconden}}.",
 	"help-translate": "Helpen met vertalen",
 	"login": "Aanmelden",

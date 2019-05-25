@@ -1,0 +1,23 @@
+{% extends 'jumbotron.html.twig' %}
+
+{% block jumbo_title %}
+    <h1 class="error-title">
+        {{ status_code }}: {{ status_text }}
+    </h1>
+{% endblock %}
+{% block jumbo_body %}
+    {% if status_code != 404 %}
+        <p>
+            {% set phab_link %}
+                <a target="_blank" href="https://phabricator.wikimedia.org/maniphest/task/edit/form/1/?projects=tool-global-search&description=URL: {{ app.request.uri }}">Phabricator</a>{#
+            #}{% endset %}
+            {{ msg('error-report', [phab_link]) }}
+        </p>
+    {% endif %}
+    <p>
+        {{ msg('error-server-message', ['<code>' ~ exception.message ~ '</code>']) }}
+    </p>
+    <p class="tm">
+        <a class="btn btn-primary tm" href="{{ path('home') }}"><span class="glyphicon glyphicon-chevron-left"></span> {{ msg('back') }}</a>
+    </p>
+{% endblock %}

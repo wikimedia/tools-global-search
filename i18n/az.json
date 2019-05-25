@@ -1,4 +1,6 @@
 {
+	"back": "Əvvəlki",
+	"error-server-message": "Server deyib: $1",
 	"executed": "$1 {{PLURAL:$2|saniyə|saniyələr}} ilə icra edilib.",
 	"help-translate": "Tərcüməyə kömək edin",
 	"login": "Daxil ol",

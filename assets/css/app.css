@@ -116,3 +116,7 @@ footer {
 .no-bold {
     font-weight: normal;
 }
+
+.error-title {
+    color: #a94442 !important;
+}

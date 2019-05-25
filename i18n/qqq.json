@@ -1,6 +1,9 @@
 {
 	"@metadata": [],
+	"back": "Link that brings user back to the initial form.\n{{Identical|Back}}",
 	"brought-to-you-by": "Message listing the authors of the tool. $1 and $2 are links to the author's userpages.",
+	"error-report": "Message saying how to report a bug. Shown on the error page. $1 is a link to Phabricator.",
+	"error-server-message": "Error message. $1 is the message given by the server.",
 	"excerpt": "Heading for column showing an excerpt of the wikiext of the page that includes the search term.",
 	"executed": "Execution time. $1 is the formatted number of seconds, and $2 is the unformatted number for use with PLURAL.",
 	"global-search": "Title of the application.",

@@ -1,4 +1,6 @@
 {
+	"back": "Atzera",
+	"error-server-message": "Zerbitzariak esan du: $1",
 	"executed": "Igarotako denbora: {{PLURAL:$2|segundo $1|$2 segundo}}",
 	"help-translate": "Lagundu euskaratzen",
 	"login": "Saioa hasi",

@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{% block form %}{% endblock %}
+{% block body %}
+    <div class="jumbotron">
+        {% block jumbo_title %}
+            <h1>Wikimedia Global Search</h1>
+        {% endblock %}
+        {% block jumbo_body %}
+            {% set hackathon_link %}
+                <a target="_blank" href="https://www.mediawiki.org/wiki/Wikimedia_Hackathon_2019">{{ msg('splash-hackathon-title') }}</a>
+            {% endset %}
+            <em>{{ msg('splash-product-of-hackathon', [hackathon_link]) }}</em>
+            <p class="tm">
+                {% set cloud_elastic_link %}
+                    <a target="_blank" href="https://wikitech.wikimedia.org/wiki/CloudElastic">CloudElastic</a>
+                {% endset %}
+                {{ msg('splash-login-desc', [cloud_elastic_link]) }}
+            </p>
+            <p>{{ msg('splash-login-required') }}</p>
+            <p>
+                <a class="btn btn-primary btn-lg tm" href="{{ path('toolforge_login', {'callback': url('toolforge_oauth_callback', {'redirect': app.request.uri})}) }}" role="button">{{ msg('splash-login-btn') }}</a>
+            </p>
+        {% endblock %}
+        <img class="cloud-services-logo" src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Wikimedia_Cloud_Services_logo.svg" />
+    </div>
+{% endblock %}

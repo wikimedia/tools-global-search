@@ -1,4 +1,5 @@
 {
+	"back": "Takaisin",
 	"executed": "Suoritettu $1 {{PLURAL:$2|sekunnissa}}.",
 	"help-translate": "Auta kääntämisessä",
 	"login": "Kirjaudu sisään",

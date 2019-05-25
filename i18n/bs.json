@@ -1,4 +1,5 @@
 {
+	"back": "Nazad",
 	"executed": "Izvršeno za $1 {{PLURAL:$2|sekundu|sekunde|sekundi}}.",
 	"help-translate": "Pomozite s prijevodima",
 	"login": "Prijavi me",

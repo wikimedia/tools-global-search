@@ -4,6 +4,8 @@
 			"Mirzali"
 		]
 	},
+	"back": "Zurück",
+	"error-server-message": "Der Server sagte: $1",
 	"executed": "In {{PLURAL:$2|einer Sekunde|$1 Sekunden}} ausgeführt.",
 	"help-translate": "Hilf beim Übersetzen",
 	"login": "Anmelden",
