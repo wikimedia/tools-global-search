@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace App;
 
 use GuzzleHttp\Client as GuzzleClient;
-use Psr\Cache\CacheItemInterface;
 use Psr\Cache\CacheItemPoolInterface;
 
 class WikiDomainLookup
@@ -27,11 +26,15 @@ class WikiDomainLookup
         $this->cache = $cache;
     }
 
+    /**
+     * Load the site matrix, either from cache or using the sitematrix API.
+     * @return string[]
+     */
     public function load(): array
     {
         $cacheItem = $this->cache->getItem(self::CACHE_KEY);
-        $lookup = null; //$cacheItem->get();
-        if ($lookup === null) {
+        $lookup = $cacheItem->get();
+        if (null === $lookup) {
             $lookup = $this->loadUncached();
             $cacheItem->set($lookup)
                 ->expiresAfter(\DateInterval::createFromDateString(self::CACHE_TIME));
@@ -40,6 +43,10 @@ class WikiDomainLookup
         return $lookup;
     }
 
+    /**
+     * Fetch the site matrix from the API.
+     * @return string[]
+     */
     public function loadUncached(): array
     {
         $res = $this->guzzle->request('GET', 'https://meta.wikimedia.org/w/api.php', [
@@ -49,15 +56,15 @@ class WikiDomainLookup
                 'action' => 'sitematrix',
                 'smlangprop' => 'site',
                 'smsiteprop' => 'url|dbname',
-            ]
+            ],
         ]);
         $decoded = json_decode($res->getBody()->getContents(), true)['sitematrix'];
         $lookup = [];
         foreach ($decoded as $k => $v) {
-            if ($k === 'count') {
+            if ('count' === $k) {
                 continue;
             }
-            $sites = $k === 'specials' ? $v : $v['site'];
+            $sites = 'specials' === $k ? $v : $v['site'];
             foreach ($sites as $site) {
                 $lookup[$site['dbname']] = parse_url($site['url'], PHP_URL_HOST);
             }

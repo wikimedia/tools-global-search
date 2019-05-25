@@ -225,7 +225,7 @@ class DefaultController extends AbstractController
      */
     private function getWikiDomainFromDbName(string $wiki): string
     {
-        if ($this->domainLookup === null) {
+        if (null === $this->domainLookup) {
             $this->domainLookup = (new WikiDomainLookup($this->client, $this->cache))->load();
         }
         return $this->domainLookup[$wiki] ?? 'WIKINOTFOUND';
