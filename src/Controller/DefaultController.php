@@ -59,6 +59,7 @@ class DefaultController extends AbstractController
         $regex = (bool)$request->query->get('regex');
         [$namespaces, $namespaceIds] = $this->parseNamespaces($request);
         $purgeCache = (bool)$request->query->get('purge');
+
         $ret = [
             'q' => $query,
             'regex' => $regex,
@@ -123,6 +124,19 @@ class DefaultController extends AbstractController
             return $this->cache->getItem($cacheItem)->get();
         }
 
+        // Setup data structure to be passed to the view. We only set the query and regex here because they
+        // are silently changed if the query is wrapped in double-quotes (see below).
+        $data = [
+            'query' => $query,
+            'regex' => $regex,
+        ];
+
+        // Silently use regex to do exact match if query is wrapped in double-quotes.
+        if ('"' === substr($query, 0, 1) && '"' === substr($query, -1, 1)) {
+            $regex = true;
+            $query = preg_quote(substr($query, 1, -1));
+        }
+
         $params = $regex
             ? $this->getParamsForRegexQuery($query)
             : $this->getParamsForPlainQuery($query);
@@ -134,12 +148,8 @@ class DefaultController extends AbstractController
         }
 
         $res = $this->makeRequest($params);
-        $data = [
-            'query' => $query,
-            'regex' => $regex,
-            'total' => $res['hits']['total'],
-            'hits' => $this->formatHits($res),
-        ];
+        $data['total'] = $res['hits']['total'];
+        $data['hits'] = $this->formatHits($res);
 
         $cacheItem = $this->cache->getItem($cacheItem)
             ->set($data)
