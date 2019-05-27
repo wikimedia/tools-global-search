@@ -1,4 +1,5 @@
 {
+	"@metadata": [],
 	"back": "Zpět",
 	"error-server-message": "Odpověď serveru: $1",
 	"executed": "Provedeno za $1 {{PLURAL:$2|sekundu|sekundy|sekund}}.",

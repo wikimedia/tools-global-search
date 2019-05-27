@@ -1,4 +1,9 @@
 {
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
 	"back": "Zréck",
 	"error-server-message": "Äntwert vum Server: $1",
 	"executed": "A(n) $1 {{PLURAL:$2|Sekonn|Sekonnen}} ausgeféiert.",
@@ -8,7 +13,10 @@
 	"logout-msg": "Aktuell als $1 ageloggt",
 	"namespaces": "Nummraim",
 	"page-title": "Titel vun der Säit",
+	"purge-cache": "Tëschespäicher (Cache) eidelmaachen",
 	"report-issue": "E Problem mellen",
+	"reset": "Zrécksetzen",
+	"slow": "Lues",
 	"submit": "Späicheren",
 	"view-source": "Quellcode weisen",
 	"wiki": "Wiki"

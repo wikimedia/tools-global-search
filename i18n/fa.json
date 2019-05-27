@@ -1,4 +1,5 @@
 {
+	"@metadata": [],
 	"back": "بازگشت",
 	"error-server-message": "پاسخ سرور: $1",
 	"executed": "استخراج در $1 {{PLURAL:$2|ثانیه|ثانیه}}.",

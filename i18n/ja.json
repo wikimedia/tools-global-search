@@ -18,6 +18,7 @@
 	"namespaces-desc": "名前空間IDのカンマ区切りの一覧。名前空間欄はすべて空欄にします。",
 	"page-title": "ページ名",
 	"powered-by": "$1提供",
+	"purge-cache": "キャッシュ削除",
 	"query": "クエリ",
 	"regular-expression": "正規表現",
 	"report-issue": "問題の報告",

@@ -24,6 +24,7 @@
 	"namespaces-desc": "Lista separada por vírgula de IDs de espaço nominal. Deixe em branco para todos os espaços nominais.",
 	"page-title": "Título da página",
 	"powered-by": "Alimentado por $1",
+	"purge-cache": "Limpar cache",
 	"query": "Consulta",
 	"regular-expression": "Expressão regular",
 	"report-issue": "Comunicar um problema",

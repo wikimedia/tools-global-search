@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Wladek92"
 		]
 	},
 	"back": "Retour",
@@ -15,14 +16,15 @@
 	"important-notes": "Notes importantes :",
 	"important-notes-cached": "Les résultats sont mis en cache pour $1 {{PLURAL:$1|minute|minutes}}.",
 	"important-notes-lag": "Les résultats peuvent être en retard par rapport à la production, en général autour de $1 {{PLURAL:$1|minute|minutes}}.",
-	"important-notes-specific": "Précisez autant que possible vos conditions de recherche. Plus il y aura de résultats renvoyés, plus longtemps vous aurez à attendre.",
+	"important-notes-specific": "Précisez autant que possible vos termes à rechercher. Plus il y aura de résultats renvoyés, plus longtemps vous aurez à attendre.",
 	"login": "Se connecter",
 	"logout": "Déconnexion",
-	"logout-msg": "Actuellement tracé comme $1",
+	"logout-msg": "Actuellement connecté comme $1",
 	"namespaces": "Espaces de noms",
-	"namespaces-desc": "Liste séparée par des virgules d’ID d’espaces de nom. Laisser blanc pour tous les espaces de nom.",
+	"namespaces-desc": "Liste d’ID d’espaces de noms séparés par des virgules. Laisser blanc pour tous les espaces de noms.",
 	"page-title": "Titre de la page",
 	"powered-by": "Fonctionnant avec $1",
+	"purge-cache": "Vider le cache",
 	"query": "Requête",
 	"regular-expression": "Expression régulière",
 	"report-issue": "Signaler un problème",

@@ -1,4 +1,9 @@
 {
+	"@metadata": {
+		"authors": [
+			"A Chinese Wikipedian"
+		]
+	},
 	"back": "返回",
 	"error-server-message": "服务器报告：$1",
 	"executed": "执行耗时$1{{PLURAL:$2|秒}}。",
@@ -8,6 +13,7 @@
 	"logout-msg": "当前登录为$1",
 	"namespaces": "名字空间",
 	"page-title": "页面标题",
+	"purge-cache": "清除缓存",
 	"report-issue": "报告问题",
 	"submit": "提交",
 	"view-source": "查看源代码",

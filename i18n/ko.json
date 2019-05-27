@@ -19,6 +19,7 @@
 	"namespaces": "이름공간",
 	"page-title": "문서 제목",
 	"powered-by": "$1에 의해 제공",
+	"purge-cache": "캐시 새로 고침",
 	"query": "쿼리",
 	"regular-expression": "정규 표현식",
 	"report-issue": "이슈 보고",
@@ -31,6 +32,7 @@
 	"splash-product-of-hackathon": "$1의 제품",
 	"splash-title": "위키미디어 전역 검색",
 	"submit": "확인",
+	"total-results": "총 {{PLURAL:$1|결과}}",
 	"view-source": "원본 보기",
 	"wiki": "위키"
 }

@@ -1,4 +1,9 @@
 {
+	"@metadata": {
+		"authors": [
+			"Steeve815"
+		]
+	},
 	"back": "חזרה",
 	"error-server-message": "השרת השיב: $1",
 	"executed": "זמן ביצוע ב$1: {{PLURAL:$2|שניה|שניות}}.",
@@ -7,6 +12,7 @@
 	"logout": "יציאה מהחשבון",
 	"namespaces": "מרחבי שם",
 	"page-title": "כותרת דף",
+	"purge-cache": "ניקוי מטמון",
 	"report-issue": "דיווח בעיה",
 	"submit": "שליחה",
 	"view-source": "הצגת מקור",

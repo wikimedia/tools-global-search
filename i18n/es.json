@@ -1,5 +1,10 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Harvest",
+			"Unai01"
+		]
+	},
 	"back": "Volver",
 	"error-server-message": "El servidor respondió: $1",
 	"executed": "Ejecutado en $1 {{PLURAL:$2|segundo|segundos}}.",
@@ -9,7 +14,8 @@
 	"logout-msg": "Actualmente conectado como $1",
 	"namespaces": "Espacios de nombres",
 	"page-title": "Título de la página",
-	"report-issue": "Comunicar un problema",
+	"purge-cache": "Vaciar caché",
+	"report-issue": "Reportar un problema",
 	"submit": "Enviar",
 	"view-source": "Ver código",
 	"wiki": "Wiki"

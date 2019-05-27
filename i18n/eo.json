@@ -4,7 +4,10 @@
 			"Mirin"
 		]
 	},
+	"back": "Reen",
 	"brought-to-you-by": "Verkita por vi de $1 kaj $2",
+	"error-report": "Vi povas raporti ĉi tiun cimon ĉe $1.",
+	"error-server-message": "La servilo diris: $1",
 	"excerpt": "Eltiraĵo",
 	"executed": "Farita en $1 {{PLURAL:$2|sekundo|sekundoj}}.",
 	"global-search": "Malloka Serĉado",
@@ -21,6 +24,7 @@
 	"namespaces-desc": "Kome apartigita listo de identigiloj de nomspacoj. Lasu vaka por ĉiuj nomspacoj.",
 	"page-title": "Titolo de paĝo",
 	"powered-by": "Funkcianta per $1",
+	"purge-cache": "Vakigi kaŝmemoron",
 	"query": "Informpeto",
 	"regular-expression": "Regula esprimo",
 	"report-issue": "Raporti problemon",
@@ -34,7 +38,7 @@
 	"splash-product-of-hackathon": "Produkto far $1",
 	"splash-title": "Vikimedia Malloka Serĉado",
 	"submit": "Sendi",
-	"total-results": "Tuta nombro de {{PLURAL:$1|rezulto|rezultoj}}",
+	"total-results": "Totala nombro de {{PLURAL:$1|rezultoj}}",
 	"view-source": "Vidi fonton",
 	"wiki": "Vikio"
 }
