@@ -35,6 +35,15 @@ class DefaultController extends AbstractController
     private $domainLookup;
 
     /**
+     * DefaultController constructor.
+     * @param CacheItemPoolInterface $cache
+     */
+    public function __construct(CacheItemPoolInterface $cache)
+    {
+        $this->cache = $cache;
+    }
+
+    /**
      * Splash page, shown when user is logged out.
      * @Route("/splash")
      */
@@ -47,16 +56,16 @@ class DefaultController extends AbstractController
      * The main route.
      * @Route("/", name="home")
      * @param Request $request
-     * @param CacheItemPoolInterface $cache
      * @return Response
      */
-    public function indexAction(Request $request, CacheItemPoolInterface $cache): Response
+    public function indexAction(Request $request): Response
     {
         if (!$this->get('session')->get('logged_in_user')) {
             return $this->render('jumbotron.html.twig');
         }
         $query = $request->query->get('q');
         $regex = (bool)$request->query->get('regex');
+        $ignoreCase = (bool)$request->query->get('ignorecase');
         [$namespaces, $namespaceIds] = $this->parseNamespaces($request);
         $purgeCache = (bool)$request->query->get('purge');
 
@@ -65,10 +74,11 @@ class DefaultController extends AbstractController
             'regex' => $regex,
             'max_results' => self::MAX_RESULTS,
             'namespaces' => $namespaces,
+            'ignore_case' => $ignoreCase,
         ];
 
         if ($query) {
-            $ret = array_merge($ret, $this->getResults($query, $regex, $namespaceIds, $cache, $purgeCache));
+            $ret = array_merge($ret, $this->getResults($query, $regex, $ignoreCase, $namespaceIds, $purgeCache));
             $ret['from_cache'] = $this->fromCache;
             return $this->render('default/result.html.twig', $ret);
         }
@@ -104,20 +114,19 @@ class DefaultController extends AbstractController
      * Get results based on given Request.
      * @param string $query
      * @param bool $regex
+     * @param bool $ignoreCase
      * @param int[] $namespaceIds
-     * @param CacheItemPoolInterface $cache
      * @param bool $purgeCache
      * @return mixed[]
      */
     public function getResults(
         string $query,
         bool $regex,
+        bool $ignoreCase,
         array $namespaceIds,
-        CacheItemPoolInterface $cache,
         bool $purgeCache = false
     ): array {
-        $this->cache = $cache;
-        $cacheItem = md5($query.$regex.implode('|', $namespaceIds));
+        $cacheItem = md5($query.$regex.$ignoreCase.implode('|', $namespaceIds));
 
         if (!$purgeCache && $this->cache->hasItem($cacheItem)) {
             $this->fromCache = true;
@@ -129,6 +138,7 @@ class DefaultController extends AbstractController
         $data = [
             'query' => $query,
             'regex' => $regex,
+            'ignore_case' => $ignoreCase,
         ];
 
         // Silently use regex to do exact match if query is wrapped in double-quotes.
@@ -138,7 +148,7 @@ class DefaultController extends AbstractController
         }
 
         $params = $regex
-            ? $this->getParamsForRegexQuery($query)
+            ? $this->getParamsForRegexQuery($query, $ignoreCase)
             : $this->getParamsForPlainQuery($query);
 
         if (!empty($namespaceIds)) {
@@ -297,13 +307,14 @@ class DefaultController extends AbstractController
     /**
      * Params to be passed to Cloud Elastic for a regular expression query.
      * @param string $query
+     * @param bool $ignoreCase
      * @return mixed[]
      */
-    private function getParamsForRegexQuery(string $query): array
+    private function getParamsForRegexQuery(string $query, bool $ignoreCase = false): array
     {
         return [
             'timeout' => '150s',
-            'size' => 100,
+            'size' => 5000,
             '_source' => ['wiki', 'namespace_text', 'title'],
             'query' => [
                 'bool' => [
@@ -314,7 +325,7 @@ class DefaultController extends AbstractController
                             'ngram_field' => 'source_text.trigram',
                             'max_determinized_states' => 20000,
                             'max_expand' => 10,
-                            'case_sensitive' => true,
+                            'case_sensitive' => !$ignoreCase,
                             'locale' => 'en',
                         ] ],
                     ],
@@ -335,6 +346,7 @@ class DefaultController extends AbstractController
                             'locale' => 'en',
                             'regex_flavor' => 'lucene',
                             'skip_query' => true,
+                            'regex_case_insensitive' => $ignoreCase,
                             'max_determinized_states' => 20000,
                         ],
                     ],
