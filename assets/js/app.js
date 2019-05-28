@@ -17,4 +17,8 @@ $(() => {
     if (!$('#searchQuery').val()) {
         $('#searchQuery').focus();
     }
+
+    $('#regexCheckbox').on('change', e => {
+        $('.form-group--ingorecase').toggleClass('hidden', !e.target.checked);
+    });
 });
