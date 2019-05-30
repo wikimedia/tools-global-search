@@ -6,6 +6,8 @@
 	},
 	"back": "뒤로",
 	"brought-to-you-by": "$1 및 $2에 의해 가져옴",
+	"case-insensitive": "대소문자 구분 안 함",
+	"error-report": "이 버그는 $1에 보고할 수 있습니다.",
 	"error-server-message": "서버 응답: $1",
 	"executed": "$1{{PLURAL:$2|초}} 전에 실행됨.",
 	"global-search": "전역 검색",

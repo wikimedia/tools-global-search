@@ -38,7 +38,7 @@
 	"splash-product-of-hackathon": "Un produit de $1",
 	"splash-title": "Recherche globale de Wikimédia",
 	"submit": "Envoyer",
-	"total-results": "Nombre total de {{PLURAL:$1|résultats}}",
+	"total-results": "Total des {{PLURAL:$1|résultats}}",
 	"view-source": "Voir la source",
 	"wiki": "Wiki"
 }

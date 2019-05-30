@@ -1,6 +1,11 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"আফতাবুজ্জামান"
+		]
+	},
 	"back": "পিছনে",
+	"case-insensitive": "অক্ষর অ-সংবেদনশীল",
 	"error-server-message": "সার্ভারটি জানিয়েছে: $1",
 	"executed": "$1 {{PLURAL:$2|সেকেন্ডে}} নিষ্পন্ন।",
 	"help-translate": "অনুবাদে সাহায্য করুন",
@@ -11,6 +16,7 @@
 	"page-title": "পাতার শিরোনাম",
 	"report-issue": "একটি সমস্যা প্রতিবেদন করুন",
 	"submit": "জমা দিন",
+	"total-results": "মোট {{PLURAL:$1|ফলাফল}}",
 	"view-source": "উৎস দেখুন",
 	"wiki": "উইকি"
 }

@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
 	"back": "Anterior",
 	"error-server-message": "El sirvidor dixo: $1",
 	"executed": "Executao en $1 {{PLURAL:$2|segundu|segundos}}.",
@@ -9,7 +13,7 @@
 	"logout-msg": "Sesión actual aniciada como $1",
 	"namespaces": "Espacios de nomes",
 	"page-title": "Títulu de la páxina",
-	"report-issue": "informar d'un problema",
+	"report-issue": "Informar d'un problema",
 	"submit": "Unviar",
 	"wiki": "Wiki"
 }

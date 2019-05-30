@@ -7,6 +7,8 @@
 	},
 	"back": "Geri",
 	"brought-to-you-by": "$1 ve $2 ile getirildi",
+	"case-insensitive": "Büyük küçük harf duyarlı",
+	"error-report": "Bu hatayı $1 üzerinden rapor edebilirsiniz.",
 	"error-server-message": "Sunucu dedi ki: $1",
 	"excerpt": "Alıntı",
 	"executed": "$1 {{PLURAL:$2|saniye|saniye}} içinde yürütüldü.",
@@ -38,7 +40,7 @@
 	"splash-product-of-hackathon": "$1'lık bir ürün",
 	"splash-title": "Wikimedia Küresel Arama",
 	"submit": "Gönder",
-	"total-results": "Toplam {{PLURAL:$1|sonuç|sonuç}}",
+	"total-results": "Toplam {{PLURAL:$1|sonuç}}",
 	"view-source": "Kaynağı gör",
 	"wiki": "Viki"
 }

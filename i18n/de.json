@@ -5,6 +5,7 @@
 		]
 	},
 	"back": "Zurück",
+	"case-insensitive": "Groß- und Kleinschreibung wird nicht berücksichtigt",
 	"error-server-message": "Der Server sagte: $1",
 	"executed": "In {{PLURAL:$2|einer Sekunde|$1 Sekunden}} ausgeführt.",
 	"help-translate": "Hilf beim Übersetzen",
