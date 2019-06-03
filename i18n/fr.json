@@ -7,6 +7,8 @@
 	},
 	"back": "Retour",
 	"brought-to-you-by": "Vous est fourni par $1 et $2",
+	"case-insensitive": "Insensible à la casse",
+	"error-report": "Vous pouvez signaler ce bogue sur $1.",
 	"error-server-message": "Le serveur a répondu : $1",
 	"excerpt": "Extrait",
 	"executed": "Exécuté en $1 {{PLURAL:$2|seconde|secondes}}.",

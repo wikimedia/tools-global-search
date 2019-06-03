@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Eduardo Addad de Oliveira",
-			"McDutchie"
+			"McDutchie",
+			"Deivisony"
 		]
 	},
 	"back": "Voltar",
@@ -31,7 +32,7 @@
 	"regular-expression": "Expressão regular",
 	"report-issue": "Comunicar um problema",
 	"reset": "Redefinir",
-	"showing-n": "{{PLURAL:$2|Mostrando|Mostrando}} $1",
+	"showing-n": "{{PLURAL:$2|Mostrando}} $1",
 	"slow": "Lenta",
 	"splash-hackathon-title": "Wikimedia Hackathon 2019",
 	"splash-login-btn": "Entrar para usar a Pesquisa Global",

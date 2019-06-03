@@ -1,14 +1,25 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Antsa"
+		]
+	},
 	"back": "Takaisin",
+	"excerpt": "Ote",
 	"executed": "Suoritettu $1 {{PLURAL:$2|sekunnissa}}.",
+	"global-search": "Maailmanlaajuinen haku",
 	"help-translate": "Auta kääntämisessä",
 	"login": "Kirjaudu sisään",
 	"logout": "Kirjaudu ulos",
 	"logout-msg": "Kirjautunut sisään käyttäjänä $1",
 	"namespaces": "Nimiavaruudet",
 	"page-title": "Sivun otsikko",
+	"powered-by": "Voimanlähteenä $1",
+	"query": "Kysely",
 	"report-issue": "Ilmoita ongelmasta",
+	"reset": "Nollaa/palauta",
+	"splash-login-btn": "Kirjaudu sisään käyttääksesi maailmanlaajuista hakua",
+	"splash-title": "Wikimedia maailmanlaajuinen haku",
 	"submit": "Hae",
 	"view-source": "Näytä lähdekoodi",
 	"wiki": "Wiki"
