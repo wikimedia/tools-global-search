@@ -1,16 +1,36 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
 	"back": "Tillbaka",
+	"brought-to-you-by": "Tillhandahålls till dig av $1 och $2",
+	"case-insensitive": "Skiftlägeskänsligt",
+	"error-report": "Du kan rapportera denna bugg på $1.",
 	"error-server-message": "Server sade: $1",
 	"executed": "Utfört på $1 {{PLURAL:$2|sekund|sekunder}}.",
+	"global-search": "Global sökning",
 	"help-translate": "Hjälp till att översätta",
+	"important-notes-cached": "Resultat cachelagras i $1 {{PLURAL:$1|minut|minuter}}.",
 	"login": "Logga in",
 	"logout": "Logga ut",
 	"logout-msg": "För närvarande inloggad som $1",
 	"namespaces": "Namnrymder",
 	"page-title": "Sidnamn",
+	"purge-cache": "Rensa cachen",
+	"query": "Förfrågan",
+	"regular-expression": "Reguljärt uttryck",
 	"report-issue": "Rapportera ett problem",
+	"reset": "Återställ",
+	"showing-n": "{{PLURAL:$2|Visar}} $1",
+	"slow": "Långsam",
+	"splash-hackathon-title": "Wikimedia Hackathon 2019",
+	"splash-login-btn": "Logga in för att använda global sökning",
+	"splash-login-desc": "Detta verktyg låter dig söka med nyckelord och vanliga uttryck över alla Wikimedia Foundation-wikis som använder tjänsten $1.",
+	"splash-login-required": "Eftersom detta verktyg kan utföra resurskrävande långkörande förfrågningar krävs inloggning.",
 	"submit": "Skicka",
+	"total-results": "Totalt {{PLURAL:$1|resultat}}",
 	"view-source": "Visa källkod",
 	"wiki": "Wiki"
 }
