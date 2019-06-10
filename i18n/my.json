@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Dr Lotus Black"
+		]
+	},
 	"back": "နောက်သို့",
 	"error-server-message": "ဆာဗာ ပြောသည်မှာ: $1",
 	"help-translate": "ကူညီ ဘာသာပြန်ရန်",
@@ -10,6 +14,7 @@
 	"page-title": "စာမျက်နှာ ခေါင်းစဉ်",
 	"report-issue": "ပြဿနာတစ်ခုအား သတင်းပို့ရန်",
 	"submit": "ထည့်သွင်း",
+	"total-results": "စုစုပေါင်း {{PLURAL:$1|ရလဒ်များ}}",
 	"view-source": "ရင်းမြစ်ကို ကြည့်ရန်",
 	"wiki": "ဝီကီ"
 }

@@ -1,13 +1,27 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Railfail536"
+		]
+	},
+	"back": "Wstecz",
 	"executed": "Wykonano w $1 {{PLURAL:$2|sekundę|sekundy|sekund}}.",
+	"global-search": "Globalne wyszukiwanie",
+	"global-search-desc": "Przeszukuj wikitekst w obrębie wszystkich wiki Fundacji Wikimedia.",
 	"help-translate": "Pomóż w tłumaczeniu",
+	"important-notes": "Ważne uwagi:",
 	"login": "Logowanie",
 	"logout": "Zakończenie sesji",
+	"logout-msg": "Aktualnie zalogowany(a) jako $1",
 	"namespaces": "Przestrzenie nazw",
 	"page-title": "Tytuł strony",
+	"purge-cache": "Odśwież cache",
+	"query": "Zapytanie",
+	"regular-expression": "Wyrażenie regularne",
 	"report-issue": "Zgłoś problem",
+	"reset": "Resetuj",
 	"submit": "Wyślij",
+	"total-results": "Łącznie {{PLURAL:$1|wynik|wyniki|wyników}}",
 	"view-source": "Kod źródłowy",
 	"wiki": "Wiki"
 }

@@ -1,6 +1,12 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck"
+		]
+	},
 	"back": "Назад",
+	"brought-to-you-by": "Зроблена для вас $1 і $2",
+	"case-insensitive": "Не адчувальны да рэгістру",
 	"error-server-message": "Сэрвэр паведаміў: $1",
 	"executed": "Выканана за $1 {{PLURAL:$2|сэкунду|сэкунды|сэкундаў}}.",
 	"help-translate": "Дапамога зь перакладамі",
