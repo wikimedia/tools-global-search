@@ -1,25 +1,46 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mirzali"
+			"Mirzali",
+			"Orbot707"
 		]
 	},
 	"back": "Peyser",
+	"brought-to-you-by": "$1 u $2 ya peyd gêriyay",
 	"case-insensitive": "Herfanê qıc û gırdan rê hesaso",
+	"error-report": "Na xetayê $1 sera şenê rapor kerê",
+	"error-server-message": "Server vano:$1",
+	"excerpt": "Gırotek",
+	"executed": "$1 {{PLURAL:$2|saniye|saniyan}} miyan de vıst kay.",
+	"global-search": "Global cı geyrayış",
+	"global-search-desc": "Wikiyan ê pêroyınê Weqfa Wikimedia tede de cıgeyrê.",
 	"help-translate": "Destegê tadayışi",
+	"important-notes": "Notê muhimi:",
+	"important-notes-cached": "Neticeya $1 {{PLURAL:$1|deqiqey|deqiqan }} rê gêno werhafıza",
+	"important-notes-lag": "Neticey, degmesi nezdi $1 {{PLURAL:$1|deqiqey |deqiqan}} mexeli dıma beno zi bımano.",
+	"important-notes-specific": "Terimanê cıgeyrayışanê xo hendık şenê wa zanıyayey bê. Çend zaf neticey bı vıciyê se lazımo kı şıma zeder bıpawê.",
 	"login": "Cı kewe",
 	"logout": "Bıveciye",
 	"logout-msg": "Nıka zey $1 tede cıkewteyê",
 	"namespaces": "Heruna nameyan",
+	"namespaces-desc": "Virgul abıryayeye lista kamiya cayê nameyan Seba cayê nameyan pêroyın rê veng verdê",
 	"page-title": "Sernamey perre",
 	"powered-by": "$1 vıraşto",
 	"purge-cache": "Verviri veng ke",
 	"query": "Persaye",
+	"regular-expression": "İfadeyo nizami",
 	"report-issue": "Problemi rapor ke",
 	"reset": "Raçarne",
+	"showing-n": "{{PLURAL:$2|mocniya|mocniyay}} $1",
+	"slow": "Hêdêkeka",
+	"splash-hackathon-title": "Wikimedia Hackathon 2019",
+	"splash-login-btn": "Global cıgeyrayışi karnayış rê cı kewê",
+	"splash-login-desc": "Na hacet,karnayışê xızmetê $1 ya wiki yanê Weqfa Wikimedia kılit çeku u çımê nizamın cıgeyrayışanê ifadey vırnayışi kenê.",
+	"splash-login-required": "Na hacet zahmetın derg persayış vinena, coki ra cı kewtışê şıma lazımo.",
 	"splash-product-of-hackathon": "Yew berê $1",
+	"splash-title": "Cıgeyrayişo Wikimedia yo Global",
 	"submit": "Bırışe",
-	"total-results": "{{PLURAL:$1|netice|neticeyi}} pêro",
+	"total-results": "{{PLURAL:$1|netice|neticey}} pêro",
 	"view-source": "Çımey bıvêne",
 	"wiki": "Wiki"
 }
