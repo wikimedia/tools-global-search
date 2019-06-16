@@ -27,7 +27,7 @@
             <tr>
                 <td>{{ hit.wiki }}</td>
                 <td>
-                    <a target="_blank" href="{{ hit.url }}">{{ hit.title }}</a>
+                    <a target="_blank" href="{{ hit.url }}">{{ bdi(hit.title) }}</a>
                 </td>
                 <td>{{ hit.source_text|raw }}</td>
             </tr>
