@@ -1,6 +1,18 @@
 {
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"back": "Enrere",
 	"help-translate": "Ajudeu a traduir",
+	"namespaces": "Espais de noms",
 	"page-title": "Títol de pàgina",
+	"purge-cache": "Purga la memòria cau",
+	"query": "Consulta",
+	"regular-expression": "Expressió regular",
 	"report-issue": "Informar d'un problema",
+	"reset": "Reinicialitza",
+	"submit": "Envia",
 	"view-source": "Mostra el codi"
 }

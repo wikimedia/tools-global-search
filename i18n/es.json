@@ -2,20 +2,31 @@
 	"@metadata": {
 		"authors": [
 			"Harvest",
-			"Unai01"
+			"Unai01",
+			"Fitoschido"
 		]
 	},
 	"back": "Volver",
 	"error-server-message": "El servidor respondió: $1",
 	"executed": "Ejecutado en $1 {{PLURAL:$2|segundo|segundos}}.",
+	"global-search": "Búsqueda global",
+	"global-search-desc": "Búsquedas en el texto de todos los wikis de la Fundación Wikimedia.",
 	"help-translate": "Ayúdanos a traducir",
+	"important-notes": "Notas importantes:",
+	"important-notes-cached": "Los resultados se almacenan en antememoria por $1 {{PLURAL:$1|minuto|minutos}}.",
 	"login": "Acceder",
 	"logout": "Salir",
 	"logout-msg": "Actualmente conectado como $1",
 	"namespaces": "Espacios de nombres",
 	"page-title": "Título de la página",
-	"purge-cache": "Vaciar caché",
-	"report-issue": "Reportar un problema",
+	"purge-cache": "Purgar antememoria",
+	"query": "Consulta",
+	"regular-expression": "Expresión regular",
+	"report-issue": "Informar de un problema",
+	"reset": "Restablecer",
+	"showing-n": "Se {{PLURAL:$2|muestra|muestran}} $1",
+	"slow": "Lenta",
+	"splash-title": "Búsqueda global de Wikimedia",
 	"submit": "Enviar",
 	"view-source": "Ver código",
 	"wiki": "Wiki"
