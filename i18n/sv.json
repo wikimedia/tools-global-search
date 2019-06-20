@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Mjälten"
 		]
 	},
 	"back": "Tillbaka",
@@ -9,15 +10,22 @@
 	"case-insensitive": "Skiftlägeskänsligt",
 	"error-report": "Du kan rapportera denna bugg på $1.",
 	"error-server-message": "Server sade: $1",
+	"excerpt": "Avsnitt",
 	"executed": "Utfört på $1 {{PLURAL:$2|sekund|sekunder}}.",
 	"global-search": "Global sökning",
+	"global-search-desc": "Sök inom wikitexter över alla Wikimedia-stiftelsens wikiar.",
 	"help-translate": "Hjälp till att översätta",
+	"important-notes": "Viktigt att notera:",
 	"important-notes-cached": "Resultat cachelagras i $1 {{PLURAL:$1|minut|minuter}}.",
+	"important-notes-lag": "Resultat kan dröja jämfört med produktion, oftast kring $1 {{PLURAL:$1|minuter}}",
+	"important-notes-specific": "Specificera dina söktermer så mycket som det går. Desto mer resultat du samlar, desto längre tid tar det.",
 	"login": "Logga in",
 	"logout": "Logga ut",
 	"logout-msg": "För närvarande inloggad som $1",
 	"namespaces": "Namnrymder",
+	"namespaces-desc": "Komma-separerade lista med namnrymds ID:ar. Lämna tomt för att få samtliga namnrymder.",
 	"page-title": "Sidnamn",
+	"powered-by": "Drivs av $1",
 	"purge-cache": "Rensa cachen",
 	"query": "Förfrågan",
 	"regular-expression": "Reguljärt uttryck",
@@ -29,6 +37,8 @@
 	"splash-login-btn": "Logga in för att använda global sökning",
 	"splash-login-desc": "Detta verktyg låter dig söka med nyckelord och vanliga uttryck över alla Wikimedia Foundation-wikis som använder tjänsten $1.",
 	"splash-login-required": "Eftersom detta verktyg kan utföra resurskrävande långkörande förfrågningar krävs inloggning.",
+	"splash-product-of-hackathon": "Skapad av $1",
+	"splash-title": "Wikimedia globalsök",
 	"submit": "Skicka",
 	"total-results": "Totalt {{PLURAL:$1|resultat}}",
 	"view-source": "Visa källkod",

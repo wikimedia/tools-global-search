@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Omotecho"
+		]
+	},
 	"back": "Link that brings user back to the initial form.\n{{Identical|Back}}",
 	"brought-to-you-by": "Message listing the authors of the tool. $1 and $2 are links to the author's userpages.",
 	"error-report": "Message saying how to report a bug. Shown on the error page. $1 is a link to Phabricator.",
@@ -25,7 +29,7 @@
 	"regular-expression": "Label for the regular expression checkbox. See https://www.wikidata.org/wiki/Q185612 for possible translations.",
 	"report-issue": "Link to report an issue or bug.",
 	"reset": "Text for button to reset the form.\n{{Identical|Reset}}",
-	"showing-n": "Message that appears next to the {{msg-mw|total-results}} indicating the how many results are shown, which may be less than the total results. $1 is the formatted number of results. $2 is the number of results for use with PLURAL, if needed.",
+	"showing-n": "Message that appears next to the {{msg-mw|total-results}} indicating how many results are shown, which may be less than the total results. $1 is the formatted number of results. $2 is the number of results for use with PLURAL, if needed.",
 	"slow": "Shown next to the label for the 'regular expression' option, to indicate that this makes the query slow.\n{{Identical|Slow}}",
 	"splash-hackathon-title": "Name for the 'Wikimedia Hackathon 2019' event.",
 	"splash-login-btn": "Text for button login. Shown on the splash page.",
