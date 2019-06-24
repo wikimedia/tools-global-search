@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Zoranzoki21"
+		]
+	},
 	"back": "Назад",
 	"error-server-message": "Сервер каже: $1",
 	"executed": "Извршено за $1 {{PLURAL:$2|секунд|секунда|секунди}}.",
@@ -10,7 +14,12 @@
 	"namespaces": "Именски простори",
 	"page-title": "Наслов странице",
 	"report-issue": "Пријави проблем",
+	"slow": "Споро",
+	"splash-login-btn": "Пријавите се да би сте користили глобалну претрагу",
+	"splash-product-of-hackathon": "Производ $1",
+	"splash-title": "Викимедијина Глобална претрага",
 	"submit": "Пошаљи",
+	"total-results": "Укупно {{PLURAL:$1|резултата}}",
 	"view-source": "Погледај извор",
 	"wiki": "Вики"
 }

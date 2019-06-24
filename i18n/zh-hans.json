@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"A Chinese Wikipedian"
+			"A Chinese Wikipedian",
+			"神樂坂秀吉"
 		]
 	},
 	"back": "返回",
 	"error-server-message": "服务器报告：$1",
 	"executed": "执行耗时$1{{PLURAL:$2|秒}}。",
+	"global-search": "全域搜索",
 	"help-translate": "帮助翻译",
 	"login": "登录",
 	"logout": "退出",
@@ -14,7 +16,10 @@
 	"namespaces": "名字空间",
 	"page-title": "页面标题",
 	"purge-cache": "清除缓存",
+	"query": "查询",
 	"report-issue": "报告问题",
+	"reset": "重置",
+	"splash-title": "维基媒体全域搜索",
 	"submit": "提交",
 	"view-source": "查看源代码",
 	"wiki": "Wiki"
