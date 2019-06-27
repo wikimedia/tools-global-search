@@ -7,6 +7,7 @@
 		]
 	},
 	"back": "Volver",
+	"case-insensitive": "No distinguir mayúsculas y minúsculas",
 	"error-server-message": "El servidor respondió: $1",
 	"executed": "Ejecutado en $1 {{PLURAL:$2|segundo|segundos}}.",
 	"global-search": "Búsqueda global",
