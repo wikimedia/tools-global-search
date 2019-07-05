@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Aefgh39622",
-			"Omotecho"
+			"Omotecho",
+			"神樂坂秀吉"
 		]
 	},
 	"back": "戻る",
@@ -23,7 +24,7 @@
 	"logout": "ログアウト",
 	"logout-msg": "現在、$1としてログイン中です",
 	"namespaces": "名前空間",
-	"namespaces-desc": "名前空間IDのカンマ区切りの一覧。名前空間欄はすべて空欄にします。",
+	"namespaces-desc": "名前空間IDのカンマ区切りの一覧。名前空間欄は全て空欄にします。",
 	"page-title": "ページ名",
 	"powered-by": "$1提供",
 	"purge-cache": "キャッシュ削除",

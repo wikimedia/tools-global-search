@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kly"
+			"Kly",
+			"神樂坂秀吉"
 		]
 	},
 	"back": "返回",
@@ -16,7 +17,7 @@
 	"help-translate": "協助翻譯",
 	"important-notes": "重要提醒：",
 	"important-notes-cached": "結果被快取 $1 {{PLURAL:$1|分鐘}}。",
-	"important-notes-lag": "結果可能會落後生產，通常大約晚 $1 {{PLURAL:$1|分鐘}}。",
+	"important-notes-lag": "結果可能會落後生產，通常大約晚$1{{PLURAL:$1|分鐘}}。",
 	"important-notes-specific": "儘可能讓您的搜尋項目具體。當回傳結果較多時，您會需要等待較長的時間",
 	"login": "登入",
 	"logout": "登出",
