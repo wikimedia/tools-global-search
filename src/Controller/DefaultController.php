@@ -6,11 +6,12 @@ namespace App\Controller;
 
 use App\WikiDomainLookup;
 use GuzzleHttp\Client;
-use GuzzleHttp\Exception\ClientException;
+use GuzzleHttp\Exception\BadResponseException;
 use Psr\Cache\CacheItemPoolInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpKernel\Exception\HttpException;
 use Symfony\Component\Routing\Annotation\Route;
 
 class DefaultController extends AbstractController
@@ -190,12 +191,17 @@ class DefaultController extends AbstractController
         // FIXME: increase cURL timeout
         try {
             $res = $this->client->send($request);
-        } catch (ClientException $e) {
+        } catch (BadResponseException $e) {
             // Dump the full response in development environments since Guzzle truncates the error messages.
             if ('dev' === $_ENV['APP_ENV']) {
                 dump($e->getResponse()->getBody()->getContents());
             }
-            throw $e;
+
+            // Convert to Symfony-friendly exception.
+            throw new HttpException(
+                $e->getResponse()->getStatusCode(),
+                $e->getResponse()->getReasonPhrase()
+            );
         }
 
         return json_decode($res->getBody()->getContents(), true);
