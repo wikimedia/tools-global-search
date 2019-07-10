@@ -18,7 +18,7 @@ header {
 }
 
 .jumbotron {
-    height: calc(100vh - 150px);
+    min-height: calc(100vh - 150px);
     margin-bottom: 0;
     overflow: hidden;
     position: relative;
