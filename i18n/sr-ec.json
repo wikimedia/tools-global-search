@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Zoranzoki21"
+			"Zoranzoki21",
+			"BadDog"
 		]
 	},
 	"back": "Назад",
@@ -15,9 +16,10 @@
 	"page-title": "Наслов странице",
 	"report-issue": "Пријави проблем",
 	"slow": "Споро",
+	"splash-hackathon-title": "Викимедијиног Хакатона 2019",
 	"splash-login-btn": "Пријавите се да би сте користили глобалну претрагу",
 	"splash-product-of-hackathon": "Производ $1",
-	"splash-title": "Викимедијина Глобална претрага",
+	"splash-title": "Викимедијина глобална претрага",
 	"submit": "Пошаљи",
 	"total-results": "Укупно {{PLURAL:$1|резултата}}",
 	"view-source": "Погледај извор",

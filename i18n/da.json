@@ -19,7 +19,14 @@
 	"purge-cache": "Ryd cache",
 	"regular-expression": "Regulært udtryk",
 	"report-issue": "Rapporter et problem",
+	"reset": "Nulstil",
+	"showing-n": "{{PLURAL:$2|Viser}} $1",
+	"slow": "Langsom",
+	"splash-hackathon-title": "Wikimedia Hackathon 2019",
+	"splash-login-btn": "Log på for at bruge global søgning",
+	"splash-title": "Wikimedia global søgning",
 	"submit": "Udfør",
+	"total-results": "Samlet {{PLURAL:$1|resultater}}",
 	"view-source": "Vis kildekode",
 	"wiki": "Wiki"
 }
