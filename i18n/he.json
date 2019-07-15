@@ -1,18 +1,22 @@
 {
 	"@metadata": {
 		"authors": [
-			"Steeve815"
+			"Steeve815",
+			"YaronSh"
 		]
 	},
 	"back": "חזרה",
 	"brought-to-you-by": "מובא אליכם על ידי $1 ו־$2",
+	"case-insensitive": "בלתי תלוי־רישיות",
 	"error-report": "ניתן לדווח על הבאג דרך $1",
 	"error-server-message": "השרת השיב: $1",
 	"excerpt": "קטע מתוך",
 	"executed": "זמן ביצוע ב$1: {{PLURAL:$2|שניה|שניות}}.",
 	"global-search": "חיפוש גלובלי",
+	"global-search-desc": "חיפוש בוויקיציטוט ברחבי כל אתרי הוויקי של עמותת ויקימדיה.",
 	"help-translate": "עזור לתרגם",
 	"important-notes": "הערות חשובות:",
+	"important-notes-cached": "התוצאות נשמרות במטמון למשך {{PLURAL:$1|דקה|$1 דקות}}.",
 	"login": "כניסה לחשבון",
 	"logout": "יציאה מהחשבון",
 	"logout-msg": "כעת מחובר לחשבון בתור $1",
@@ -24,11 +28,12 @@
 	"regular-expression": "ביטוי רגולרי",
 	"report-issue": "דיווח בעיה",
 	"reset": "איפוס",
-	"showing-n": "{{PLURAL:$2|מציג|מציג}} $1",
+	"showing-n": "{{PLURAL:$2|מוצג|מוצגים}} $1",
 	"slow": "איטית",
 	"splash-hackathon-title": "ויקימדיה הקתון 2019",
 	"splash-login-btn": "יש להתחבר לחשבון על מנת להשתמש בחיפוש גלובלי",
 	"splash-product-of-hackathon": "מוצר של ה־$1",
+	"splash-title": "חיפוש גלובלי בוויקימדיה",
 	"submit": "שליחה",
 	"total-results": "סך הכל {{PLURAL:$1|תוצאות}}",
 	"view-source": "הצגת מקור",

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Okras"
+			"Okras",
+			"Movses"
 		]
 	},
 	"back": "Назад",
@@ -24,6 +25,7 @@
 	"reset": "Сбросить",
 	"slow": "Медленно",
 	"splash-hackathon-title": "Хакатон Викимедиа 2019",
+	"splash-login-btn": "Авторизуйтесь для использования Global Search",
 	"splash-title": "Глобальный поиск Викимедиа",
 	"submit": "Отправить",
 	"total-results": "Всего {{PLURAL:$1|результат|результата|результатов}}",
