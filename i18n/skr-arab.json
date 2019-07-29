@@ -1,9 +1,19 @@
 {
+	"@metadata": {
+		"authors": [
+			"Saraiki"
+		]
+	},
 	"back": "واپس",
+	"excerpt": "ٹکڑی",
+	"global-search": "عالمی ڳول",
 	"login": "لاگ ان",
 	"logout": "لاگ آؤٹ",
 	"namespaces": "ناں جاہیں",
 	"page-title": "عنوان ورقہ",
+	"purge-cache": "کیچی صاف کرو",
+	"query": "سوال",
+	"slow": "مَٹھا",
 	"submit": "جمع کرواؤ",
 	"view-source": "ماخذ ݙیکھو",
 	"wiki": "وکی"
