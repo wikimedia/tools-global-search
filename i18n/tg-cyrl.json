@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"ToJack"
+		]
+	},
+	"back": "Ба ақиб",
+	"global-search": "Ҷустуҷӯи саросарӣ",
+	"help-translate": "Кӯмак намудан барои тарҷума",
+	"login": "Вуруд ба система",
+	"logout": "Хуруҷ аз система",
+	"namespaces": "Фазоҳои ном",
+	"page-title": "Унвони саҳифа",
+	"powered-by": "Иҷрошула аз $1",
+	"query": "Дархост",
+	"reset": "Аз нав",
+	"showing-n": "{{PLURAL:$2|Нишон додани}} $1",
+	"total-results": "Тамоми {{PLURAL:$1|натиҷаҳо}}",
+	"view-source": "Намоиши манбаъ",
+	"wiki": "Вики"
+}

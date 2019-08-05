@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Brazal.dang"
+		]
+	},
+	"back": "Buwelta",
+	"login": "Maglaog",
+	"logout": "Magluwas",
+	"page-title": "Titulo kan pahina",
+	"query": "Kahaputan",
+	"reset": "Likwaton",
+	"slow": "Mabagal",
+	"splash-hackathon-title": "Wikimedia Hackathon 2019",
+	"splash-product-of-hackathon": "Produkto kan $1",
+	"splash-title": "Wikimedia Global Search",
+	"submit": "Isumite",
+	"total-results": "Kabilogan {{PLURAL:$1|na resulta}}",
+	"view-source": "Hilingón an ginikanan",
+	"wiki": "Wiki"
+}
