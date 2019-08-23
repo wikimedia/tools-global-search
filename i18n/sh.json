@@ -1,3 +1,31 @@
 {
-	"view-source": "Vidi izvor"
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"back": "Nazad",
+	"error-report": "Možete prijaviti ovu grešku na $1.",
+	"error-server-message": "Server kaže: $1",
+	"excerpt": "Izvadak",
+	"executed": "Ispunjeno za $1 {{PLURAL:$2|sekundu|sekunde|sekundi}}.",
+	"global-search": "Globalna pretraga",
+	"login": "Prijavi se",
+	"logout": "Odjavi se",
+	"logout-msg": "Trenutno ste prijavljeni kao $1",
+	"namespaces": "Imenski prostori",
+	"page-title": "Naslov stranice",
+	"powered-by": "Omogućeno $1",
+	"query": "Upit",
+	"regular-expression": "Regularni izraz",
+	"report-issue": "Prijavi problem",
+	"reset": "Poništi",
+	"showing-n": "{{PLURAL:$2|Prikazana|Prikazanih}} $1",
+	"splash-login-btn": "Prijavite se da pretražite globalno",
+	"splash-product-of-hackathon": "Proizvod $1",
+	"splash-title": "Globalna pretraga po Wikimediji",
+	"submit": "Unesi",
+	"total-results": "Ukupno {{PLURAL:$1|ishodnih stavki}}",
+	"view-source": "Vidi izvor",
+	"wiki": "Wiki"
 }
