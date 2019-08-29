@@ -1,15 +1,41 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Gwenn-Ael"
+		]
+	},
 	"back": "Distreiñ",
+	"brought-to-you-by": "Pourvezet oc'h bet gant $1 ha $2",
+	"case-insensitive": "Lizherennoù bras pe vihan ne vern",
+	"error-report": "Gallout a rit disklêriañ an draen-mañ war $1",
 	"error-server-message": "Ar servijer en deus respontet : $1",
 	"executed": "Sevenet e $1\n{{PLURAL:$2|eilenn|eilenn}}.",
+	"global-search": "Enklask hollek",
+	"global-search-desc": "Enklask er wikidestenn e-touez wikioù an Diazezadur Wikimedia.",
 	"help-translate": "Sikour da dreiñ",
+	"important-notes": "Evezhiadennoù pouezus :",
+	"important-notes-cached": "Er grubuilh e vez lakaet an disoc'hoù evit $1 munut.",
 	"login": "Kevreañ",
 	"logout": "Digevreañ",
+	"logout-msg": "Kevreet bremañ evel $1",
 	"namespaces": "Esaouennoù anv",
 	"page-title": "Titl ar bajenn",
+	"powered-by": "O vont en-dro gant $1",
+	"purge-cache": "Riñsañ ar grubuilh",
+	"query": "Reked",
+	"regular-expression": "Jedad reoliek",
 	"report-issue": "Titourañ un draen",
+	"reset": "Adderaouekaat",
+	"showing-n": "{{PLURAL:$2|Diskwel}} $1",
+	"slow": "Goustadik",
+	"splash-hackathon-title": "Hackaton Wikimedia 2019",
+	"splash-login-btn": "Kevreañ evit implijout an  enklask hollek",
+	"splash-login-desc": "Gant ar benveg-mañ e c'hallit ober enklaskoù dre c'herioù-alc'hwez pe dre vommoù ingal e tarzh holl wikioù an Diazezadur Wikimedia, en ur implijout ar servij $1.",
+	"splash-login-required": "Evel ma c'hall ar benveg-mañ ober rekedoù hir ha koustus e vez goulennet kevreañ",
+	"splash-product-of-hackathon": "Ur produ eus $1",
+	"splash-title": "Enklask hollek Wikimedia",
 	"submit": "Kas",
+	"total-results": "Hollad {{PLURAL:$1|disoc'hoù}}",
 	"view-source": "Sellet ouzh tarzh an destenn",
 	"wiki": "Wiki"
 }
