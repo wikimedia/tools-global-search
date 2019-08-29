@@ -82,7 +82,12 @@
                         <label for="namespaceIds">{{ msg('namespaces') }}:</label>
                         <input type="text" class="form-control" name="namespaces" id="namespaceIds" value="{{ namespaces }}" />
                         &nbsp;
-                        <small class="text-muted">{{ msg('namespaces-desc') }}</small>
+                        <small class="text-muted">
+                            {{ msg('namespaces-desc') }}
+                            <a target="_blank" href="https://www.mediawiki.org/wiki/Manual:Namespace#built-in-namespaces">
+                                <span class="glyphicon glyphicon-question-sign"></span>
+                            </a>
+                        </small>
                     </div>
                     {## IDEAS FOR MORE FILTERS: ##}
                     {# title, source, or both #}
