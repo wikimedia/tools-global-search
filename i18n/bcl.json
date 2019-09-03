@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Brazal.dang"
+			"Brazal.dang",
+			"ShimunUfesoj"
 		]
 	},
 	"back": "Buwelta",
+	"help-translate": "Tabang sa pagdakitaramon",
+	"important-notes": "Mga importanteng tala:",
 	"login": "Maglaog",
 	"logout": "Magluwas",
 	"page-title": "Titulo kan pahina",

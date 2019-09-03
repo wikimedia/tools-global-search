@@ -1,11 +1,19 @@
 {
+	"@metadata": {
+		"authors": [
+			"Awangba Mangang"
+		]
+	},
 	"back": "ꯃꯅꯤꯡꯍꯟꯕ",
+	"global-search": "ꯃꯂꯦꯝꯒꯤ ꯊꯥꯛꯇ ꯊꯤꯕꯥ",
 	"help-translate": "ꯍꯟꯇꯣꯛꯄꯒꯤ ꯃꯇꯦꯡ",
 	"login": "ꯆꯪꯁꯤꯟꯕ ꯃꯅꯨꯪꯗ",
 	"logout": "ꯃꯄꯥꯟ ꯊꯣꯛꯂꯛꯄ",
 	"logout-msg": "$1 ꯑꯣꯏꯅ ꯍꯧꯖꯤꯛꯀꯤ ꯃꯅꯨꯡ ꯆꯪꯁꯤꯟꯂꯤ",
 	"namespaces": "ꯃꯃꯤꯡ ꯏꯐꯝꯁꯤꯡ",
 	"page-title": "ꯂꯥꯃꯥꯏ ꯃꯃꯤꯡ",
+	"reset": "ꯑꯃꯨꯛ ꯁꯦꯝꯕ",
+	"slow": "ꯇꯞꯄ",
 	"submit": "ꯄꯤꯁꯤꯟꯕ",
 	"wiki": "ꯋꯤꯀꯤ"
 }
