@@ -13,7 +13,7 @@
         "sensio/framework-extra-bundle": "^5.3",
         "symfony/cache": "4.2.*",
         "symfony/console": "4.2.*",
-        "symfony/dotenv": "4.2.*",
+        "symfony/dotenv": "4.3.*",
         "symfony/flex": "^1.1",
         "symfony/framework-bundle": "4.2.*",
         "symfony/twig-bundle": "4.2.*",

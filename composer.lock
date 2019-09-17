@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "051cd06822de557e93c37c39b0b2be07",
+    "content-hash": "9d00a1adbb9da4d883a1710abf172198",
     "packages": [
         {
             "name": "allocine/twigcs",
@@ -1775,16 +1775,16 @@
         },
         {
             "name": "symfony/dotenv",
-            "version": "v4.2.8",
+            "version": "v4.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dotenv.git",
-                "reference": "b541d63b83532be55a020db8ed2e50598385a583"
+                "reference": "1785b18148a016b8f4e6a612291188d568e1f9cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dotenv/zipball/b541d63b83532be55a020db8ed2e50598385a583",
-                "reference": "b541d63b83532be55a020db8ed2e50598385a583",
+                "url": "https://api.github.com/repos/symfony/dotenv/zipball/1785b18148a016b8f4e6a612291188d568e1f9cd",
+                "reference": "1785b18148a016b8f4e6a612291188d568e1f9cd",
                 "shasum": ""
             },
             "require": {
@@ -1796,7 +1796,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.2-dev"
+                    "dev-master": "4.3-dev"
                 }
             },
             "autoload": {
@@ -1828,7 +1828,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2019-04-01T07:32:59+00:00"
+            "time": "2019-08-03T21:50:52+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
