@@ -2,12 +2,15 @@
 
 declare(strict_types=1);
 
-namespace App;
+namespace App\Repository;
 
 use GuzzleHttp\Client as GuzzleClient;
 use Psr\Cache\CacheItemPoolInterface;
 
-class WikiDomainLookup
+/**
+ * A WikiDomainRepository is responsible for fetching a list of all wikis from the Sitematrix API.
+ */
+class WikiDomainRepository
 {
     /** @var GuzzleClient */
     private $guzzle;

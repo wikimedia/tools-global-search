@@ -4,16 +4,19 @@ declare(strict_types=1);
 
 namespace App\Controller;
 
-use App\WikiDomainLookup;
+use App\Model\Query;
+use App\Repository\CloudElasticRepository;
+use App\Repository\WikiDomainRepository;
 use GuzzleHttp\Client;
-use GuzzleHttp\Exception\BadResponseException;
 use Psr\Cache\CacheItemPoolInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use Symfony\Component\HttpKernel\Exception\HttpException;
 use Symfony\Component\Routing\Annotation\Route;
 
+/**
+ * A DefaultController serves the main routes for the application and processing the submitted form.
+ */
 class DefaultController extends AbstractController
 {
     /** @var Client */
@@ -24,10 +27,6 @@ class DefaultController extends AbstractController
 
     /** @var bool Whether the results were pulled from cache. */
     private $fromCache = false;
-
-    private const PRE_TAG = '%**%';
-    private const POST_TAG = '*%%*';
-    private const MAX_RESULTS = 5000;
 
     /** @var string Duration of cache for main results set, as accepted by DateInterval::createFromDateString() */
     private const CACHE_TIME = '10 minutes';
@@ -41,6 +40,9 @@ class DefaultController extends AbstractController
      */
     public function __construct(CacheItemPoolInterface $cache)
     {
+        $this->client = new Client([
+            'verify' => $_ENV['ELASTIC_INSECURE'] ? false : true,
+        ]);
         $this->cache = $cache;
     }
 
@@ -73,7 +75,7 @@ class DefaultController extends AbstractController
         $ret = [
             'q' => $query,
             'regex' => $regex,
-            'max_results' => self::MAX_RESULTS,
+            'max_results' => Query::MAX_RESULTS,
             'namespaces' => $namespaces,
             'ignore_case' => $ignoreCase,
         ];
@@ -85,30 +87,6 @@ class DefaultController extends AbstractController
         }
 
         return $this->render('default/index.html.twig', $ret);
-    }
-
-    /**
-     * Parse the namespaces parameter of the query string.
-     * @param Request $request
-     * @return mixed[] [normalized comma-separated list as a string, array of ids as ints]
-     */
-    private function parseNamespaces(Request $request): array
-    {
-        $param = $request->query->get('namespaces', '');
-
-        if ('' === $param) {
-            $ids = [];
-        } else {
-            $ids = array_map(
-                'intval',
-                explode(',', $param)
-            );
-        }
-
-        return [
-            implode(',', $ids),
-            $ids,
-        ];
     }
 
     /**
@@ -134,75 +112,22 @@ class DefaultController extends AbstractController
             return $this->cache->getItem($cacheItem)->get();
         }
 
-        // Setup data structure to be passed to the view. We only set the query and regex here because they
-        // are silently changed if the query is wrapped in double-quotes (see below).
+        $query = new Query($query, $namespaceIds, $regex, $ignoreCase);
+        $params = $query->getParams();
+        $res = (new CloudElasticRepository($this->client, $params))->makeRequest();
         $data = [
             'query' => $query,
             'regex' => $regex,
             'ignore_case' => $ignoreCase,
+            'total' => $res['hits']['total'],
+            'hits' => $this->formatHits($res),
         ];
-
-        // Silently use regex to do exact match if query is wrapped in double-quotes.
-        if ('"' === substr($query, 0, 1) && '"' === substr($query, -1, 1)) {
-            $regex = true;
-            $query = preg_quote(substr($query, 1, -1));
-        }
-
-        $params = $regex
-            ? $this->getParamsForRegexQuery($query, $ignoreCase)
-            : $this->getParamsForPlainQuery($query);
-
-        if (!empty($namespaceIds)) {
-            $params['query']['bool']['filter'][] = [ 'terms' => [
-                'namespace' => $namespaceIds,
-            ] ];
-        }
-
-        $res = $this->makeRequest($params);
-        $data['total'] = $res['hits']['total'];
-        $data['hits'] = $this->formatHits($res);
 
         $cacheItem = $this->cache->getItem($cacheItem)
             ->set($data)
             ->expiresAfter(\DateInterval::createFromDateString(self::CACHE_TIME));
         $this->cache->save($cacheItem);
         return $data;
-    }
-
-    /**
-     * Query the CloudElastic service with the given params.
-     * @param mixed[] $params
-     * @return mixed[]
-     */
-    private function makeRequest(array $params): array
-    {
-        $this->client = new Client([
-            'verify' => $_ENV['ELASTIC_INSECURE'] ? false : true,
-        ]);
-
-        $uri = $_ENV['ELASTIC_HOST'].'/*,*:*/_search';
-
-        $request = new \GuzzleHttp\Psr7\Request('GET', $uri, [
-            'Content-Type' => 'application/json',
-        ], \GuzzleHttp\json_encode($params));
-
-        // FIXME: increase cURL timeout
-        try {
-            $res = $this->client->send($request);
-        } catch (BadResponseException $e) {
-            // Dump the full response in development environments since Guzzle truncates the error messages.
-            if ('dev' === $_ENV['APP_ENV']) {
-                dump($e->getResponse()->getBody()->getContents());
-            }
-
-            // Convert to Symfony-friendly exception.
-            throw new HttpException(
-                $e->getResponse()->getStatusCode(),
-                $e->getResponse()->getReasonPhrase()
-            );
-        }
-
-        return json_decode($res->getBody()->getContents(), true);
     }
 
     /**
@@ -244,14 +169,14 @@ class DefaultController extends AbstractController
     }
 
     /**
-     * Query XTools API to get the domain of the wiki with the given database name. Results are cached for a week.
+     * Query Siteinfo API to get the domain of the wiki with the given database name.
      * @param string $wiki
      * @return string
      */
     private function getWikiDomainFromDbName(string $wiki): string
     {
         if (null === $this->domainLookup) {
-            $this->domainLookup = (new WikiDomainLookup($this->client, $this->cache))->load();
+            $this->domainLookup = (new WikiDomainRepository($this->client, $this->cache))->load();
         }
         return $this->domainLookup[$wiki] ?? 'WIKINOTFOUND';
     }
@@ -265,97 +190,32 @@ class DefaultController extends AbstractController
     {
         $text = htmlspecialchars($text);
         return strtr($text, [
-            self::PRE_TAG => "<span class='highlight'>",
-            self::POST_TAG => "</span>",
+            Query::PRE_TAG => "<span class='highlight'>",
+            Query::POST_TAG => "</span>",
         ]);
     }
 
     /**
-     * Params to be passed to Cloud Elastic for a plain (normal) query.
-     * @param string $query
-     * @return mixed[]
+     * Parse the namespaces parameter of the query string.
+     * @param Request $request
+     * @return mixed[] [normalized comma-separated list as a string, array of ids as ints]
      */
-    private function getParamsForPlainQuery(string $query): array
+    private function parseNamespaces(Request $request): array
     {
-        return [
-            'timeout' => '150s',
-            'size' => self::MAX_RESULTS,
-            '_source' => ['wiki', 'namespace_text', 'title'],
-            'query' => [
-                'bool' => [
-                    'filter' => [
-                        [ 'match' => [
-                            'source_text.plain' => $query,
-                        ] ],
-                    ],
-                ],
-            ],
-            'stats' => ['global-search'],
-            'highlight' => [
-                'pre_tags' => [self::PRE_TAG],
-                'post_tags' => [self::POST_TAG],
-                'fields' => [
-                    'source_text.plain' => [
-                        'type' => 'experimental',
-                    ],
-                ],
-                'highlight_query' => [
-                    'match' => [
-                        'source_text.plain' => $query,
-                    ],
-                ],
-            ],
-        ];
-    }
+        $param = $request->query->get('namespaces', '');
 
-    /**
-     * Params to be passed to Cloud Elastic for a regular expression query.
-     * @param string $query
-     * @param bool $ignoreCase
-     * @return mixed[]
-     */
-    private function getParamsForRegexQuery(string $query, bool $ignoreCase = false): array
-    {
+        if ('' === $param) {
+            $ids = [];
+        } else {
+            $ids = array_map(
+                'intval',
+                explode(',', $param)
+            );
+        }
+
         return [
-            'timeout' => '150s',
-            'size' => 5000,
-            '_source' => ['wiki', 'namespace_text', 'title'],
-            'query' => [
-                'bool' => [
-                    'filter' => [
-                        [ 'source_regex' => [
-                            'regex' => $query,
-                            'field' => 'source_text',
-                            'ngram_field' => 'source_text.trigram',
-                            'max_determinized_states' => 20000,
-                            'max_expand' => 10,
-                            'case_sensitive' => !$ignoreCase,
-                            'locale' => 'en',
-                        ] ],
-                    ],
-                ],
-            ],
-            'stats' => ['global-search'],
-            'highlight' => [
-                'pre_tags' => [self::PRE_TAG],
-                'post_tags' => [self::POST_TAG],
-                'fields' => [
-                    'source_text.plain' => [
-                        'type' => 'experimental',
-                        'number_of_fragments' => 1,
-                        'fragmenter' => 'scan',
-                        'fragment_size' => 150,
-                        'options' => [
-                            'regex' => [$query],
-                            'locale' => 'en',
-                            'regex_flavor' => 'lucene',
-                            'skip_query' => true,
-                            'regex_case_insensitive' => $ignoreCase,
-                            'max_determinized_states' => 20000,
-                        ],
-                    ],
-                ],
-            ],
+            implode(',', $ids),
+            $ids,
         ];
     }
 }
