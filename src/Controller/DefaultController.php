@@ -180,9 +180,7 @@ class DefaultController extends AbstractController
             'verify' => $_ENV['ELASTIC_INSECURE'] ? false : true,
         ]);
 
-        // FIXME: Eventually will be able to remove _prefer_nodes
-        $uri = $_ENV['ELASTIC_HOST'].'/*,*:*/_search?preference=_prefer_nodes:cloudelastic1001-cloudelastic-chi-eqiad,'.
-            'cloudelastic1002-cloudelastic-chi-eqiad,cloudelastic1003-cloudelastic-chi-eqiad';
+        $uri = $_ENV['ELASTIC_HOST'].'/*,*:*/_search';
 
         $request = new \GuzzleHttp\Psr7\Request('GET', $uri, [
             'Content-Type' => 'application/json',
