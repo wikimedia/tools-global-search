@@ -7,12 +7,15 @@
 	"back": "Nazaj",
 	"brought-to-you-by": "Tebi izročajo $1 in $2",
 	"case-insensitive": "Ne razlikuj velike in male črke",
+	"csv": "CSV",
 	"error-server-message": "Strežnik je sporočil: $1",
 	"excerpt": "Izvleček",
 	"executed": "Izvedeno v $1 {{PLURAL:$2|sekundi|sekundah}}.",
 	"global-search": "Globalno iskanje",
+	"global-search-advert": "Ustvarjeno s $1, $2",
 	"help-translate": "Pomoč pri prevajanju",
 	"important-notes": "Pomembne opombe:",
+	"json": "JSON",
 	"login": "Prijava",
 	"logout": "Odjava",
 	"logout-msg": "Trenutno prijavljen kot $1",
@@ -28,6 +31,8 @@
 	"splash-hackathon-title": "Wikimedija hekaton 2019",
 	"splash-title": "Globalno iskanje Wikimedija",
 	"submit": "Pošlji",
+	"tsv": "TSV",
 	"view-source": "Izvorno besedilo",
-	"wiki": "Wiki"
+	"wiki": "Wiki",
+	"wikitext": "Wikibesedilo"
 }

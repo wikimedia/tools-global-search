@@ -1,9 +1,12 @@
 {
 	"@metadata": [],
 	"back": "Atzera",
+	"csv": "CSV",
 	"error-server-message": "Zerbitzariak esan du: $1",
 	"executed": "Igarotako denbora: {{PLURAL:$2|segundo $1|$2 segundo}}",
+	"global-search-advert": "$1 $2(e)n erabiliz sortua",
 	"help-translate": "Lagundu euskaratzen",
+	"json": "JSON",
 	"login": "Saioa hasi",
 	"logout": "Saioa itxi",
 	"logout-msg": "Une honetan $1 gisa erregistratuta dago",
@@ -11,6 +14,8 @@
 	"page-title": "Orriaren izenburua",
 	"report-issue": "Arazoren baten berri eman",
 	"submit": "Bidali",
+	"tsv": "TSV",
 	"view-source": "Kodea ikusi",
-	"wiki": "Wiki"
+	"wiki": "Wiki",
+	"wikitext": "Wikitestua"
 }

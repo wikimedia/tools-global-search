@@ -1,9 +1,12 @@
 {
 	"@metadata": [],
 	"back": "Tilbake",
+	"csv": "CSV",
 	"error-server-message": "Tjeneren sa: $1",
 	"executed": "Utført på $1 {{PLURAL:$2|sekund|sekunder}}.",
+	"global-search-advert": "Generert $2 med $1",
 	"help-translate": "Hjelp til med oversetting",
+	"json": "JSON",
 	"login": "Logg inn",
 	"logout": "Logg ut",
 	"logout-msg": "For tiden logget inn som $1",
@@ -11,6 +14,8 @@
 	"page-title": "Sidetittel",
 	"report-issue": "Rapporter et problem",
 	"submit": "Send",
+	"tsv": "TSV",
 	"view-source": "Vis kode",
-	"wiki": "Wiki"
+	"wiki": "Wiki",
+	"wikitext": "Wikitekst"
 }

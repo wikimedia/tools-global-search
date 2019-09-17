@@ -6,11 +6,13 @@
 		]
 	},
 	"back": "Wstecz",
+	"csv": "CSV",
 	"executed": "Wykonano w $1 {{PLURAL:$2|sekundę|sekundy|sekund}}.",
 	"global-search": "Globalne wyszukiwanie",
 	"global-search-desc": "Przeszukuj wikitekst w obrębie wszystkich wiki Fundacji Wikimedia.",
 	"help-translate": "Pomóż w tłumaczeniu",
 	"important-notes": "Ważne uwagi:",
+	"json": "JSON",
 	"login": "Logowanie",
 	"logout": "Zakończenie sesji",
 	"logout-msg": "Aktualnie zalogowany(a) jako $1",
@@ -23,6 +25,7 @@
 	"reset": "Resetuj",
 	"submit": "Wyślij",
 	"total-results": "Łącznie {{PLURAL:$1|wynik|wyniki|wyników}}",
+	"tsv": "TSV",
 	"view-source": "Kod źródłowy",
 	"wiki": "Wiki"
 }

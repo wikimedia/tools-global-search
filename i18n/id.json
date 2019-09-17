@@ -1,9 +1,12 @@
 {
 	"@metadata": [],
 	"back": "Kembali",
+	"csv": "CSV",
 	"error-server-message": "Peladen mengatakan: $1",
 	"executed": "Dieksekusi dalam $1 {{PLURAL:$2|detik|detik}}.",
+	"global-search-advert": "Dihasilkan menggunakan $1 pada $2",
 	"help-translate": "Bantu terjemahkan",
+	"json": "JSON",
 	"login": "Masuk log",
 	"logout": "Keluar log",
 	"logout-msg": "Saat ini masuk log sebagai $1",
@@ -11,6 +14,8 @@
 	"page-title": "Judul halaman",
 	"report-issue": "Laporkan masalah",
 	"submit": "Kirim",
+	"tsv": "TSV",
 	"view-source": "Lihat sumber",
-	"wiki": "Wiki"
+	"wiki": "Wiki",
+	"wikitext": "Teks wiki"
 }

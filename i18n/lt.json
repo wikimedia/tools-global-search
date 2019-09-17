@@ -1,9 +1,12 @@
 {
 	"@metadata": [],
 	"back": "Grįžti",
+	"csv": "CSV",
 	"error-server-message": "Serveris sako: $1",
 	"executed": "Įkelta per $1 {{PLURAL:$2|sekundę|sekundes|sekundžių}}.",
+	"global-search-advert": "Sugeneruota naudojant $1 per $2",
 	"help-translate": "Padėti išversti",
+	"json": "JSON",
 	"login": "Prisijungti",
 	"logout": "Atsijungti",
 	"logout-msg": "Šiuo metu prisijungęs kaip $1",
@@ -11,6 +14,8 @@
 	"page-title": "Puslapio pavadinimas",
 	"report-issue": "Pranešti apie problemą",
 	"submit": "Pateikti",
+	"tsv": "TSV",
 	"view-source": "Žiūrėti kodą",
-	"wiki": "Viki"
+	"wiki": "Viki",
+	"wikitext": "Vikitekstas"
 }

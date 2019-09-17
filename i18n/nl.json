@@ -1,9 +1,11 @@
 {
 	"@metadata": [],
 	"back": "Terug",
+	"csv": "CSV",
 	"error-server-message": "De server zei: $1",
 	"executed": "Uitgevoerd in $1 {{PLURAL:$2|seconde|seconden}}.",
 	"help-translate": "Helpen met vertalen",
+	"json": "JSON",
 	"login": "Aanmelden",
 	"logout": "Afmelden",
 	"logout-msg": "Momenteel aangemeld als $1",

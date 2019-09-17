@@ -1,9 +1,12 @@
 {
 	"@metadata": [],
 	"back": "Nazad",
+	"csv": "CSV",
 	"error-server-message": "Server kaže: $1",
 	"executed": "Izvršeno za $1 {{PLURAL:$2|sekund|sekunda|sekundi}}.",
+	"global-search-advert": "Generisano pomoću $1 na $2",
 	"help-translate": "Pomozite sa prevodima",
+	"json": "JSON",
 	"login": "Prijavi me",
 	"logout": "Odjavi me",
 	"logout-msg": "Trenutno ste prijavljeni kao $1",
@@ -11,5 +14,7 @@
 	"page-title": "Naslov stranice",
 	"report-issue": "Prijavi problem",
 	"submit": "Pošalji",
-	"wiki": "Viki"
+	"tsv": "TSV",
+	"wiki": "Viki",
+	"wikitext": "Vikitekst"
 }

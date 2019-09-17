@@ -6,9 +6,12 @@
 	},
 	"back": "Zurück",
 	"case-insensitive": "Groß- und Kleinschreibung wird nicht berücksichtigt",
+	"csv": "CSV",
 	"error-server-message": "Der Server sagte: $1",
 	"executed": "In {{PLURAL:$2|einer Sekunde|$1 Sekunden}} ausgeführt.",
+	"global-search-advert": "Erzeugt mithilfe $1 am $2",
 	"help-translate": "Hilf beim Übersetzen",
+	"json": "JSON",
 	"login": "Anmelden",
 	"logout": "Abmelden",
 	"logout-msg": "Derzeit angemeldet als $1",
@@ -24,6 +27,8 @@
 	"splash-product-of-hackathon": "Ein Produkt der $1",
 	"submit": "Absenden",
 	"total-results": "{{PLURAL:$1|Gesamtergebnis|Gesamtergebnisse}}",
+	"tsv": "TSV",
 	"view-source": "Quellcode ansehen",
-	"wiki": "Wiki"
+	"wiki": "Wiki",
+	"wikitext": "Wikitext"
 }

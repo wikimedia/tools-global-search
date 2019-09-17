@@ -7,11 +7,14 @@
 	"back": "بازگشت",
 	"brought-to-you-by": "تقدیم به شما از سوی $1 و $2",
 	"case-insensitive": "غیر حساس به بزرگی و کوچکی حروف",
+	"csv": "مقادیر جداشده با ویرگول",
 	"error-server-message": "پاسخ سرور: $1",
 	"executed": "استخراج در $1 {{PLURAL:$2|ثانیه|ثانیه}}.",
 	"global-search": "جستجوی سراسری",
+	"global-search-advert": "تولید با استفاده از $1 در $2",
 	"help-translate": "برای ترجمه کمک کنید",
 	"important-notes": "نکات مهم:",
+	"json": "JSON",
 	"login": "ورود به سامانه",
 	"logout": "خروج از سامانه",
 	"logout-msg": "وارد شده به عنوان $1",
@@ -25,6 +28,8 @@
 	"splash-title": "جستجوی سراسری ویکی‌مدیا",
 	"submit": "ثبت",
 	"total-results": "کلّ {{PLURAL:$1|نتایج}}",
+	"tsv": "TSV",
 	"view-source": "نمایش مبدأ",
-	"wiki": "ویکی"
+	"wiki": "ویکی",
+	"wikitext": "ویکی‌متن"
 }

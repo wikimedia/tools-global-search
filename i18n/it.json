@@ -5,6 +5,7 @@
 		]
 	},
 	"case-insensitive": "Non distingui maiuscole e minuscole",
+	"csv": "CSV",
 	"executed": "Eseguito in $1 {{PLURAL:$2|secondo|secondi}}.",
 	"help-translate": "Aiuta a tradurre",
 	"login": "Entra",
@@ -14,5 +15,6 @@
 	"report-issue": "Segnala un problema",
 	"submit": "Invia",
 	"view-source": "Visualizza sorgente",
-	"wiki": "Wiki"
+	"wiki": "Wiki",
+	"wikitext": "Wikitesto"
 }
