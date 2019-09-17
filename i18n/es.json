@@ -8,13 +8,16 @@
 	},
 	"back": "Volver",
 	"case-insensitive": "No distinguir mayúsculas y minúsculas",
+	"csv": "CSV",
 	"error-server-message": "El servidor respondió: $1",
 	"executed": "Ejecutado en $1 {{PLURAL:$2|segundo|segundos}}.",
 	"global-search": "Búsqueda global",
+	"global-search-advert": "Generado mediante $1 el $2",
 	"global-search-desc": "Búsquedas en el texto de todos los wikis de la Fundación Wikimedia.",
 	"help-translate": "Ayúdanos a traducir",
 	"important-notes": "Notas importantes:",
 	"important-notes-cached": "Los resultados se almacenan en antememoria por $1 {{PLURAL:$1|minuto|minutos}}.",
+	"json": "JSON",
 	"login": "Acceder",
 	"logout": "Salir",
 	"logout-msg": "Actualmente conectado como $1",
@@ -29,6 +32,8 @@
 	"slow": "Lenta",
 	"splash-title": "Búsqueda global de Wikimedia",
 	"submit": "Enviar",
+	"tsv": "TSV",
 	"view-source": "Ver código",
-	"wiki": "Wiki"
+	"wiki": "Wiki",
+	"wikitext": "Wikitexto"
 }

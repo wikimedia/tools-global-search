@@ -1,7 +1,11 @@
 {
 	"back": "Артгъа",
+	"csv": "CSV",
 	"help-translate": "Таржума булан ярдым",
+	"json": "JSON",
 	"login": "Гирмек",
 	"logout": "Чыкъмакъ",
-	"wiki": "Вики"
+	"tsv": "TSV",
+	"wiki": "Вики",
+	"wikitext": "Викиметин"
 }

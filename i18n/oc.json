@@ -1,5 +1,6 @@
 {
 	"back": "Retorn",
+	"csv": "CSV",
 	"executed": "Executat en $1 {{PLURAL:$2|segonda|segondas}}.",
 	"page-title": "Títol de la pagina",
 	"report-issue": "Senhalar un problèma",

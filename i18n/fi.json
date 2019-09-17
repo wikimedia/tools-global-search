@@ -5,6 +5,7 @@
 		]
 	},
 	"back": "Takaisin",
+	"csv": "CSV",
 	"excerpt": "Ote",
 	"executed": "Suoritettu $1 {{PLURAL:$2|sekunnissa}}.",
 	"global-search": "Maailmanlaajuinen haku",
@@ -22,5 +23,6 @@
 	"splash-title": "Wikimedia maailmanlaajuinen haku",
 	"submit": "Hae",
 	"view-source": "Näytä lähdekoodi",
-	"wiki": "Wiki"
+	"wiki": "Wiki",
+	"wikitext": "Wikiteksti"
 }

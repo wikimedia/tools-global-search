@@ -7,14 +7,17 @@
 	"back": "뒤로",
 	"brought-to-you-by": "$1 및 $2에 의해 가져옴",
 	"case-insensitive": "대소문자 구분 안 함",
+	"csv": "CSV",
 	"error-report": "이 버그는 $1에 보고할 수 있습니다.",
 	"error-server-message": "서버 응답: $1",
 	"executed": "$1{{PLURAL:$2|초}} 전에 실행됨.",
 	"global-search": "전역 검색",
+	"global-search-advert": "$2에 $1를 사용하여 생성함",
 	"global-search-desc": "모든 위키미디어 재단 위키의 위키텍스트를 검색합니다.",
 	"help-translate": "변역 돕기",
 	"important-notes": "중요 참고사항:",
 	"important-notes-lag": "운영 중에 결과가 지연될 수 있으며, 보통은 $1 {{PLURAL:$1|분}} 정도입니다.",
+	"json": "JSON",
 	"login": "로그인",
 	"logout": "로그아웃",
 	"logout-msg": "현재 $1님으로 로그인됨",
@@ -35,6 +38,8 @@
 	"splash-title": "위키미디어 전역 검색",
 	"submit": "확인",
 	"total-results": "총 {{PLURAL:$1|결과}}",
+	"tsv": "TSV",
 	"view-source": "원본 보기",
-	"wiki": "위키"
+	"wiki": "위키",
+	"wikitext": "위키텍스트"
 }

@@ -1,9 +1,11 @@
 {
 	"@metadata": [],
 	"back": "ಪಿರ",
+	"csv": "CSV",
 	"error-server-message": "ಸರ್ವರ್ ಸರಿ ಇಜ್ಜಿ: $1",
 	"executed": "ಬಲಕೆ ಮಾಲ್ಪುಲೆ $1 {{PLURAL:$2|ನಿಮಿಸೊ|ನಿಮಿಸೊ}}.",
 	"help-translate": "ಅನುವಾದಗ್ ಸಹಾಯಮಲ್ಪುಲೆ",
+	"json": "ಜೆಎಸ್‍ಒಎನ್",
 	"login": "ಲಾಗಿನ್.",
 	"logout": "ಲಾಗ್ ಅವುಟ್.",
 	"logout-msg": "ಇತ್ತೆತ ಲಾಗೀನ್ $1.",

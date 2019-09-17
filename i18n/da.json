@@ -6,10 +6,13 @@
 	},
 	"back": "Tilbage",
 	"brought-to-you-by": "Bragt til dig af $1 og $2",
+	"csv": "CSV",
 	"error-server-message": "Serveren sagde: $1",
 	"executed": "Udført på $1 {{PLURAL:$2|sekund|sekunder}}.",
 	"global-search": "Global søgning",
+	"global-search-advert": "Oprettet via brug af $1 på $2",
 	"help-translate": "Hjælp til med at oversætte",
+	"json": "JSON",
 	"login": "Log ind",
 	"logout": "Log ud",
 	"logout-msg": "Logget ind som $1",
@@ -27,6 +30,8 @@
 	"splash-title": "Wikimedia global søgning",
 	"submit": "Udfør",
 	"total-results": "Samlet {{PLURAL:$1|resultater}}",
+	"tsv": "TSV",
 	"view-source": "Vis kildekode",
-	"wiki": "Wiki"
+	"wiki": "Wiki",
+	"wikitext": "Wikitekst"
 }

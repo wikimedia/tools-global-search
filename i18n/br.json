@@ -7,14 +7,17 @@
 	"back": "Distreiñ",
 	"brought-to-you-by": "Pourvezet oc'h bet gant $1 ha $2",
 	"case-insensitive": "Lizherennoù bras pe vihan ne vern",
+	"csv": "CSV",
 	"error-report": "Gallout a rit disklêriañ an draen-mañ war $1",
 	"error-server-message": "Ar servijer en deus respontet : $1",
 	"executed": "Sevenet e $1\n{{PLURAL:$2|eilenn|eilenn}}.",
 	"global-search": "Enklask hollek",
+	"global-search-advert": "Ganet en ur implijout $1 war $2",
 	"global-search-desc": "Enklask er wikidestenn e-touez wikioù an Diazezadur Wikimedia.",
 	"help-translate": "Sikour da dreiñ",
 	"important-notes": "Evezhiadennoù pouezus :",
 	"important-notes-cached": "Er grubuilh e vez lakaet an disoc'hoù evit $1 munut.",
+	"json": "JSON",
 	"login": "Kevreañ",
 	"logout": "Digevreañ",
 	"logout-msg": "Kevreet bremañ evel $1",
@@ -36,6 +39,8 @@
 	"splash-title": "Enklask hollek Wikimedia",
 	"submit": "Kas",
 	"total-results": "Hollad {{PLURAL:$1|disoc'hoù}}",
+	"tsv": "TSV",
 	"view-source": "Sellet ouzh tarzh an destenn",
-	"wiki": "Wiki"
+	"wiki": "Wiki",
+	"wikitext": "Wikitestenn"
 }

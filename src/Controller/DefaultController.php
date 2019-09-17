@@ -10,6 +10,7 @@ use App\Repository\WikiDomainRepository;
 use GuzzleHttp\Client;
 use Psr\Cache\CacheItemPoolInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -76,17 +77,73 @@ class DefaultController extends AbstractController
             'q' => $query,
             'regex' => $regex,
             'max_results' => Query::MAX_RESULTS,
-            'namespaces' => $namespaces,
+            'namespaces' => $namespaceIds,
             'ignore_case' => $ignoreCase,
         ];
 
         if ($query) {
             $ret = array_merge($ret, $this->getResults($query, $regex, $ignoreCase, $namespaceIds, $purgeCache));
             $ret['from_cache'] = $this->fromCache;
-            return $this->render('default/result.html.twig', $ret);
+            return $this->formatResponse($request, $query, $ret);
         }
 
         return $this->render('default/index.html.twig', $ret);
+    }
+
+    /**
+     * Get the rendered template for the requested format.
+     * @param Request $request
+     * @param string $query Query string, used for filenames.
+     * @param array $data Data that should be passed to the view.
+     * @return Response
+     */
+    private function formatResponse(Request $request, string $query, array $data): Response
+    {
+        $format = $request->query->get('format', 'html');
+        if ('' == $format) {
+            // The default above doesn't work when the 'format' parameter is blank.
+            $format = 'html';
+        }
+
+        $formatMap = [
+            'html' => 'text/html',
+            'wikitext' => 'text/plain',
+            'csv' => 'text/csv',
+            'tsv' => 'text/tab-separated-values',
+            'json' => 'application/json',
+        ];
+
+        // Use HTML if unknown format requested.
+        $format = isset($formatMap[$format]) ? $format : 'html';
+
+        // Nothing more needed if requesting JSON.
+        if ('json' === $format) {
+            return new JsonResponse($data);
+        }
+
+        $response = new Response();
+
+        $response->headers->set('Content-Type', $formatMap[$format]);
+        if (in_array($format, ['csv', 'tsv'])) {
+            $filename = $this->getFilenameForRequest($query);
+            $response->headers->set(
+                'Content-Disposition',
+                "attachment; filename=\"{$filename}.$format\""
+            );
+        }
+
+        return $this->render("default/result.$format.twig", $data, $response);
+    }
+
+    /**
+     * Returns pretty filename from the given query, with problematic characters filtered out.
+     * @param string $query
+     * @return string
+     */
+    private function getFilenameForRequest(string $query): string
+    {
+        $filename = trim($query, '/');
+        return trim(preg_replace('/[-\/\\:;*?|<>%#"]+/', '-', $filename));
     }
 
     /**
@@ -116,7 +173,6 @@ class DefaultController extends AbstractController
         $params = $query->getParams();
         $res = (new CloudElasticRepository($this->client, $params))->makeRequest();
         $data = [
-            'query' => $query,
             'regex' => $regex,
             'ignore_case' => $ignoreCase,
             'total' => $res['hits']['total'],

@@ -5,9 +5,12 @@
 		]
 	},
 	"back": "Anterior",
+	"csv": "CSV",
 	"error-server-message": "El sirvidor dixo: $1",
 	"executed": "Executao en $1 {{PLURAL:$2|segundu|segundos}}.",
+	"global-search-advert": "Xeneráu usando $1 el $2",
 	"help-translate": "Ayudar a traducir",
+	"json": "JSON",
 	"login": "Identificase",
 	"logout": "Salir",
 	"logout-msg": "Sesión actual aniciada como $1",
@@ -15,5 +18,7 @@
 	"page-title": "Títulu de la páxina",
 	"report-issue": "Informar d'un problema",
 	"submit": "Unviar",
-	"wiki": "Wiki"
+	"tsv": "TSV",
+	"wiki": "Wiki",
+	"wikitext": "Testu wiki"
 }

@@ -1,6 +1,7 @@
 {
 	"@metadata": [],
 	"back": "Trở lại",
+	"csv": "CSV",
 	"executed": "Đã thực hiện trong $1 {{PLURAL:$2|giây|giây}}.",
 	"help-translate": "Giúp biên dịch",
 	"login": "Đăng nhập",

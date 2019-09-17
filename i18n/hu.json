@@ -1,9 +1,11 @@
 {
 	"@metadata": [],
 	"back": "vissza",
+	"csv": "CSV",
 	"error-server-message": "A szerver mondja: $1",
 	"executed": "Végrehajtva $1 {{PLURAL:$2|másodperc}} alatt.",
 	"help-translate": "Segíts fordítani",
+	"json": "JSON",
 	"login": "Bejelentkezés",
 	"logout": "Kijelentkezés",
 	"logout-msg": "Aktuálisan bejelentkezve mint $1",
@@ -12,5 +14,6 @@
 	"report-issue": "Hibabejelentés",
 	"submit": "Elküld",
 	"view-source": "Forráskód megtekintése",
-	"wiki": "Wiki"
+	"wiki": "Wiki",
+	"wikitext": "Wikiszöveg"
 }

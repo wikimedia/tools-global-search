@@ -1,9 +1,11 @@
 {
 	"@metadata": [],
 	"back": "Volver",
+	"csv": "CSV",
 	"error-server-message": "O servidor respondeu: $1",
 	"executed": "Executado en $1 {{PLURAL:$2|segundo|segundos}}.",
 	"help-translate": "Axudar coas traducións",
+	"json": "JSON",
 	"login": "Acceder ao sistema",
 	"logout": "Saír",
 	"logout-msg": "Actualmente conectado como $1",
@@ -12,5 +14,6 @@
 	"report-issue": "Informar dun problema",
 	"submit": "Enviar",
 	"view-source": "Ver o código fonte",
-	"wiki": "Wiki"
+	"wiki": "Wiki",
+	"wikitext": "Texto wiki"
 }

@@ -6,9 +6,12 @@
 		]
 	},
 	"back": "Назад",
+	"csv": "CSV",
 	"error-server-message": "Сервер каже: $1",
 	"executed": "Извршено за $1 {{PLURAL:$2|секунд|секунда|секунди}}.",
+	"global-search-advert": "Генерисано помоћу $1 на $2",
 	"help-translate": "Помозите са преводима",
+	"json": "JSON",
 	"login": "Пријави ме",
 	"logout": "Одјави ме",
 	"logout-msg": "Тренутно сте пријављени као $1",
@@ -22,6 +25,8 @@
 	"splash-title": "Викимедијина глобална претрага",
 	"submit": "Пошаљи",
 	"total-results": "Укупно {{PLURAL:$1|резултата}}",
+	"tsv": "TSV",
 	"view-source": "Погледај извор",
-	"wiki": "Вики"
+	"wiki": "Вики",
+	"wikitext": "Викитекст"
 }

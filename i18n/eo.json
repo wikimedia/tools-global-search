@@ -7,6 +7,7 @@
 	"back": "Reen",
 	"brought-to-you-by": "Verkita por vi de $1 kaj $2",
 	"case-insensitive": "Ignorante usklecon",
+	"csv": "Komo-apartigitaj valoroj",
 	"error-report": "Vi povas raporti ĉi tiun cimon ĉe $1.",
 	"error-server-message": "La servilo diris: $1",
 	"excerpt": "Eltiraĵo",
@@ -18,6 +19,7 @@
 	"important-notes-cached": "Rezultoj estas kaŝmemorigitaj dum $1 {{PLURAL:$1|minuto|minutoj}}.",
 	"important-notes-lag": "Rezultoj estas eble malaktualaj, ordinare $1 {{PLURAL:$1|minuton|minutojn}}.",
 	"important-notes-specific": "Laŭeble specifigu vian serĉoton. Ju pli da rezultoj liverotaj, des pli vi atendos.",
+	"json": "JSON",
 	"login": "Ensaluti",
 	"logout": "Elsaluti",
 	"logout-msg": "Ensalutinta kiel $1",
@@ -41,5 +43,6 @@
 	"submit": "Sendi",
 	"total-results": "Totala nombro de {{PLURAL:$1|rezultoj}}",
 	"view-source": "Vidi fonton",
-	"wiki": "Vikio"
+	"wiki": "Vikio",
+	"wikitext": "Vikiteksto"
 }

@@ -6,10 +6,13 @@
 	},
 	"back": "পিছনে",
 	"case-insensitive": "অক্ষর অ-সংবেদনশীল",
+	"csv": "CSV",
 	"error-server-message": "সার্ভারটি জানিয়েছে: $1",
 	"executed": "$1 {{PLURAL:$2|সেকেন্ডে}} নিষ্পন্ন।",
 	"global-search": "বৈশ্বিক অনুসন্ধান",
+	"global-search-advert": "$2 তারিখে $1 ব্যবহার করে উৎপন্ন",
 	"help-translate": "অনুবাদে সাহায্য করুন",
+	"json": "JSON",
 	"login": "প্রবেশ",
 	"logout": "প্রস্থান",
 	"logout-msg": "বর্তমানে $1 হিসেবে প্রবেশকৃত",
@@ -22,6 +25,8 @@
 	"slow": "দেখান",
 	"submit": "জমা দিন",
 	"total-results": "মোট {{PLURAL:$1|ফলাফল}}",
+	"tsv": "TSV",
 	"view-source": "উৎস দেখুন",
-	"wiki": "উইকি"
+	"wiki": "উইকি",
+	"wikitext": "উইকিপাঠ্য"
 }

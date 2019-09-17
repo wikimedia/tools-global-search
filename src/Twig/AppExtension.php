@@ -33,6 +33,7 @@ class AppExtension extends AbstractExtension
     {
         return [
             new TwigFunction('request_time', [$this, 'requestTime']),
+            new TwigFunction('csv', [$this, 'csv'], ['is_safe' => ['html']]),
         ];
     }
 
@@ -53,5 +54,15 @@ class AppExtension extends AbstractExtension
         $this->requestTime = microtime(true) - $startTime;
 
         return $this->requestTime;
+    }
+
+    /**
+     * Properly escape the given string using double-quotes so that it is safe to use as a cell in CSV exports.
+     * @param string $content
+     * @return string
+     */
+    public function csv(string $content): string
+    {
+        return '"'.str_replace('"', '""', $content).'"';
     }
 }

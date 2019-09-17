@@ -1,7 +1,9 @@
 {
 	"@metadata": [],
 	"back": "ကလေၚ်",
+	"csv": "CSV",
 	"help-translate": "ရီုဗၚ်ကၠာဲ",
+	"json": "JSON",
 	"login": "လုပ် ဇၟိက်",
 	"logout": "တိတ် ဇၟိက်",
 	"logout-msg": "လံက်အေန်လဝ် လၟုဟ် နဒဒှ် $1",
@@ -9,6 +11,8 @@
 	"page-title": "က္ဍိုပ်မုက်လိက်",
 	"report-issue": "ဒုၚ်စဳရေၚ်ပရူပရာ",
 	"submit": "ပ္တိန်ထ္ၜး",
+	"tsv": "TSV",
 	"view-source": "ဗဵု တမ်ရိုဟ်",
-	"wiki": "ဝဳကဳ"
+	"wiki": "ဝဳကဳ",
+	"wikitext": "ဖျုန်လိက်ဝဳကဳ"
 }

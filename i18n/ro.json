@@ -6,12 +6,15 @@
 	},
 	"back": "Înapoi",
 	"brought-to-you-by": "Creat de către $1 și $2.",
+	"csv": "CSV",
 	"error-server-message": "Serverul a răspuns: $1",
 	"excerpt": "Extras",
 	"executed": "Executat în $1 {{PLURAL:$2|secundă|secunde|de secunde}}",
 	"global-search": "Căutare globală",
+	"global-search-advert": "Generate folosind $1 sau $2",
 	"help-translate": "Ajutați cu traducerea",
 	"important-notes": "Note importante:",
+	"json": "JSON",
 	"login": "Autentificare",
 	"logout": "Închide sesiunea",
 	"logout-msg": "Autentificat{{GENDER:$1||ă}} ca $1",
@@ -28,6 +31,8 @@
 	"splash-product-of-hackathon": "Un produs al $1",
 	"splash-title": "Căutare Globală Wikimedia",
 	"submit": "Trimite",
+	"tsv": "TSV",
 	"view-source": "Vizualizare sursă",
-	"wiki": "Wiki"
+	"wiki": "Wiki",
+	"wikitext": "Wikitext"
 }

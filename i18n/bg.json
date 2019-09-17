@@ -1,9 +1,12 @@
 {
 	"@metadata": [],
 	"back": "Назад",
+	"csv": "CSV",
 	"error-server-message": "Сървърът казва: $1",
 	"executed": "Изпълнено за $1 {{PLURAL:$2|секунда|секунди}}",
+	"global-search-advert": "Създадено, използвайки $1 на $2",
 	"help-translate": "Помощ с превода",
+	"json": "JSON",
 	"login": "Влизане",
 	"logout": "Излизане",
 	"logout-msg": "В момента сте влезли като $1",
@@ -11,6 +14,8 @@
 	"page-title": "Заглавие на страницата",
 	"report-issue": "Съобщаване за проблем",
 	"submit": "Изпращане",
+	"tsv": "TSV",
 	"view-source": "Преглед на кода",
-	"wiki": "Уики"
+	"wiki": "Уики",
+	"wikitext": "Уикитекст"
 }
