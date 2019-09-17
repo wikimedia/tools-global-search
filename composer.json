@@ -12,7 +12,7 @@
         "eightpoints/guzzle-bundle": "^7.5",
         "sensio/framework-extra-bundle": "^5.3",
         "symfony/cache": "4.3.*",
-        "symfony/console": "4.2.*",
+        "symfony/console": "4.3.*",
         "symfony/dotenv": "4.3.*",
         "symfony/flex": "^1.1",
         "symfony/framework-bundle": "4.2.*",
