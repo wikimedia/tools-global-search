@@ -1,0 +1,13 @@
+{% set link %}[{{ url('home', app.request.query.all|merge({'format': 'html'})) }} {{ msg('splash-title') }}]{% endset %}
+{{ msg('global-search-advert', [link, date()|date('Y-m-d H:i')]) }}
+
+{| class="wikitable sortable"
+! {{ msg('wiki') }}
+! {{ msg('page-title') }}
+|-
+{% for hit in hits %}
+| {{ hit.wiki }}
+| [{{ hit.url|replace({' ': '_'}) }} {{ hit.title }}]
+|-
+{% endfor %}
+|}

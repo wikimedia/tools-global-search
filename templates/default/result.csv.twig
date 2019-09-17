@@ -1,0 +1,4 @@
+{{ csv(msg('wiki')) }},{{ csv(msg('page-title')) }}
+{% for hit in hits %}
+{{ hit.wiki }},{{ csv(hit.title) }}
+{% endfor %}
