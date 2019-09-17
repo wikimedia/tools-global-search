@@ -27,7 +27,7 @@
         "slevomat/coding-standard": "^5.0",
         "symfony/profiler-pack": "^1.0",
         "symfony/var-dumper": "4.2.*",
-        "symfony/web-server-bundle": "4.2.*"
+        "symfony/web-server-bundle": "4.3.*"
     },
     "config": {
         "preferred-install": {
