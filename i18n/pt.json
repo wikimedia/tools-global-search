@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hamilton Abreu"
+			"Hamilton Abreu",
+			"Mansil alfalb"
 		]
 	},
 	"back": "Voltar",
@@ -13,7 +14,7 @@
 	"excerpt": "Excerto",
 	"executed": "Executado em $1 {{PLURAL:$2|segundo|segundos}}.",
 	"global-search": "Pesquisa global",
-	"global-search-advert": "Gerado ao utilizar $1 em $2",
+	"global-search-advert": "Gerado utilizando $1 em $2",
 	"global-search-desc": "Pesquisar no texto wiki de todas as wikis da Wikimedia Foundation.",
 	"help-translate": "Ajude a traduzir",
 	"important-notes": "Notas importantes:",

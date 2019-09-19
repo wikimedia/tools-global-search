@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Antsa"
+			"Antsa",
+			"Nike"
 		]
 	},
 	"back": "Takaisin",
@@ -10,6 +11,7 @@
 	"executed": "Suoritettu $1 {{PLURAL:$2|sekunnissa}}.",
 	"global-search": "Maailmanlaajuinen haku",
 	"help-translate": "Auta kääntämisessä",
+	"json": "JSON",
 	"login": "Kirjaudu sisään",
 	"logout": "Kirjaudu ulos",
 	"logout-msg": "Kirjautunut sisään käyttäjänä $1",

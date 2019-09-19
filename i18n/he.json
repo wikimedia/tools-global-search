@@ -14,6 +14,7 @@
 	"excerpt": "קטע מתוך",
 	"executed": "זמן ביצוע ב$1: {{PLURAL:$2|שניה|שניות}}.",
 	"global-search": "חיפוש גלובלי",
+	"global-search-advert": "נוצר בעזרת $1 על גבי $2",
 	"global-search-desc": "חיפוש בוויקיציטוט ברחבי כל אתרי הוויקי של עמותת ויקימדיה.",
 	"help-translate": "עזור לתרגם",
 	"important-notes": "הערות חשובות:",

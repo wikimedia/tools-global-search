@@ -1,9 +1,14 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Elroy"
+		]
+	},
 	"back": "Terug",
 	"csv": "CSV",
 	"error-server-message": "De server zei: $1",
 	"executed": "Uitgevoerd in $1 {{PLURAL:$2|seconde|seconden}}.",
+	"global-search-advert": "Gemaakt met $1 op $2",
 	"help-translate": "Helpen met vertalen",
 	"json": "JSON",
 	"login": "Aanmelden",
@@ -13,6 +18,8 @@
 	"page-title": "Paginatitel",
 	"report-issue": "Probleem melden",
 	"submit": "Verzenden",
+	"tsv": "TSV",
 	"view-source": "Broncode bekijken",
-	"wiki": "Wiki"
+	"wiki": "Wiki",
+	"wikitext": "Wikitekst"
 }
