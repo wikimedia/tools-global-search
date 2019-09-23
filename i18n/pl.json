@@ -9,6 +9,7 @@
 	"csv": "CSV",
 	"executed": "Wykonano w $1 {{PLURAL:$2|sekundę|sekundy|sekund}}.",
 	"global-search": "Globalne wyszukiwanie",
+	"global-search-advert": "Wygenerowano używając $1 na $2",
 	"global-search-desc": "Przeszukuj wikitekst w obrębie wszystkich wiki Fundacji Wikimedia.",
 	"help-translate": "Pomóż w tłumaczeniu",
 	"important-notes": "Ważne uwagi:",
@@ -27,5 +28,6 @@
 	"total-results": "Łącznie {{PLURAL:$1|wynik|wyniki|wyników}}",
 	"tsv": "TSV",
 	"view-source": "Kod źródłowy",
-	"wiki": "Wiki"
+	"wiki": "Wiki",
+	"wikitext": "Wikikod"
 }
