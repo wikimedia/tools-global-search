@@ -14,6 +14,7 @@
 	"excerpt": "Gırotek",
 	"executed": "$1 {{PLURAL:$2|saniye|saniyan}} miyan de vıst kay.",
 	"global-search": "Global cı geyrayış",
+	"global-search-advert": "$1 be gurenayışê $2 ra vıraziyaya",
 	"global-search-desc": "Wikiyan ê pêroyınê Weqfa Wikimedia tede de cıgeyrê.",
 	"help-translate": "Destegê tadayışi",
 	"important-notes": "Notê muhimi:",
@@ -43,6 +44,7 @@
 	"splash-title": "Cıgeyrayişo Wikimedia yo Global",
 	"submit": "Bırışe",
 	"total-results": "{{PLURAL:$1|netice|neticey}} pêro",
+	"tsv": "TSV",
 	"view-source": "Çımey bıvêne",
 	"wiki": "Wiki",
 	"wikitext": "Wikimetın"
