@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mirzali"
+			"Mirzali",
+			"Tobi 406"
 		]
 	},
 	"back": "Zurück",
@@ -9,6 +10,7 @@
 	"csv": "CSV",
 	"error-server-message": "Der Server sagte: $1",
 	"executed": "In {{PLURAL:$2|einer Sekunde|$1 Sekunden}} ausgeführt.",
+	"global-search": "Globale Suche",
 	"global-search-advert": "Erzeugt mithilfe $1 am $2",
 	"help-translate": "Hilf beim Übersetzen",
 	"json": "JSON",
@@ -25,8 +27,9 @@
 	"splash-login-desc": "Mit diesem Werkzeug können Sie mithilfe des Dienstes \"$1\" in allen Wikimedia Foundation-Wikis nach Stichwörtern und Quellen für reguläre Ausdrücke suchen.",
 	"splash-login-required": "Da dieses Werkzeug teure Abfragen mit langer Laufzeit ausführen kann, ist eine Anmeldung erforderlich.",
 	"splash-product-of-hackathon": "Ein Produkt der $1",
+	"splash-title": "Globale Wikimedia-Suche",
 	"submit": "Absenden",
-	"total-results": "{{PLURAL:$1|Gesamtergebnis|Gesamtergebnisse}}",
+	"total-results": "{{PLURAL:$1|Gesamtergebnisse}}",
 	"tsv": "TSV",
 	"view-source": "Quellcode ansehen",
 	"wiki": "Wiki",
