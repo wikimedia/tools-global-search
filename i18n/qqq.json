@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Omotecho"
+			"Omotecho",
+			"Amire80"
 		]
 	},
 	"back": "Link that brings user back to the initial form.\n{{Identical|Back}}",
@@ -9,7 +10,7 @@
 	"csv": "{{Optional}}\nLink for CSV file. See https://en.wikipedia.org/wiki/Comma-separated_values for information on what a CSV file is.\nCSV is the name of a file format; should not be translated.",
 	"error-report": "Message saying how to report a bug. Shown on the error page. $1 is a link to Phabricator.",
 	"error-server-message": "Error message. $1 is the message given by the server.",
-	"excerpt": "Heading for column showing an excerpt of the wikiext of the page that includes the search term.",
+	"excerpt": "Heading for column showing an excerpt of the wikitext of the page that includes the search term.",
 	"executed": "Execution time. $1 is the formatted number of seconds, and $2 is the unformatted number for use with PLURAL.",
 	"global-search": "Title of the application.",
 	"global-search-advert": "When exporting results, this message is shown at the top. $1 is a link to Global Search, and $2 is the date and time the results were fetched.",
@@ -32,13 +33,13 @@
 	"regular-expression": "Label for the regular expression checkbox. See https://www.wikidata.org/wiki/Q185612 for possible translations.",
 	"report-issue": "Link to report an issue or bug.",
 	"reset": "Text for button to reset the form.\n{{Identical|Reset}}",
-	"showing-n": "Message that appears next to the {{msg-mw|total-results}} indicating how many results are shown, which may be less than the total results. $1 is the formatted number of results. $2 is the number of results for use with PLURAL, if needed.",
-	"slow": "Shown next to the label for the 'regular expression' option, to indicate that this makes the query slow.\n{{Identical|Slow}}",
+	"showing-n": "Message that appears next to the {{msg-wm|Global-search-total-results}} indicating how many results are shown, which may be less than the total results. $1 is the formatted number of results. $2 is the number of results for use with PLURAL, if needed.",
+	"slow": "Shown next to the label for the 'regular expression' option ({{msg-wm|Global-search-regular-expression}}), to indicate that this makes the query slow.\n{{Identical|Slow}}",
 	"splash-hackathon-title": "Name for the 'Wikimedia Hackathon 2019' event.",
 	"splash-login-btn": "Text for button login. Shown on the splash page.",
 	"splash-login-desc": "Description of the tool, shown on the splash page. $1 is a link to the CloudElastic documentation.",
 	"splash-login-required": "Message saying login is required to use the tool.",
-	"splash-product-of-hackathon": "Message shown on the splash page that says this is a product of the Wikimedia Hackathon 2019. $1 is a link to the Hackathon page with the message {{msg-mw|splash-hackathon-title}} as the link text.",
+	"splash-product-of-hackathon": "Message shown on the splash page that says this is a product of the Wikimedia Hackathon 2019. $1 is a link to the Hackathon page with the message {{msg-wm|Global-search-splash-hackathon-title}} as the link text.",
 	"splash-title": "Title of the splash page.",
 	"submit": "Submit button text\n{{Identical|Submit}}",
 	"total-results": "Label for value indicating the total number of results. $1 is the number of results.",
