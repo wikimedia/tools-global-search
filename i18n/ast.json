@@ -1,24 +1,45 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fitoschido"
+			"Fitoschido",
+			"Xuacu"
 		]
 	},
 	"back": "Anterior",
+	"brought-to-you-by": "Te lu proporcionen $1 y $2",
+	"case-insensitive": "Nun estremar mayúscules y minúscules",
 	"csv": "CSV",
+	"error-report": "Pues informar d'esti fallu en $1.",
 	"error-server-message": "El sirvidor dixo: $1",
+	"excerpt": "Amuesa",
 	"executed": "Executao en $1 {{PLURAL:$2|segundu|segundos}}.",
+	"global-search": "Busca global",
 	"global-search-advert": "Xeneráu usando $1 el $2",
+	"global-search-desc": "Buscar nel códigu wiki de toles wikis de la Fundación Wikimedia.",
 	"help-translate": "Ayudar a traducir",
+	"important-notes": "Notes importantes:",
+	"important-notes-cached": "Les resultancies guárdense na caché demientres $1 {{PLURAL:$1|minutu|minutos}}.",
 	"json": "JSON",
 	"login": "Identificase",
 	"logout": "Salir",
 	"logout-msg": "Sesión actual aniciada como $1",
 	"namespaces": "Espacios de nomes",
 	"page-title": "Títulu de la páxina",
+	"powered-by": "Col encontu de $1",
+	"purge-cache": "Purgar la caché",
+	"query": "Consulta",
+	"regular-expression": "Espresión regular",
 	"report-issue": "Informar d'un problema",
+	"reset": "Reaniciar",
+	"showing-n": "{{PLURAL:$2|Amosando}} $1",
+	"slow": "Lenta",
+	"splash-hackathon-title": "Wikimedia Hackathon 2019",
+	"splash-product-of-hackathon": "Un productu del $1",
+	"splash-title": "Busca global de Wikimedia",
 	"submit": "Unviar",
+	"total-results": "Total {{PLURAL:$1|resultaos}}",
 	"tsv": "TSV",
+	"view-source": "Ver fonte",
 	"wiki": "Wiki",
 	"wikitext": "Testu wiki"
 }
