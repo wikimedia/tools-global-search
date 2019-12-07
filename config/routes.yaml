@@ -1,2 +1,5 @@
 toolforge:
     resource: '@ToolforgeBundle/Resources/config/routes.yaml'
+oauth_callback:
+    path: /oauth_callback
+    schemes: [https]
