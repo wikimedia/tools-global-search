@@ -62,6 +62,9 @@
     "mediawiki/oauthclient": {
         "version": "1.0.2"
     },
+    "php": {
+        "version": "7.2"
+    },
     "phpstan/phpdoc-parser": {
         "version": "0.3.3"
     },
