@@ -1,11 +1,17 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Tomasdd"
+		]
+	},
 	"back": "Grįžti",
 	"csv": "CSV",
 	"error-server-message": "Serveris sako: $1",
 	"executed": "Įkelta per $1 {{PLURAL:$2|sekundę|sekundes|sekundžių}}.",
+	"global-search": "Visuotinė Paieška",
 	"global-search-advert": "Sugeneruota naudojant $1 per $2",
 	"help-translate": "Padėti išversti",
+	"important-notes": "Svarbios pastabos:",
 	"json": "JSON",
 	"login": "Prisijungti",
 	"logout": "Atsijungti",
@@ -13,7 +19,10 @@
 	"namespaces": "Vardų sritys",
 	"page-title": "Puslapio pavadinimas",
 	"report-issue": "Pranešti apie problemą",
+	"slow": "Lėtai",
+	"splash-hackathon-title": "2019 m. Vikimedija, Hackathon",
 	"submit": "Pateikti",
+	"total-results": "Iš viso {{PLURAL:$1|rezultatai}}",
 	"tsv": "TSV",
 	"view-source": "Žiūrėti kodą",
 	"wiki": "Viki",
