@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Railfail536",
-			"Rail"
+			"Rail",
+			"WaldiSt"
 		]
 	},
 	"back": "Wstecz",
@@ -24,6 +25,7 @@
 	"regular-expression": "Wyrażenie regularne",
 	"report-issue": "Zgłoś problem",
 	"reset": "Resetuj",
+	"splash-title": "Wyszukiwanie globalne Wikimedia",
 	"submit": "Wyślij",
 	"total-results": "Łącznie {{PLURAL:$1|wynik|wyniki|wyników}}",
 	"tsv": "TSV",
