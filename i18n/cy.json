@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robin Owain"
+		]
+	},
+	"back": "Yn ôl",
+	"brought-to-you-by": "Cyhoeddir gan $1 a $2",
+	"global-search": "Chwilio Global",
+	"help-translate": "Cynorthwywch ni i gyfieithu",
+	"important-notes": "Nodiadau pwysig:",
+	"login": "Mewngofnodi",
+	"logout": "Allgofnodi",
+	"logout-msg": "Wedi mewngofnodi fel $1",
+	"namespaces": "Parthenw",
+	"page-title": "Teitl y dudalen",
+	"powered-by": "Pwerwyd gan $1",
+	"purge-cache": "Puro'r storfa (cache)",
+	"query": "Ymchwiliad",
+	"regular-expression": "Regular expression",
+	"report-issue": "Adroddwch am wall",
+	"reset": "Ailosod",
+	"showing-n": "{{PLURAL:$2|Yn dangos}} $1",
+	"slow": "Araf",
+	"splash-hackathon-title": "Hacathon Wicimedia 2019",
+	"splash-login-btn": "Mewngofnodwch i Chwilio'n Global",
+	"submit": "Cyhoeddwch",
+	"total-results": "Cyfanswm {{PLURAL:$1|canlyniad}}",
+	"view-source": "Edrych ar y ffynhonnell",
+	"wiki": "Wici",
+	"wikitext": "TestunWici"
+}
