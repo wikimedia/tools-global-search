@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Mirzali",
-			"Hedda"
+			"Hedda",
+			"BaRaN6161 TURK"
 		]
 	},
 	"back": "Geri",
@@ -14,7 +15,7 @@
 	"excerpt": "Alıntı",
 	"executed": "$1 {{PLURAL:$2|saniye|saniye}} içinde yürütüldü.",
 	"global-search": "Küresel Arama",
-	"global-search-advert": "$1, $2 kullanılarak oluşturuldu",
+	"global-search-advert": "$1 bağlantısına $2 tarihinde kullanılarak oluşturuldu",
 	"global-search-desc": "Tüm Wikimedia Vakfı vikileri genelinde viki içinde ara.",
 	"help-translate": "Çeviriye yardım edin",
 	"important-notes": "Önemli notlar:",
@@ -25,11 +26,11 @@
 	"login": "Oturum aç",
 	"logout": "Oturumu kapat",
 	"logout-msg": "Şu anda $1 olarak giriş yaptınız",
-	"namespaces": "Ad alanları",
+	"namespaces": "İsim alanları",
 	"namespaces-desc": "Virgülle ayrılmış ad alanı kimlikleri listesi. Tüm ad alanları için boş bırakın.",
 	"page-title": "Sayfa başlığı",
 	"powered-by": "$1 tarafından oluşturulmuştur",
-	"purge-cache": "Önbelleği boşalt",
+	"purge-cache": "Önbelleği temizle",
 	"query": "Sorgu",
 	"regular-expression": "Düzenli ifade",
 	"report-issue": "Sorun bildirin",
@@ -38,9 +39,9 @@
 	"slow": "Yavaş",
 	"splash-hackathon-title": "Wikimedia Hackathon 2019",
 	"splash-login-btn": "Küresel Arama'yı kullanmak için giriş yapın",
-	"splash-login-desc": "Bu araç, $1 hizmetini kullanarak tüm Wikimedia Foundation wiki'lerinde anahtar kelime ve kaynak düzenli ifade aramaları yapmanızı sağlar.",
+	"splash-login-desc": "Bu araç, $1 hizmetini kullanarak tüm Wikimedia Vakfı vikilerinde anahtar kelime ve kaynak düzenli ifade aramaları yapmanızı sağlar.",
 	"splash-login-required": "Bu araç pahalı çalışan uzun sorguları gerçekleştirebildiğinden giriş yapılması gerekir.",
-	"splash-product-of-hackathon": "$1'lık bir ürün",
+	"splash-product-of-hackathon": "$1 üzerinden bir ürün",
 	"splash-title": "Wikimedia Küresel Arama",
 	"submit": "Gönder",
 	"total-results": "Toplam {{PLURAL:$1|sonuç}}",
