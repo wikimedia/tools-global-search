@@ -1,15 +1,23 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Arya sarhan"
+		]
+	},
 	"back": "گەڕانەوە",
-	"error-server-message": "سێرڤەرەکە وتی: $1",
-	"executed": "جێبەجێکرا لە ماوەی $1 چرکەدا.",
+	"error-server-message": "ڕاژەکە وتی: $1",
+	"excerpt": "وەرگێڕاو",
+	"executed": "جێبەجێکرا لەماوەی $1 {{PLURAL:$2|چرکە|چرکە}}.",
 	"help-translate": "یارمەتیی وەرگێڕان",
-	"login": "چوونە ناوەوە",
-	"logout": "چوونە دەرەوە",
+	"login": "بچۆ ژوورەوە",
+	"logout": "بچۆ دەرەوە",
 	"logout-msg": "لە ئێستادا بە ھەژماری $1 لە ژوورەوەیت",
 	"namespaces": "بۆشایی ناوەکان",
 	"page-title": "سەرناوی پەڕە",
 	"report-issue": "ڕاپۆرت دان لەسەر کێشەیەک",
+	"reset": "دووبارە ڕێکخستنەوە",
+	"showing-n": "{{PLURAL:$2|پێشاندان|پێشاندان}} $1",
+	"slow": "نیشاندان",
 	"submit": "ناردن",
 	"view-source": "بینینی سەرچاوە",
 	"wiki": "ویکی",

@@ -3,11 +3,13 @@
 		"authors": [
 			"Railfail536",
 			"Rail",
-			"WaldiSt"
+			"WaldiSt",
+			"Krzyz23"
 		]
 	},
 	"back": "Wstecz",
 	"csv": "CSV",
+	"error-report": "Możesz zgłosić ten błąd na $1.",
 	"executed": "Wykonano w $1 {{PLURAL:$2|sekundę|sekundy|sekund}}.",
 	"global-search": "Globalne wyszukiwanie",
 	"global-search-advert": "Wygenerowano używając $1 na $2",
@@ -25,6 +27,7 @@
 	"regular-expression": "Wyrażenie regularne",
 	"report-issue": "Zgłoś problem",
 	"reset": "Resetuj",
+	"slow": "Wolno",
 	"splash-title": "Wyszukiwanie globalne Wikimedia",
 	"submit": "Wyślij",
 	"total-results": "Łącznie {{PLURAL:$1|wynik|wyniki|wyników}}",
