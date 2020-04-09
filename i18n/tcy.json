@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"back": "ಪಿರ",
 	"csv": "CSV",
 	"error-server-message": "ಸರ್ವರ್ ಸರಿ ಇಜ್ಜಿ: $1",

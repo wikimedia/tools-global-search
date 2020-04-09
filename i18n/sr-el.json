@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"back": "Nazad",
 	"csv": "CSV",
 	"error-server-message": "Server kaže: $1",

@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"back": "Natrag",
 	"csv": "CSV",
 	"error-server-message": "Odgovor poslužitelja: $1",

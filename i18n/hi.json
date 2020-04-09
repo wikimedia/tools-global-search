@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"back": "पीछे",
 	"csv": "सीएसवी",
 	"executed": "$1 सेकिण्डों में निष्पादित",

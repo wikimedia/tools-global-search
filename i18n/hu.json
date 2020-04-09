@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"back": "vissza",
 	"csv": "CSV",
 	"error-server-message": "A szerver mondja: $1",

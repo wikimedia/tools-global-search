@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"back": "Kembali",
 	"csv": "CSV",
 	"error-server-message": "Peladen mengatakan: $1",

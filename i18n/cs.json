@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"back": "Zpět",
 	"csv": "CSV",
 	"error-server-message": "Odpověď serveru: $1",

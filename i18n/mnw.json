@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"back": "ကလေၚ်",
 	"csv": "CSV",
 	"help-translate": "ရီုဗၚ်ကၠာဲ",

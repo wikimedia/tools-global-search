@@ -1,7 +1,34 @@
 {
-	"back": "Uɣal",
+	"@metadata": {
+		"authors": [
+			"K Messaoudi"
+		]
+	},
+	"back": "Ɣer deffir",
+	"brought-to-you-by": "Wwin-ak-t-id $1 d $2",
+	"error-report": "Tzemreḍ ad temleḍ abug-a deg $1.",
+	"error-server-message": "Aqeddac yenna-d: $1",
+	"excerpt": "Tukkist",
+	"global-search": "Anadi amatu",
+	"global-search-advert": "Yettwasirew s useqdec n $1 ɣef $2",
+	"help-translate": "Allel deg usuqqel",
+	"important-notes": "Tizmilin tixatarin:",
+	"login": "Kcem",
+	"logout": "Ffeɣ",
+	"logout-msg": "Yeqqen tura am $1",
+	"namespaces": "Tallunin n yisemawen",
 	"page-title": "Azwel n usebter",
-	"report-issue": "Smater ugur",
+	"powered-by": "itteddu s $1",
+	"purge-cache": "Sfeḍ tuffirt",
+	"query": "Tuttra",
+	"regular-expression": "Tanfalit talugant",
+	"report-issue": "Mel ugur",
+	"reset": "Ales awennez",
+	"slow": "Ẓẓay",
+	"splash-login-btn": "Qqen akken ad tesqedceḍ anadi amatu",
+	"splash-product-of-hackathon": "D afaris n $1",
 	"submit": "Azen",
-	"wiki": "Awiki"
+	"view-source": "Sken aɣbalu",
+	"wiki": "Awiki",
+	"wikitext": "wikiaḍris"
 }

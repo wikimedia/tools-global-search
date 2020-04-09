@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"back": "परत",
 	"csv": "सीएसव्ही",
 	"error-server-message": "विदागार म्हणाले:$1",

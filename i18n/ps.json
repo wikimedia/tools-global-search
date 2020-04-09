@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"back": "پر شا کېدل",
 	"csv": "CSV",
 	"error-server-message": "سرور وايي: $1",

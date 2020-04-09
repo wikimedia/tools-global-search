@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Fulup",
 			"Gwenn-Ael"
 		]
 	},
@@ -10,18 +11,22 @@
 	"csv": "CSV",
 	"error-report": "Gallout a rit disklêriañ an draen-mañ war $1",
 	"error-server-message": "Ar servijer en deus respontet : $1",
+	"excerpt": "Arroudenn",
 	"executed": "Sevenet e $1\n{{PLURAL:$2|eilenn|eilenn}}.",
 	"global-search": "Enklask hollek",
 	"global-search-advert": "Ganet en ur implijout $1 war $2",
 	"global-search-desc": "Enklask er wikidestenn e-touez wikioù an Diazezadur Wikimedia.",
 	"help-translate": "Sikour da dreiñ",
 	"important-notes": "Evezhiadennoù pouezus :",
-	"important-notes-cached": "Er grubuilh e vez lakaet an disoc'hoù evit $1 munut.",
+	"important-notes-cached": "Er grubuilh e vez lakaet an disoc'hoù e-pad {{PLURAL:$1|munutenn}}.",
+	"important-notes-lag": "Un tamm dale e c'hall an disoc'hoù kaout e-keñver ar produiñ, dre vras e-tro $1 {{PLURAL:$1|munutenn}}.",
+	"important-notes-specific": "Gri ma vo ar resisañ posupl ho termenoù enklask. Seul vrasoc'h an niver a zisoc'hoù, seul belloc'h e vo ret deoc'h gortoz.",
 	"json": "JSON",
 	"login": "Kevreañ",
 	"logout": "Digevreañ",
 	"logout-msg": "Kevreet bremañ evel $1",
 	"namespaces": "Esaouennoù anv",
+	"namespaces-desc": "Roll anaouderioù esaouennoù anv. Lezel goullo evit klask war an holl esaouennoù anv.",
 	"page-title": "Titl ar bajenn",
 	"powered-by": "O vont en-dro gant $1",
 	"purge-cache": "Riñsañ ar grubuilh",

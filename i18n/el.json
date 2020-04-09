@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"back": "Πίσω",
 	"csv": "CSV",
 	"error-server-message": "Ο διακομιστής είπε: $1",

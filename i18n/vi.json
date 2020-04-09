@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"back": "Trở lại",
 	"csv": "CSV",
 	"executed": "Đã thực hiện trong $1 {{PLURAL:$2|giây|giây}}.",

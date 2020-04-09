@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"back": "قايتىش",
 	"csv": "س ئېس ۋ",
 	"error-server-message": "مۇلازىمەتچى دوكلاتى：$1",
