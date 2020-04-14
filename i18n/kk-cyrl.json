@@ -1,7 +1,19 @@
 {
+	"@metadata": {
+		"authors": [
+			"Fontan 030"
+		]
+	},
 	"csv": "CSV",
+	"global-search": "Ғаламдық іздеу",
 	"help-translate": "Аударуға көмектесу",
+	"login": "Кіру",
+	"logout": "Шығу",
 	"page-title": "Бет атауы",
+	"purge-cache": "Кэшті тазарту",
 	"report-issue": "Қате туралы хабарлау",
-	"view-source": "Қайнарын қарау"
+	"reset": "Ысыру",
+	"view-source": "Қайнарын қарау",
+	"wiki": "Уики",
+	"wikitext": "Уикимәтін"
 }
