@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"back": "Юханехьа",
 	"csv": "CSV",
 	"executed": "Кхочушдина $1 секунд чохь.",
