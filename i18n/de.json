@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DraconicDark",
 			"Mirzali",
 			"Tobi 406"
 		]
@@ -8,11 +9,15 @@
 	"back": "Zurück",
 	"case-insensitive": "Groß- und Kleinschreibung wird nicht berücksichtigt",
 	"csv": "CSV",
+	"error-report": "Sie können diesen Fehler bei $1 melden.",
 	"error-server-message": "Der Server sagte: $1",
+	"excerpt": "Auszug",
 	"executed": "In {{PLURAL:$2|einer Sekunde|$1 Sekunden}} ausgeführt.",
 	"global-search": "Globale Suche",
 	"global-search-advert": "Erzeugt mithilfe $1 am $2",
+	"global-search-desc": "Suche im Wikitext in allen Wikis der Wikimedia Foundation.",
 	"help-translate": "Hilf beim Übersetzen",
+	"important-notes": "Wichtige Hinweise:",
 	"json": "JSON",
 	"login": "Anmelden",
 	"logout": "Abmelden",
@@ -21,8 +26,11 @@
 	"page-title": "Seitenname",
 	"powered-by": "Betrieben von $1",
 	"purge-cache": "Cache leeren",
+	"regular-expression": "Regulärer Ausdruck",
 	"report-issue": "Ein Problem melden",
 	"reset": "Zurücksetzen",
+	"slow": "Langsam",
+	"splash-hackathon-title": "Wikimedia Hackathon 2019",
 	"splash-login-btn": "Melden Sie sich an, um die globale Suche zu verwenden",
 	"splash-login-desc": "Mit diesem Werkzeug können Sie mithilfe des Dienstes \"$1\" in allen Wikimedia Foundation-Wikis nach Stichwörtern und Quellen für reguläre Ausdrücke suchen.",
 	"splash-login-required": "Da dieses Werkzeug teure Abfragen mit langer Laufzeit ausführen kann, ist eine Anmeldung erforderlich.",
