@@ -39,7 +39,7 @@
 	"submit": "Submit",
 	"title-pattern": "Title pattern",
 	"title-pattern-without-ns": "(without namespace)",
-	"title-pattern-tooltip": "Shows only results in pages that match the given regular expression.",
+	"title-pattern-desc": "Shows only pages titles that match the given regular expression.",
 	"total-results": "Total {{PLURAL:$1|results}}",
 	"tsv": "TSV",
 	"view-source": "View source",

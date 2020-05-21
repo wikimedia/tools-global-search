@@ -91,9 +91,18 @@
                     <div class="form-group form-inline">
                         <label for="titlePattern">{{ msg('title-pattern') }}</label>&nbsp;{{ msg('title-pattern-without-ns') }}:
                         <input type="text" class="form-control" name="title" id="titlePattern" value="{{ title }}" />
-                        <small class="text-muted">{{ msg('title-pattern-tooltip') }}</small>
-{#                        <span class="glyphicon glyphicon-question-sign" data-toggle="tooltip" data-placement="top" title="{{ msg('title-pattern-tooltip') }}"></span>#}
+                        <small class="text-muted">{{ msg('title-pattern-desc') }}</small>
                     </div>
+                    <p>
+                        <small>
+                            Presets:
+                            <a href="#" class="preset-link" data-value="js">JS/CSS/JSON</a>
+                            &middot;
+                            <a href="#" class="preset-link" data-value="subject">Subject pages</a>
+                            &middot;
+                            <a href="#" class="preset-link" data-value="talk">Talk pages</a>
+                        </small>
+                    </p>
                     {## IDEAS FOR MORE FILTERS: ##}
                     {# title, source, or both #}
                     {# include redirects (only if filtering by title) #}

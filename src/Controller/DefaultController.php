@@ -170,7 +170,7 @@ class DefaultController extends AbstractController
         bool $regex,
         bool $ignoreCase,
         array $namespaceIds,
-        string $titlePattern = null,
+        ?string $titlePattern = null,
         bool $purgeCache = false
     ): array {
         $cacheItem = md5($query.$regex.$ignoreCase.$titlePattern.implode('|', $namespaceIds));
