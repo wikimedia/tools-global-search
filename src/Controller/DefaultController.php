@@ -70,7 +70,8 @@ class DefaultController extends AbstractController
         $query = $request->query->get('q');
         $regex = (bool)$request->query->get('regex');
         $ignoreCase = (bool)$request->query->get('ignorecase');
-        [$namespaces, $namespaceIds] = $this->parseNamespaces($request);
+        $namespaceIds = $this->parseNamespaces($request);
+        $titlePattern = $request->query->get('title');
         $purgeCache = (bool)$request->query->get('purge');
 
         $ret = [
@@ -78,11 +79,19 @@ class DefaultController extends AbstractController
             'regex' => $regex,
             'max_results' => Query::MAX_RESULTS,
             'namespaces' => $namespaceIds,
+            'title' => $titlePattern,
             'ignore_case' => $ignoreCase,
         ];
 
         if ($query) {
-            $ret = array_merge($ret, $this->getResults($query, $regex, $ignoreCase, $namespaceIds, $purgeCache));
+            $ret = array_merge($ret, $this->getResults(
+                $query,
+                $regex,
+                $ignoreCase,
+                $namespaceIds,
+                $titlePattern,
+                $purgeCache
+            ));
             $ret['from_cache'] = $this->fromCache;
             return $this->formatResponse($request, $query, $ret);
         }
@@ -94,7 +103,7 @@ class DefaultController extends AbstractController
      * Get the rendered template for the requested format.
      * @param Request $request
      * @param string $query Query string, used for filenames.
-     * @param array $data Data that should be passed to the view.
+     * @param mixed[] $data Data that should be passed to the view.
      * @return Response
      */
     private function formatResponse(Request $request, string $query, array $data): Response
@@ -152,6 +161,7 @@ class DefaultController extends AbstractController
      * @param bool $regex
      * @param bool $ignoreCase
      * @param int[] $namespaceIds
+     * @param string|null $titlePattern
      * @param bool $purgeCache
      * @return mixed[]
      */
@@ -160,21 +170,23 @@ class DefaultController extends AbstractController
         bool $regex,
         bool $ignoreCase,
         array $namespaceIds,
+        string $titlePattern,
         bool $purgeCache = false
     ): array {
-        $cacheItem = md5($query.$regex.$ignoreCase.implode('|', $namespaceIds));
+        $cacheItem = md5($query.$regex.$ignoreCase.$titlePattern.implode('|', $namespaceIds));
 
         if (!$purgeCache && $this->cache->hasItem($cacheItem)) {
             $this->fromCache = true;
             return $this->cache->getItem($cacheItem)->get();
         }
 
-        $query = new Query($query, $namespaceIds, $regex, $ignoreCase);
+        $query = new Query($query, $namespaceIds, $regex, $ignoreCase, $titlePattern);
         $params = $query->getParams();
         $res = (new CloudElasticRepository($this->client, $params))->makeRequest();
         $data = [
             'regex' => $regex,
             'ignore_case' => $ignoreCase,
+            'title' => $titlePattern,
             'total' => $res['hits']['total'],
             'hits' => $this->formatHits($res),
         ];
@@ -254,7 +266,7 @@ class DefaultController extends AbstractController
     /**
      * Parse the namespaces parameter of the query string.
      * @param Request $request
-     * @return mixed[] [normalized comma-separated list as a string, array of ids as ints]
+     * @return int[] Namespace IDs.
      */
     private function parseNamespaces(Request $request): array
     {
@@ -269,9 +281,6 @@ class DefaultController extends AbstractController
             );
         }
 
-        return [
-            implode(',', $ids),
-            $ids,
-        ];
+        return $ids;
     }
 }

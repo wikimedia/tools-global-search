@@ -21,4 +21,6 @@ $(() => {
     $('#regexCheckbox').on('change', e => {
         $('.form-group--ingorecase').toggleClass('hidden', !e.target.checked);
     });
+
+    $('[data-toggle="tooltip"]').tooltip();
 });

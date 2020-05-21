@@ -25,15 +25,24 @@ class Query
     /** @var bool Whether the params should be for a case-insensitive search. */
     protected $ignoreCase;
 
+    /** @var string Regular expression for page title. */
+    protected $titlePattern;
+
     /**
      * Query constructor.
      * @param string $query
      * @param int[] $namespaces
      * @param bool $regex
      * @param bool $ignoreCase
+     * @param string|null $titlePattern
      */
-    public function __construct(string $query, array $namespaces, bool $regex = false, bool $ignoreCase = false)
-    {
+    public function __construct(
+        string $query,
+        array $namespaces,
+        bool $regex = false,
+        bool $ignoreCase = false,
+        ?string $titlePattern = null
+    ) {
         // Silently use regex to do exact match if query is wrapped in double-quotes.
         if ('"' === substr($query, 0, 1) && '"' === substr($query, -1, 1)) {
             $regex = true;
@@ -44,6 +53,7 @@ class Query
         $this->namespaces = $namespaces;
         $this->regex = $regex;
         $this->ignoreCase = $ignoreCase;
+        $this->titlePattern = $titlePattern;
     }
 
     /**
@@ -57,6 +67,12 @@ class Query
         if (!empty($this->namespaces)) {
             $params['query']['bool']['filter'][] = [ 'terms' => [
                 'namespace' => $this->namespaces,
+            ] ];
+        }
+
+        if ($this->titlePattern) {
+            $params['query']['bool']['filter'][] = [ 'regexp' => [
+                'title.keyword' => $this->titlePattern,
             ] ];
         }
 

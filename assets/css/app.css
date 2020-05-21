@@ -79,7 +79,7 @@ header {
 }
 
 .subheading {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .btn-reset-form {
@@ -135,4 +135,18 @@ footer {
     position: absolute;
     top: -1px;
     width: 2px;
+}
+
+.form-group--ingorecase {
+    margin-left: 10px;
+}
+
+#titlePattern {
+    width: 400px;
+}
+
+@media (max-width: 768px) {
+    #titlePattern {
+        width: 100%;
+    }
 }

@@ -69,14 +69,13 @@
                             {{ msg('regular-expression') }}
                         </label>
                         ({{ msg('slow')|lower }})
-                        <br/>
-                        <div class="form-group--ingorecase{% if regex is empty %} hidden{% endif %}">
+                        <span class="form-group--ingorecase{% if regex is empty %} hidden{% endif %}">
                             <label>
                                 <input type="checkbox" name="ignorecase" value="1"{% if ignore_case is not empty %} checked="checked"{% endif %}>
                                 {{ msg('case-insensitive') }}
                             </label>
                             ({{ msg('slow')|lower }})
-                        </div>
+                        </span>
                     </div>
                     <div class="form-group form-inline">
                         <label for="namespaceIds">{{ msg('namespaces') }}:</label>
@@ -89,12 +88,20 @@
                             </a>
                         </small>
                     </div>
+                    <div class="form-group form-inline">
+                        <label for="titlePattern">{{ msg('title-pattern') }}</label>&nbsp;{{ msg('title-pattern-without-ns') }}:
+                        <input type="text" class="form-control" name="title" id="titlePattern" value="{{ title }}" />
+                        <small class="text-muted">{{ msg('title-pattern-tooltip') }}</small>
+{#                        <span class="glyphicon glyphicon-question-sign" data-toggle="tooltip" data-placement="top" title="{{ msg('title-pattern-tooltip') }}"></span>#}
+                    </div>
                     {## IDEAS FOR MORE FILTERS: ##}
                     {# title, source, or both #}
                     {# include redirects (only if filtering by title) #}
                     {# restrict to wikipedias, wiktionarys, etc. #}
-                    <button type="submit" class="btn btn-primary">{{ msg('submit') }}</button>
-                    <button type="button" class="btn btn-default btn-reset-form">{{ msg('reset') }}</button>
+                    <div>
+                        <button type="submit" class="btn btn-primary">{{ msg('submit') }}</button>
+                        <button type="button" class="btn btn-default btn-reset-form">{{ msg('reset') }}</button>
+                    </div>
                 </form>
             {% endblock %}
             <div class="results">{% block body %}{% endblock %}</div>
