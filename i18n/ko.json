@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Codenstory",
 			"Ykhwong"
 		]
 	},
@@ -24,6 +25,7 @@
 	"namespaces": "이름공간",
 	"page-title": "문서 제목",
 	"powered-by": "$1에 의해 제공",
+	"presets": "프리셋",
 	"purge-cache": "캐시 새로 고침",
 	"query": "쿼리",
 	"regular-expression": "정규 표현식",
@@ -36,7 +38,12 @@
 	"splash-login-required": "이 도구는 장시간 실행되는 쿼리를 수행할 수 있으므로 로그인은 필수입니다.",
 	"splash-product-of-hackathon": "$1의 제품",
 	"splash-title": "위키미디어 전역 검색",
+	"subject-pages": "주제 문서",
 	"submit": "확인",
+	"talk-pages": "토론 문서",
+	"title-pattern": "제목 패턴",
+	"title-pattern-without-ns": "(이름공간 없이)",
+	"title-pattern-desc": "지정된 정규 표현식과 일치하는 문서 제목만 표시합니다.",
 	"total-results": "총 {{PLURAL:$1|결과}}",
 	"tsv": "TSV",
 	"view-source": "원본 보기",

@@ -4,6 +4,7 @@
 			"A Chinese Wikipedian",
 			"A Retired User",
 			"予弦",
+			"列维劳德",
 			"神樂坂秀吉"
 		]
 	},
@@ -44,7 +45,9 @@
 	"splash-login-required": "因此工具将执行较长时间的查询，所以须先登录。",
 	"splash-product-of-hackathon": "$1产品",
 	"splash-title": "维基媒体全域搜索",
+	"subject-pages": "主题页面",
 	"submit": "提交",
+	"talk-pages": "讨论页面",
 	"total-results": "总{{PLURAL:$1|结果}}",
 	"tsv": "TSV",
 	"view-source": "查看源代码",

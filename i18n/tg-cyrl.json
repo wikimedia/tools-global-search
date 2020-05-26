@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Dovud",
 			"ToJack"
 		]
 	},
@@ -16,6 +17,7 @@
 	"query": "Дархост",
 	"reset": "Аз нав",
 	"showing-n": "{{PLURAL:$2|Нишон додани}} $1",
+	"talk-pages": "Саҳифаҳои мубоҳисавӣ",
 	"total-results": "Тамоми {{PLURAL:$1|натиҷаҳо}}",
 	"view-source": "Намоиши манбаъ",
 	"wiki": "Вики",

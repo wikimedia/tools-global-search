@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Bugoslav"
+		]
 	},
 	"back": "Natrag",
 	"csv": "CSV",
@@ -14,5 +16,8 @@
 	"page-title": "Ime stranice",
 	"report-issue": "Prijavi poteškoću",
 	"submit": "Pošalji",
+	"talk-pages": "Razgovorne stranice",
+	"title-pattern": "Oblik (ponavljajući dio) naslova",
+	"title-pattern-without-ns": "(bez imenskoga prostora)",
 	"view-source": "Vidi kôd"
 }

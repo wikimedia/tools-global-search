@@ -16,6 +16,7 @@
 	"excerpt": "抜粋",
 	"executed": "実行時間 $1 {{PLURAL:$2|秒}}。",
 	"global-search": "グローバル検索",
+	"global-search-advert": "$2に$1を適用して生成",
 	"global-search-desc": "ウィキメディア財団のウィキ群すべてを対象に、ウィキテキスト内を検索。",
 	"help-translate": "翻訳を手伝ってください",
 	"important-notes": "ご注意:",
@@ -45,6 +46,7 @@
 	"splash-title": "ウィキメディア全件検索",
 	"submit": "送信",
 	"total-results": "{{PLURAL:$1|結果}}総計",
+	"tsv": "TSV",
 	"view-source": "ソースを閲覧",
 	"wiki": "ウィキ",
 	"wikitext": "ウィキテキスト"
