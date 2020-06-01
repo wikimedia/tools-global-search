@@ -1,9 +1,26 @@
 {
+	"@metadata": {
+		"authors": [
+			"GeoO",
+			"Kareyac"
+		]
+	},
+	"back": "Հետ",
+	"brought-to-you-by": "Ստեղծել են Ձեզ  համար $1 և $2",
+	"excerpt": "Հատված",
 	"executed": "Տվյալները ստացվել է $1 վայրկյանում:",
+	"help-translate": "Օգնել թարգմանել",
+	"important-notes": "Կարևոր նշումներ՝",
 	"login": "Մուտք գործել",
 	"logout": "Դուրս գալ",
+	"namespaces": "Անվանատարածքներ",
 	"page-title": "Էջի վերնագիրը",
+	"powered-by": "$1-ի միջոցով",
+	"slow": "Դանդաղ",
 	"submit": "Հաշվել",
+	"talk-pages": "Քննարկման էջեր",
+	"title-pattern-without-ns": "(առանց անվանատարածքի)",
 	"view-source": "Դիտել ելատեքստը",
-	"wiki": "Վիքի"
+	"wiki": "Վիքի",
+	"wikitext": "Վիքիտեքստ"
 }

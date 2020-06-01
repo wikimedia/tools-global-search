@@ -6,6 +6,8 @@
 		]
 	},
 	"back": "Назад",
+	"brought-to-you-by": "Сделали для вас $1 и $2",
+	"case-insensitive": "С учётом регистра",
 	"csv": "CSV",
 	"error-report": "Вы можете сообщить об этой ошбибке на $1.",
 	"error-server-message": "Сервер сообщил: $1",
@@ -34,6 +36,8 @@
 	"splash-product-of-hackathon": "Продукт $1",
 	"splash-title": "Глобальный поиск Викимедиа",
 	"submit": "Отправить",
+	"talk-pages": "Страницы обсуждения",
+	"title-pattern-without-ns": "(без пространства имён)",
 	"total-results": "Всего {{PLURAL:$1|результат|результата|результатов}}",
 	"tsv": "TSV",
 	"view-source": "Просмотреть код",
