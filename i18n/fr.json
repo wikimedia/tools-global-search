@@ -3,6 +3,7 @@
 		"authors": [
 			"Gomoko",
 			"Thibaut120094",
+			"Urhixidur",
 			"Verdy p",
 			"Wladek92"
 		]
@@ -34,14 +35,14 @@
 	"presets": "Prédéfinis",
 	"purge-cache": "Vider le cache",
 	"query": "Requête",
-	"regular-expression": "Expression régulière",
+	"regular-expression": "Expression rationnelle",
 	"report-issue": "Signaler un problème",
 	"reset": "Réinitialiser",
 	"showing-n": "$1 résultat{{PLURAL:$2||s}} affiché{{PLURAL:$2||s}}",
 	"slow": "Lent",
 	"splash-hackathon-title": "Hackaton Wikimédia 2019",
 	"splash-login-btn": "Se connecter pour utiliser la recherche globale",
-	"splash-login-desc": "Cet outil vous permet de faire des recherches par mots-clés et par expressions régulières dans la source dans tous les wikis de la Fondation Wikimédia, en utilisant le service $1.",
+	"splash-login-desc": "Cet outil vous permet de faire des recherches par mots-clés et par expressions rationnelles dans la source de tous les wikis de la Fondation Wikimédia, en utilisant le service $1.",
 	"splash-login-required": "Comme cet outil peut effectuer des requêtes longues et coûteuses, une connexion est exigée.",
 	"splash-product-of-hackathon": "Un produit du $1",
 	"splash-title": "Recherche globale de Wikimédia",
@@ -50,7 +51,7 @@
 	"talk-pages": "Pages de discussion",
 	"title-pattern": "Modèle de titre",
 	"title-pattern-without-ns": "(sans espace de noms)",
-	"title-pattern-desc": "Affiche uniquement le titre des pages qui correspondent à l’expression régulière fournie.",
+	"title-pattern-desc": "Affiche uniquement le titre des pages qui correspondent à l’expression rationnelle fournie.",
 	"total-results": "Total {{PLURAL:$1|de $1 résultat|des $1 résultats}}",
 	"tsv": "TSV",
 	"view-source": "Voir la source",

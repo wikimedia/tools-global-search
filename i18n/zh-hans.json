@@ -4,6 +4,7 @@
 			"A Chinese Wikipedian",
 			"A Retired User",
 			"SomeyaMako",
+			"VulpesVulpes825",
 			"予弦",
 			"列维劳德",
 			"神樂坂秀吉"
@@ -50,6 +51,9 @@
 	"subject-pages": "主题页面",
 	"submit": "提交",
 	"talk-pages": "讨论页面",
+	"title-pattern": "标题模式",
+	"title-pattern-without-ns": "(不带命名空间)",
+	"title-pattern-desc": "仅显示与给定正则表达式匹配的页面标题。",
 	"total-results": "总{{PLURAL:$1|结果}}",
 	"tsv": "TSV",
 	"view-source": "查看源代码",
