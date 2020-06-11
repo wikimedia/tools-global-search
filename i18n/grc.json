@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"KATRINE1993"
+		]
+	},
+	"back": "Επάνοδος, επιστροφή",
+	"brought-to-you-by": "Προσπόρισαν εις εσάς $ 1 και $ 2",
+	"case-insensitive": "Ανοικτό",
+	"error-report": "Δυνατότης αναφοράς αυτού του σφάλματος εις $ 1/",
+	"error-server-message": "Ο διακομιστής ανέφερε: $1",
+	"excerpt": "Απόσπασμα",
+	"executed": "Εκτέλεσις εις $1 {{PLURAL:$2|second|seconds}}.",
+	"global-search": "Γενική, Διεθνής Αναζήτησις",
+	"global-search-advert": "Παρήχθη χρήσει του $ 1 επί $ 2",
+	"global-search-desc": "Αναζήτησις εις wikitext εντός του πλαισίου των Wikimedia Foundation wikis.",
+	"help-translate": "Συμβάλετε εις την μετάφραση",
+	"important-notes": "Σημαντικές σημειώσεις:",
+	"important-notes-cached": "Απόκρυψις αποτελεσμάτων του $1 {{PLURAL:$1|minute|minutes}}.",
+	"important-notes-lag": "Είθισται απόκρυψις αποτελεσμάτων κατά $1 {{PLURAL:$1|minute|minutes}}.",
+	"important-notes-specific": "Καταστήστε σαφείς τους όρους αναζήτησης. Πλείστον χρόνον αναμονής δια πλείστα αποτελέσματα δει αναμένεις.",
+	"login": "Είσοδος",
+	"logout": "Έξοδος",
+	"logout-msg": "Παρούσα σύνδεσις ως $1",
+	"namespaces": "Αρχεία προς τίτλο"
+}
