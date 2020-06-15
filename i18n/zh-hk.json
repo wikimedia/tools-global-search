@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"C933103"
+		]
+	},
+	"back": "返回",
+	"brought-to-you-by": "由$1和$2為您提供",
+	"case-insensitive": "不分大小寫",
+	"error-report": "您可以到$1回報此錯誤。",
+	"error-server-message": "伺服器報告：$1",
+	"excerpt": "摘錄",
+	"executed": "執行用時 $1 {{PLURAL:$2|秒}}。",
+	"global-search": "全域搜尋",
+	"global-search-advert": "由$1於$2生成",
+	"global-search-desc": "在所有維基媒體基金會wiki的wikitext內容間進行搜尋。",
+	"help-translate": "幫助翻譯",
+	"important-notes": "重要提示：",
+	"important-notes-specific": "請使用盡可能精確的搜尋字眼。伺服器傳回的結果越多，您需要等待的時間就會越久。",
+	"login": "登入",
+	"logout": "登出",
+	"namespaces": "命名空間",
+	"page-title": "頁面標題",
+	"powered-by": "由$1提供",
+	"presets": "預設",
+	"query": "查詢",
+	"regular-expression": "正規表達式",
+	"report-issue": "報告問題",
+	"reset": "重設",
+	"splash-login-btn": "登入以使用全域搜尋",
+	"splash-product-of-hackathon": "$1的成品",
+	"splash-title": "維基媒體全域搜尋",
+	"subject-pages": "主題頁",
+	"submit": "提交",
+	"talk-pages": "討論頁",
+	"title-pattern-without-ns": "（不帶命名空間）",
+	"total-results": "共有{{PLURAL:$1|項結果}}",
+	"view-source": "查看原始碼"
+}
