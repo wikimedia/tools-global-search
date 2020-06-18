@@ -1,3 +1,41 @@
 {
-	"view-source": "Çavkaniyê bibîne"
+	"@metadata": {
+		"authors": [
+			"Bikarhêner",
+			"Mirzali"
+		]
+	},
+	"back": "Paşve",
+	"brought-to-you-by": "Hate anîn ji aliyê $1 û $2 ve",
+	"case-insensitive": "Nivîsîna biçûk û mezin",
+	"error-report": "Tu dikarî vê çewtiyê li ser $1 ragihînî.",
+	"error-server-message": "Server dibêje: $1",
+	"excerpt": "Jêgirtin",
+	"executed": "Hate bicîhanîn di $1 {{PLURAL:$2|saniyeyê|saniyeyan}} de.",
+	"global-search": "Lêgerîna Global",
+	"global-search-advert": "Hate çêkirin bi $1 di $2 de",
+	"help-translate": "Alî bike ji bo tercumekirinê",
+	"important-notes": "Notên girîng:",
+	"login": "Têkeve",
+	"logout": "Derkeve",
+	"namespaces": "Valahiyên nav",
+	"page-title": "Sernavê rûpelê",
+	"powered-by": "Tê piştgirîkirin ji aliyê $1 ve",
+	"report-issue": "Çewtiyekê ragihîne",
+	"reset": "Jê bibe",
+	"slow": "Hêdî",
+	"splash-hackathon-title": "Wikimedia Hackathon 2019",
+	"splash-login-btn": "Ji bo bikaranîna Lêgerîna Global têkeve",
+	"splash-product-of-hackathon": "Berhemekê $1",
+	"splash-title": "LêgeraGlobal ya Wîkîmedyayê",
+	"subject-pages": "Rûpelên mijarê",
+	"submit": "Tomar bike",
+	"talk-pages": "Rûpelên gotûbêjê",
+	"title-pattern": "Modela sernavê",
+	"title-pattern-without-ns": "(bêyî valahiya navî)",
+	"title-pattern-desc": "Tenê sernava rûpelên ku bi gotina dayî yê normal re li hev bên têne nîşandan.",
+	"total-results": "Tevahiya {{PLURAL:$1|encaman}}",
+	"view-source": "Çavkaniyê bibîne",
+	"wiki": "Wîkî",
+	"wikitext": "Wîkînivîs"
 }
