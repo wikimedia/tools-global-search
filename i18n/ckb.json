@@ -1,14 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"Arya sarhan"
+			"Arya sarhan",
+			"Cwtiyar"
 		]
 	},
 	"back": "گەڕانەوە",
+	"brought-to-you-by": "پێشکەشتان دەکرێت لەلایەن $1 و $2.",
+	"case-insensitive": "هەستیار نیە بە پیتی گەورە و بچووک",
 	"error-server-message": "ڕاژەکە وتی: $1",
 	"excerpt": "وەرگێڕاو",
 	"executed": "جێبەجێکرا لەماوەی $1 {{PLURAL:$2|چرکە|چرکە}}.",
+	"global-search": "گەڕانی جیهانیی",
 	"help-translate": "یارمەتیی وەرگێڕان",
+	"important-notes": "تێبینی گرنگ:",
 	"login": "بچۆ ژوورەوە",
 	"logout": "بچۆ دەرەوە",
 	"logout-msg": "لە ئێستادا بە ھەژماری $1 لە ژوورەوەیت",
@@ -19,6 +24,7 @@
 	"showing-n": "{{PLURAL:$2|پێشاندان|پێشاندان}} $1",
 	"slow": "نیشاندان",
 	"submit": "ناردن",
+	"talk-pages": "پەڕەی وتووێژ",
 	"view-source": "بینینی سەرچاوە",
 	"wiki": "ویکی",
 	"wikitext": "ویکیدەق"
