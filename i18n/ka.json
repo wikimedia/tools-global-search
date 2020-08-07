@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Mehman97"
+		]
 	},
 	"back": "უკან",
 	"csv": "CSV",
@@ -12,6 +14,7 @@
 	"page-title": "გვერდის სათაური",
 	"report-issue": "პრობლემის შეტყობინება",
 	"submit": "მიღება",
+	"talk-pages": "განხილვის გვერდები",
 	"view-source": "წყაროს ხილვა",
 	"wiki": "ვიკი"
 }
