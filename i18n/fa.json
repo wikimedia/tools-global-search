@@ -1,17 +1,21 @@
 {
 	"@metadata": {
 		"authors": [
-			"FarsiNevis"
+			"FarsiNevis",
+			"Nightdevil"
 		]
 	},
 	"back": "بازگشت",
 	"brought-to-you-by": "تقدیم به شما از سوی $1 و $2",
 	"case-insensitive": "غیر حساس به بزرگی و کوچکی حروف",
 	"csv": "مقادیر جداشده با ویرگول",
+	"error-report": "می‌توانید این ایراد را در $1 گزارش دهید.",
 	"error-server-message": "پاسخ سرور: $1",
+	"excerpt": "چکیده",
 	"executed": "استخراج در $1 {{PLURAL:$2|ثانیه|ثانیه}}.",
 	"global-search": "جستجوی سراسری",
 	"global-search-advert": "تولید با استفاده از $1 در $2",
+	"global-search-desc": "در متن خام (ویکی‌تکست) همهٔ پروژه‌های ویکی‌مدیا جستجو کنید.",
 	"help-translate": "برای ترجمه کمک کنید",
 	"important-notes": "نکات مهم:",
 	"json": "JSON",
@@ -20,7 +24,9 @@
 	"logout-msg": "وارد شده به عنوان $1",
 	"namespaces": "فضای نام",
 	"page-title": "عنوان صفحه",
+	"purge-cache": "خالی‌کردن حافظهٔ نهان",
 	"query": "پرسمان",
+	"regular-expression": "عبارت باقاعده",
 	"report-issue": "یک مسئله را گزارش کنید",
 	"slow": "آهسته",
 	"splash-login-btn": "برای جستجوی سراسری، وارد شوید",
