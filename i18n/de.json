@@ -2,11 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"DraconicDark",
+			"Elliot",
 			"Mirzali",
 			"Tobi 406"
 		]
 	},
 	"back": "Zurück",
+	"brought-to-you-by": "Bereitgestellt von $1 und $2",
 	"case-insensitive": "Groß- und Kleinschreibung wird nicht berücksichtigt",
 	"csv": "CSV",
 	"error-report": "Sie können diesen Fehler bei $1 melden.",
@@ -14,7 +16,7 @@
 	"excerpt": "Auszug",
 	"executed": "In {{PLURAL:$2|einer Sekunde|$1 Sekunden}} ausgeführt.",
 	"global-search": "Globale Suche",
-	"global-search-advert": "Erzeugt mithilfe $1 am $2",
+	"global-search-advert": "Erzeugt mithilfe von $1 auf $2",
 	"global-search-desc": "Suche im Wikitext in allen Wikis der Wikimedia Foundation.",
 	"help-translate": "Hilf beim Übersetzen",
 	"important-notes": "Wichtige Hinweise:",
@@ -36,7 +38,7 @@
 	"splash-login-required": "Da dieses Werkzeug teure Abfragen mit langer Laufzeit ausführen kann, ist eine Anmeldung erforderlich.",
 	"splash-product-of-hackathon": "Ein Produkt der $1",
 	"splash-title": "Globale Wikimedia-Suche",
-	"submit": "Absenden",
+	"submit": "Einreichen",
 	"total-results": "{{PLURAL:$1|Gesamtergebnisse}}",
 	"tsv": "TSV",
 	"view-source": "Quellcode ansehen",
