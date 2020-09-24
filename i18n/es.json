@@ -3,6 +3,7 @@
 		"authors": [
 			"Fitoschido",
 			"Harvest",
+			"Rodney Araujo",
 			"Unai01"
 		]
 	},
@@ -24,7 +25,7 @@
 	"namespaces": "Espacios de nombres",
 	"page-title": "Título de la página",
 	"powered-by": "Funciona con $1",
-	"purge-cache": "Purgar antememoria",
+	"purge-cache": "Purgar la antememoria",
 	"query": "Consulta",
 	"regular-expression": "Expresión regular",
 	"report-issue": "Informar de un problema",
@@ -35,6 +36,7 @@
 	"splash-product-of-hackathon": "Un producto del $1",
 	"splash-title": "Búsqueda global de Wikimedia",
 	"submit": "Enviar",
+	"talk-pages": "Páginas de discusión",
 	"tsv": "TSV",
 	"view-source": "Ver código",
 	"wiki": "Wiki",
