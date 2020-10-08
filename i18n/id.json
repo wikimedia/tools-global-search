@@ -1,9 +1,14 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Akmaie Ajam"
+		]
 	},
 	"back": "Kembali",
+	"brought-to-you-by": "Dipersembahkan oleh $1 dan $2.",
+	"case-insensitive": "Tidak peka kapital",
 	"csv": "CSV",
+	"error-report": "Anda bisa melaporkan kesalahan ini di $1.",
 	"error-server-message": "Peladen mengatakan: $1",
 	"executed": "Dieksekusi dalam $1 {{PLURAL:$2|detik|detik}}.",
 	"global-search-advert": "Dihasilkan menggunakan $1 pada $2",
