@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Al Riaz Uddin Ripon",
 			"Titodutta",
 			"আফতাবুজ্জামান"
 		]
@@ -24,6 +25,8 @@
 	"logout-msg": "বর্তমানে $1 হিসেবে প্রবেশকৃত",
 	"namespaces": "নামস্থান",
 	"page-title": "পাতার শিরোনাম",
+	"powered-by": "$1 কর্তৃক পরিবেশিত",
+	"purge-cache": "ক্যাশে শোধন",
 	"query": "কোয়েরি",
 	"regular-expression": "রেগুলার এক্সপ্রেশন",
 	"report-issue": "একটি সমস্যা প্রতিবেদন করুন",
@@ -32,9 +35,14 @@
 	"slow": "দেখান",
 	"splash-hackathon-title": "উইকিমিডিয়া হ্যাকাথন ২০১৯",
 	"splash-login-btn": "বৈশ্বিক অনুসন্ধান ব্যবহার করতে প্রবেশ করুন",
+	"splash-product-of-hackathon": "$1 এর একটি পণ্য",
 	"splash-title": "উইকিমিডিয়া বৈশ্বিক অনুসন্ধান",
+	"subject-pages": "বিষয় পাতাসমূহ",
 	"submit": "জমা দিন",
 	"talk-pages": "আলাপ পাতাসমূহ",
+	"title-pattern": "শিরোনামের ধরন",
+	"title-pattern-without-ns": "(নামস্থান বিহীন)",
+	"title-pattern-desc": "প্রদানকৃত রেগুলার এক্সপ্রেশনের সাথে মিলে এমন শিরোনামসমূহ দেখান।",
 	"total-results": "মোট {{PLURAL:$1|ফলাফল}}",
 	"tsv": "TSV",
 	"view-source": "উৎস দেখুন",
