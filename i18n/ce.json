@@ -1,8 +1,11 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Умар"
+		]
 	},
 	"back": "Юханехьа",
+	"brought-to-you-by": "Шуна йина $1, $2",
 	"csv": "CSV",
 	"executed": "Кхочушдина $1 секунд чохь.",
 	"help-translate": "Гочъеш гӀодан",
@@ -13,5 +16,6 @@
 	"page-title": "АгӀона корта",
 	"report-issue": "Проблемех хаам бар",
 	"submit": "ДӀадахьийта",
+	"view-source": "Код хьажар",
 	"wiki": "Вики"
 }
