@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hakim1bal"
+		]
+	},
+	"back": "ⴰⵖⵓⵍ",
+	"help-translate": "ⴰⵡⵙ ⴳ ⵓⵙⵓⵖⵍ",
+	"login": "ⴽⵛⵎ",
+	"logout": "ⴼⴼⵖ",
+	"page-title": "ⴰⵣⵡⵍ ⵏ ⵜⵙⵏⴰ",
+	"slow": "ⵥⵥⴰⵢ",
+	"subject-pages": "ⵉⵎⵔⵙⵉ ⵏ ⵜⴰⵙⵏⴰ",
+	"submit": "ⴰⵣⵏ",
+	"talk-pages": "ⵜⴰⵙⵏⴰ ⵏ ⵓⵎⴳⴷⴰⵍ",
+	"total-results": "ⵜⴰⵎⵓⵜⵜⵔⵜ {{PLURAL:$1|ⵜⵉⵢⴰⴼⵓⵜⵉⵏ}}",
+	"view-source": "ⵙⴽⵏ ⴰⵙⴰⴳⵎ",
+	"wiki": "ⵡⵉⴽⵉ",
+	"wikitext": "ⵡⵉⴽⵉⴹⵕⵉⵚ"
+}
