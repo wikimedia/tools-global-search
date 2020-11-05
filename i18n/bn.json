@@ -3,6 +3,7 @@
 		"authors": [
 			"Al Riaz Uddin Ripon",
 			"Titodutta",
+			"YahyA",
 			"আফতাবুজ্জামান"
 		]
 	},
@@ -19,6 +20,7 @@
 	"global-search-desc": "সকল উইকিমিডিয়া ফাউন্ডেশন উইকিগুলিতে উইকিটেক্সটের মধ্যে অনুসন্ধান করুন।",
 	"help-translate": "অনুবাদে সাহায্য করুন",
 	"important-notes": "গুরুত্বপূর্ণ টীকা:",
+	"important-notes-cached": "$1 {{PLURAL:$1|মিনিট|মিনিটসমূহ}} এর জন্য ফলাফল ক্যাশে করা হয়েছে",
 	"json": "JSON",
 	"login": "প্রবেশ",
 	"logout": "প্রস্থান",
@@ -26,6 +28,7 @@
 	"namespaces": "নামস্থান",
 	"page-title": "পাতার শিরোনাম",
 	"powered-by": "$1 কর্তৃক পরিবেশিত",
+	"presets": "প্রিসেটসমূহ",
 	"purge-cache": "ক্যাশে শোধন",
 	"query": "কোয়েরি",
 	"regular-expression": "রেগুলার এক্সপ্রেশন",

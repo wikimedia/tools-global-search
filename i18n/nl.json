@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aranka",
 			"Elroy"
 		]
 	},
 	"back": "Terug",
+	"case-insensitive": "Hoofdletterongevoelig",
 	"csv": "CSV",
 	"error-server-message": "De server zei: $1",
 	"executed": "Uitgevoerd in $1 {{PLURAL:$2|seconde|seconden}}.",
