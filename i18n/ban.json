@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chinamoonroll",
+			"Joseagush"
+		]
+	},
+	"back": "Balik",
+	"brought-to-you-by": "Kaparsembahan olih $1 miwah $2.",
+	"case-insensitive": "Nénten uning kapital",
+	"csv": "CSV",
+	"error-report": "Ida prasida maparikanda pikobet puniki ring $1.",
+	"error-server-message": "Peladen nikayang: $1",
+	"excerpt": "Carcana",
+	"executed": "Kamargiang ring $1 {{PLURAL:$2|detik}}.",
+	"global-search": "Parerehan Global",
+	"global-search-advert": "Kakardi nganggén $1 ring $2",
+	"global-search-desc": "Rereh ring teks wiki ring sinamian wiki Yayasan Wikimédia.",
+	"help-translate": "Wantuan panyalinan",
+	"important-notes": "Cutetan sarat:",
+	"important-notes-cached": "Asil kasimpen ring ''cache'' antuk $1 {{PLURAL:$1|menit}}.",
+	"login": "Manjing log",
+	"logout": "Medal log"
+}
