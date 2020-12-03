@@ -1,12 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Aefgh39622"
+			"Aefgh39622",
+			"Just Sayori"
 		]
 	},
+	"back": "กลับ",
 	"csv": "CSV",
 	"executed": "ดำเนินการใน $1 วินาที",
 	"help-translate": "ช่วยแปลภาษา",
+	"important-notes": "หมายเหตุที่สำคัญ:",
 	"login": "เข้าสู่ระบบ",
 	"logout": "ออกจากระบบ",
 	"namespaces": "เนมสเปซ",
@@ -17,5 +20,6 @@
 	"slow": "ช้า",
 	"submit": "บันทึก",
 	"view-source": "ดูต้นฉบับ",
-	"wiki": "วิกิ"
+	"wiki": "วิกิ",
+	"wikitext": "ข้อความวิกิ"
 }

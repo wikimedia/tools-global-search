@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"KATRINE1993"
+			"KATRINE1993",
+			"PastelKos"
 		]
 	},
 	"back": "Επάνοδος, επιστροφή",
-	"brought-to-you-by": "Προσπόρισαν εις εσάς $ 1 και $ 2",
+	"brought-to-you-by": "Φέρον ὑμῖν ὑπὸ τοῦ χρωμένου $1 και τοῦ $2",
 	"case-insensitive": "Ανοικτό",
 	"error-report": "Δυνατότης αναφοράς αυτού του σφάλματος εις $ 1/",
 	"error-server-message": "Ο διακομιστής ανέφερε: $1",
