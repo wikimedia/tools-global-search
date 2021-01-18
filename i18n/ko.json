@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Codenstory",
-			"Ykhwong"
+			"Ykhwong",
+			"그냥기여자"
 		]
 	},
 	"back": "뒤로",
@@ -11,18 +12,22 @@
 	"csv": "CSV",
 	"error-report": "이 버그는 $1에 보고할 수 있습니다.",
 	"error-server-message": "서버 응답: $1",
+	"excerpt": "발췌",
 	"executed": "$1{{PLURAL:$2|초}} 전에 실행됨.",
 	"global-search": "전역 검색",
 	"global-search-advert": "$2에 $1를 사용하여 생성함",
 	"global-search-desc": "모든 위키미디어 재단 위키의 위키텍스트를 검색합니다.",
 	"help-translate": "변역 돕기",
 	"important-notes": "중요 참고사항:",
+	"important-notes-cached": "결과는 $1{{PLURAL:$1|분|분}} 동안 캐시됩니다.",
 	"important-notes-lag": "운영 중에 결과가 지연될 수 있으며, 보통은 $1 {{PLURAL:$1|분}} 정도입니다.",
+	"important-notes-specific": "검색어를 최대한 구체적으로 만드십시오. 더 많은 결과가 반환될수록 더 오래 기다려야 합니다.",
 	"json": "JSON",
 	"login": "로그인",
 	"logout": "로그아웃",
 	"logout-msg": "현재 $1님으로 로그인됨",
 	"namespaces": "이름공간",
+	"namespaces-desc": "쉼표로 구분된 이름공간 ID 목록입니다. 모든 이름공간은 비워 둡니다.",
 	"page-title": "문서 제목",
 	"powered-by": "$1에 의해 제공",
 	"presets": "프리셋",
@@ -35,6 +40,7 @@
 	"slow": "천천히",
 	"splash-hackathon-title": "위키미디어 해커톤 2019",
 	"splash-login-btn": "전역 검색 사용을 위해 로그인",
+	"splash-login-desc": "이 도구를 사용하면 $1 서비스를 사용하여 모든 위키미디어 재단 내 위키에서 키워드 및 소스를 정규식으로 검색할 수 있습니다.",
 	"splash-login-required": "이 도구는 장시간 실행되는 쿼리를 수행할 수 있으므로 로그인은 필수입니다.",
 	"splash-product-of-hackathon": "$1의 제품",
 	"splash-title": "위키미디어 전역 검색",
