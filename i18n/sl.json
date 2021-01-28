@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Eleassar",
 			"P̲̳l̳eo"
 		]
 	},
 	"back": "Nazaj",
 	"brought-to-you-by": "Tebi izročajo $1 in $2",
-	"case-insensitive": "Ne razlikuj velike in male črke",
+	"case-insensitive": "Ne razlikuj med velikimi in malimi črkami",
 	"csv": "CSV",
 	"error-server-message": "Strežnik je sporočil: $1",
 	"excerpt": "Izvleček",
