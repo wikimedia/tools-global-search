@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"executed": "$1 секунтта орындалады",
 	"login": "Кіру",
 	"logout": "Шығу",

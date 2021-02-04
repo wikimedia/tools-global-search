@@ -1,1 +1,15 @@
-{}
+{
+	"@metadata": {
+		"authors": [
+			"Smobile"
+		]
+	},
+	"back": "Piichhe",
+	"brought-to-you-by": "Aap ke khatir $1 aur $2 se lawa gais hai",
+	"help-translate": "Anwaad kare ke madat",
+	"login": "Log in karo",
+	"logout": "Log out ho",
+	"slow": "Dhire",
+	"submit": "Bhejo",
+	"talk-pages": "Baat waala panna"
+}

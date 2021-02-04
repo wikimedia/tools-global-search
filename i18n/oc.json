@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"back": "Retorn",
 	"csv": "CSV",
 	"executed": "Executat en $1 {{PLURAL:$2|segonda|segondas}}.",
