@@ -1,20 +1,41 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Tacsipacsi"
+		]
 	},
 	"back": "vissza",
+	"brought-to-you-by": "Készítette $1 és $2",
 	"csv": "CSV",
 	"error-server-message": "A szerver mondja: $1",
+	"excerpt": "Kivonat",
 	"executed": "Végrehajtva $1 {{PLURAL:$2|másodperc}} alatt.",
+	"global-search": "Globális kereső",
+	"global-search-desc": "Keresés a wikiszövegben a Wikimédia Alapítvány összes wikijén",
 	"help-translate": "Segíts fordítani",
+	"important-notes": "Fontos megjegyzések:",
+	"important-notes-cached": "Az eredmények $1 percre gyorsítótárazva vannak.",
+	"important-notes-lag": "Az eredmények le lehetnek maradva a wikik tényleges állapotához képest, általában körülbelül $1 perccel.",
+	"important-notes-specific": "Próbáld meg a lehető legpontosabb keresőkifejezést használni. Minél több találatot kapsz, annál tovább kell várnod rájuk.",
 	"json": "JSON",
 	"login": "Bejelentkezés",
 	"logout": "Kijelentkezés",
 	"logout-msg": "Aktuálisan bejelentkezve mint $1",
 	"namespaces": "Névterek",
+	"namespaces-desc": "Névtérazonosítók vesszővel elválasztva. Hagyd üresen az összes névtérben való kereséshez.",
 	"page-title": "Lapcím",
+	"purge-cache": "Gyorsítótár ürítése",
+	"query": "Lekérdezés:",
+	"regular-expression": "Reguláris kifejezés",
 	"report-issue": "Hibabejelentés",
+	"reset": "Alaphelyzet",
+	"showing-n": "{{PLURAL:$2|Megjelenítve}} $1",
+	"slow": "Lassú",
+	"splash-login-btn": "Jelentkezz be a globális kereső használatához",
+	"subject-pages": "Tartalmi lapok",
 	"submit": "Elküld",
+	"talk-pages": "Vitalapok",
+	"total-results": "Összes {{PLURAL:$1|találat}}",
 	"view-source": "Forráskód megtekintése",
 	"wiki": "Wiki",
 	"wikitext": "Wikiszöveg"
