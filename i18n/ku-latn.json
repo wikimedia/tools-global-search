@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Bikarhêner",
+			"Guherto",
 			"Mirzali"
 		]
 	},
@@ -24,6 +25,7 @@
 	"logout": "Derkeve",
 	"logout-msg": "Vêga wek $1 têketî yî",
 	"namespaces": "Valahiyên nav",
+	"namespaces-desc": "Lîsteya navxaneyên IDyan yê bi bêhnokê veqetandî. Ji bo hemû navxaneyan, vala bihêlin.",
 	"page-title": "Sernavê rûpelê",
 	"powered-by": "Tê piştgirîkirin ji aliyê $1 ve",
 	"query": "Xwestek",
