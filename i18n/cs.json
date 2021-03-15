@@ -1,13 +1,21 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"MrJaroslavik"
+		]
 	},
 	"back": "Zpět",
+	"brought-to-you-by": "Vytvořili $1 a $2",
+	"case-insensitive": "Nerozlišují se malá a velká písmena",
 	"csv": "CSV",
+	"error-report": "Tuto chybu můžete nahlásit na $1.",
 	"error-server-message": "Odpověď serveru: $1",
 	"executed": "Provedeno za $1 {{PLURAL:$2|sekundu|sekundy|sekund}}.",
+	"global-search": "Globální Vyhledávání",
 	"global-search-advert": "Generováno s použitím $1 dne $2",
+	"global-search-desc": "Hledejte ve wikitextu na všech wikiprojektech Wikimedia Foundation.",
 	"help-translate": "Pomozte s překladem",
+	"important-notes": "Důležité:",
 	"json": "JSON",
 	"login": "Přihlásit se",
 	"logout": "Odhlásit se",
