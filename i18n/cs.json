@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Georg101",
 			"MrJaroslavik"
 		]
 	},
@@ -15,7 +16,7 @@
 	"global-search-advert": "Generováno s použitím $1 dne $2",
 	"global-search-desc": "Hledejte ve wikitextu na všech wikiprojektech Wikimedia Foundation.",
 	"help-translate": "Pomozte s překladem",
-	"important-notes": "Důležité:",
+	"important-notes": "Důležité poznámky:",
 	"json": "JSON",
 	"login": "Přihlásit se",
 	"logout": "Odhlásit se",

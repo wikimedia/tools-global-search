@@ -3,6 +3,7 @@
 		"authors": [
 			"DraconicDark",
 			"Elliot",
+			"FF11",
 			"Mirzali",
 			"Pittigrilli",
 			"Tobi 406"
@@ -50,6 +51,7 @@
 	"submit": "Einreichen",
 	"talk-pages": "Diskussionsseiten",
 	"title-pattern": "Titel-Muster",
+	"title-pattern-without-ns": "(ohne Namensraum)",
 	"title-pattern-desc": "Zeigt nur Seitentitel, die zum vorgegebenen Ausdruck passen.",
 	"total-results": "{{PLURAL:$1|Gesamtergebnisse}}",
 	"tsv": "TSV",
