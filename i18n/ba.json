@@ -1,7 +1,10 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"MR973"
+		]
 	},
+	"back": "Артҡа",
 	"csv": "CSV",
 	"help-translate": "Тәржемә менән ярҙам итергә",
 	"report-issue": "Проблема хаҡында хәбәр итергә",
