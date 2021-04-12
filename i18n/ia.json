@@ -4,11 +4,16 @@
 			"McDutchie"
 		]
 	},
+	"back": "Retornar",
 	"brought-to-you-by": "Disveloppate per $1 e $2",
+	"case-insensitive": "Non distinguer majusculas e minusculas",
 	"csv": "CSV",
+	"error-report": "Tu pote reportar iste defecto sur $1.",
+	"error-server-message": "Le servitor ha respondite: $1",
 	"excerpt": "Excerpto",
 	"executed": "Executate in $1 {{PLURAL:$2|secunda|secundas}}.",
 	"global-search": "Recerca Global",
+	"global-search-advert": "Generate con $1 le $2",
 	"global-search-desc": "Cerca in le wikitexto de tote le wikis del Fundation Wikimedia.",
 	"help-translate": "Adjutar a traducer",
 	"important-notes": "Notas importante:",
@@ -22,6 +27,8 @@
 	"namespaces-desc": "Lista, separate per commas, de IDs de spatios de nomines. Lassa vacue pro tote le spatios de nomines.",
 	"page-title": "Titulo del pagina",
 	"powered-by": "Actionate per $1",
+	"presets": "Predefinitiones",
+	"purge-cache": "Purgar cache",
 	"query": "Consulta",
 	"regular-expression": "Expression regular",
 	"report-issue": "Reportar un problema",
@@ -34,8 +41,14 @@
 	"splash-login-required": "Pois que iste instrumento pote exequer consultas longe e costose, es necessari aperir session.",
 	"splash-product-of-hackathon": "Un producto del $1",
 	"splash-title": "Recerca Global de Wikimedia",
+	"subject-pages": "Paginas de subjecto",
 	"submit": "Submitter",
+	"talk-pages": "Paginas de discussion",
+	"title-pattern": "Patrono de titulo",
+	"title-pattern-without-ns": "(sin spatio de nomines)",
+	"title-pattern-desc": "Monstra solmente le titulos que corresponde al expression regular specificate.",
 	"total-results": "Total de {{PLURAL:$1|resultatos}}",
 	"view-source": "Vider codice fonte",
-	"wiki": "Wiki"
+	"wiki": "Wiki",
+	"wikitext": "Wikitexto"
 }

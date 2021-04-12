@@ -4,5 +4,12 @@
 			"Veeven"
 		]
 	},
-	"talk-pages": "చర్చా పేజీలు"
+	"back": "వెనక్కి",
+	"help-translate": "అనువదించడానికి తోడ్పడండి",
+	"important-notes": "ముఖ్య గమనికలు:",
+	"namespaces": "పేరుబరులు",
+	"talk-pages": "చర్చా పేజీలు",
+	"total-results": "మొత్తం {{PLURAL:$1|ఫలితాలు}}",
+	"wiki": "వికీ",
+	"wikitext": "వికీపాఠ్యం"
 }

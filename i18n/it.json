@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Beta16"
 		]
 	},
+	"back": "Indietro",
 	"case-insensitive": "Non distingui maiuscole e minuscole",
 	"csv": "CSV",
 	"executed": "Eseguito in $1 {{PLURAL:$2|secondo|secondi}}.",

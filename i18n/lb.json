@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Soued031"
 		]
 	},
 	"back": "Zréck",
@@ -21,7 +22,7 @@
 	"presets": "Virastellungen",
 	"purge-cache": "Tëschespäicher (Cache) eidelmaachen",
 	"query": "Ufro",
-	"report-issue": "E Problem mellen",
+	"report-issue": "E Probleem mellen",
 	"reset": "Zrécksetzen",
 	"slow": "Lues",
 	"splash-hackathon-title": "Wikimedia Hackathon 2019",
