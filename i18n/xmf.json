@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Narazeni"
+		]
+	},
+	"back": "უკახლე",
+	"brought-to-you-by": "თქვანო გუალეთით $1 დო $2",
+	"global-search": "გლობალური გორუა",
+	"help-translate": "ქემმეხვარით თანგუას",
+	"important-notes": "შანულამი ხვილაფეფი:",
+	"login": "მიშულა",
+	"logout": "გიშულა",
+	"logout-msg": "ასე მიშულირი რეთ მუჭო $1",
+	"namespaces": "ჯოხოეფიშ ოფირჩა",
+	"page-title": "ხასჷლაშ დუდჯოხო",
+	"purge-cache": "ქეშიშ ლასუა",
+	"report-issue": "პრობლემაშ გინაფა",
+	"reset": "გოუქვაფა",
+	"splash-title": "ვიკიმედია გლობალური გორუა",
+	"submit": "მეღება",
+	"talk-pages": "სხუნუაშ ხასჷლეფი",
+	"title-pattern": "დუდჯოხოშ მინუში",
+	"title-pattern-without-ns": "(ჯოხოშ ოფირჩაშ უმუDო)",
+	"total-results": "გვალო {{PLURAL:$1|შედეგი}} რე",
+	"view-source": "წყუშ ძირაფა",
+	"wiki": "ვიკი",
+	"wikitext": "ვიკიტექსტი"
+}
