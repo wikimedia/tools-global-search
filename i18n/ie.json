@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"RWMuc"
+			"RWMuc",
+			"Renan"
 		]
 	},
 	"back": "Retornar",
@@ -12,6 +13,7 @@
 	"excerpt": "Excerpte",
 	"executed": "Executet in $1 {{PLURAL:$2|seconde|secondes}}.",
 	"global-search": "Global serchation",
+	"global-search-advert": "Generat usant $1 in $2",
 	"global-search-desc": "Sercha intra wikitext trans omni Wikimedia Foundation wikis",
 	"help-translate": "Auxilie traduction",
 	"important-notes": "Important notes:",
@@ -25,6 +27,7 @@
 	"namespaces-desc": "Comma-separat list de spacie del nomine IDs. Lassa blanc por omni spacies del nomine.",
 	"page-title": "Titul del págine",
 	"powered-by": "Possentier de $1",
+	"presets": "Preadaptationes",
 	"purge-cache": "Purga cache",
 	"query": "Question",
 	"regular-expression": "Regulari expression",
@@ -38,8 +41,14 @@
 	"splash-login-required": "Pro que ti tool posse performar expensiv long-current questiones, aperter session es besonar.",
 	"splash-product-of-hackathon": "Un production del $1",
 	"splash-title": "Wikimedia global searchation",
+	"subject-pages": "Págines de subjecte",
 	"submit": "Prevision",
+	"talk-pages": "Págines de discussion",
+	"title-pattern": "Modelle de titul",
+	"title-pattern-without-ns": "(sin spacie nominal)",
+	"title-pattern-desc": "Monstrar solmen titules de págines que coresponde che li dat regulari expression.",
 	"total-results": "Tot {{PLURAL:$1|resultates}}",
 	"view-source": "Vider fonte",
-	"wiki": "Wiki"
+	"wiki": "Wiki",
+	"wikitext": "Textu wiki"
 }
