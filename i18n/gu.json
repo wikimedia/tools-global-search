@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"CptViraj"
+		]
+	},
+	"global-search": "વૈશ્વિક શોધ",
+	"help-translate": "ભાષાંતર કરવામાં મદદ કરો",
+	"important-notes": "મહત્વની નોંધો:",
+	"login": "પ્રવેશ કરો",
+	"logout": "પ્રસ્થાન કરો",
+	"namespaces": "નામસ્થળો",
+	"splash-login-btn": "વૈશ્વિક શોધ વાપરવા માટે પ્રવેશ કરો",
+	"splash-title": "વિકિમીડિયા વૈશ્વિક શોધ",
+	"talk-pages": "ચર્ચા પાનાંઓ",
+	"title-pattern-without-ns": "(નામસ્થળ વગર)",
+	"view-source": "સ્રોત જુઓ",
+	"wiki": "વિકિ",
+	"wikitext": "વિકિલખાણ"
+}
