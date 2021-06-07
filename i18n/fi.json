@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Antsa",
+			"MITO",
 			"Maantietäjä",
 			"Nike"
 		]
@@ -42,6 +43,7 @@
 	"title-pattern": "Otsikkokuvio",
 	"title-pattern-without-ns": "(ilman nimiavaruutta)",
 	"title-pattern-desc": "Näyttää vain sivunimikkeet, jotka vastaavat annettua säännöllistä lauseketta.",
+	"total-results": "Yhteensä {{PLURAL:$1|tulosta}}",
 	"view-source": "Näytä lähdekoodi",
 	"wiki": "Wiki",
 	"wikitext": "Wikiteksti"
