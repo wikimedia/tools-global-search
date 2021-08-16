@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Brahim-essaidi",
 			"Hakim1bal"
 		]
 	},
@@ -13,7 +14,7 @@
 	"subject-pages": "ⵉⵎⵔⵙⵉ ⵏ ⵜⴰⵙⵏⴰ",
 	"submit": "ⴰⵣⵏ",
 	"talk-pages": "ⵜⴰⵙⵏⴰ ⵏ ⵓⵎⴳⴷⴰⵍ",
-	"total-results": "ⵜⴰⵎⵓⵜⵜⵔⵜ {{PLURAL:$1|ⵜⵉⵢⴰⴼⵓⵜⵉⵏ}}",
+	"total-results": "ⵜⴰⵎⵓⵜⵜⵔⵜ {{PLURAL:$1|ⵜⵢⴰⴼⵓⵜⵉⵏ}}",
 	"view-source": "ⵙⴽⵏ ⴰⵙⴰⴳⵎ",
 	"wiki": "ⵡⵉⴽⵉ",
 	"wikitext": "ⵡⵉⴽⵉⴹⵕⵉⵚ"
