@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Base",
+			"DDPAT",
 			"Piramidion"
 		]
 	},
@@ -9,7 +10,7 @@
 	"brought-to-you-by": "Для вас підготували: $1 і $2",
 	"case-insensitive": "Нечутливий до регістру",
 	"csv": "CSV",
-	"error-report": "Можете повідомити про цей баг на $1.",
+	"error-report": "Можете повідомити про цей баґ на $1.",
 	"error-server-message": "Сервер відповів: $1",
 	"excerpt": "Витяг",
 	"executed": "Виконано за $1 {{PLURAL:$2|секунду|секунди|секунд}}.",
