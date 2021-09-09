@@ -5,6 +5,7 @@
 		]
 	},
 	"back": "နောက်သို့",
+	"case-insensitive": "စာလုံးအကြီးအသေး အတိမ်းစောင်းခံ",
 	"csv": "CSV",
 	"error-server-message": "ဆာဗာ ပြောသည်မှာ: $1",
 	"global-search-advert": "$2 တွင် $1 အားအသုံးပြု၍ ထုတ်ပြန်ခဲ့သည်",
@@ -16,7 +17,9 @@
 	"namespaces": "အမည်ညွှန်းများ",
 	"page-title": "စာမျက်နှာ ခေါင်းစဉ်",
 	"report-issue": "ပြဿနာတစ်ခုအား သတင်းပို့ရန်",
+	"splash-product-of-hackathon": "$1 ၏ ထုတ်ကုန်တစ်ခု",
 	"submit": "ထည့်သွင်း",
+	"talk-pages": "ဆွေးနွေးချက် စာမျက်နှာများ",
 	"total-results": "စုစုပေါင်း {{PLURAL:$1|ရလဒ်များ}}",
 	"view-source": "ရင်းမြစ်ကို ကြည့်ရန်",
 	"wiki": "ဝီကီ",
