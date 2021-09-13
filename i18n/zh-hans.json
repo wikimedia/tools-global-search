@@ -4,6 +4,7 @@
 			"A Chinese Wikipedian",
 			"A Retired User",
 			"SomeyaMako",
+			"Tranve",
 			"VulpesVulpes825",
 			"予弦",
 			"列维劳德",
@@ -20,7 +21,7 @@
 	"executed": "执行耗时$1{{PLURAL:$2|秒}}。",
 	"global-search": "全域搜索",
 	"global-search-advert": "使用$1于$2生成",
-	"global-search-desc": "在维基媒体基金会旗下所有wiki的wiki代码中搜索。",
+	"global-search-desc": "在维基媒体基金会旗下所有wiki的wikitext中搜索。",
 	"help-translate": "帮助翻译",
 	"important-notes": "重要提示：",
 	"important-notes-cached": "结果缓存$1分钟。",
@@ -58,5 +59,5 @@
 	"tsv": "TSV",
 	"view-source": "查看源代码",
 	"wiki": "Wiki",
-	"wikitext": "Wiki文本"
+	"wikitext": "Wikitext"
 }
