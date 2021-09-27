@@ -8,6 +8,7 @@
 	"case-insensitive": "စာလုံးအကြီးအသေး အတိမ်းစောင်းခံ",
 	"csv": "CSV",
 	"error-server-message": "ဆာဗာ ပြောသည်မှာ: $1",
+	"executed": "$1 {{PLURAL:$2|စက္ကန့်|စက္ကန့်များ}}တွင် အမိန့်ပေးစေခိုင်းခဲ့သည်။",
 	"global-search-advert": "$2 တွင် $1 အားအသုံးပြု၍ ထုတ်ပြန်ခဲ့သည်",
 	"help-translate": "ကူညီ ဘာသာပြန်ရန်",
 	"json": "JSON",
