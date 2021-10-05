@@ -120,6 +120,7 @@ class DefaultController extends AbstractController
             'csv' => 'text/csv',
             'tsv' => 'text/tab-separated-values',
             'json' => 'application/json',
+            'markdown' => 'text/markdown',
         ];
 
         // Use HTML if unknown format requested.

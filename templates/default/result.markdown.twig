@@ -1,0 +1,8 @@
+{% set link %}[{{ msg('splash-title') }}]({{ url('home', app.request.query.all|merge({'format': 'html'})) }}){% endset %}
+{{ msg('global-search-advert', [link, date()|date('Y-m-d H:i')]) }}
+
+| {{ msg('wiki') }} | {{ msg('page-title') }} |
+| --- | --- |
+{% for hit in hits %}
+| {{ hit.wiki }} | [{{ hit.title }}]({{ hit.url|replace({' ': '_'}) }}) |
+{% endfor %}
