@@ -145,6 +145,10 @@ footer {
     width: 400px;
 }
 
+a:visited bdi {
+    color: #74449f;
+}
+
 @media (max-width: 768px) {
     #titlePattern {
         width: 100%;

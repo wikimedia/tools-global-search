@@ -12,6 +12,7 @@
 	"error-server-message": "Error message. $1 is the message given by the server.",
 	"excerpt": "Heading for column showing an excerpt of the wikitext of the page that includes the search term.",
 	"executed": "Execution time. $1 is the formatted number of seconds, and $2 is the unformatted number for use with PLURAL.",
+	"export-as": "Label preceding a list of links to download/export the results.",
 	"global-search": "Title of the application.",
 	"global-search-advert": "When exporting results, this message is shown at the top. $1 is a link to Global Search, and $2 is the date and time the results were fetched.",
 	"global-search-desc": "Description of the application.",

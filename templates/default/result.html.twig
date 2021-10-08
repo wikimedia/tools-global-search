@@ -8,7 +8,7 @@
             <em>({{ msg('showing-n', [max_results|num_format, max_results]) }})</em>
         {% endif %}
         <span class="export-links">
-            Export as
+            {{ msg('export-as') }}
             {% for type in ['wikitext', 'csv', 'tsv', 'json', 'markdown'] %}
                 <a target="_blank" class="download-link download-{{ type|lower }}" href="{{ path('home', app.request.query.all|merge({format: type})) }}">{{ msg_if_exists(type) }}</a>
                 {% if not(loop.last) %}
