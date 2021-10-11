@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"FarsiNevis",
+			"Jeeputer",
 			"Nightdevil"
 		]
 	},
@@ -13,6 +14,7 @@
 	"error-server-message": "پاسخ سرور: $1",
 	"excerpt": "چکیده",
 	"executed": "استخراج در $1 {{PLURAL:$2|ثانیه|ثانیه}}.",
+	"export-as": "برون‌بری به‌عنوان:",
 	"global-search": "جستجوی سراسری",
 	"global-search-advert": "تولید با استفاده از $1 در $2",
 	"global-search-desc": "در متن خام (ویکی‌تکست) همهٔ پروژه‌های ویکی‌مدیا جستجو کنید.",

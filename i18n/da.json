@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Antonla",
 			"Saederup92"
 		]
 	},
@@ -9,6 +10,7 @@
 	"csv": "CSV",
 	"error-server-message": "Serveren sagde: $1",
 	"executed": "Udført på $1 {{PLURAL:$2|sekund|sekunder}}.",
+	"export-as": "Eksporter som:",
 	"global-search": "Global søgning",
 	"global-search-advert": "Oprettet via brug af $1 på $2",
 	"help-translate": "Hjælp til med at oversætte",
@@ -16,6 +18,7 @@
 	"login": "Log ind",
 	"logout": "Log ud",
 	"logout-msg": "Logget ind som $1",
+	"markdown": "Markdown",
 	"namespaces": "Navnerum",
 	"page-title": "Sidetitel",
 	"powered-by": "Drevet af $1",

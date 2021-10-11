@@ -2,12 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Aefgh39622",
-			"Just Sayori"
+			"Just Sayori",
+			"Thas Tayapongsak"
 		]
 	},
 	"back": "กลับ",
 	"csv": "CSV",
 	"executed": "ดำเนินการใน $1 วินาที",
+	"export-as": "ส่งออกเป็น:",
 	"help-translate": "ช่วยแปลภาษา",
 	"important-notes": "หมายเหตุที่สำคัญ:",
 	"login": "เข้าสู่ระบบ",

@@ -1,8 +1,11 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Mehtab ahmed"
+		]
 	},
 	"back": "واپس",
+	"export-as": "برآمد ڪريو بطور:",
 	"help-translate": "ترجمي ۾ مدد ڪيو",
 	"login": "داخل ٿيو",
 	"logout": "خارج ٿيو",
