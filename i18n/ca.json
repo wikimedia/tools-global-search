@@ -12,6 +12,7 @@
 	"error-server-message": "El servidor ha respost: $1",
 	"excerpt": "Extracte",
 	"executed": "Executat en $1 {{PLURAL:$2|segon|segons}}.",
+	"export-as": "Exporta com:",
 	"global-search": "Recerca global",
 	"global-search-advert": "Generat utilitzant $1 en $2",
 	"global-search-desc": "Cerques en el viquitext de tots els viquis de la Fundació Viquimèdia.",

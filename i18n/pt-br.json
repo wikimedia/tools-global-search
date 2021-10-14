@@ -15,6 +15,7 @@
 	"error-server-message": "O servidor respondeu: $1",
 	"excerpt": "Excerto",
 	"executed": "Executado em $1 {{PLURAL:$2|segundo|segundos}}.",
+	"export-as": "Exportar como:",
 	"global-search": "Pesquisa global",
 	"global-search-advert": "Gerado ao utilizar $1 em $2",
 	"global-search-desc": "Pesquise no wikitexto em todos as wikis da Fundação Wikimedia",

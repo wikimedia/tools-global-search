@@ -12,6 +12,7 @@
 	"error-server-message": "Server hovorí: $1",
 	"excerpt": "Výňatok",
 	"executed": "Vykoná sa za $1 {{PLURAL:$2|sekundu|sekúnd}}.",
+	"export-as": "Exportovať ako:",
 	"global-search": "Globálne vyhľadávanie",
 	"global-search-advert": "Vygenerované použitím $1 dňa $2",
 	"global-search-desc": "Hľadanie v rámci wikitextu vo všetkých wiki od Wikimedia Foundation.",

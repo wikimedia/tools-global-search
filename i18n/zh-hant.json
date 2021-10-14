@@ -15,6 +15,7 @@
 	"error-server-message": "伺服器報告：$1",
 	"excerpt": "摘錄",
 	"executed": "執行時間 $1 {{PLURAL:$2|秒}}。",
+	"export-as": "匯成：",
 	"global-search": "全域搜尋",
 	"global-search-advert": "已產生於 $2 使用 $1",
 	"global-search-desc": "以 wiki 文字來搜尋橫跨所有維基媒體基金會的 wiki。",

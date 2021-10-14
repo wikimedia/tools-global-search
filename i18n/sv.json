@@ -14,6 +14,7 @@
 	"error-server-message": "Servern sa: $1",
 	"excerpt": "Avsnitt",
 	"executed": "Utfört på $1 {{PLURAL:$2|sekund|sekunder}}.",
+	"export-as": "Exportera som:",
 	"global-search": "Global sökning",
 	"global-search-advert": "Genererades med $1 den $2",
 	"global-search-desc": "Sök inom wikitexter över alla Wikimedia Foundations wikier.",

@@ -3,6 +3,7 @@
 		"authors": [
 			"Aranka",
 			"Elroy",
+			"Robin van der Vliet",
 			"Romaine"
 		]
 	},
@@ -14,6 +15,7 @@
 	"error-server-message": "De server zei: $1",
 	"excerpt": "Fragment",
 	"executed": "Uitgevoerd in $1 {{PLURAL:$2|seconde|seconden}}.",
+	"export-as": "Exporteren als:",
 	"global-search": "Globaal zoeken",
 	"global-search-advert": "Gemaakt met $1 op $2",
 	"global-search-desc": "Zoek in wikitekst in alle Wikimedia Foundation-wiki's.",
