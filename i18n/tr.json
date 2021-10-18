@@ -14,6 +14,7 @@
 	"error-server-message": "Sunucu dedi ki: $1",
 	"excerpt": "Alıntı",
 	"executed": "$1 {{PLURAL:$2|saniye|saniye}} içinde yürütüldü.",
+	"export-as": "Şu şekilde dışa aktar:",
 	"global-search": "Küresel Arama",
 	"global-search-advert": "$1 bağlantısına $2 tarihinde kullanılarak oluşturuldu",
 	"global-search-desc": "Tüm Wikimedia Vakfı vikileri genelinde viki içinde ara.",

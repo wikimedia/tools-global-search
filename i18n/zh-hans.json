@@ -6,6 +6,7 @@
 			"SomeyaMako",
 			"Tranve",
 			"VulpesVulpes825",
+			"Xiplus",
 			"予弦",
 			"列维劳德",
 			"神樂坂秀吉"
@@ -31,7 +32,7 @@
 	"login": "登录",
 	"logout": "退出",
 	"logout-msg": "当前登录为$1",
-	"namespaces": "名字空间",
+	"namespaces": "命名空间",
 	"namespaces-desc": "以逗号间隔的命名空间ID列表。若是全部命名空间则留空。",
 	"page-title": "页面标题",
 	"powered-by": "由$1提供支持",
