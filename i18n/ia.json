@@ -12,6 +12,7 @@
 	"error-server-message": "Le servitor ha respondite: $1",
 	"excerpt": "Excerpto",
 	"executed": "Executate in $1 {{PLURAL:$2|secunda|secundas}}.",
+	"export-as": "Exportar como:",
 	"global-search": "Recerca Global",
 	"global-search-advert": "Generate con $1 le $2",
 	"global-search-desc": "Cerca in le wikitexto de tote le wikis del Fundation Wikimedia.",

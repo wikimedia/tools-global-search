@@ -4,6 +4,7 @@
 			"Destinid10 2",
 			"Fitoschido",
 			"Harvest",
+			"Jakeukalane",
 			"Rodney Araujo",
 			"Unai01"
 		]
@@ -18,7 +19,7 @@
 	"executed": "Ejecutado en $1 {{PLURAL:$2|segundo|segundos}}.",
 	"global-search": "Búsqueda global",
 	"global-search-advert": "Generado mediante $1 el $2",
-	"global-search-desc": "Búsquedas en el texto de todos los wikis de la Fundación Wikimedia.",
+	"global-search-desc": "Búsquedas en el texto de todas las wikis de la Fundación Wikimedia.",
 	"help-translate": "Ayúdanos a traducir",
 	"important-notes": "Notas importantes:",
 	"important-notes-cached": "Los resultados se almacenan en antememoria por $1 {{PLURAL:$1|minuto|minutos}}.",
@@ -40,7 +41,7 @@
 	"slow": "Lenta",
 	"splash-hackathon-title": "Wikimedia Hackathon 2019",
 	"splash-login-btn": "Inicie sesión para usar la Búsqueda Global",
-	"splash-login-desc": "Esta herramienta permite efectuar búsquedas de palabras clave y expresiones regulares de código fuente en todos los wikis de la Fundación Wikimedia mediante el servicio $1.",
+	"splash-login-desc": "Esta herramienta permite efectuar búsquedas de palabras clave y expresiones regulares de código fuente en todas las wikis de la Fundación Wikimedia mediante el servicio $1.",
 	"splash-login-required": "Porque esta herramienta puede hacer consultas costosas y largas, está requerido iniciar sesión.",
 	"splash-product-of-hackathon": "Un producto del $1",
 	"splash-title": "Búsqueda Global de Wikimedia",
