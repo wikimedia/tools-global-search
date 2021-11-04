@@ -14,6 +14,7 @@
 	"error-server-message": "서버 응답: $1",
 	"excerpt": "발췌",
 	"executed": "$1{{PLURAL:$2|초}} 전에 실행됨.",
+	"export-as": "내보내기 유형:",
 	"global-search": "전역 검색",
 	"global-search-advert": "$2에 $1를 사용하여 생성함",
 	"global-search-desc": "모든 위키미디어 재단 위키의 위키텍스트를 검색합니다.",
