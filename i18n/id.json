@@ -12,6 +12,7 @@
 	"error-server-message": "Peladen mengatakan: $1",
 	"excerpt": "Kutipan",
 	"executed": "Dieksekusi dalam $1 {{PLURAL:$2|detik|detik}}.",
+	"export-as": "Ekspor sebagai:",
 	"global-search": "Pencarian Global",
 	"global-search-advert": "Dihasilkan menggunakan $1 pada $2",
 	"global-search-desc": "Cari sesuatu di dalam wikitext pada semua wiki oleh Wikimedia Foundation.",
