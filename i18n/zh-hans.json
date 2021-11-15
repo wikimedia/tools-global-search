@@ -3,6 +3,7 @@
 		"authors": [
 			"A Chinese Wikipedian",
 			"A Retired User",
+			"Cosine02",
 			"SomeyaMako",
 			"Tranve",
 			"VulpesVulpes825",
@@ -20,6 +21,7 @@
 	"error-server-message": "服务器报告：$1",
 	"excerpt": "摘录",
 	"executed": "执行耗时$1{{PLURAL:$2|秒}}。",
+	"export-as": "导出为：",
 	"global-search": "全域搜索",
 	"global-search-advert": "使用$1于$2生成",
 	"global-search-desc": "在维基媒体基金会旗下所有wiki的wikitext中搜索。",
