@@ -20,5 +20,19 @@
 	"important-notes": "Cutetan sarat:",
 	"important-notes-cached": "Asil kasimpen ring ''cache'' antuk $1 {{PLURAL:$1|menit}}.",
 	"login": "Manjing log",
-	"logout": "Medal log"
+	"logout": "Medal log",
+	"page-title": "Murda kaca",
+	"powered-by": "Kawasa olih $1",
+	"presets": "Prasetel",
+	"query": "Kuéri",
+	"regular-expression": "Éksprési umum",
+	"reset": "Jumu",
+	"splash-title": "Parerehan Global Wikimedia",
+	"submit": "Kirim",
+	"talk-pages": "Kaca pabligbagan",
+	"title-pattern": "Pola murda",
+	"total-results": "{{PLURAL:$1|Asil}} total",
+	"view-source": "Cingak wit",
+	"wiki": "Wiki",
+	"wikitext": "Tékswiki"
 }
