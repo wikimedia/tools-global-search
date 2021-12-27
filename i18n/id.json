@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Akmaie Ajam"
+			"Akmaie Ajam",
+			"Daud I.F. Argana"
 		]
 	},
 	"back": "Kembali",
@@ -18,8 +19,8 @@
 	"global-search-desc": "Cari sesuatu di dalam wikitext pada semua wiki oleh Wikimedia Foundation.",
 	"help-translate": "Bantu terjemahkan",
 	"important-notes": "Catatan penting:",
-	"important-notes-cached": "Hasil di-cache untuk $1 menit.",
-	"important-notes-lag": "Hasilnya mungkin tertinggal dari produksi, biasanya sekitar $1 menit.",
+	"important-notes-cached": "Hasil di-''cache'' untuk $1 {{PLURAL:$1|menit}}.",
+	"important-notes-lag": "Hasilnya mungkin tertinggal dari produksi, biasanya sekitar $1 {{PLURAL:$1|menit}}.",
 	"important-notes-specific": "Buat istilah pencarian Anda sespesifik mungkin. Semakin banyak hasil yang dikembalikan, semakin lama Anda harus menunggu.",
 	"json": "JSON",
 	"login": "Masuk log",
@@ -35,7 +36,7 @@
 	"regular-expression": "Ekspresi reguler",
 	"report-issue": "Laporkan masalah",
 	"reset": "Atur ulang",
-	"showing-n": "{{PLURAL:$2|Menampilkan|Menampilkan}} $1",
+	"showing-n": "{{PLURAL:$2|Menampilkan}} $1",
 	"slow": "Lambat",
 	"splash-hackathon-title": "Hackathon Wikimedia 2019",
 	"splash-login-btn": "Masuk untuk menggunakan Pencarian Global",
