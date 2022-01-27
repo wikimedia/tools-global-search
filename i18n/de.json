@@ -7,7 +7,8 @@
 			"FF11",
 			"Mirzali",
 			"Pittigrilli",
-			"Tobi 406"
+			"Tobi 406",
+			"Umlaut"
 		]
 	},
 	"back": "Zurück",
@@ -18,6 +19,7 @@
 	"error-server-message": "Der Server sagte: $1",
 	"excerpt": "Auszug",
 	"executed": "In {{PLURAL:$2|einer Sekunde|$1 Sekunden}} ausgeführt.",
+	"export-as": "Exportieren als:",
 	"global-search": "Globale Suche",
 	"global-search-advert": "Erzeugt mithilfe von $1 auf $2",
 	"global-search-desc": "Suche im Wikitext in allen Wikis der Wikimedia Foundation.",
