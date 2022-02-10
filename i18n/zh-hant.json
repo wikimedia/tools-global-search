@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"1233thehongkonger",
 			"A Retired User",
 			"Kly",
 			"Tranve",
@@ -18,13 +19,13 @@
 	"executed": "執行時間 $1 {{PLURAL:$2|秒}}。",
 	"export-as": "匯成：",
 	"global-search": "全域搜尋",
-	"global-search-advert": "已產生於 $2 使用 $1",
+	"global-search-advert": "在 $2 使用 $1 生成",
 	"global-search-desc": "以 wikitext 來搜尋橫跨所有維基媒體基金會的 wiki。",
 	"help-translate": "協助翻譯",
 	"important-notes": "重要提醒：",
 	"important-notes-cached": "結果被快取 $1 {{PLURAL:$1|分鐘}}。",
-	"important-notes-lag": "結果可能會落後生產，通常大約晚$1{{PLURAL:$1|分鐘}}。",
-	"important-notes-specific": "儘可能讓您的搜尋項目具體。當回傳結果較多時，您會需要等待較長的時間",
+	"important-notes-lag": "結果通常大約晚$1{{PLURAL:$1|分鐘}}於生產。",
+	"important-notes-specific": "請儘可能讓您的搜尋項目具體。若回傳的結果比較多，您就需要等待較長的時間。",
 	"json": "JSON",
 	"login": "登入",
 	"logout": "登出",
@@ -32,7 +33,7 @@
 	"namespaces": "命名空間",
 	"namespaces-desc": "以逗號區分的命名空間 ID 清單。若是全部命名空間則留空。",
 	"page-title": "頁面標題",
-	"powered-by": "技術提供來自$1",
+	"powered-by": "由 $1 提供技術支援",
 	"presets": "預設",
 	"purge-cache": "清除快取",
 	"query": "查詢",
@@ -57,5 +58,5 @@
 	"tsv": "TSV",
 	"view-source": "查看原始碼",
 	"wiki": "Wiki",
-	"wikitext": "Wikitext"
+	"wikitext": "Wiki 語法"
 }
