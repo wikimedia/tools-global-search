@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Seipinne"
+		]
+	},
+	"back": "Maassâd",
+	"error-server-message": "Server iätá: $1",
+	"export-as": "Tuálvu häämist:",
+	"global-search": "Gloobaal uuccâm",
+	"help-translate": "Iššeed jurgâlmist",
+	"important-notes": "Teháliih huámmášumeh:",
+	"login": "Čäälit jieijâd siisâ",
+	"logout": "Čäälit jieijâd olgos",
+	"logout-msg": "Čáládâttâm siisâ kevtten $1",
+	"namespaces": "Nommâkomovuođah",
+	"page-title": "Siijđo paječaalâ",
+	"presets": "Ovdâasâttâsah",
+	"report-issue": "Almoot čuolmâst",
+	"reset": "Nolláád/maaccât",
+	"slow": "Hiđes",
+	"splash-hackathon-title": "Wikimedia Hackathon 2019",
+	"splash-login-btn": "Čäliškyeđe siisâ te puávtáh kevttiđ systeemvijđosâš uuccâm",
+	"splash-title": "Systeemvijđosâs Wikimedia-uuccâm",
+	"subject-pages": "Fáddásiijđoh",
+	"talk-pages": "Savâstâllâmsiijđoh",
+	"title-pattern": "Paječaalâkovos",
+	"title-pattern-without-ns": "(nommâkomovuođâttáá)",
+	"total-results": "{{PLURAL:$1|Puátuseh}} ohtsis",
+	"view-source": "Čääiti käldeekoodi",
+	"wiki": "Wiki",
+	"wikitext": "Wikitekstâ"
+}
