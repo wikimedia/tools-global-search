@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"FiberAhmed",
 			"Meno25",
 			"ديفيد"
 		]
@@ -13,7 +14,7 @@
 	"error-server-message": "قال الخادم: $1",
 	"excerpt": "اقتباس",
 	"executed": "استغرق التنفيذ $1 {{PLURAL:$2|ثانية|ثوانٍ}}.",
-	"export-as": "تصدير ك:",
+	"export-as": "تصدير كـ:",
 	"global-search": "البحث العالمي",
 	"global-search-advert": "مولد بواسطة $1 في $2",
 	"global-search-desc": "ابحث داخل نص الويكي عبر جميع مواقع ويكيميديا.",
