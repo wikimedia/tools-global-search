@@ -5,6 +5,7 @@
 			"Omotecho",
 			"Shirayuki",
 			"Weather Top Wizard",
+			"Yamagata Yusuke",
 			"神樂坂秀吉"
 		]
 	},
@@ -16,6 +17,7 @@
 	"error-server-message": "サーバの回答： $1",
 	"excerpt": "抜粋",
 	"executed": "実行時間 $1 {{PLURAL:$2|秒}}。",
+	"export-as": "書き出し:",
 	"global-search": "グローバル検索",
 	"global-search-advert": "$2に$1を適用して生成",
 	"global-search-desc": "ウィキメディア財団のウィキ群すべてを対象に、ウィキテキスト内を検索。",

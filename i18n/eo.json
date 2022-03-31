@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mirin"
+			"Mirin",
+			"Robin van der Vliet"
 		]
 	},
 	"back": "Reen",
@@ -12,7 +13,9 @@
 	"error-server-message": "La servilo diris: $1",
 	"excerpt": "Eltiraĵo",
 	"executed": "Farita en $1 {{PLURAL:$2|sekundo|sekundoj}}.",
+	"export-as": "Eksporti kiel:",
 	"global-search": "Malloka Serĉado",
+	"global-search-advert": "Generita per $1 je $2",
 	"global-search-desc": "Serĉi en vikiteksto tra ĉiuj vikioj de Vikimedia Fondaĵo.",
 	"help-translate": "Helpi tradukadon",
 	"important-notes": "Gravaj notoj:",
@@ -41,6 +44,8 @@
 	"splash-product-of-hackathon": "Produkto far $1",
 	"splash-title": "Vikimedia Malloka Serĉado",
 	"submit": "Sendi",
+	"talk-pages": "Diskutpaĝoj",
+	"title-pattern-without-ns": "(sen nomspaco)",
 	"total-results": "Totala nombro de {{PLURAL:$1|rezultoj}}",
 	"view-source": "Vidi fonton",
 	"wiki": "Vikio",
