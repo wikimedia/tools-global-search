@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Beginneruser",
 			"FarsiNevis",
 			"Jeeputer",
 			"Nightdevil"
@@ -26,7 +27,7 @@
 	"logout-msg": "وارد شده به عنوان $1",
 	"namespaces": "فضای نام",
 	"page-title": "عنوان صفحه",
-	"purge-cache": "خالی‌کردن حافظهٔ نهان",
+	"purge-cache": "پاک‌سازی حافظهٔ نهان",
 	"query": "پرسمان",
 	"regular-expression": "عبارت باقاعده",
 	"report-issue": "یک مسئله را گزارش کنید",
