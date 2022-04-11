@@ -19,7 +19,7 @@
 	"export-as": "Exporter comme :",
 	"global-search": "Recherche globale",
 	"global-search-advert": "Généré en utilisant $1 sur $2",
-	"global-search-desc": "Rechercher dans le wikitexte parmi tous les wikis de la Fondation Wikimédia.",
+	"global-search-desc": "Rechercher dans le  wikicode parmi tous les wikis de la Fondation Wikimédia.",
 	"help-translate": "Aider à traduire",
 	"important-notes": "Notes importantes :",
 	"important-notes-cached": "Les résultats sont mis en cache pour $1 minute{{PLURAL:$1||s}}.",
