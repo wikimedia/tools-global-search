@@ -8,6 +8,7 @@
 		]
 	},
 	"back": "Wstecz",
+	"case-insensitive": "Wielkość liter nie jest rozróżniana",
 	"csv": "CSV",
 	"error-report": "Możesz zgłosić ten błąd na $1.",
 	"executed": "Wykonano w $1 {{PLURAL:$2|sekundę|sekundy|sekund}}.",
@@ -30,6 +31,7 @@
 	"slow": "Wolno",
 	"splash-title": "Wyszukiwanie globalne Wikimedia",
 	"submit": "Wyślij",
+	"title-pattern-desc": "Pokazuje tylko tytuły stron, które pasują do podanego wyrażenia regularnego.",
 	"total-results": "Łącznie {{PLURAL:$1|wynik|wyniki|wyników}}",
 	"tsv": "TSV",
 	"view-source": "Kod źródłowy",
