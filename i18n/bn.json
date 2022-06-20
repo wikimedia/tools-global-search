@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Al Riaz Uddin Ripon",
+			"Joysriramsarkar.manathetiger56",
 			"Titodutta",
 			"YahyA",
 			"Yahya",
@@ -16,6 +17,7 @@
 	"error-server-message": "সার্ভারটি জানিয়েছে: $1",
 	"excerpt": "উদ্ধৃতি",
 	"executed": "$1 {{PLURAL:$2|সেকেন্ডে}} নিষ্পন্ন।",
+	"export-as": "এভাবে রপ্তানি করুন:",
 	"global-search": "বৈশ্বিক অনুসন্ধান",
 	"global-search-advert": "$2 তারিখে $1 ব্যবহার করে উৎপন্ন",
 	"global-search-desc": "সকল উইকিমিডিয়া ফাউন্ডেশন উইকিগুলিতে উইকিটেক্সটের মধ্যে অনুসন্ধান করুন।",
