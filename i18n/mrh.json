@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Reihpaleituh",
+			"Teitei Para"
+		]
+	},
+	"back": "Kua",
+	"brought-to-you-by": "$1 nata $2 zy ta nâma lâ ama vaw cheih",
+	"error-report": "$1 liata sihmaw kyh chyh-ei na chho thei.",
+	"error-server-message": "Server cha \"$1,\" tahpa ta a reih.",
+	"excerpt": "Atlychakapa",
+	"login": "A ngia",
+	"logout": "Pua",
+	"logout-msg": "Tahmâ cha $1 ta nâ ngia chy",
+	"namespaces": "Namespaces",
+	"splash-title": "Wikimedia Khizaw Tluana",
+	"wiki": "Wiki",
+	"wikitext": "Wikitext"
+}
