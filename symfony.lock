@@ -208,9 +208,6 @@
     "symfony/process": {
         "version": "v4.2.8"
     },
-    "symfony/profiler-pack": {
-        "version": "v1.0.4"
-    },
     "symfony/routing": {
         "version": "4.2",
         "recipe": {
