@@ -2,7 +2,8 @@
     "devDependencies": {
         "@symfony/webpack-encore": "^0.28.2",
         "core-js": "^3.2.1",
-        "webpack-notifier": "^1.8.0"
+        "webpack-notifier": "^1.8.0",
+        "yarn-audit-fix": "^9.3.2"
     },
     "license": "MIT",
     "private": true,

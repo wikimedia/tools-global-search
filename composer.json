@@ -4,36 +4,40 @@
     "type": "project",
     "license": "MIT",
     "require": {
-        "php": "^7.2",
+        "php": "^7.4",
         "ext-ctype": "*",
         "ext-iconv": "*",
         "ext-json": "*",
         "allocine/twigcs": "^3.1",
         "eightpoints/guzzle-bundle": "^7.5",
         "sensio/framework-extra-bundle": "^5.3",
-        "symfony/cache": "4.3.*",
-        "symfony/console": "4.3.*",
-        "symfony/dotenv": "4.3.*",
+        "symfony/cache": "^4.4",
+        "symfony/console": "^4.4",
+        "symfony/dotenv": "^4.4",
         "symfony/flex": "^1.1",
-        "symfony/framework-bundle": "4.3.*",
-        "symfony/twig-bundle": "4.2.*",
+        "symfony/framework-bundle": "^4.4",
+        "symfony/twig-bundle": "^4.4",
         "symfony/webpack-encore-bundle": "^1.5",
-        "symfony/yaml": "4.3.*",
+        "symfony/yaml": "^4.4",
         "twig/extensions": "^1.5",
         "wikimedia/toolforge-bundle": "^0.18.0"
     },
     "require-dev": {
         "mediawiki/minus-x": "^0.3.2",
         "slevomat/coding-standard": "^5.0",
-        "symfony/profiler-pack": "^1.0",
-        "symfony/var-dumper": "4.3.*",
-        "symfony/web-server-bundle": "4.3.*"
+        "symfony/stopwatch": "^4.4",
+        "symfony/var-dumper": "^4.4",
+        "symfony/web-profiler-bundle": "^4.4",
+        "symfony/web-server-bundle": "^4.4"
     },
     "config": {
         "preferred-install": {
             "*": "dist"
         },
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "symfony/flex": true
+        }
     },
     "autoload": {
         "psr-4": {
@@ -79,7 +83,7 @@
     "extra": {
         "symfony": {
             "allow-contrib": false,
-            "require": "4.2.*"
+            "require": "^4.4"
         }
     }
 }
