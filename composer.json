@@ -18,7 +18,7 @@
         "symfony/framework-bundle": "^4.4",
         "symfony/twig-bundle": "^4.4",
         "symfony/webpack-encore-bundle": "^1.5",
-        "symfony/yaml": "^4.4",
+        "symfony/yaml": "^5.3",
         "twig/extensions": "^1.5",
         "wikimedia/toolforge-bundle": "^0.18.0"
     },
