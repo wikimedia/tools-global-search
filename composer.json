@@ -20,7 +20,7 @@
         "symfony/webpack-encore-bundle": "^1.5",
         "symfony/yaml": "^4.4",
         "twig/extensions": "^1.5",
-        "wikimedia/toolforge-bundle": "^0.18.0"
+        "wikimedia/toolforge-bundle": "^1.4.4"
     },
     "require-dev": {
         "mediawiki/minus-x": "^0.3.2",
