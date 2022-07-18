@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Laitei",
 			"Reihpaleituh",
 			"Teitei Para"
 		]
@@ -26,10 +27,10 @@
 	"logout-msg": "Tahmâ cha $1 ta nâ ngia chy",
 	"namespaces": "Mohsuzy",
 	"namespaces-desc": "Comma pahlapa mohsu IDzy li.\nMohsu zydua châta aruapa soh teh.",
-	"page-title": "Châhmia chôtlâhpi",
+	"page-title": "Hmia chôtlâhpi",
 	"powered-by": "$1 ta a vao",
 	"presets": "Apy chhilina",
-	"purge-cache": "A pua pathai",
+	"purge-cache": "Apua pathai",
 	"query": "Hiahrina",
 	"regular-expression": "Zaihzy ta hmâpa",
 	"report-issue": "Buana sâkha thâpathei teh",
@@ -42,12 +43,12 @@
 	"splash-login-required": "Achhâpa cha he chhaichhi hecha mârupa daihti raopa hiahrinazy a tao theipa vâta, account angiapa cha â byuh.",
 	"splash-product-of-hackathon": "$1 chhaichi sâkha",
 	"splash-title": "Wikimedia Khizaw Tluana",
-	"subject-pages": "Buehlykhupa châhmiazy",
+	"subject-pages": "Biehlykhupa hmiazy",
 	"submit": "Pangia",
-	"talk-pages": "Biepachiana châhmiazy",
+	"talk-pages": "Biepachiana hmiazy",
 	"title-pattern": "Châtlâhpi yzie",
 	"title-pattern-without-ns": "(mohsu leipata)",
-	"title-pattern-desc": "Piepa vâtlâh hmâpa nah atlapa châhmia deita palâ teh.",
+	"title-pattern-desc": "Piepa vâtlâh hmâpa nah atlapa hmia deita palâ teh.",
 	"total-results": "Azydua {{PLURAL:$1|hmôpazy}}",
 	"view-source": "Hnawh palâ",
 	"wiki": "Wiki",
