@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tajamul9"
+		]
+	},
+	"back": "واپَس",
+	"brought-to-you-by": "توہہ تام ووت زِ $1 تہٕ $2",
+	"error-report": "توٚہہِ ہؠکِیوٚ یتھ خرٲبی رِپورٹ کٕرتھ $1 پیٹھ",
+	"error-server-message": "سٕرور چھُ ونان: $1",
+	"global-search": "عالمی ژھانڈُن",
+	"help-translate": "ترجُمس منٛز کٕرِیوٚ مَدَتھ",
+	"important-notes": "ضروٗری نوٹٕس",
+	"login": "دٲخِل گَژھُن",
+	"logout": "خٲرِج گٔژھِو",
+	"page-title": "صَفہٕ عُنٛوان",
+	"powered-by": "دٕستِیاب تھاوَن وٲلؠ $1",
+	"query": "شِکایت",
+	"reset": "رِسیٚٹ",
+	"slow": "آہِستہٕ",
+	"submit": "دَرٕج",
+	"talk-pages": "بَحَث صَفہٕ",
+	"view-source": "آگُر وُچھِو",
+	"wiki": "وِکی",
+	"wikitext": "وِکی مَتَن"
+}
