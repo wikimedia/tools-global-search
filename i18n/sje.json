@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Olve Utne"
+		]
+	},
+	"back": "Ruoptojt",
+	"brought-to-you-by": "Buäkkteduvvum dunji $1 ja $2 rájest",
+	"error-report": "Máhtá mijjaj diededit dáv vihkev birra dánne: $1.",
+	"error-server-message": "Nähttadievnár hålåj: $1",
+	"export-as": "Eksporteri gu:",
+	"help-translate": "Viehkedä mijav jårrgålit",
+	"important-notes": "Ájnas notáhta:",
+	"login": "Luggi sisa",
+	"logout": "Luggi ulgus",
+	"namespaces": "Nammarumma",
+	"page-title": "Biellenamma",
+	"query": "Gatjalvas",
+	"report-issue": "Diededä mijjaj vájve birra",
+	"showing-n": "{{PLURAL:$2|Vuoseda}} $1",
+	"splash-hackathon-title": "Wikimedia Hackathon 2019",
+	"subject-pages": "Ábnasbiele",
+	"submit": "Säddi",
+	"talk-pages": "Ságastallambiele",
+	"view-source": "Vuosedä wikitiekstav",
+	"wiki": "Wiki",
+	"wikitext": "Wikitäkksta"
+}
