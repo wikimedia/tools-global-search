@@ -188,7 +188,7 @@ class DefaultController extends AbstractController
             'regex' => $regex,
             'ignore_case' => $ignoreCase,
             'title' => $titlePattern,
-            'total' => $res['hits']['total'],
+            'total' => $res['hits']['total']['value'],
             'hits' => $this->formatHits($res),
         ];
 
