@@ -50,7 +50,7 @@
 	"title-pattern-desc": "Fa vedè domà i titol di pagine che corisponden a l'espression regolar dada.",
 	"total-results": "Total {{PLURAL: $1 | risultad}}",
 	"tsv": "TSV",
-	"view-source": "Varda la sorgent",
+	"view-source": "Varda el codes sorgent",
 	"wiki": "Wiki",
 	"wikitext": "Wikitest"
 }
