@@ -1,11 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fontan 030"
+			"Fontan 030",
+			"U.ayaao.p"
 		]
 	},
+	"back": "Кері",
+	"brought-to-you-by": "Сіз үшін жасағандар: $1 және $2",
+	"case-insensitive": "Үлкен-кішілігін ескермеу",
 	"csv": "CSV",
+	"error-server-message": "Сервердің жауабы: $1",
+	"excerpt": "Үзінді",
+	"executed": "$1 секундта орындалады",
+	"export-as": "Экспорттау:",
 	"global-search": "Ғаламдық іздеу",
+	"global-search-advert": "$2-де $1 көмегімен жасалды",
 	"help-translate": "Аударуға көмектесу",
 	"login": "Кіру",
 	"logout": "Шығу",
