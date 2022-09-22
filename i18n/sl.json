@@ -6,7 +6,7 @@
 		]
 	},
 	"back": "Nazaj",
-	"brought-to-you-by": "Tebi izročajo $1 in $2",
+	"brought-to-you-by": "To orodje vam zagotavljata $1 in $2",
 	"case-insensitive": "Ne razlikuj med velikimi in malimi črkami",
 	"csv": "CSV",
 	"error-report": "O tem hrošču lahko poročate na $1.",
@@ -16,7 +16,7 @@
 	"export-as": "Izvozi kot:",
 	"global-search": "Globalno iskanje",
 	"global-search-advert": "Ustvarjeno s $1, $2",
-	"global-search-desc": "Iskanje v wikibesedilu vseh wikijev fundacije Wikimedija.",
+	"global-search-desc": "Iskanje v vikibesedilu vseh vikijev fundacije Wikimedia.",
 	"help-translate": "Pomoč pri prevajanju",
 	"important-notes": "Pomembne opombe:",
 	"important-notes-cached": "Zadetki se začasno shranijo za $1 {{PLURAL:$1|one=minuto|two=minuti|few=minute|minut}}.",
