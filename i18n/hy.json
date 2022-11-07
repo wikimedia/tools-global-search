@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Armenoid",
 			"GeoO",
 			"Kareyac"
 		]
@@ -17,7 +18,7 @@
 	"page-title": "Էջի վերնագիրը",
 	"powered-by": "$1-ի միջոցով",
 	"slow": "Դանդաղ",
-	"submit": "Հաշվել",
+	"submit": "Ուղարկել",
 	"talk-pages": "Քննարկման էջեր",
 	"title-pattern-without-ns": "(առանց անվանատարածքի)",
 	"view-source": "Դիտել ելատեքստը",
