@@ -17,7 +17,7 @@
 	"global-search": "Globalno iskanje",
 	"global-search-advert": "Ustvarjeno s $1, $2",
 	"global-search-desc": "Iskanje v vikibesedilu vseh vikijev fundacije Wikimedia.",
-	"help-translate": "Pomoč pri prevajanju",
+	"help-translate": "Pomagajte pri prevajanju",
 	"important-notes": "Pomembne opombe:",
 	"important-notes-cached": "Zadetki se začasno shranijo za $1 {{PLURAL:$1|one=minuto|two=minuti|few=minute|minut}}.",
 	"important-notes-lag": "Zadetki lahko zaostajajo za ustvarjanjem, običajno za približno $1 {{PLURAL:$1|one=minuto|two=minute|few=minute|minut}}.",
