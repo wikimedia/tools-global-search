@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"C933103"
+			"C933103",
+			"捍粵者"
 		]
 	},
 	"back": "返回",
@@ -13,7 +14,7 @@
 	"executed": "執行用時 $1 {{PLURAL:$2|秒}}。",
 	"global-search": "全域搜尋",
 	"global-search-advert": "由$1於$2生成",
-	"global-search-desc": "在所有維基媒體基金會wiki的wikitext內容間進行搜尋。",
+	"global-search-desc": "在所有維基媒體基金會wiki的wikitext內容間搜尋。",
 	"help-translate": "幫助翻譯",
 	"important-notes": "重要提示：",
 	"important-notes-specific": "請使用盡可能精確的搜尋字眼。伺服器傳回的結果越多，您需要等待的時間就會越久。",

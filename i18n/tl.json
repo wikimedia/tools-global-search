@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"GinawaSaHapon"
+			"GinawaSaHapon",
+			"Jojit fb"
 		]
 	},
 	"back": "Balik",
@@ -48,7 +49,7 @@
 	"title-pattern-without-ns": "(walang namespace)",
 	"title-pattern-desc": "Ipakita lang mga pamagat ng pahina na tumutugma sa binigay na regular expression.",
 	"total-results": "Kabuuang {{PLURAL:$1|resulta}}",
-	"view-source": "Tingnan ang source",
+	"view-source": "Tingnan ang wikitext",
 	"wiki": "Wiki",
 	"wikitext": "Wikitext"
 }
