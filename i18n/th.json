@@ -3,7 +3,8 @@
 		"authors": [
 			"Aefgh39622",
 			"Just Sayori",
-			"Thas Tayapongsak"
+			"Thas Tayapongsak",
+			"Trisorn Triboon"
 		]
 	},
 	"back": "กลับ",
@@ -17,11 +18,11 @@
 	"namespaces": "เนมสเปซ",
 	"page-title": "ชื่อหน้า",
 	"regular-expression": "นิพจน์ปกติ",
-	"report-issue": "รายงานผล",
+	"report-issue": "รายงานปัญหา",
 	"reset": "ตั้งค่าใหม่",
 	"slow": "ช้า",
 	"submit": "บันทึก",
 	"view-source": "ดูต้นฉบับ",
 	"wiki": "วิกิ",
-	"wikitext": "ข้อความวิกิ"
+	"wikitext": "Wikitext"
 }
