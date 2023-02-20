@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Dovud",
-			"ToJack"
+			"ToJack",
+			"Vashgird"
 		]
 	},
 	"back": "Ба ақиб",
 	"csv": "CSV",
 	"global-search": "Ҷустуҷӯи саросарӣ",
-	"help-translate": "Кӯмак намудан барои тарҷума",
+	"help-translate": "Кумак ба тарҷума",
 	"login": "Вуруд ба система",
 	"logout": "Хуруҷ аз система",
 	"namespaces": "Фазоҳои ном",
