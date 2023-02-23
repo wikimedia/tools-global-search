@@ -11,6 +11,7 @@
 	"brought-to-you-by": "Аутори $1 и $2",
 	"case-insensitive": "Разликуј велика и мала слова",
 	"csv": "CSV",
+	"error-report": "Можете пријавити овај баг на $1.",
 	"error-server-message": "Сервер каже: $1",
 	"executed": "Извршено за $1 {{PLURAL:$2|секунд|секунда|секунди}}.",
 	"export-as": "Извоз:",
