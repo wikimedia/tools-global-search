@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"JonesT143",
 			"Robin Owain"
 		]
 	},
@@ -9,6 +10,7 @@
 	"global-search": "Chwilio Global",
 	"help-translate": "Cynorthwywch ni i gyfieithu",
 	"important-notes": "Nodiadau pwysig:",
+	"important-notes-cached": "Mae'r canlyniadau wedi'u stori am $1 {{PLURAL:$1|munud|munud|funud|munud|munud|munud}}",
 	"login": "Mewngofnodi",
 	"logout": "Allgofnodi",
 	"logout-msg": "Wedi mewngofnodi fel $1",
@@ -24,14 +26,15 @@
 	"slow": "Araf",
 	"splash-hackathon-title": "Hacathon Wicimedia 2019",
 	"splash-login-btn": "Mewngofnodwch i Chwilio'n Global",
+	"splash-product-of-hackathon": "Cynnyrch wrth $1",
 	"splash-title": "Chwiliad Wicimedia Global",
 	"subject-pages": "Tudalennau pwnc",
-	"submit": "Cyhoeddwch",
+	"submit": "Cyhoeddi",
 	"talk-pages": "Tudalennau Sgwrs",
 	"title-pattern": "Patrwm y teitlau",
 	"title-pattern-without-ns": "(heb barthenw)",
 	"title-pattern-desc": "Mi wnaiff ddangos teitlau'r tudalennau sy'n gweddu i'r ''regular expression'' yn unig.",
-	"total-results": "Cyfanswm {{PLURAL:$1|canlyniad}}",
+	"total-results": "Cyfanswm {{PLURAL:$1|canlyniadau}}",
 	"view-source": "Gweld y ffynhonnell",
 	"wiki": "Wici",
 	"wikitext": "TestunWici"
