@@ -1,8 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
+			"Blackisnewyellow",
 			"Ерней"
 		]
 	},
+	"back": "Кирегә",
+	"brought-to-you-by": "Сезнең өчен $1 һәм $2 эшләнде.",
+	"case-insensitive": "Регистрга карамыйча",
+	"error-report": "Сез бу хата турында монда хәбәр итә аласыз: $1.",
+	"error-server-message": "Сервер хәбәр итте: $1",
+	"excerpt": "Өземтә",
+	"executed": "$1 {{PLURAL:$2|секунд}} эчендә эшләнде.",
 	"view-source": "Чыганакны карау"
 }
