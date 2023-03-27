@@ -1,17 +1,31 @@
 {
 	"@metadata": {
 		"authors": [
+			"Nirajan pant",
 			"पर्वत सुबेदी",
 			"बडा काजी"
 		]
 	},
 	"back": "पछाडि",
+	"global-search": "वैश्विक खोज",
 	"help-translate": "अनुवादमा सघाउनुहोस्",
+	"important-notes": "महत्वपूर्ण टिप्पणीहरू:",
 	"login": "प्रवेश गर्नुहोस्",
 	"logout": "निर्गमन",
+	"logout-msg": "हाल $1 को रूपमा लगइन गरिएको",
+	"namespaces": "नामपदहरू",
 	"page-title": "पृष्ठ शीर्षक",
+	"query": "क्वेरी",
+	"regular-expression": "नियमित अभिव्यक्ति",
 	"slow": "ढिलो",
+	"splash-hackathon-title": "विकिमिडिया ह्याकाथन २०१९",
+	"splash-login-btn": "वैश्विक खोजका लागि लगइन गर्नुहोस्",
+	"splash-title": "विकिमिडिया वैश्विक खोज",
+	"subject-pages": "विषय पृष्ठहरू",
 	"submit": "पेश गर्नुहोस्",
+	"talk-pages": "वार्तालाप पृष्ठहरू",
+	"title-pattern": "शीर्षक ढाँचा",
+	"title-pattern-without-ns": "(नामपद बिना)",
 	"view-source": "स्रोत हेर्नुहोस",
 	"wiki": "विकि",
 	"wikitext": "विकिपाठ"
