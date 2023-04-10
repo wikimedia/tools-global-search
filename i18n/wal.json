@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ella Lachow"
+		]
+	},
+	"back": "Simma",
+	"help-translate": "Birshshettaa maaduwaa",
+	"important-notes": "Maaddiyaa hassayissota:",
+	"important-notes-cached": "Ayfeti $1yan {{PLURAL:$1|daqiiqan|daqiiqatun}} wodhis.",
+	"important-notes-lag": "Ayfeti daro wodiyan $1yan {{PLURAL:$1|daqiiqan|daqiiqatun}} herran murutaappe guyye attana danddayoosona.",
+	"important-notes-specific": "Kayyiyo qaalata danddayetta keena dummaya. Daro Ayfeti simmoosona, daro wodiyaa naagana koshshees.",
+	"login": "Gela",
+	"logout": "Kiya",
+	"logout-msg": "$1 hagaadan ha'i gelis",
+	"namespaces": "Qommuwaa",
+	"page-title": "Sinttaa huuphe yohuwaa",
+	"query": "Oyshaa",
+	"regular-expression": "Gophphe qonccissuwaa",
+	"report-issue": "Metuwaa oda",
+	"reset": "Sohuwaa zaara",
+	"showing-n": "{{PLURAL:$2|Bessiiddi|Bessiiddi}} $1",
+	"slow": "Loddan",
+	"subject-pages": "Allaalliyaa sinttata",
+	"submit": "Shiishsha",
+	"talk-pages": "Haasaya sinttata",
+	"total-results": "Mule {{PLURAL:$1|ayfeta}}",
+	"view-source": "Man\"iyaa be'a",
+	"wiki": "Wikii",
+	"wikitext": "Wikiixuufiya"
+}
