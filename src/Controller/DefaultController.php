@@ -21,19 +21,22 @@ use Symfony\Component\Routing\Annotation\Route;
 class DefaultController extends AbstractController
 {
     /** @var Client */
-    private $client;
+    private Client $client;
 
     /** @var CacheItemPoolInterface */
-    private $cache;
+    private CacheItemPoolInterface $cache;
 
-    /** @var bool Whether the results were pulled from cache. */
-    private $fromCache = false;
+    /**
+     * @var bool Whether the results were pulled from cache.
+     * phpcs:disable SlevomatCodingStandard.Variables.UnusedVariable.UnusedVariable
+     */
+    private bool $fromCache = false;
 
     /** @var string Duration of cache for main results set, as accepted by DateInterval::createFromDateString() */
     private const CACHE_TIME = '10 minutes';
 
     /** @var string[]|null Map from wiki dbname to domain name */
-    private $domainLookup;
+    private ?array $domainLookup;
 
     /**
      * DefaultController constructor.
@@ -42,7 +45,7 @@ class DefaultController extends AbstractController
     public function __construct(CacheItemPoolInterface $cache)
     {
         $this->client = new Client([
-            'verify' => $_ENV['ELASTIC_INSECURE'] ? false : true,
+            'verify' => !$_ENV['ELASTIC_INSECURE'],
         ]);
         $this->cache = $cache;
     }
@@ -64,7 +67,7 @@ class DefaultController extends AbstractController
      */
     public function indexAction(Request $request): Response
     {
-        if (!$this->get('session')->get('logged_in_user')) {
+        if (!$request->getSession()->get('logged_in_user')) {
             return $this->render('jumbotron.html.twig');
         }
         $query = $request->query->get('q');
@@ -244,7 +247,7 @@ class DefaultController extends AbstractController
      */
     private function getWikiDomainFromDbName(string $wiki): string
     {
-        if (null === $this->domainLookup) {
+        if (!isset($this->domainLookup)) {
             $this->domainLookup = (new WikiDomainRepository($this->client, $this->cache))->load();
         }
         return $this->domainLookup[$wiki] ?? 'WIKINOTFOUND';

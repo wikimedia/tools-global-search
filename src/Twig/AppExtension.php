@@ -4,25 +4,24 @@ declare(strict_types=1);
 
 namespace App\Twig;
 
-use Symfony\Component\DependencyInjection\ContainerInterface;
+use Symfony\Component\HttpFoundation\RequestStack;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
 
 class AppExtension extends AbstractExtension
 {
-    /** @var ContainerInterface The application's container interface. */
-    protected $container;
+    protected RequestStack $requestStack;
 
     /** @var float Request time. */
-    private $requestTime;
+    private float $requestTime;
 
     /**
      * AppExtension constructor.
-     * @param ContainerInterface $container
+     * @param RequestStack $requestStack
      */
-    public function __construct(ContainerInterface $container)
+    public function __construct(RequestStack $requestStack)
     {
-        $this->container = $container;
+        $this->requestStack = $requestStack;
     }
 
     /**
@@ -47,7 +46,7 @@ class AppExtension extends AbstractExtension
             return $this->requestTime;
         }
 
-        $startTime = $this->container->get('request_stack')
+        $startTime = $this->requestStack
             ->getCurrentRequest()
             ->server
             ->get('REQUEST_TIME_FLOAT');

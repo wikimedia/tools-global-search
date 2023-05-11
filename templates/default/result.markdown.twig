@@ -1,4 +1,4 @@
-{% set link %}[{{ msg('splash-title') }}]({{ url('home', app.request.query.all|merge({'format': 'html'})) }}){% endset %}
+{% set link %}[{{ msg('splash-title') }}]({{ url('home', app.request.query.all|merge({'format': 'html'}))|raw }}){% endset %}
 {{ msg('global-search-advert', [link, date()|date('Y-m-d H:i')]) }}
 
 | {{ msg('wiki') }} | {{ msg('page-title') }} |

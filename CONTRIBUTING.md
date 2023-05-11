@@ -14,6 +14,7 @@ Prerequisites:
 * [Composer](https://getcomposer.org/)
 * [Node.js](https://nodejs.org/en/) with the version specified by [.nvmrc](.nvmrc).
 * [Yarn](https://yarnpkg.com/en/)
+* [Symfony CLI](https://symfony.com/download#step-1-install-symfony-cli)
 * A [Wikimedia developer account](https://wikitech.wikimedia.org/wiki/Help:Create_a_Wikimedia_developer_account)
   and access to the [Toolforge environment](https://wikitech.wikimedia.org/wiki/Portal:Toolforge).
 
@@ -26,7 +27,7 @@ Install code and dependencies:
 * Establish an SSH tunnel to Toolforge so you can connect to the CloudElastic service.
   The command will be something similar to:
 
-      ssh -L 4711:cloudelastic1004.wikimedia.org:8243 your-username@login.tools.wmflabs.org
+      ssh -L 4711:cloudelastic1004.wikimedia.org:8243 your-username@login.toolforge.org
 
 * `cp .env.dist .env` then fill out the details:
   * `APP_ENV` - `dev` or `prod`.
@@ -39,20 +40,21 @@ Install code and dependencies:
     [APCu](https://www.php.net/manual/en/book.apcu.php) in your environment, you may simply use the `filesystem`.
   * `OAUTH_KEY` / `OAUTH_SECRET` - See below for OAuth instructions.
   * `LOGGED_IN_USER` - For development purposes; Set this to any value to simulate login and bypass OAuth.
+  * `TRUSTED_PROXES` - Necessary on Toolforge because it uses a reverse proxy.
 * `./bin/console server:run` to run the development server.
 
 While developing, you may need to clear the cache to get the latest results from your query.
-To do this, use `./bin/console cache:clear` (or `./bin/console c:c` for short).
+To do this, use `symfony console cache:clear` (or `symfony console c:c` for short).
 
 ## OAuth
 
 The OAuth consumer can be created at https://meta.wikimedia.org/wiki/Special:OAuthConsumerRegistration/propose.
-Set the OAuth "callback" URL to `https://tools.wmflabs.org/global-search/oauth_callback`, and check the
+Set the OAuth "callback" URL to `https://global-search.toolforge.org/oauth_callback`, and check the
 "Allow consumer to specify a callback" option.
 
-Similarly for a local environment you'd set the callback URL to `http://localhost:8000/oauth_callback`
-(or whatever port the app is running on). However unless you're testing the OAuth functionality itself,
-it is easier to set the `LOGGED_IN_USER` option in .env to any value. This will simulate login and you
+Similarly, for a local environment you'd set the callback URL to `http://localhost:8000/oauth_callback`
+(or whatever port the app is running on). However, unless you're testing the OAuth functionality itself,
+it is easier to set the `LOGGED_IN_USER` option in .env to any value. This will simulate login, and you
 won't need to bother with creating an OAuth consumer. Note you still will need to click the 'Login' button.
 
 ## Generating assets
@@ -60,7 +62,7 @@ won't need to bother with creating an OAuth consumer. Note you still will need t
 Use `yarn encore dev --watch` to compile assets for the development environment and watch for changes.
 
 Before making a pull request, run `yarn encore production` to compile assets for production.
-Note the generated assets in `public/build/` must be committed. 
+Note the generated assets in `public/build/` must be committed.
 
 ## Tests
 

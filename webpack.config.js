@@ -1,12 +1,19 @@
-let Encore = require('@symfony/webpack-encore');
+const Encore = require('@symfony/webpack-encore');
+
+// Manually configure the runtime environment if not already configured yet by the "encore" command.
+// It's useful when you use tools that rely on webpack.config.js file.
+if (!Encore.isRuntimeEnvironmentConfigured()) {
+    Encore.configureRuntimeEnvironment(process.env.NODE_ENV || 'dev');
+}
 
 Encore
     // directory where compiled assets will be stored
-    .setOutputPath('./public/build/')
+    .setOutputPath('public/build/')
     // public path used by the web server to access the output path
-    .setPublicPath(Encore.isDev() ? '/build/' : 'build/')
-    // only needed for CDN's or sub-directory deploy
-    //.setManifestKeyPrefix('build/')
+    .setPublicPath('/build')
+    // this is now needed so that your manifest.json keys are still `build/foo.js`
+    // (which is a file that's used by Symfony's `asset()` function)
+    .setManifestKeyPrefix('build')
 
     // Set up global variables.
     .autoProvideVariables({
@@ -57,9 +64,9 @@ Encore
     .enableVersioning(Encore.isProduction())
 
     // enables @babel/preset-env polyfills
-    .configureBabel(() => {}, {
-        useBuiltIns: 'usage',
-        corejs: 3
+    .configureBabelPresetEnv((config) => {
+        config.useBuiltIns = 'usage';
+        config.corejs = 3;
     })
 
     // enables Sass/SCSS support

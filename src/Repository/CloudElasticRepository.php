@@ -6,6 +6,7 @@ namespace App\Repository;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\BadResponseException;
+use GuzzleHttp\Psr7\Request;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 
 /**
@@ -15,10 +16,10 @@ use Symfony\Component\HttpKernel\Exception\HttpException;
 class CloudElasticRepository
 {
     /** @var Client The GuzzleHttp client. */
-    protected $client;
+    protected Client $client;
 
     /** @var array|mixed[] The array of params to pass to CloudElastic. */
-    protected $params;
+    protected array $params;
 
     /**
      * CloudElasticRepository constructor.
@@ -39,9 +40,9 @@ class CloudElasticRepository
     {
         $uri = $_ENV['ELASTIC_HOST'].'/*,*:*/_search';
 
-        $request = new \GuzzleHttp\Psr7\Request('GET', $uri, [
+        $request = new Request('GET', $uri, [
             'Content-Type' => 'application/json',
-        ], \GuzzleHttp\json_encode($this->params));
+        ], json_encode($this->params));
 
         // FIXME: increase cURL timeout
         try {

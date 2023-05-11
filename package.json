@@ -1,9 +1,16 @@
 {
+    "name": "global-search",
     "devDependencies": {
-        "@symfony/webpack-encore": "^0.28.2",
-        "core-js": "^3.2.1",
-        "webpack-notifier": "^1.8.0",
-        "yarn-audit-fix": "^9.3.2"
+        "@babel/core": "^7.21.8",
+        "@babel/preset-env": "^7.21.5",
+        "@symfony/webpack-encore": "^4.3.0",
+        "babel-loader": "^9.1.2",
+        "core-js": "^3.30.0",
+        "file-loader": "^6.2.0",
+        "webpack": "^5.82.1",
+        "webpack-cli": "^5.1.1",
+        "webpack-notifier": "^1.15.0",
+        "yarn-audit-fix": "^9.3.10"
     },
     "license": "MIT",
     "private": true,
@@ -15,6 +22,6 @@
     },
     "dependencies": {
         "bootstrap": "3.4.1",
-        "jquery": "^3.4.1"
+        "jquery": "^3.6.2"
     }
 }

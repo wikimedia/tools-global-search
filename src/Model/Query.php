@@ -14,19 +14,19 @@ class Query
     public const MAX_RESULTS = 5000;
 
     /** @var string The query string. */
-    protected $query;
+    protected string $query;
 
     /** @var int[] Array of namespace IDs. */
-    protected $namespaces;
+    protected array $namespaces;
 
     /** @var bool Whether to get params for a regular expression search. */
-    protected $regex;
+    protected bool $regex;
 
     /** @var bool Whether the params should be for a case-insensitive search. */
-    protected $ignoreCase;
+    protected bool $ignoreCase;
 
     /** @var string Regular expression for page title. */
-    protected $titlePattern;
+    protected string $titlePattern;
 
     /**
      * Query constructor.

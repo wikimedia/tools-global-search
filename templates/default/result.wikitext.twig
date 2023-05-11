@@ -1,4 +1,4 @@
-{% set link %}[{{ url('home', app.request.query.all|merge({'format': 'html'})) }} {{ msg('splash-title') }}]{% endset %}
+{% set link %}[{{ url('home', app.request.query.all|merge({'format': 'html'}))|raw }} {{ msg('splash-title') }}]{% endset %}
 {{ msg('global-search-advert', [link, date()|date('Y-m-d H:i')]) }}
 
 {| class="wikitable sortable"
