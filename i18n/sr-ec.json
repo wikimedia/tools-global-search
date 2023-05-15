@@ -38,6 +38,7 @@
 	"submit": "Пошаљи",
 	"talk-pages": "Странице за разговор",
 	"title-pattern-without-ns": "(без именског простора)",
+	"title-search-only": "Само претрага наслова",
 	"total-results": "Укупно {{PLURAL:$1|резултата}}",
 	"tsv": "TSV",
 	"view-source": "Погледај извор",
