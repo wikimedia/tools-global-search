@@ -3,7 +3,8 @@
 		"authors": [
 			"BaRaN6161 TURK",
 			"Hedda",
-			"Mirzali"
+			"Mirzali",
+			"MrSchipunov"
 		]
 	},
 	"back": "Geri",
@@ -51,6 +52,7 @@
 	"title-pattern": "Başlık modeli",
 	"title-pattern-without-ns": "(ad alanı olmadan)",
 	"title-pattern-desc": "Yalnızca verilen normal ifadeyle eşleşen sayfa başlıklarını gösterir.",
+	"title-search-only": "Yalnızca başlık arama",
 	"total-results": "Toplam {{PLURAL:$1|sonuç}}",
 	"tsv": "RVS",
 	"view-source": "Kaynağı gör",

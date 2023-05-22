@@ -15,7 +15,7 @@
 	"global-search-desc": "Soek in wikiteks in al Wikimediuma Foundation se wiki's.",
 	"help-translate": "Help vertaal",
 	"important-notes": "Belangrike opmerkings:",
-	"important-notes-cached": "Resultate is gestoor vir $<span translate=\"no\" class=\"notranslate\">1</span> {{PLURAL:$1|minuut|minute}}.",
+	"important-notes-cached": "Resultate is gestoor vir $1 {{PLURAL:$1|minuut|minute}}.",
 	"important-notes-lag": "Resulte kan agterbly by die produksie, met ongeveer $1 {{PLURAL:$1|minuut|minute}}.",
 	"important-notes-specific": "Maak jou soekterme so spesifiek moontlik. Hoe meer resultate opgelewer word, hoe langer sal jy moet wag.",
 	"login": "Meld aan",
