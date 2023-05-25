@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Les Meloures",
 			"Robby",
 			"Soued031"
 		]
 	},
-	"back": "Zréck",
+	"back": "Zeréck",
 	"case-insensitive": "Ënnerscheed tëscht groussen a klenge Buschtawen",
 	"csv": "CSV",
 	"error-server-message": "Äntwert vum Server: $1",

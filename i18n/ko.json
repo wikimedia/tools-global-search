@@ -51,6 +51,7 @@
 	"title-pattern": "제목 패턴",
 	"title-pattern-without-ns": "(이름공간 없이)",
 	"title-pattern-desc": "지정된 정규 표현식과 일치하는 문서 제목만 표시합니다.",
+	"title-search-only": "제목 검색만",
 	"total-results": "총 {{PLURAL:$1|결과}}",
 	"tsv": "TSV",
 	"view-source": "원본 보기",
