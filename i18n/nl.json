@@ -3,6 +3,7 @@
 		"authors": [
 			"Aranka",
 			"Elroy",
+			"HanV",
 			"Robin van der Vliet",
 			"Romaine"
 		]
@@ -13,6 +14,7 @@
 	"csv": "CSV",
 	"error-report": "U kunt deze bug melden op $1.",
 	"error-server-message": "De server zei: $1",
+	"error-title-required": "Een zoekopdracht met reguliere expressies vereist een titelpatroon.",
 	"excerpt": "Fragment",
 	"executed": "Uitgevoerd in $1 {{PLURAL:$2|seconde|seconden}}.",
 	"export-as": "Exporteren als:",
@@ -52,6 +54,7 @@
 	"title-pattern": "Titelpatroon",
 	"title-pattern-without-ns": "(zonder naamruimte)",
 	"title-pattern-desc": "Toont alleen paginatitels die overeenkomen met de opgegeven reguliere expressie.",
+	"title-search-only": "Alleen zoeken op titel",
 	"total-results": "Totaal {{PLURAL:$1|resultaten}}",
 	"tsv": "TSV",
 	"view-source": "Broncode bekijken",
