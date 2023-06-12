@@ -56,6 +56,6 @@
 	"total-results": "Skupno {{PLURAL:$1|one=$1 zadetek|two=$1 zadetka|few=$1 zadetki|$ zadetkov}}",
 	"tsv": "TSV",
 	"view-source": "Izvorno besedilo",
-	"wiki": "Wiki",
+	"wiki": "Viki",
 	"wikitext": "Vikibesedilo"
 }
