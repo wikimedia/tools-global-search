@@ -5,16 +5,16 @@
 		]
 	},
 	"back": "पाछे",
-	"brought-to-you-by": "$1 आउ $2 द्वारा पेस करल गेल",
-	"case-insensitive": "केस्-असंवेदनसील",
+	"brought-to-you-by": "$1 आउ $2 द्वारा पेश करल गेल",
+	"case-insensitive": "केस्-असंवेदनशील",
 	"error-report": "अपने ई बग् के $1 पर रिपोर्ट् कर सकही।",
-	"error-server-message": "सर्वर् कहकै: $1",
+	"error-server-message": "सर्वर् कहलक: $1",
 	"excerpt": "अन्स",
-	"executed": "$1 {{PLURAL:$2|सेकंड}} मे एक्सेक्यूट् करल गेलै।",
+	"executed": "$1 {{PLURAL:$2|सेकेण्ड्}} मे एक्सेक्यूट् करल गेल।",
 	"export-as": "ई रूपमे निर्यात करी:",
-	"global-search": "बैश्विक खोजय",
+	"global-search": "बैश्विक खोज",
 	"global-search-advert": "$2 पर $1 के सहायतासे निर्मित",
 	"global-search-desc": "बिकिमीडिया सन्स्थानके सब बिकिके बिकिपाठमे खोजी।",
 	"help-translate": "अनुबादमे सहायता करी",
-	"important-notes": "आबस्यक टिप्पणी:"
+	"important-notes": "आवश्यक टिप्पणी:"
 }
