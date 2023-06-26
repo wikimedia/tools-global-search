@@ -38,7 +38,15 @@ class CloudElasticRepository
      */
     public function makeRequest(): array
     {
-        $uri = $_ENV['ELASTIC_HOST'].'/*,*:*/_search';
+        $indices = implode( ',', [
+            '*_content',
+            '*_general',
+            '*_file',
+            '*:*_content',
+            '*:*_general',
+            '*:*_file',
+        ] );
+        $uri = $_ENV['ELASTIC_HOST'].'/'.$indices.'/_search';
 
         $request = new Request('GET', $uri, [
             'Content-Type' => 'application/json',
