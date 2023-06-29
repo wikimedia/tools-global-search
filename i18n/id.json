@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Akmaie Ajam",
-			"Daud I.F. Argana"
+			"Daud I.F. Argana",
+			"Veracious"
 		]
 	},
 	"back": "Kembali",
@@ -11,6 +12,7 @@
 	"csv": "CSV",
 	"error-report": "Anda bisa melaporkan kesalahan ini di $1.",
 	"error-server-message": "Peladen mengatakan: $1",
+	"error-title-required": "Pencarian ekspresi reguler untuk konten apa pun memerlukan pola judul.",
 	"excerpt": "Kutipan",
 	"executed": "Dieksekusi dalam $1 {{PLURAL:$2|detik|detik}}.",
 	"export-as": "Ekspor sebagai:",
@@ -50,6 +52,7 @@
 	"title-pattern": "Pola judul",
 	"title-pattern-without-ns": "(tanpa ruang nama)",
 	"title-pattern-desc": "Hanya menampilkan judul halaman yang cocok dengan ekspresi reguler yang diberikan.",
+	"title-search-only": "Mencari judul saja",
 	"total-results": "{{PLURAL:$1|Hasil}} total",
 	"tsv": "TSV",
 	"view-source": "Lihat sumber",
