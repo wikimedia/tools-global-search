@@ -25,8 +25,8 @@ class Query
     /** @var bool Whether the params should be for a case-insensitive search. */
     protected bool $ignoreCase;
 
-    /** @var string Regular expression for page title. */
-    protected string $titlePattern;
+    /** @var string|null Regular expression for page title. */
+    protected ?string $titlePattern;
 
     /**
      * Query constructor.
