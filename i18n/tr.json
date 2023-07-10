@@ -13,6 +13,7 @@
 	"csv": "CSV",
 	"error-report": "Bu hatayı $1 üzerinden rapor edebilirsiniz.",
 	"error-server-message": "Sunucu dedi ki: $1",
+	"error-title-required": "Herhangi bir içerik için düzenli ifade araması, bir başlık kalıbı gerektirir.",
 	"excerpt": "Alıntı",
 	"executed": "$1 {{PLURAL:$2|saniye|saniye}} içinde yürütüldü.",
 	"export-as": "Şu şekilde dışa aktar:",

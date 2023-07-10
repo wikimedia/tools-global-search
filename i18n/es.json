@@ -7,7 +7,8 @@
 			"Harvest",
 			"Jakeukalane",
 			"Rodney Araujo",
-			"Unai01"
+			"Unai01",
+			"Whovian Biologist"
 		]
 	},
 	"back": "Volver",
@@ -16,6 +17,7 @@
 	"csv": "CSV",
 	"error-report": "Puedes informar este error en $1.",
 	"error-server-message": "El servidor respondió: $1",
+	"error-title-required": "Una búsqueda de expresión regular para cualquier contenido requiere un patrón de título.",
 	"excerpt": "Extracto",
 	"executed": "Ejecutado en $1 {{PLURAL:$2|segundo|segundos}}.",
 	"export-as": "Exportar cómo:",
@@ -55,6 +57,7 @@
 	"title-pattern": "Patrón de título",
 	"title-pattern-without-ns": "(sin espacio entre nombres)",
 	"title-pattern-desc": "Mostrar solo los títulos de las páginas que coinciden con la expresión regular dada.",
+	"title-search-only": "Solo búsqueda de título",
 	"total-results": "Total {{PLURAL:$1|resultados}}",
 	"tsv": "TSV",
 	"view-source": "Ver fuente",
