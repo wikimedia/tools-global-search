@@ -96,10 +96,15 @@
                         </small>
                     </div>
                     <div class="form-group form-inline">
+                        {% set docsLink %}
+                            <a target="_blank" href="https://www.elastic.co/guide/en/elasticsearch/reference/current/regexp-syntax.html">
+                                {{- msg('title-pattern-desc-link') -}}
+                            </a>
+                        {%- endset %}
                         <label for="titlePattern">{{ msg('title-pattern') }}</label>&nbsp;{{ msg('title-pattern-without-ns') }}:
                         <input type="text" class="form-control" name="title" id="titlePattern" value="{{ title }}" />
                         &nbsp;
-                        <small class="text-muted">{{ msg('title-pattern-desc') }}</small>
+                        <small class="text-muted">{{ msg('title-pattern-desc', [docsLink]) }}</small>
                     </div>
                     <p>
                         <small>
