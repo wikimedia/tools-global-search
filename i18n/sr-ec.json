@@ -38,6 +38,8 @@
 	"submit": "Пошаљи",
 	"talk-pages": "Странице за разговор",
 	"title-pattern-without-ns": "(без именског простора)",
+	"title-pattern-desc": "Приказује само наслове који се поклапају са $1.",
+	"title-pattern-desc-link": "регуларни израз",
 	"title-search-only": "Само претрага наслова",
 	"total-results": "Укупно {{PLURAL:$1|резултата}}",
 	"tsv": "TSV",

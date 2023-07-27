@@ -49,6 +49,7 @@
 	"title-pattern": "Tittelmønster",
 	"title-pattern-without-ns": "(uten navnerom)",
 	"title-pattern-desc": "Bare vis sidetitler som matcher det gitte regulære uttrykket.",
+	"title-pattern-desc-link": "regulært uttrykk",
 	"total-results": "Totalt $1 {{PLURAL:$1|resultat|resultater}}",
 	"tsv": "TSV",
 	"view-source": "Vis kode",

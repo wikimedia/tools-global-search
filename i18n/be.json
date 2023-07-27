@@ -1,10 +1,14 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Earnur97"
+		]
 	},
 	"csv": "CSV",
 	"help-translate": "Дапамажыце перакласці",
 	"page-title": "Назва старонкі",
 	"report-issue": "Паведаміць аб праблеме",
+	"title-pattern-desc": "Паказвае толькі назвы старонак, якія адпавядаюць $1.",
+	"title-pattern-desc-link": "рэгулярны выраз",
 	"view-source": "Паказаць зыходны тэкст"
 }
