@@ -50,6 +50,7 @@
 	"title-pattern": "শিরোনামের ধরন",
 	"title-pattern-without-ns": "(নামস্থান বিহীন)",
 	"title-pattern-desc": "প্রদানকৃত রেগুলার এক্সপ্রেশনের সাথে মিলে এমন শিরোনামসমূহ দেখান।",
+	"title-pattern-desc-link": "রেগুলার এক্সপ্রেশন",
 	"total-results": "মোট {{PLURAL:$1|ফলাফল}}",
 	"tsv": "TSV",
 	"view-source": "উৎস দেখুন",

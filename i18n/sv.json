@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jonteemil",
 			"Mjälten",
 			"Sabelöga",
 			"WikiPhoenix"
@@ -51,7 +52,8 @@
 	"talk-pages": "Diskussionssidor",
 	"title-pattern": "Titelmönster",
 	"title-pattern-without-ns": "(utan namnrymd)",
-	"title-pattern-desc": "Visar endast sidtitlar som stämmer överens med det angivna reguljära uttrycket.",
+	"title-pattern-desc": "Visar endast sidtitlar som stämmer överens med det angivna $1.",
+	"title-pattern-desc-link": "reguljärt uttryck",
 	"title-search-only": "Sök endast titel",
 	"total-results": "Totalt {{PLURAL:$1|resultat}}",
 	"tsv": "TSV",

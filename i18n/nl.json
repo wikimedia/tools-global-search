@@ -4,6 +4,7 @@
 			"Aranka",
 			"Elroy",
 			"HanV",
+			"McDutchie",
 			"Robin van der Vliet",
 			"Romaine"
 		]
@@ -53,7 +54,8 @@
 	"talk-pages": "Overlegpagina's",
 	"title-pattern": "Titelpatroon",
 	"title-pattern-without-ns": "(zonder naamruimte)",
-	"title-pattern-desc": "Toont alleen paginatitels die overeenkomen met de opgegeven reguliere expressie.",
+	"title-pattern-desc": "Toont alleen paginatitels die overeenkomen met de opgegeven $1.",
+	"title-pattern-desc-link": "reguliere expressie",
 	"title-search-only": "Alleen zoeken op titel",
 	"total-results": "Totaal {{PLURAL:$1|resultaten}}",
 	"tsv": "TSV",
