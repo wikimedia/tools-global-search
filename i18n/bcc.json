@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Moshtank",
+			"Sultanselim baloch"
+		]
+	},
+	"back": "پُشتا",
+	"brought-to-you-by": "پہ $1 ءُ $2 بھا کنگ بیت",
+	"case-insensitive": "نادردے کݔس",
+	"error-report": "شما تۏن اݔت اشی‌ئا پہ $1 ئا رپۏٹ بہ کن اݔت",
+	"error-server-message": "سرورءَ گُش ایت: $1",
+	"error-title-required": "شۏھاز پہ ھر چیزے ئا یک سرگالی تَھرے لۏٹ ایت۔",
+	"excerpt": "گچݔنی",
+	"executed": "درتکہ مہ $1 ئا\n{{PLURAL:$2|سانیہ}}",
+	"export-as": "درگݔجَگ پہ:",
+	"global-search": "جھانی شۏھاز",
+	"global-search-advert": "$1 بنݔنَگ بیتگ $2 ءِ سرا",
+	"global-search-desc": "شۏھاز کنگ مہ ویکی سیاھگا گۏن دراھیگݔن ویکی‌ئا ھۏر کنگءَ بیت۔",
+	"help-translate": "رجانکءِ کومک",
+	"important-notes": "مھمݔن کُلہ:",
+	"login": "مان بییگ",
+	"logout": "در بییگ",
+	"logout-msg": "مان بیتگ گۏن $1 ئا",
+	"namespaces": "نامجاھان",
+	"page-title": "تاکءِ سرگال",
+	"powered-by": "چہ $1ئی زۏر گِپتگ",
+	"presets": "پݔش سَپت",
+	"splash-title": "ویکی مدیاءِ سراسری شۏھاز",
+	"subject-pages": "تَھرانءِ تاک",
+	"submit": "سپت کنگ",
+	"talk-pages": "گپءِ تاکان",
+	"title-pattern": "سرگالءِ ڈؤل",
+	"title-pattern-without-ns": "(بے نامجاہ)",
+	"view-source": "ویکی سرچممگ",
+	"wiki": "ویکی",
+	"wikitext": "ویکی سیاھگ"
+}
