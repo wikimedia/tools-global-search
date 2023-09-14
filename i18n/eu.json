@@ -1,13 +1,19 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Juele"
+		]
 	},
 	"back": "Atzera",
 	"csv": "CSV",
 	"error-server-message": "Zerbitzariak esan du: $1",
 	"executed": "Igarotako denbora: {{PLURAL:$2|segundo $1|$2 segundo}}",
+	"export-as": "Esportatu honela:",
+	"global-search": "Bilaketa globala",
 	"global-search-advert": "$1 $2(e)n erabiliz sortua",
-	"help-translate": "Lagundu euskaratzen",
+	"help-translate": "Lagundu itzultzen",
+	"important-notes": "Ohar garrantzitsuak:",
+	"important-notes-specific": "Egin bilaketa-terminoak ahalik eta zehatzen. Zenbat eta emaitza gehiago itzuli, orduan eta gehiago itxaron beharko duzu.",
 	"json": "JSON",
 	"login": "Saioa hasi",
 	"logout": "Saioa itxi",
