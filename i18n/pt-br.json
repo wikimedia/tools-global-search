@@ -4,6 +4,7 @@
 			"Deivisony",
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
+			"Felipe L. Ewald",
 			"McDutchie"
 		]
 	},
@@ -13,6 +14,7 @@
 	"csv": "CSV",
 	"error-report": "Você pode relatar este erro em $1.",
 	"error-server-message": "O servidor respondeu: $1",
+	"error-title-required": "Uma pesquisa de expressão regular para qualquer conteúdo requer um padrão de título.",
 	"excerpt": "Excerto",
 	"executed": "Executado em $1 {{PLURAL:$2|segundo|segundos}}.",
 	"export-as": "Exportar como:",
@@ -51,7 +53,9 @@
 	"talk-pages": "Páginas de discussão",
 	"title-pattern": "Padrão de título",
 	"title-pattern-without-ns": "(sem espaço nominal)",
-	"title-pattern-desc": "Mostra apenas os títulos das páginas que correspondem à expressão regular especificada.",
+	"title-pattern-desc": "Mostra apenas os títulos das páginas que correspondem ao $1 fornecido.",
+	"title-pattern-desc-link": "expressão regular",
+	"title-search-only": "Somente pesquisa de título",
 	"total-results": "Total de {{PLURAL:$1|resultado|resultados}}",
 	"tsv": "TSV",
 	"view-source": "Ver código-fonte",
