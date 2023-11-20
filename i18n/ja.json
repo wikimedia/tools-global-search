@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Aefgh39622",
+			"Mash1133",
 			"Omotecho",
 			"Shirayuki",
 			"Weather Top Wizard",
@@ -15,6 +16,7 @@
 	"csv": "CSV",
 	"error-report": "このバグの報告先は$1です。",
 	"error-server-message": "サーバの回答： $1",
+	"error-title-required": "正規表現で検索するにはタイトルパターンが必要です。",
 	"excerpt": "抜粋",
 	"executed": "実行時間 $1 {{PLURAL:$2|秒}}。",
 	"export-as": "書き出し:",
@@ -53,7 +55,9 @@
 	"talk-pages": "トークページ",
 	"title-pattern": "タイトルの形式",
 	"title-pattern-without-ns": "（名前空間がない）",
-	"title-pattern-desc": "指定した正規表現に適合するページのみ表記します。",
+	"title-pattern-desc": "指定された$1に適合するタイトルのページのみを表示します。",
+	"title-pattern-desc-link": "正規表現",
+	"title-search-only": "タイトルのみで検索",
 	"total-results": "{{PLURAL:$1|結果}}総計",
 	"tsv": "TSV",
 	"view-source": "ソースを閲覧",
