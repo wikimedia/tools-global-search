@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Chrumps",
 			"Krzyz23",
 			"Rail",
 			"Railfail536",
@@ -38,7 +39,9 @@
 	"subject-pages": "Strony tematu",
 	"submit": "Wyślij",
 	"talk-pages": "Strony rozmowy",
+	"title-pattern-without-ns": "(bez przestrzeni nazw)",
 	"title-pattern-desc": "Pokazuje tylko tytuły stron, które pasują do podanego wyrażenia regularnego.",
+	"title-pattern-desc-link": "wyrażenie regularne",
 	"total-results": "Łącznie {{PLURAL:$1|wynik|wyniki|wyników}}",
 	"tsv": "TSV",
 	"view-source": "Kod źródłowy",
