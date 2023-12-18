@@ -40,23 +40,29 @@ $(() => {
 
     $('.preset-link').on('click', e => {
         e.preventDefault();
+        document.querySelector('form').reset();
+        $('#regexCheckbox').trigger('change');
 
         switch (e.target.dataset.value) {
             case 'js':
                 $('#namespaceIds').val('2,4,8');
                 $('#titlePattern').val('(Gadgets-definition|.*\\.(js|css|json))');
+                $('#searchQuery').focus();
                 break;
             case 'lua':
                 $('#namespaceIds').val('828');
                 $('#titlePattern').val('');
+                $('#searchQuery').focus();
                 break;
             case 'subject':
                 $('#namespaceIds').val('0,2,4,6,8,10,12,14');
                 $('#titlePattern').val('');
+                $('#searchQuery').focus();
                 break;
             case 'talk':
                 $('#namespaceIds').val('1,3,5,7,9,11,13,15');
                 $('#titlePattern').val('');
+                $('#searchQuery').focus();
                 break;
             case 'title-only':
                 $('#searchQuery').val('.*');
