@@ -46,6 +46,10 @@ $(() => {
                 $('#namespaceIds').val('2,4,8');
                 $('#titlePattern').val('(Gadgets-definition|.*\\.(js|css|json))');
                 break;
+            case 'lua':
+                $('#namespaceIds').val('828');
+                $('#titlePattern').val('');
+                break;
             case 'subject':
                 $('#namespaceIds').val('0,2,4,6,8,10,12,14');
                 $('#titlePattern').val('');
