@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Fitoschido",
-			"Mguix"
+			"Mguix",
+			"SMP"
 		]
 	},
 	"back": "Enrere",
@@ -10,6 +11,7 @@
 	"case-insensitive": "No distingir majúscules i minúscules",
 	"error-report": "Podeu informar d'aquest error a $1.",
 	"error-server-message": "El servidor ha respost: $1",
+	"error-title-required": "Les cerques amb expressió regular per a contingut qualsevol requereixen un patró del títol.",
 	"excerpt": "Extracte",
 	"executed": "Executat en $1 {{PLURAL:$2|segon|segons}}.",
 	"export-as": "Exporta com:",
@@ -47,7 +49,9 @@
 	"talk-pages": "Pàgina de discussió",
 	"title-pattern": "Plantilla de títol",
 	"title-pattern-without-ns": "(Sense namespace)",
-	"title-pattern-desc": "Mostra només el títol de les pàgines que coincideixen amb l’expressió regular subministrada.",
+	"title-pattern-desc": "Mostra només el títol de les pàgines que coincideixen amb l’$1 subministrada.",
+	"title-pattern-desc-link": "expressió regular",
+	"title-search-only": "Cerca només al títol",
 	"total-results": "Total {{PLURAL:$1|de $1 resultat|des $1 resultats}}",
 	"view-source": "Mostra el codi",
 	"wiki": "Viqui",

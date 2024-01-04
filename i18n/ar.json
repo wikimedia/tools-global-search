@@ -3,6 +3,7 @@
 		"authors": [
 			"FiberAhmed",
 			"Meno25",
+			"Sandra Hanbo",
 			"أَحمد",
 			"ديفيد"
 		]
@@ -13,6 +14,7 @@
 	"csv": "CSV",
 	"error-report": "يمكنك الإبلاغ عن هذا الخطأ على $1.",
 	"error-server-message": "قال الخادم: $1",
+	"error-title-required": "يتطلب البحث بالتعبير العادي عن أي محتوى بنمط عنوان.",
 	"excerpt": "اقتباس",
 	"executed": "استغرق التنفيذ $1 {{PLURAL:$2|ثانية|ثوانٍ}}.",
 	"export-as": "تصدير كـ:",
@@ -51,7 +53,9 @@
 	"talk-pages": "صفحات النقاش",
 	"title-pattern": "نمط العناوين",
 	"title-pattern-without-ns": "(بدون نطاق)",
-	"title-pattern-desc": "يعرض فقط عناوين الصفحات التي تطابق التعبير المنتظم المعطى.",
+	"title-pattern-desc": "يعرض فقط عناوين الصفحات التي تطابق $1 المحدد.",
+	"title-pattern-desc-link": "تعبير منتظم",
+	"title-search-only": "البحث عن العنوان فقط",
 	"total-results": "الإجمالي {{PLURAL:$1|نتيجة|نتائج}}",
 	"tsv": "TSV",
 	"view-source": "عرض المصدر",
