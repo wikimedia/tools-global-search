@@ -40,8 +40,6 @@ $(() => {
 
     $('.preset-link').on('click', e => {
         e.preventDefault();
-        document.querySelector('form').reset();
-        $('#regexCheckbox').trigger('change');
 
         switch (e.target.dataset.value) {
             case 'js':
