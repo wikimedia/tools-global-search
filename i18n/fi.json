@@ -5,7 +5,8 @@
 			"MITO",
 			"Maantietäjä",
 			"Moj",
-			"Nike"
+			"Nike",
+			"Samoasambia"
 		]
 	},
 	"back": "Takaisin",
@@ -52,7 +53,9 @@
 	"talk-pages": "Keskustelusivut",
 	"title-pattern": "Otsikkokuvio",
 	"title-pattern-without-ns": "(ilman nimiavaruutta)",
-	"title-pattern-desc": "Näyttää vain sivunimikkeet, jotka vastaavat annettua säännöllistä lauseketta.",
+	"title-pattern-desc": "Näyttää vain sivunimikkeet, jotka vastaavat annettua $1.",
+	"title-pattern-desc-link": "säännöllistä lauseketta",
+	"title-search-only": "Hae vain otsikoita",
 	"total-results": "{{PLURAL:$1|Tuloksia}} yhteensä",
 	"view-source": "Näytä lähdekoodi",
 	"wiki": "Wiki",
