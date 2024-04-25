@@ -52,6 +52,7 @@
 	"title-pattern-without-ns": "(без прасторы назваў)",
 	"title-pattern-desc": "Паказвае толькі загалоўкі старонак, якія адпавядаюць дадзенаму рэгулярнаму выразу $1.",
 	"title-pattern-desc-link": "рэгулярны выраз",
+	"title-search-only": "Пошук толькі ў назвах",
 	"total-results": "Агулам {{PLURAL:$1|вынік|вынікі|вынікаў}}",
 	"tsv": "TSV",
 	"view-source": "Паказаць крыніцу",
