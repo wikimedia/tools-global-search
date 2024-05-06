@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"GolyatGeri",
 			"Mirzali",
 			"Orbot707"
 		]
@@ -11,6 +12,7 @@
 	"csv": "CSV",
 	"error-report": "Na xetayê $1 sera şenê rapor kerê",
 	"error-server-message": "Server vano:$1",
+	"error-title-required": "Herhange serva  yo zerreki intizami cıoynayışê ifadeyi, yo qalıbê serekê  lazımo.",
 	"excerpt": "Gırotek",
 	"executed": "$1 {{PLURAL:$2|saniye|saniyan}} miyan de vıst kay.",
 	"export-as": "Niya teber ke:",
@@ -49,7 +51,9 @@
 	"talk-pages": "Pelên werênayışi",
 	"title-pattern": "Modelê sernameyi",
 	"title-pattern-without-ns": "(bê heruna nameyi)",
-	"title-pattern-desc": "Teyna deyaye ifadeyê normaliya zey pê sereyanê pelan mocneno",
+	"title-pattern-desc": "Zeigt nur Seitentitel an, die mit dem angegebenen Muster \"$1\" übereinstimmen.",
+	"title-pattern-desc-link": "İfadeyo nizami",
+	"title-search-only": "Teyna serek cıgeyrayış",
 	"total-results": "{{PLURAL:$1|Netice|Neticeyi}} pêro",
 	"tsv": "TSV",
 	"view-source": "Çımey bıvêne",
