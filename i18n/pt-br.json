@@ -56,7 +56,7 @@
 	"title-pattern-desc": "Mostra apenas os títulos das páginas que correspondem ao $1 fornecido.",
 	"title-pattern-desc-link": "expressão regular",
 	"title-search-only": "Somente pesquisa de título",
-	"total-results": "Total de {{PLURAL:$1|resultado|resultados}}",
+	"total-results": "Total de {{PLURAL:$1|resultados}}",
 	"tsv": "TSV",
 	"view-source": "Ver código-fonte",
 	"wiki": "Wiki",
