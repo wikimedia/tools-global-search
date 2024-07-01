@@ -2,14 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"Jaroslav.micek",
+			"Oujon",
 			"Yardom78"
 		]
 	},
 	"back": "Späť",
 	"brought-to-you-by": "Autor $1 a $2",
 	"case-insensitive": "Nerozlišovať malé a veľké písmená",
-	"error-report": "Reportovať túto chybu na $1.",
-	"error-server-message": "Server hovorí: $1",
+	"csv": "CSV",
+	"error-report": "Môžete Reportovať túto chybu na $1.",
+	"error-server-message": "Server hovoríl: $1",
+	"error-title-required": "Vyhľadávanie regulárneho výrazu pre akýkoľvek obsah vyžaduje vzor názvu.",
 	"excerpt": "Výňatok",
 	"executed": "Vykoná sa za $1 {{PLURAL:$2|sekundu|sekúnd}}.",
 	"export-as": "Exportovať ako:",
@@ -21,9 +24,11 @@
 	"important-notes-cached": "Výsledky ostávajú vo vyrovnávajúcej pamäti počas $1 {{PLURAL:$1|minúty|minút}}.",
 	"important-notes-lag": "Výsledky môžu zaostávať za výrobou niekoľko minút. Zvyčajne okolo $1 {{PLURAL:$1}}.",
 	"important-notes-specific": "Špecifikujte svoje vyhľadávacie termíny čo najviac. Čím viac vyhľadaných výsledkov tým dlhšie budete musieť čakať.",
+	"json": "JSON",
 	"login": "Prihlásiť sa",
 	"logout": "Odhlásiť sa",
 	"logout-msg": "Ste prihlásený ako $1",
+	"markdown": "markdown",
 	"namespaces": "Menné priestory",
 	"namespaces-desc": "Zoznam názvov menných priestorov oddelených čiarkou. Pre všetky menné priestory nechajte prázdne.",
 	"page-title": "Názov stránky",
@@ -47,8 +52,10 @@
 	"talk-pages": "Diskusné stránky",
 	"title-pattern": "Vzor názvu",
 	"title-pattern-without-ns": "(bez menných priestorov)",
-	"title-pattern-desc": "Ukáže len názvy stránok, ktoré sa zhodujú so zadaným výrazom.",
+	"title-pattern-desc": "Zobrazuje iba názvy stránok, ktoré zodpovedajú danej hodnote $1 .",
+	"title-pattern-desc-link": "Regulárny výraz",
 	"total-results": "Celkový počet výsledkov {{PLURAL:$1}}",
+	"tsv": "TSV",
 	"view-source": "Zobraziť zdroj",
 	"wiki": "Wiki",
 	"wikitext": "Wikitext"
