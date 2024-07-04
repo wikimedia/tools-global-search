@@ -54,6 +54,7 @@
 	"title-pattern-without-ns": "(bez menných priestorov)",
 	"title-pattern-desc": "Zobrazuje iba názvy stránok, ktoré zodpovedajú danej hodnote $1 .",
 	"title-pattern-desc-link": "Regulárny výraz",
+	"title-search-only": "Len vyhľadávanie titulov",
 	"total-results": "Celkový počet výsledkov {{PLURAL:$1}}",
 	"tsv": "TSV",
 	"view-source": "Zobraziť zdroj",
