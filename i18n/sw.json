@@ -1,9 +1,22 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Raychep"
+		]
 	},
+	"back": "Nyuma",
+	"error-report": "Unaweza kuripoti hitilafu hii kwenye $1 .",
 	"help-translate": "Saidia tafsiri",
+	"important-notes": "Vidokezo muhimu:",
+	"important-notes-specific": "Fanya maneno yako ya utafutaji mahususi iwezekanavyo. Kadiri matokeo yanavyorudi, ndivyo utahitaji kungojea.",
+	"login": "Ingia",
 	"page-title": "Jina la ukurasa",
 	"report-issue": "Toa taarifa juu ya matatizo",
-	"view-source": "Angalia chanzo"
+	"splash-login-btn": "Ingia ili kutumia Utafutaji wa Ulimwenguni",
+	"splash-login-required": "Kwa sababu zana hii inaweza kutekeleza maswali ya gharama kubwa ya muda mrefu, kuingia kunahitajika.",
+	"subject-pages": "Kurasa za mada",
+	"submit": "Wasilisha",
+	"talk-pages": "Kurasa za mazungumzo",
+	"view-source": "Angalia chanzo",
+	"wiki": "Wiki"
 }
