@@ -34,7 +34,7 @@
 	"regular-expression": "Regularny izraz",
 	"report-issue": "Uvědomiti o problemu",
 	"reset": "Resetovati",
-	"showing-n": "{{PLURAL:$2|Pokazano}} $1",
+	"showing-n": "{{PLURAL:$2|Pokazany|Pokazane}} $1",
 	"slow": "Medlo",
 	"splash-hackathon-title": "Wikimedia Hackathon 2019",
 	"splash-login-btn": "Prijavite se za koristanje Globalnogo iskanja",
@@ -50,7 +50,7 @@
 	"title-pattern-desc": "Pokazyvaje samo nazvy stranic, ktore odpovědajut $1.",
 	"title-pattern-desc-link": "regularny izraz",
 	"title-search-only": "Iskanje samo po nazvě",
-	"total-results": "Vsego {{PLURAL:$1|rezultat|rezultatov}}",
+	"total-results": "Vsego {{PLURAL:$1|rezultat|rezultaty|rezultatov}}",
 	"view-source": "Izvorny kod",
 	"wiki": "Viki",
 	"wikitext": "Vikitekst"
