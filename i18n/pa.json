@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cabal"
+		]
+	},
+	"back": "ਪਿਛਾਂਹ",
+	"brought-to-you-by": "ਤੁਹਾਡੇ ਲਈ $1 ਅਤੇ $2 ਦੁਆਰਾ ਲਿਆਂਦਾ ਗਿਆ",
+	"error-server-message": "ਸਰਵਰ ਨੇ ਕਿਹਾ: $1",
+	"excerpt": "ਅੰਸ਼",
+	"help-translate": "ਤਰਜਮੇ ਵਿੱਚ ਮਦਦ ਕਰੋ",
+	"important-notes": "ਜਰੂਰੀ ਲਿਖਤ",
+	"login": "ਦਾਖ਼ਲ ਹੋਵੋ",
+	"logout": "ਬਾਹਰ ਆਉ",
+	"logout-msg": "ਵਰਤਮਾਨ ਵਿੱਚ $1 ਦੇ ਰੂਪ ਵਿੱਚ ਦਾਖਲ ਹੋ",
+	"namespaces": "ਨਾਮਸਥਾਨ",
+	"page-title": "ਵਰਕੇ ਦਾ ਸਿਰਲੇਖ",
+	"query": "ਪੁੱਛਗਿੱਛ",
+	"regular-expression": "ਆਮ ਸ਼ਬਦਾਵਲੀ",
+	"showing-n": "{{PLURAL:$2|ਵਿਖਾ ਰਿਹਾ ਹੈ|ਵਿਖਾਇਆ ਜਾ ਰਿਹਾ ਹੈ}} $1",
+	"slow": "ਹੌਲੀ",
+	"splash-login-btn": "ਵਿਸ਼ਵ-ਪੱਧਰੀ ਖੋਜ ਵਰਤਣ ਲਈ ਦਾਖਲ ਹੋਵੋ",
+	"splash-title": "ਵਿਕੀਮੀਡੀਆ ਵਿਸ਼ਵ-ਪੱਧਰੀ ਖੋਜ",
+	"subject-pages": "ਵਿਸ਼ਾ ਵਰਕੇ",
+	"submit": "ਹਵਾਲੇ ਕਰੋ",
+	"talk-pages": "ਗੱਲ-ਬਾਤ ਵਰਕੇ",
+	"title-pattern-without-ns": "(ਬਿਨਾਂ ਨਾਮ ਦੇ)",
+	"title-pattern-desc": "ਸਿਰਫ਼ ਉਹਨਾਂ ਵਰਕੇਆਂ ਦੇ ਸਿਰਲੇਖ ਵਿਖਾਉਂਦਾ ਹੈ ਜੋ ਦਿੱਤੇ ਗਏ $1 ਨਾਲ ਮੇਲ ਖਾਂਦੇ ਹਨ।",
+	"title-pattern-desc-link": "ਆਮ ਸ਼ਬਦਾਵਲੀ",
+	"title-search-only": "ਸਿਰਫ਼ ਸਿਰਲੇਖ ਖੋਜ",
+	"total-results": "ਕੁੱਲ {{PLURAL:$1|ਨਤੀਜੇ}}",
+	"view-source": "ਸਰੋਤ ਵੇਖੋ",
+	"wiki": "ਵਿਕੀ",
+	"wikitext": "ਵਿਕੀਲਿਖਤ"
+}

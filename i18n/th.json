@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Aefgh39622",
+			"Cabal",
 			"Just Sayori",
 			"Thas Tayapongsak",
 			"Thastp",
@@ -18,10 +19,14 @@
 	"logout": "ออกจากระบบ",
 	"namespaces": "เนมสเปซ",
 	"page-title": "ชื่อหน้า",
+	"query": "คําถาม",
 	"regular-expression": "นิพจน์ปกติ",
 	"report-issue": "รายงานปัญหา",
 	"reset": "ตั้งค่าใหม่",
+	"showing-n": "{{PLURAL:$2| กำลังแสดง|กำลังแสดง}} $1",
 	"slow": "ช้า",
+	"splash-login-btn": "เข้าสู่ระบบเพื่อใช้การค้นหาทั่วโลก",
+	"subject-pages": "หน้าหัวเรื่อง",
 	"submit": "บันทึก",
 	"view-source": "ดูต้นฉบับ",
 	"wiki": "วิกิ",
