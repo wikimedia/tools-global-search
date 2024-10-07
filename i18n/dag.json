@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abubakar",
+			"Dnshitobu"
+		]
+	},
+	"back": "Nyaŋa",
+	"brought-to-you-by": "ŋun che Kate di paa gi a na $1 mini $2",
+	"case-insensitive": "Di be doli bachikobikara bee zaɣa baligu",
+	"error-report": "A ni tooi ŋmɛ yɛlmuɣisirili ŋɔ kuŋ kpɛ $1.",
+	"error-server-message": "Gbanjɔɣu maa yɛli mi ni: $1",
+	"excerpt": "gbaa yihi",
+	"help-translate": "Soŋ lebigi",
+	"login": "Kpɛma",
+	"logout": "Yima",
+	"logout-msg": "Saha ŋɔ, $1 ka a zaŋ kpɛna",
+	"namespaces": "Yuyapaliti",
+	"page-title": "Yaɣili ŋɔ taachi",
+	"query": "Bohi baŋ",
+	"report-issue": "Nyihi tikum",
+	"reset": "N nyehi ŋili ŋili",
+	"showing-n": "Zaɣa bobigu mali wuhira",
+	"slow": "Nyam nyam",
+	"splash-hackathon-title": "Wikimedia Hackathon yuuni 2019",
+	"talk-pages": "Shaawara yaɣili",
+	"title-pattern": "Taachi nima maa ni doya shɛm",
+	"title-pattern-without-ns": "(ka di ka yuyapaliti)",
+	"title-pattern-desc-link": "yɛltɔɣa din yoli",
+	"title-search-only": "Taachi vihibu ko",
+	"total-results": "Di zaa {{PLURAL:$1|labisibu nima}}",
+	"view-source": "Yulimi di nyabili",
+	"wiki": "Wiki"
+}
