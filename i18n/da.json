@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Antonla",
-			"Saederup92"
+			"Saederup92",
+			"Steenth"
 		]
 	},
 	"back": "Tilbage",
@@ -15,7 +16,7 @@
 	"global-search-advert": "Oprettet via brug af $1 på $2",
 	"help-translate": "Hjælp til med at oversætte",
 	"json": "JSON",
-	"login": "Log ind",
+	"login": "Log på",
 	"logout": "Log ud",
 	"logout-msg": "Logget ind som $1",
 	"namespaces": "Navnerum",
