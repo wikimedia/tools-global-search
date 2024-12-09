@@ -3,6 +3,7 @@
 		"authors": [
 			"AZISS",
 			"Maqa001",
+			"Nemoralis",
 			"Şeyx Şamil"
 		]
 	},
@@ -36,7 +37,7 @@
 	"talk-pages": "Müzakirə səhifələri",
 	"title-pattern-without-ns": "(ad sahəsi olmadan)",
 	"total-results": "Cəmi {{PLURAL:$1|nəticələr}}",
-	"view-source": "Mənbəni göstər",
+	"view-source": "Mənbə kodunu göstər",
 	"wiki": "Viki",
 	"wikitext": "Vikimətn"
 }
