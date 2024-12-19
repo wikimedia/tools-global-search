@@ -2,6 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Georg101",
+			"Matěj Suchánek",
+			"Mormegil",
 			"MrJaroslavik",
 			"Spotter"
 		]
@@ -22,7 +24,7 @@
 	"help-translate": "Pomozte s překladem",
 	"important-notes": "Důležité poznámky:",
 	"important-notes-cached": "Výsledky jsou uloženy v mezipaměti po dobu $1 {{PLURAL:$1| minuty|minut}}.",
-	"important-notes-lag": "Výsledky mohou být za produkcí opožděny, obvykle o $1 {{PLURAL:$1| minutu|minuty}}.",
+	"important-notes-lag": "Výsledky mohou být za produkcí opožděny, obvykle o $1 {{PLURAL:$1|minutu|minuty|minut}}.",
 	"important-notes-specific": "Upravte hledané výrazy co nejkonkrétněji. Čím více výsledků vrátí, tím déle budete muset čekat.",
 	"json": "JSON",
 	"login": "Přihlásit se",
@@ -41,10 +43,10 @@
 	"splash-hackathon-title": "Wikimedia Hackathon 2019",
 	"splash-login-btn": "Chcete-li používat globální vyhledávání, přihlaste se",
 	"splash-login-desc": "Tento nástroj vám umožňuje vyhledávat klíčová slova a zdroje regulárních výrazů na všech wiki Wikimedia Foundation pomocí služby $1 .",
-	"splash-login-required": "Protože tento nástroj může provádět drahé dlouhodobé dotazy, je vyžadováno přihlášení.",
+	"splash-login-required": "Protože tento nástroj může provádět náročné dlouhotrvající dotazy, je vyžadováno přihlášení.",
 	"splash-product-of-hackathon": "Produkt z akce $1",
 	"splash-title": "Globální vyhledávání Wikimedia",
-	"subject-pages": "Předmětné stránky",
+	"subject-pages": "Obsahové stránky",
 	"submit": "Odeslat",
 	"talk-pages": "Diskuzní stránky",
 	"title-pattern": "Vzor názvu",
