@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Ahmed-Najib-Biabani-Ibrahimkhel"
+		]
 	},
 	"back": "پر شا کېدل",
 	"csv": "CSV",
@@ -9,7 +11,7 @@
 	"login": "ننوتل",
 	"logout": "وتل",
 	"logout-msg": "وس مهال د $1 په نامه ننوتلی یاست",
-	"namespaces": "نومتشيالونه",
+	"namespaces": "نوم‌تشيالونه",
 	"page-title": "مخ سرليک",
 	"report-issue": "د يوې ستونزې راپور ورکړئ",
 	"submit": "سپارل",
