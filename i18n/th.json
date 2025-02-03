@@ -3,6 +3,7 @@
 		"authors": [
 			"Aefgh39622",
 			"Cabal",
+			"Ekminarin",
 			"Just Sayori",
 			"Thas Tayapongsak",
 			"Thastp",
@@ -13,6 +14,7 @@
 	"csv": "CSV",
 	"executed": "ดำเนินการใน $1 วินาที",
 	"export-as": "ส่งออกเป็น:",
+	"global-search": "ค้นหาข้ามโครงการ",
 	"help-translate": "ช่วยแปลภาษา",
 	"important-notes": "หมายเหตุที่สำคัญ:",
 	"login": "เข้าสู่ระบบ",
