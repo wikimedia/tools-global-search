@@ -3,7 +3,8 @@
 		"authors": [
 			"Les Meloures",
 			"Robby",
-			"Soued031"
+			"Soued031",
+			"Volvox"
 		]
 	},
 	"back": "Zeréck",
@@ -24,6 +25,7 @@
 	"presets": "Virastellungen",
 	"purge-cache": "Tëschespäicher (Cache) eidelmaachen",
 	"query": "Ufro",
+	"regular-expression": "Regulären Ausdrock",
 	"report-issue": "E Probleem mellen",
 	"reset": "Zrécksetzen",
 	"slow": "Lues",
@@ -31,6 +33,7 @@
 	"submit": "Späicheren",
 	"talk-pages": "Diskussiounssäiten",
 	"title-pattern-without-ns": "(ouni Nummraum)",
+	"title-pattern-desc-link": "regulären Ausdrock",
 	"tsv": "TSV",
 	"view-source": "Quellcode weisen",
 	"wiki": "Wiki",
