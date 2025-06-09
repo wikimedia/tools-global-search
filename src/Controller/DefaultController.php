@@ -60,6 +60,17 @@ class DefaultController extends AbstractController
     }
 
     /**
+     * Health check endpoint.
+     * @see https://wikitech.wikimedia.org/wiki/Help:Toolforge/Web#Health_checks
+     * @Route("/healthz", name="healthz")
+     * @return Response
+     */
+    public function healthzAction(): Response
+    {
+        return new Response('OK', Response::HTTP_OK);
+    }
+
+    /**
      * The main route.
      * @Route("/", name="home")
      * @param Request $request
