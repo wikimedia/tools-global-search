@@ -39,9 +39,6 @@ class CloudElasticRepository
     public function makeRequest(): array
     {
         $indices = implode( ',', [
-            '*_content',
-            '*_general',
-            '*_file',
             '*:*_content',
             '*:*_general',
             '*:*_file',
