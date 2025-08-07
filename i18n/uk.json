@@ -4,7 +4,8 @@
 			"Base",
 			"DDPAT",
 			"Ice bulldog",
-			"Piramidion"
+			"Piramidion",
+			"Ата"
 		]
 	},
 	"back": "Назад",
@@ -51,7 +52,9 @@
 	"talk-pages": "Сторінки обговорення",
 	"title-pattern": "Маска назви",
 	"title-pattern-without-ns": "(без вказання простору назв)",
-	"title-pattern-desc": "Показує лише назви сторінок, що підпадають під даний регулярний вираз.",
+	"title-pattern-desc": "Показує лише назви сторінок, що підпадають під даний $1.",
+	"title-pattern-desc-link": "регулярний вираз",
+	"title-search-only": "Пошук тільки у заголовках",
 	"total-results": "Всього {{PLURAL:$1|результатів}}",
 	"tsv": "TSV",
 	"view-source": "Переглянути код",
