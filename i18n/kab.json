@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"ButterflyOfFire",
 			"K Messaoudi"
 		]
 	},
@@ -28,6 +29,7 @@
 	"splash-login-btn": "Qqen akken ad tesqedceḍ anadi amatu",
 	"splash-product-of-hackathon": "D afaris n $1",
 	"submit": "Azen",
+	"talk-pages": "Isebtar n usqerdec",
 	"view-source": "Sken aɣbalu",
 	"wiki": "Awiki",
 	"wikitext": "wikiaḍris"
