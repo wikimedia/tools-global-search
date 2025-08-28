@@ -1,17 +1,27 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Bapham123"
+		]
 	},
 	"back": "Trở lại",
 	"csv": "CSV",
 	"executed": "Đã thực hiện trong $1 {{PLURAL:$2|giây|giây}}.",
+	"export-as": "Xuất ra dưới dạng:",
+	"global-search": "Tìm kiếm toàn cục",
 	"help-translate": "Giúp biên dịch",
 	"login": "Đăng nhập",
 	"logout": "Đăng xuất",
 	"namespaces": "Không gian tên",
 	"page-title": "Tên trang",
+	"purge-cache": "Tẩy sạch vùng nhớ đệm",
+	"query": "Truy vấn",
 	"report-issue": "Báo cáo lỗi",
+	"reset": "Mặc định lại",
+	"slow": "Chậm",
 	"submit": "Gửi",
+	"title-search-only": "Chỉ tìm kiếm tiêu đề",
 	"view-source": "Xem mã nguồn",
-	"wiki": "Wiki"
+	"wiki": "Wiki",
+	"wikitext": "Mã wiki"
 }
