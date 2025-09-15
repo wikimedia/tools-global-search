@@ -5,7 +5,8 @@
 			"Matěj Suchánek",
 			"Mormegil",
 			"MrJaroslavik",
-			"Spotter"
+			"Spotter",
+			"Zagothal"
 		]
 	},
 	"back": "Zpět",
@@ -40,6 +41,8 @@
 	"regular-expression": "Regulární výraz",
 	"report-issue": "Nahlásit problém",
 	"reset": "Obnovit",
+	"showing-n": "{{PLURAL:$2|Zobrazen|Zobrazeno}} $1",
+	"slow": "Pomalé",
 	"splash-hackathon-title": "Wikimedia Hackathon 2019",
 	"splash-login-btn": "Chcete-li používat globální vyhledávání, přihlaste se",
 	"splash-login-desc": "Tento nástroj vám umožňuje vyhledávat klíčová slova a zdroje regulárních výrazů na všech wiki Wikimedia Foundation pomocí služby $1 .",
