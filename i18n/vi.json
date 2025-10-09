@@ -13,6 +13,7 @@
 	"executed": "Đã thực hiện trong $1 {{PLURAL:$2|giây|giây}}.",
 	"export-as": "Xuất ra dưới dạng:",
 	"global-search": "Tìm kiếm toàn cục",
+	"global-search-advert": "Được tạo bằng $1 vào lúc $2",
 	"help-translate": "Giúp biên dịch",
 	"important-notes": "Lưu ý quan trọng:",
 	"login": "Đăng nhập",
