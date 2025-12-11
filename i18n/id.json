@@ -4,6 +4,7 @@
 			"Akmaie Ajam",
 			"Boesenbergia",
 			"Daud I.F. Argana",
+			"Penyuwangi",
 			"Veracious"
 		]
 	},
@@ -20,7 +21,7 @@
 	"global-search": "Pencarian Global",
 	"global-search-advert": "Dihasilkan menggunakan $1 pada $2",
 	"global-search-desc": "Cari sesuatu di dalam wikitext pada semua wiki oleh Wikimedia Foundation.",
-	"help-translate": "Bhânto pertal",
+	"help-translate": "Bantu terjemahkan",
 	"important-notes": "Catatan penting:",
 	"important-notes-cached": "Hasil di-''cache'' untuk $1 {{PLURAL:$1|menit}}.",
 	"important-notes-lag": "Hasilnya mungkin tertinggal dari produksi, biasanya sekitar $1 {{PLURAL:$1|menit}}.",
