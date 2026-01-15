@@ -1,17 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"Papuass"
+			"Papuass",
+			"Rusjanis"
 		]
 	},
 	"back": "Atpakaļ",
 	"csv": "CSV",
 	"help-translate": "Palīdzi iztulkot",
 	"json": "JSON",
+	"login": "Pieslēgties",
+	"logout": "Iziet",
+	"logout-msg": "Pašlaik pieteicies kā $1",
 	"page-title": "Lapas nosaukums",
 	"report-issue": "Ziņot par problēmu",
+	"submit": "Iesniegt",
 	"total-results": "Kopā {{PLURAL:$1|rezultāti|rezultāts|rezultāti}}",
 	"tsv": "TSV",
 	"view-source": "Aplūkot kodu",
+	"wiki": "Wiki",
 	"wikitext": "Vikiteksts"
 }
