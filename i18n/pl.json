@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Atvalerie",
 			"Chrumps",
 			"Krzyz23",
 			"PanWor",
@@ -45,6 +46,7 @@
 	"reset": "Resetuj",
 	"showing-n": "{{PLURAL:$2|Wyświetlono}} $1",
 	"slow": "Wolno",
+	"splash-hackathon-title": "Wikimedia Hackathon 2019",
 	"splash-login-btn": "Zaloguj się aby używać Global Search",
 	"splash-login-desc": "To narzędzie umożliwia wyszukiwanie słów kluczowych oraz przy użyciu wyrażeń regularnych w kodzie źródłowym na wszystkich wiki Fundacji Wikimedia, z użyciem usługi $1.",
 	"splash-login-required": "Ponieważ narzędzie to może wykonywać kosztowne, długotrwałe zapytania, konieczne jest zalogowanie się.",

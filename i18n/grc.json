@@ -2,18 +2,19 @@
 	"@metadata": {
 		"authors": [
 			"KATRINE1993",
-			"PastelKos"
+			"PastelKos",
+			"Warudo"
 		]
 	},
 	"back": "Ὀπίσω",
 	"brought-to-you-by": "Φέρον ὑμῖν ὑπὸ τοῦ χρωμένου $1 και τοῦ $2",
-	"case-insensitive": "Ανοικτό",
-	"error-report": "Δυνατότης αναφοράς αυτού του σφάλματος εις $ 1/",
+	"case-insensitive": "Οὐχί διάκρισις πεζῶν-κεφαλαῖων",
+	"error-report": "Δυνατότης ἀναφοράς τοῦ σφάλματος τούτου εἰς $1.",
 	"error-server-message": "Ὁ διακομιστὴς εἶπε: $1",
 	"excerpt": "Ἀπόσπασμα",
 	"executed": "Ἠνεργήσατο εἰς $1 {{PLURAL:$2|δευτερόλεπτον|δευτερόλεπτα}}.",
 	"global-search": "Διεθνὴς Ἀναζήτησις",
-	"global-search-advert": "Παρήχθη χρήσει του $ 1 επί $ 2",
+	"global-search-advert": "Παρήχθη χρήσει τοῦ $1 ἐπί $2",
 	"global-search-desc": "Ἀναζήτησις ἐν οὐικικειμένῳ εἰς ἅπαντα τὰ οὐίκι τοῦ Ἱδρύματος Οὐικιμέσα",
 	"help-translate": "Βοηθεῖτε τῷ μεταγλωττίζειν",
 	"important-notes": "Πολλοῦ ἄξιαι ὑπομνήματα:",
