@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aindriu80",
 			"Kscanne"
 		]
 	},
@@ -9,16 +10,20 @@
 	"case-insensitive": "Is cuma faoi chás na litreacha",
 	"error-report": "Is féidir leat an fabht seo a thuairisciú ar $1.",
 	"error-server-message": "Dúirt an freastalaí: $1",
+	"error-title-required": "Éilíonn cuardach ar ghnáthléiriú le haghaidh aon ábhair patrún teidil.",
 	"excerpt": "Sliocht",
 	"export-as": "Easpórtáil mar:",
 	"global-search": "Cuardach Domhanda",
 	"global-search-advert": "Ginte ag $1 ar $2",
+	"global-search-desc": "Cuardaigh laistigh de vicíthéacs ar fud vicí uile Fhondúireacht Wikimedia.",
 	"help-translate": "Cabhraigh leis an aistriúchán",
 	"important-notes": "Nótaí tábhachtacha:",
+	"important-notes-specific": "Déan do théarmaí cuardaigh chomh sonrach agus is féidir. Dá mhéad torthaí a thabharfaidh siad ar ais, is ea is faide a chaithfidh tú fanacht.",
 	"login": "Logáil isteach",
 	"logout": "Logáil amach",
 	"logout-msg": "Logáilte isteach mar $1 faoi láthair",
 	"namespaces": "Ainmspásanna",
+	"namespaces-desc": "Liosta d'aitheantais ainmspáis scartha le camóga. Fág bán do gach ainmspás.",
 	"page-title": "Teideal an leathanaigh",
 	"powered-by": "Arna chumhachtú ag $1",
 	"presets": "Réamhshocruithe",
@@ -30,9 +35,11 @@
 	"slow": "Mall",
 	"splash-hackathon-title": "Wikimedia Hackathon 2019",
 	"splash-login-btn": "Logáil isteach chun Cuardach Domhanda a úsáid",
+	"splash-login-desc": "Ligeann an uirlis seo duit cuardaigh eochairfhocail agus foinseacha a dhéanamh ar fud na vicí uile de chuid Fhondúireacht Wikimedia, ag baint úsáide as an tseirbhís $1.",
 	"splash-login-required": "Toisc gur féidir leis an uirlis seo iarratais chostasacha a dhéanamh, caithfidh tú logáil isteach.",
 	"splash-product-of-hackathon": "Déanta ag $1",
 	"splash-title": "Cuardach Domhanda Wikimedia",
+	"subject-pages": "Leathanaigh ábhair",
 	"submit": "Seol",
 	"talk-pages": "Leathanaigh plé",
 	"title-pattern": "Patrún teidil",
