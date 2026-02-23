@@ -1,10 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ella Lachow"
+			"Ella Lachow",
+			"Malaalaa"
 		]
 	},
 	"back": "Simma",
+	"brought-to-you-by": "$1ninne $2 neeyyo yiis",
+	"error-server-message": "Serveree giidobay: $1",
+	"executed": "Polettiyoy $1 {{PLURAL:$2|sekkonddiyan|sekkonddtun}}.",
 	"help-translate": "Birshshettaa maaduwaa",
 	"important-notes": "Maaddiyaa hassayissota:",
 	"important-notes-cached": "Ayfeti $1yan {{PLURAL:$1|daqiiqan|daqiiqatun}} wodhis.",
@@ -15,15 +19,19 @@
 	"logout-msg": "$1 hagaadan ha'i gelis",
 	"namespaces": "Qommuwaa",
 	"page-title": "Sinttaa huuphe yohuwaa",
+	"powered-by": "Giigidoy $1",
 	"query": "Oyshaa",
 	"regular-expression": "Gophphe qonccissuwaa",
 	"report-issue": "Metuwaa oda",
 	"reset": "Sohuwaa zaara",
-	"showing-n": "{{PLURAL:$2|Bessiiddi|Bessiiddi}} $1",
+	"showing-n": "{{PLURAL:$2}} $1 Bessiiddi",
 	"slow": "Loddan",
+	"splash-product-of-hackathon": "$1 ayfiya (murutaa)",
 	"subject-pages": "Allaalliyaa sinttata",
 	"submit": "Shiishsha",
 	"talk-pages": "Haasaya sinttata",
+	"title-pattern-desc-link": "gophphe qonccissuwa",
+	"title-search-only": "Huuphe yoho xallaa koshshaa",
 	"total-results": "Mule {{PLURAL:$1|ayfeta}}",
 	"view-source": "Man\"iyaa be'a",
 	"wiki": "Wikii",

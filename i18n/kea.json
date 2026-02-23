@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"GrogeXaKaba"
+		]
+	},
+	"back": "Bolta",
+	"brought-to-you-by": "Dizanvolvidu pa $1 i $2",
+	"case-insensitive": "Sin distingi létras maiúsklu di minúsklu",
+	"error-report": "Bu podi raporta es difetu na $1.",
+	"error-server-message": "Sirbidor rusponde: $1",
+	"error-title-required": "Un piskiza di sprisons ragular pa kolker kuntiúdu ta iziji un padron di titlu.",
+	"excerpt": "Fragimentu",
+	"executed": "Izikutadu na $1 {{PLURAL:$2|sugundu}}.",
+	"export-as": "Sporta kuma:",
+	"global-search": "Piskiza glubal",
+	"global-search-advert": "Jeradu ku uzu di $1 na $2",
+	"help-translate": "Djuda traduzi",
+	"important-notes": "Ozerbasons npurtanti:",
+	"important-notes-cached": "Razultadus é armazenadu na kaxe duranti $1 {{PLURAL:$1|minutu}}.",
+	"page-title": "Titlu di pájina",
+	"powered-by": "Dizanvolvedu pa $1",
+	"purge-cache": "Sbazia kaxe",
+	"regular-expression": "Sprison ragular",
+	"report-issue": "Ralata un prabuléma",
+	"reset": "Rainisia",
+	"showing-n": "{{PLURAL:$2|Ta mustra}} $1",
+	"slow": "Léntu",
+	"splash-hackathon-title": "Hackathon di Uikimídia 2019",
+	"subject-pages": "Pájinas di asuntu",
+	"submit": "Nvia",
+	"talk-pages": "Pájinas di diskuson",
+	"title-pattern": "Padron di titlu",
+	"title-pattern-without-ns": "(sin spasu di nómi)",
+	"title-pattern-desc": "Mustra so titlus di pájina ki ta kuruspondi ku $1 ndikadu.",
+	"title-pattern-desc-link": "sprison ragular",
+	"title-search-only": "Piskiza di titlus txaskan",
+	"total-results": "Tutal {{PLURAL:$1|razultadu}}",
+	"view-source": "Odja kódi-fonti",
+	"wiki": "Uiki",
+	"wikitext": "Testu uiki"
+}
