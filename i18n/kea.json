@@ -29,14 +29,14 @@
 	"splash-hackathon-title": "Hackathon di Uikimídia 2019",
 	"subject-pages": "Pájinas di asuntu",
 	"submit": "Nvia",
-	"talk-pages": "Pájinas di diskuson",
+	"talk-pages": "Pájinas di kunbérsu",
 	"title-pattern": "Padron di titlu",
-	"title-pattern-without-ns": "(sin spasu di nómi)",
+	"title-pattern-without-ns": "(sin tipu di pájina)",
 	"title-pattern-desc": "Mustra so titlus di pájina ki ta kuruspondi ku $1 ndikadu.",
 	"title-pattern-desc-link": "sprison ragular",
 	"title-search-only": "Piskiza di titlus txaskan",
 	"total-results": "Tutal {{PLURAL:$1|razultadu}}",
-	"view-source": "Odja kódi-fonti",
+	"view-source": "Udja kódi-fonti",
 	"wiki": "Uiki",
 	"wikitext": "Testu uiki"
 }
