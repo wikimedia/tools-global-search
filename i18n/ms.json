@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hakimi97",
+			"Izing",
+			"Tofeiku"
+		]
+	},
+	"back": "Kembali",
+	"help-translate": "Bantu terjemahkan",
+	"important-notes": "Nota penting:",
+	"login": "Log masuk",
+	"logout": "Log keluar",
+	"namespaces": "Ruang nama",
+	"page-title": "Tajuk laman",
+	"powered-by": "Dikuasakan oleh $1",
+	"presets": "Pratetap",
+	"query": "Pertanyaan",
+	"report-issue": "Laporkan masalah",
+	"reset": "Set semula",
+	"slow": "Perlahan",
+	"splash-hackathon-title": "Wikimedia Hackathon 2019",
+	"subject-pages": "Laman subjek",
+	"submit": "Hantar",
+	"talk-pages": "Laman perbincangan",
+	"title-pattern": "Corak tajuk",
+	"title-pattern-without-ns": "(tanpa ruang nama)",
+	"view-source": "Lihat sumber",
+	"wiki": "Wiki",
+	"wikitext": "Wikiteks"
+}
