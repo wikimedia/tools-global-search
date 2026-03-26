@@ -1,7 +1,9 @@
 {
 	"back": "Back",
 	"brought-to-you-by": "Brought to you by $1 and $2",
+	"cirrus-query-unsupported": "This query uses keywords that are not supported for cross-wiki search:",
 	"case-insensitive": "Case-insensitive",
+	"cirrussearch-query": "CirrusSearch query",
 	"csv": "CSV",
 	"error-report": "You can report this bug on $1.",
 	"error-server-message": "The server said: $1",
@@ -25,6 +27,7 @@
 	"namespaces": "Namespaces",
 	"namespaces-desc": "Comma-separated list of namespace IDs. Leave blank for all namespaces.",
 	"page-title": "Page title",
+	"plain": "Plain",
 	"powered-by": "Powered by $1",
 	"presets": "Presets",
 	"purge-cache": "Purge cache",

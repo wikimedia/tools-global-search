@@ -16,15 +16,16 @@ $(() => {
     $(window).on('pagehide', () => {
         $('form input').prop('readonly', false);
         $('form button').prop('disabled', false);
-        $('#regexCheckbox').trigger('change');
+        $('#regexRadio').trigger('change');
     });
 
     $('.btn-reset-form').on('click', e => {
         $('.results').hide();
         $('input').val('').prop('checked', false);
+        $('input[name="mode"][value="plain"]').prop('checked', true);
         $('#searchQuery').focus();
         $(e.target).remove();
-        $('#regexCheckbox').trigger('change');
+        $('#regexRadio').trigger('change');
         history.pushState({}, document.title, window.location.pathname);
     });
 
@@ -32,8 +33,9 @@ $(() => {
         $('#searchQuery').focus();
     }
 
-    $('#regexCheckbox').on('change', e => {
-        $('.form-group--ingorecase').toggleClass('hidden', !e.target.checked);
+    $('input[name="mode"]').on('change', (e) => {
+        $('.form-group--ingorecase').toggleClass('hidden', e.target.value !== 'regex' );
+        $('.form-group--title-pattern').toggleClass('hidden', e.target.value === 'cirrus');
     });
 
     $('[data-toggle="tooltip"]').tooltip();
@@ -64,7 +66,7 @@ $(() => {
                 break;
             case 'title-only':
                 $('#searchQuery').val('.*');
-                $('#regexCheckbox').prop('checked', true)
+                $('#regexRadio').prop('checked', true)
                     .trigger('change');
                 if (!$('#titlePattern').val()) {
                     $('#titlePattern').focus();
