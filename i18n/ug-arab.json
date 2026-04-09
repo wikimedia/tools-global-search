@@ -1,8 +1,11 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Uzdil"
+		]
 	},
 	"back": "قايتىش",
+	"case-insensitive": "چوڭ كىچىك يېزىلىش ئايرىلمايدۇ",
 	"csv": "س ئېس ۋ",
 	"error-server-message": "مۇلازىمەتچى دوكلاتى：$1",
 	"executed": "ئىجرا قىلىشتا خورايدىغان ۋاقىت$1{{PLURAL:$2|سېكونت}}.",
@@ -14,7 +17,10 @@
 	"namespaces": "نام بوشلۇقى",
 	"page-title": "بەت ماۋزۇسى",
 	"report-issue": "دوكلات سوئاللىرى",
+	"slow": "كۆرسەت",
 	"submit": "تاپشۇرۇش",
+	"talk-pages": "مۇنازىرە بېتى",
+	"view-source": "مەنبەنى كۆرسەت",
 	"wiki": "ۋىكى",
 	"wikitext": "ۋىكىتېكىست"
 }
