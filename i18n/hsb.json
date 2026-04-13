@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"J budissin"
+			"J budissin",
+			"Michawiki"
 		]
 	},
 	"back": "Wróćo",
@@ -15,15 +16,19 @@
 	"executed": "Zdokonjane w $1 {{PLURAL:$2|sekundźe|sekundomaj|sekundach}}.",
 	"export-as": "Eksportować jako:",
 	"global-search": "Globalne pytanje",
+	"global-search-advert": "Z pomocu $1 dnja $2 generowane",
 	"global-search-desc": "Pytanje we wikiteksće wšěch wikijow załožby Wikimedije.",
 	"help-translate": "Pomhaj při přełožowanju",
 	"important-notes": "Wažne přispomnjenja:",
 	"important-notes-cached": "Wuslědki so za {{PLURAL:$1|jednu mjeńšinu|dwě mjeńšinje|$1 mjeńšiny|$1 mjeńšinow}} w mjezyskładźe wobchowaja.",
+	"important-notes-lag": "Wuslědki móža za produkciju wróćo wostać, zwjetša wo něhdźe $1 {{PLURAL:$1|mjeńšinu|mjeńšinje|mjeńšiny|mjeńšin}}.",
+	"important-notes-specific": "Čiń swoje pytanske wurazy tak specifiske kaž móžno. Čim wjace wuslědkow wróćeja, ćim dlěje dyrbiš čakać.",
 	"json": "JSON",
 	"login": "Přizjewić",
 	"logout": "Wotzjewić",
 	"logout-msg": "Tuchwilu přizjewjene jako $1",
 	"namespaces": "Mjenowe rumy",
+	"namespaces-desc": "Přez komu dźělena lisćina ID mjenowych rumow. Wostaj prózdne za wšě mjenowe rumy.",
 	"page-title": "Titul strony",
 	"powered-by": "Wudźeržane wot $1",
 	"presets": "Předpodaća",
