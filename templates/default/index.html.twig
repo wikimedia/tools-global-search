@@ -1,13 +1,24 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <hr/>
-    <h3>
-        {{ msg('important-notes') }}
-    </h3>
-    <ul>
-        <li>{{ msg('important-notes-lag', [15]) }}</li>
-        <li>{{ msg('important-notes-specific') }}</li>
-        <li>{{ msg('important-notes-cached', [10]) }}</li>
-    </ul>
+    {% if errors is defined and errors %}
+        <div class="alert alert-danger" role="alert">
+            <strong>{{ msg('cirrus-query-unsupported') }}</strong>
+            <ul>
+                {% for violation in errors %}
+                    <li>{{ violation }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% else %}
+        <hr/>
+        <h3>
+            {{ msg('important-notes') }}
+        </h3>
+        <ul>
+            <li>{{ msg('important-notes-lag', [15]) }}</li>
+            <li>{{ msg('important-notes-specific') }}</li>
+            <li>{{ msg('important-notes-cached', [10]) }}</li>
+        </ul>
+    {% endif %}
 {% endblock %}

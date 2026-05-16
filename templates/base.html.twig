@@ -72,11 +72,22 @@
                     </div>
                     <div class="form-group">
                         <label>
-                            <input type="checkbox" id="regexCheckbox" name="regex" value="1"{% if regex is not empty %} checked="checked"{% endif %} autocomplete="off">
+                            <input type="radio" name="mode" value="cirrus"{% if cirrus %} checked="checked"{% endif %} autocomplete="off">
+                            {{ msg('cirrussearch-query') }}
+                        </label>
+                        &nbsp;&nbsp;
+                        <label>
+                            <input type="radio" name="mode" value="plain"{% if not regex and not cirrus %} checked="checked"{% endif %} autocomplete="off">
+                            {{ msg('plain') }}
+                        </label>
+                        &nbsp;&nbsp;
+                        <label>
+                            <input type="radio" id="regexRadio" name="mode" value="regex"{% if regex %} checked="checked"{% endif %} autocomplete="off">
                             {{ msg('regular-expression') }}
                         </label>
                         ({{ msg('slow')|lower }})
-                        <span class="form-group--ingorecase{% if regex is empty %} hidden{% endif %}">
+                        <span class="form-group--ingorecase{% if not regex %} hidden{% endif %}">
+                            &nbsp;&nbsp;
                             <label>
                                 <input type="checkbox" name="ignorecase" value="1"{% if ignore_case is not empty %} checked="checked"{% endif %} autocomplete="off">
                                 {{ msg('case-insensitive') }}
@@ -95,7 +106,7 @@
                             </a>
                         </small>
                     </div>
-                    <div class="form-group form-inline">
+                    <div class="form-group form-group--title-pattern form-inline{% if cirrus %} hidden{% endif %}">
                         {% set docsLink %}
                             <a target="_blank" href="https://www.elastic.co/guide/en/elasticsearch/reference/current/regexp-syntax.html">
                                 {{- msg('title-pattern-desc-link') -}}
