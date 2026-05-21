@@ -6,7 +6,8 @@
 			"HanV",
 			"McDutchie",
 			"Robin van der Vliet",
-			"Romaine"
+			"Romaine",
+			"Siebrand"
 		]
 	},
 	"back": "Terug",
@@ -54,7 +55,7 @@
 	"talk-pages": "Overlegpagina's",
 	"title-pattern": "Titelpatroon",
 	"title-pattern-without-ns": "(zonder naamruimte)",
-	"title-pattern-desc": "Toont alleen paginatitels die overeenkomen met de opgegeven $1.",
+	"title-pattern-desc": "Geeft alleen paginatitels weer die overeenkomen met de opgegeven $1.",
 	"title-pattern-desc-link": "reguliere expressie",
 	"title-search-only": "Alleen zoeken op titel",
 	"total-results": "Totaal {{PLURAL:$1|resultaten}}",
