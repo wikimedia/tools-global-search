@@ -4,7 +4,10 @@ declare(strict_types=1);
 
 namespace App\Controller;
 
+use App\Exception\UnsupportedQueryException;
+use App\Model\CirrusQuery;
 use App\Model\Query;
+use App\Repository\CirrusDumpQueryRepository;
 use App\Repository\CloudElasticRepository;
 use App\Repository\WikiDomainRepository;
 use GuzzleHttp\Client;
@@ -46,6 +49,9 @@ class DefaultController extends AbstractController
     {
         $this->client = new Client([
             'verify' => !$_ENV['ELASTIC_INSECURE'],
+            'headers' => [
+                'User-Agent' => 'global-search/1.0 (https://global-search.toolforge.org; https://github.com/wikimedia/tools-global-search)',
+            ],
         ]);
         $this->cache = $cache;
     }
@@ -78,11 +84,13 @@ class DefaultController extends AbstractController
      */
     public function indexAction(Request $request): Response
     {
-        if (!$request->getSession()->get('logged_in_user')) {
+        if (false && !$request->getSession()->get('logged_in_user')) {
             return $this->render('jumbotron.html.twig');
         }
         $query = $request->query->get('q');
-        $regex = (bool)$request->query->get('regex');
+        $mode = $request->query->get('mode', 'cirrus');
+        $regex = 'regex' === $mode;
+        $cirrus = 'cirrus' === $mode;
         $ignoreCase = (bool)$request->query->get('ignorecase');
         $namespaceIds = $this->parseNamespaces($request);
         $titlePattern = $request->query->get('title');
@@ -95,19 +103,25 @@ class DefaultController extends AbstractController
             'namespaces' => $namespaceIds,
             'title' => $titlePattern,
             'ignore_case' => $ignoreCase,
+            'cirrus' => $cirrus,
         ];
 
         if ($query) {
-            $ret = array_merge($ret, $this->getResults(
-                $query,
-                $regex,
-                $ignoreCase,
-                $namespaceIds,
-                $titlePattern,
-                $purgeCache
-            ));
-            $ret['from_cache'] = $this->fromCache;
-            return $this->formatResponse($request, $query, $ret);
+            try {
+                $ret = array_merge($ret, $this->getResults(
+                    $query,
+                    $regex,
+                    $ignoreCase,
+                    $namespaceIds,
+                    $titlePattern,
+                    $purgeCache,
+                    $cirrus
+                ));
+                $ret['from_cache'] = $this->fromCache;
+                return $this->formatResponse($request, $query, $ret);
+            } catch (UnsupportedQueryException $e) {
+                $ret['errors'] = $e->getViolations();
+            }
         }
 
         return $this->render('default/index.html.twig', $ret);
@@ -186,17 +200,22 @@ class DefaultController extends AbstractController
         bool $ignoreCase,
         array $namespaceIds,
         ?string $titlePattern = null,
-        bool $purgeCache = false
+        bool $purgeCache = false,
+        bool $cirrus = false
     ): array {
-        $cacheItem = md5($query.$regex.$ignoreCase.$titlePattern.implode('|', $namespaceIds));
+        $cacheItem = md5($query.$regex.$ignoreCase.$titlePattern.implode('|', $namespaceIds).$cirrus);
 
         if (!$purgeCache && $this->cache->hasItem($cacheItem)) {
             $this->fromCache = true;
             return $this->cache->getItem($cacheItem)->get();
         }
 
-        $query = new Query($query, $namespaceIds, $regex, $ignoreCase, $titlePattern);
-        $params = $query->getParams();
+        if ($cirrus) {
+            $queryObj = (new CirrusDumpQueryRepository($this->client))->getQuery($query, $namespaceIds);
+        } else {
+            $queryObj = new Query($query, $namespaceIds, $regex, $ignoreCase, $titlePattern);
+        }
+        $params = $queryObj->getParams();
         $res = (new CloudElasticRepository($this->client, $params))->makeRequest();
         $data = [
             'regex' => $regex,
