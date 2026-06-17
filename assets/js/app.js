@@ -44,7 +44,7 @@ $(() => {
         switch (e.target.dataset.value) {
             case 'js':
                 $('#namespaceIds').val('2,4,8');
-                $('#titlePattern').val('(Gadgets-definition|.*\\.(js|css|json))');
+                $('#titlePattern').val('(Gadgets-definition|.*\\.(js|css|json|vue))');
                 $('#searchQuery').focus();
                 break;
             case 'lua':
