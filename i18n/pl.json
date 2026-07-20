@@ -24,7 +24,7 @@
 	"export-as": "Eksportuj jako:",
 	"global-search": "Globalne wyszukiwanie",
 	"global-search-advert": "Wygenerowano używając $1 na $2",
-	"global-search-desc": "Przeszukuj wikitekst w obrębie wszystkich wiki Fundacji Wikimedia.",
+	"global-search-desc": "Przeszukuj wikikod w obrębie wszystkich wiki Wikimedia Foundation.",
 	"help-translate": "Pomóż w tłumaczeniu",
 	"important-notes": "Ważne uwagi:",
 	"important-notes-cached": "Wyniki są przechowywane w pamięci podręcznej przez $1 {{PLURAL:$1|minutę|minuty|minut|minuty}}.",
