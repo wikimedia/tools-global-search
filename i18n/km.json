@@ -1,6 +1,24 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"MeahNunh"
+		]
 	},
-	"view-source": "មើល​កូដ"
+	"error-server-message": "សេវូបករណ៍បាននិយាយ៖ $1",
+	"export-as": "នាំចេញជា៖",
+	"global-search": "ស្វែងរកជាសកល",
+	"help-translate": "ជួយបកប្រែ",
+	"login": "បញ្ជាប់ចូល",
+	"logout": "បណ្ដាច់ចេញ",
+	"logout-msg": "បច្ចុប្បន្ននេះបានបញ្ជាប់ចូលជា $1",
+	"namespaces": "លំហនាម",
+	"page-title": "ចំណង​ជើង​ទំព័រ",
+	"splash-title": "ការស្វែងរកវិគីមេឌាសកល",
+	"submit": "ដាក់ស្នើ",
+	"talk-pages": "ទំព័រពិភាក្សា",
+	"title-pattern-without-ns": "(ដោយគ្មានលំហនាម)",
+	"title-search-only": "ស្វែងរកតែចំណងជើងប៉ុណ្ណោះ",
+	"view-source": "មើលប្រភព",
+	"wiki": "វិគី",
+	"wikitext": "វិគីអត្ថបទ"
 }
