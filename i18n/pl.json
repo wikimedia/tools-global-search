@@ -33,7 +33,7 @@
 	"json": "JSON",
 	"login": "Logowanie",
 	"logout": "Wyloguj się",
-	"logout-msg": "Aktualnie zalogowany(a) jako $1",
+	"logout-msg": "Obecnie zalogowano się jako $1",
 	"namespaces": "Przestrzenie nazw",
 	"namespaces-desc": "Rozdzielana przecinkami lista identyfikatorów przestrzeni nazw. Pozostaw puste pole dla wszystkich przestrzeni nazw.",
 	"page-title": "Tytuł strony",
