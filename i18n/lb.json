@@ -10,6 +10,7 @@
 	"back": "Zeréck",
 	"case-insensitive": "Ënnerscheet tëscht groussen a klenge Buschtawen",
 	"csv": "CSV",
+	"error-report": "Dir kënnt dëse Feeler op $1 mellen.",
 	"error-server-message": "Äntwert vum Server: $1",
 	"executed": "A(n) $1 {{PLURAL:$2|Sekonn|Sekonnen}} ausgeféiert.",
 	"export-as": "Exportéieren als:",

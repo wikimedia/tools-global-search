@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Brahim-essaidi",
+			"Daoudsfouli",
 			"Hakim1bal"
 		]
 	},
@@ -13,7 +14,7 @@
 	"slow": "ⵥⵥⴰⵢ",
 	"subject-pages": "ⵉⵎⵔⵙⵉ ⵏ ⵜⴰⵙⵏⴰ",
 	"submit": "ⴰⵣⵏ",
-	"talk-pages": "ⵜⴰⵙⵏⴰ ⵏ ⵓⵎⴳⴷⴰⵍ",
+	"talk-pages": "ⵜⴰⵙⵏⴰ ⵏ ⴰⵎⵙⴰⵡⴰⵍ",
 	"total-results": "ⵜⴰⵎⵓⵜⵜⵔⵜ {{PLURAL:$1|ⵜⵢⴰⴼⵓⵜⵉⵏ}}",
 	"view-source": "ⵙⴽⵏ ⴰⵙⴰⴳⵎ",
 	"wiki": "ⵡⵉⴽⵉ",
