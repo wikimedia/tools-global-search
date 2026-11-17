@@ -27,7 +27,7 @@
         "doctrine/orm": "^2.15",
         "friendsoftwig/twigcs": "^6.1",
         "mediawiki/minus-x": "^1.0.0",
-        "slevomat/coding-standard": "^5.0",
+        "slevomat/coding-standard": "^8.15",
         "symfony/stopwatch": "^5.4",
         "symfony/var-dumper": "^5.4",
         "symfony/web-profiler-bundle": "^5.4"
